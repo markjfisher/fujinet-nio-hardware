@@ -4,6 +4,9 @@
 changes were made. Pitch, finger width, nominal thickness and nominal tongue
 width are supported. The complete stepped insertion profile is not established
 by these references; their conflicting dimensions have not been averaged.
+The EDAC follow-up below establishes nominal seating/contact datums, but
+does **not** remove the fabrication hold. This follow-up changes this report
+only; electrical mapping, routing and all CAD remain unchanged.
 
 ## Measurements
 
@@ -51,9 +54,9 @@ the CAD. An exact CAD value is not proof of a universal Zorro requirement.
 | Thickness | Retain 1.6 nominal | High nominal: three cards agree. Finished-thickness tolerance must fit the mating connector, not just the CAD field. |
 | Pitch/span | Retain 2.54 / 124.46 | High: Commodore, all cards and socket agree. |
 | Finger width | Retain 1.524 | High across three cards. EATX's unused card-edge library is not contrary manufactured evidence. |
-| Finger length and setback | Retain review geometry only; no replacement pair selected | Low for the **combined** 5-long / 1-setback / stepped-outline geometry. VA's 5-long fingers start 0.040 from the tip; RIPPLE and SID use longer fingers. Verify the seated contact/wipe envelope before selecting a pair. |
+| Finger length and setback | Retain review geometry only; no replacement pair selected | Medium for nominal EDAC contact-point coverage (see follow-up); low for guaranteed wipe/engagement over tolerances. VA's 5-long fingers start 0.040 from the tip; RIPPLE and SID use longer fingers. |
 | Tongue width | Retain 129.26, fabrication tolerance ±0.1 | High: Commodore is controlling; RIPPLE fits this interval. VA's 127 and SID's 130.048 are out-of-interval alternatives, not new tolerances. |
-| Projection/shoulders | No released value yet; R1.5 is the sourced Commodore root detail | Low for the complete profile. TE gives a typical 7.62 **minimum**, not validation of a 7.62 nominal, square-root outline at all tolerances. |
+| Projection/shoulders | No released value yet; R1.5 is the sourced Commodore root detail | EDAC's 8.38 slot is deeper than the current 7.62 projection. TE gives a typical 7.62 **minimum** for its family. Neither releases this profile for every intended socket. |
 | Bevel | 45° is supported; depth/remaining land not released | Medium for angle (RIPPLE + TE). TE's typical 0.38 ×45° is conditional evidence, not a verified Commodore callout. |
 | Mask | No universal numeric margin selected | Conflicting implementations: +0.2 isolated, zero isolated, and blanket opening. Obtain registration allowance for the selected contact/wipe envelope; do not average them. |
 
@@ -92,6 +95,77 @@ operation on an A500 with a Zorro-II adapter and NanoSwinSID. VA2000's project
 documents operating hardware. These are author reports, not measurements of
 physical samples of the exact downloaded revisions. EATX identifies R3.1 as
 production. None supplies an as-built bevel-depth inspection record.
+
+## EDAC 395-100-520-202 follow-up
+
+Inspected the [part-specific EDAC drawing][edac-part], issue 1,
+2017-05-16, both sheets, and the [345/395 family ordering/mechanical
+guide][edac-family], all three pages. Section A-A and the family's dual-row
+section agree. Values below are **printed nominal dimensions**, not measured
+from illustration scale. The part drawing supplies no explicit tolerance for
+slot depth/contact height; do not import the family's A–E length tolerances.
+
+| Item | Connector-derived evidence | Confidence / limit |
+|---|---|---|
+| Slot mouth to floor | 0.330 in (8.38 mm) | High nominal, both drawings; not a minimum insertion instruction |
+| Contact point above slot floor | 0.160 in (4.06 mm) | High datum reading; **not** 4.06 below the mouth, and not a specified wipe length |
+| Accepted card thickness | 0.054–0.070 in (1.37–1.78 mm) | High, family section; current 1.6 nominal is inside |
+| Recommended daughter-board contact area | Family p. 2 labels the full-width finger portion 0.350 in (8.89 mm), width 0.055 in (1.40 mm) | High drawing reading; 8.89 is **not a shoulder-to-tip projection callout**. Current 5 mm fingers do not reproduce this recommendation |
+| Bevel | No PCB through-thickness bevel angle/depth/land specified in these documents | Unresolved; drawn planar corner clips cannot supply a bevel specification |
+| Solder mask | No mating-pad mask expansion, registration tolerance or mask-free wipe envelope specified | Unresolved; drawing hatching is not a mask-layer definition |
+
+### Nominal fit/contact calculation — inference, not acceptance
+
+Use `z` measured upward from the PCB tip. With a flat card bottomed against
+the slot floor, the nominal contact point is `z = 4.06`. Its depth below the
+socket mouth is `8.38 − 4.06 = 4.32`. If the breakout's square shoulders stop
+on the mouth at 7.62 insertion, the tip remains `8.38 − 7.62 = 0.76` above
+the floor and the contact point is `z = 7.62 − 4.32 = 3.30`.
+
+This assumes aligned, rigid nominal geometry, shoulder bearing on the mouth,
+and the section's contact datum; it omits tolerances and contact-beam movement.
+It establishes neither permission to operate partly seated nor required
+normal force. **Do not lengthen the tongue automatically to 8.38 or 8.89.**
+The actual A500 adapter socket is still unidentified, and EDAC's 8.38 floor
+depth differs from the previously inspected TE socket's 7.49.
+
+| Existing card | Copper interval `z`, from earlier CAD/Gerber measurements | Contains nominal EDAC bottomed point 4.06? |
+|---|---|---|
+| Breakout | 1.000…6.000 | Yes; also contains the conditional shoulder-stopped point 3.30 |
+| VA2000 | 0.040…5.040 | Yes |
+| RIPPLE | approximately 0.955245…7.709245 | Yes |
+| AmigaSID | 0.1016…10.1016 | Yes |
+
+This improves confidence in **static nominal coverage**, not guaranteed wipe.
+In a fixed-point sliding model, the breakout provides `3.30 − 1 = 2.30` mm
+of travel over copper before shoulder stop, versus `4.06 − 1 = 3.06` if
+bottomed. These are calculated travel distances, **not EDAC minimum-wipe
+ratings**. Initial contact, deflection, contact-patch extent, lateral
+misalignment and tolerance limits are unspecified. The other cards' lack of
+shoulders does not prove that the breakout's partial seating is acceptable;
+their reported working status does not identify an EDAC 395 test socket.
+
+Neither a nominal point inside copper nor those travel calculations qualify
+the zero-expansion mask openings. VA's +0.2 margin, RIPPLE's blanket opening
+and AmigaSID's zero margin remain differing implementations. Likewise,
+RIPPLE's 45° instruction and TE's typical 0.38 ×45° do not become EDAC
+requirements. No new bevel or mask value is selected.
+
+**Result:** EDAC resolves the nominal socket/contact datums, but leaves
+partial-seating acceptability, tolerance-qualified contact/wipe coverage,
+bevel and mask process requirements unresolved. **NOT FABRICATION-READY.**
+
+Source integrity: part PDF SHA256
+`0384f67a1704274b4f7b254c9e0ad28875bf2c4b1b7ae60d97406b56787957a2`;
+family PDF SHA256
+`2f5ab5d6977298b7f48897a83db9bb8e95164720aea358619687f4ba9bb9188a`.
+The part PDF was obtained from EDAC's own file host and matches the initially
+located distributor mirror byte-for-byte. No physical sample was measured.
+Follow-up verification: `python scripts/test-mechanics.py`, the unchanged
+design SHA256 check and `git diff --check` passed. The nominal calculations
+above were checked against the retained pad coordinates using decimal
+arithmetic. ERC/DRC were not rerun for this documentation-only follow-up;
+the previously checked CAD is byte-for-byte unchanged.
 
 ## Reproduction and source revisions
 
@@ -146,12 +220,14 @@ application PDF: `64ee09e3122c0e99fe57f16eacccc04bb014b2287ca881ee16ad8193e1e8d8
 
 1. **Seated insertion/contact envelope:** confirm projection and shoulder
    profile against a legible 100-pin Commodore detail or identified compatible
-   mating socket, including tolerances; establish that the selected finger
-   length/setback covers its contact/wipe envelope. None of the three card
-   outlines validates the breakout's stepped combination.
+   mating socket, including tolerances. EDAC nominally places the contact
+   on copper but the shoulders stop 0.76 short of its floor; establish whether
+   that seating and the resulting contact/wipe envelope are acceptable.
+   None of the three card outlines validates the stepped combination.
 2. **Bevel manufacturing callout:** confirm the applicable depth/remaining
    land and tolerances at 45°. A conditional TE typical drawing is available,
-   but the Commodore detail and the actual A500 adapter remain unconfirmed.
+   but EDAC supplies no bevel callout, and the Commodore detail and actual
+   A500 adapter remain unconfirmed.
 3. **Mask registration allowance:** specify/approve openings that keep mask
    off the required contact/wipe area at manufacturing tolerances. The current
    zero-expansion, isolated openings are measured, not process-qualified.
@@ -170,3 +246,5 @@ implied by electrical DRC.
 [te-drawing]: https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=5645235&DocType=Customer+Drawing&PartCntxt=5645235-3
 [te-app]: https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocFormat=pdf&DocLang=English&DocNm=114-13018&DocType=Specification+Or+Standard&PartCntxt=5645235-3
 [socket-id]: https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5645235-3/1122009
+[edac-part]: https://files.edac.net/edac/content/395/395-100-520-202%20-%20EDAC%20Card%20Edge%20Connector.PDF
+[edac-family]: https://files.edac.net/edac/content/series/og/English/EDAC%20345%20395%20Series%20Card%20Edge%20Connectors%20English%20Ordering%20Guide.pdf
