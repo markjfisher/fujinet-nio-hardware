@@ -2,6 +2,11 @@
 
 Reviewed 2026-09-10. The supplied PROTOTYPING-SPEC.txt remains unchanged.
 
+Follow-up: [mechanical-cross-check.md](mechanical-cross-check.md) contains
+actual CAD/Gerber measurements from all four requested projects, manufacturer
+follow-through for the EATX socket, and the current release decision. It
+supersedes the preliminary mechanical assessment below where more specific.
+
 ## Pin-map discrepancies and decisions
 
 The printed **Amiga Hardware Reference Manual, Third Edition**, Appendix K,
@@ -31,8 +36,9 @@ reliable for the subscripts: in particular it reads A7 as A1.
 
 ## Mechanics and orientation
 
-Appendix K's mechanical section explicitly delegates Zorro-II mechanics to
-the **A500/A2000 Technical Reference Manual**. Its Figure A-5 was inspected
+Appendix K p. 391 directs Zorro-II designers to the **A500/A2000 Technical
+Reference Manual**; pp. 427–430 themselves show Zorro-III mechanics. TRM
+Figure A-5 was inspected
 in the second scan below (PDF p. 280, left-hand drawing). The first scan
 omits A-5 and A-6, so its A-7 86-pin drawing must not be substituted.
 

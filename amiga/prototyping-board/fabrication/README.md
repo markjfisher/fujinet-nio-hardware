@@ -1,5 +1,11 @@
 # Fabrication instructions — revision A, REVIEW ONLY
 
+Follow-up [mechanical cross-check](../docs/mechanical-cross-check.md):
+**NOT FABRICATION-READY**. The remaining release items are the seated
+insertion/contact envelope, bevel depth/remaining land with tolerances, and
+mask registration allowance. A 45° bevel has corroborating evidence, but
+no complete machining callout is approved. The design files are unchanged.
+
 **DO NOT ORDER FROM THIS PACKAGE YET.** No board has been ordered. The bevel
 callout in the available A-5 scan is not legible enough to release to a
 manufacturer. Confirm bevel depth/angle using a legible original drawing or

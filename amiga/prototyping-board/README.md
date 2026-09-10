@@ -11,6 +11,11 @@ Read [reference-review.md](docs/reference-review.md) for the pin-map corrections
 and mechanical findings, and [fabrication notes](fabrication/README.md) before
 using the fabrication outputs. Nothing has been ordered or manufactured.
 
+The follow-up [mechanical cross-check](docs/mechanical-cross-check.md) measures
+VA2000, RIPPLE-IDE, AmigaSID and the EATX socket against this board and
+Commodore drawings. It retains the fabrication hold: insertion/contact
+envelope, bevel depth/land and mask registration allowance remain unresolved.
+
 ## Files
 
 * `kicad/`: editable schematic, four-layer PCB, project and local libraries.

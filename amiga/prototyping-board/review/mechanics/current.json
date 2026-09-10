@@ -1,0 +1,1823 @@
+{
+  "source_name": "zorro-breakout.kicad_pcb",
+  "sha256": "0e9d0c2652daa357a1491a11af32764f9cbfc2c2a02f4565247a15d5aec70c42",
+  "reference": "J1",
+  "value": "Zorro-II 100",
+  "footprint_library_item": "Zorro_II_100",
+  "pcb_thickness": 1.6,
+  "footprint_position": [
+    104.63,
+    124.12
+  ],
+  "footprint_rotation_deg": 0.0,
+  "pads": [
+    {
+      "number": "1",
+      "position": [
+        166.86,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "2",
+      "position": [
+        166.86,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "3",
+      "position": [
+        164.32,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "4",
+      "position": [
+        164.32,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "5",
+      "position": [
+        161.78,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "6",
+      "position": [
+        161.78,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "7",
+      "position": [
+        159.24,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "8",
+      "position": [
+        159.24,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "9",
+      "position": [
+        156.7,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "10",
+      "position": [
+        156.7,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "11",
+      "position": [
+        154.16,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "12",
+      "position": [
+        154.16,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "13",
+      "position": [
+        151.62,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "14",
+      "position": [
+        151.62,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "15",
+      "position": [
+        149.08,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "16",
+      "position": [
+        149.08,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "17",
+      "position": [
+        146.54,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "18",
+      "position": [
+        146.54,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "19",
+      "position": [
+        144.0,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "20",
+      "position": [
+        144.0,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "21",
+      "position": [
+        141.46,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "22",
+      "position": [
+        141.46,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "23",
+      "position": [
+        138.92,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "24",
+      "position": [
+        138.92,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "25",
+      "position": [
+        136.38,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "26",
+      "position": [
+        136.38,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "27",
+      "position": [
+        133.84,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "28",
+      "position": [
+        133.84,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "29",
+      "position": [
+        131.3,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "30",
+      "position": [
+        131.3,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "31",
+      "position": [
+        128.76,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "32",
+      "position": [
+        128.76,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "33",
+      "position": [
+        126.22,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "34",
+      "position": [
+        126.22,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "35",
+      "position": [
+        123.68,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "36",
+      "position": [
+        123.68,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "37",
+      "position": [
+        121.14,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "38",
+      "position": [
+        121.14,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "39",
+      "position": [
+        118.6,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "40",
+      "position": [
+        118.6,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "41",
+      "position": [
+        116.06,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "42",
+      "position": [
+        116.06,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "43",
+      "position": [
+        113.52,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "44",
+      "position": [
+        113.52,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "45",
+      "position": [
+        110.98,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "46",
+      "position": [
+        110.98,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "47",
+      "position": [
+        108.44,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "48",
+      "position": [
+        108.44,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "49",
+      "position": [
+        105.9,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "50",
+      "position": [
+        105.9,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "51",
+      "position": [
+        103.36,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "52",
+      "position": [
+        103.36,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "53",
+      "position": [
+        100.82,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "54",
+      "position": [
+        100.82,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "55",
+      "position": [
+        98.28,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "56",
+      "position": [
+        98.28,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "57",
+      "position": [
+        95.74,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "58",
+      "position": [
+        95.74,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "59",
+      "position": [
+        93.2,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "60",
+      "position": [
+        93.2,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "61",
+      "position": [
+        90.66,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "62",
+      "position": [
+        90.66,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "63",
+      "position": [
+        88.12,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "64",
+      "position": [
+        88.12,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "65",
+      "position": [
+        85.58,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "66",
+      "position": [
+        85.58,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "67",
+      "position": [
+        83.04,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "68",
+      "position": [
+        83.04,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "69",
+      "position": [
+        80.5,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "70",
+      "position": [
+        80.5,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "71",
+      "position": [
+        77.96,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "72",
+      "position": [
+        77.96,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "73",
+      "position": [
+        75.42,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "74",
+      "position": [
+        75.42,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "75",
+      "position": [
+        72.88,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "76",
+      "position": [
+        72.88,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "77",
+      "position": [
+        70.34,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "78",
+      "position": [
+        70.34,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "79",
+      "position": [
+        67.8,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "80",
+      "position": [
+        67.8,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "81",
+      "position": [
+        65.26,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "82",
+      "position": [
+        65.26,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "83",
+      "position": [
+        62.72,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "84",
+      "position": [
+        62.72,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "85",
+      "position": [
+        60.18,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "86",
+      "position": [
+        60.18,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "87",
+      "position": [
+        57.64,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "88",
+      "position": [
+        57.64,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "89",
+      "position": [
+        55.1,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "90",
+      "position": [
+        55.1,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "91",
+      "position": [
+        52.56,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "92",
+      "position": [
+        52.56,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "93",
+      "position": [
+        50.02,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "94",
+      "position": [
+        50.02,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "95",
+      "position": [
+        47.48,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "96",
+      "position": [
+        47.48,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "97",
+      "position": [
+        44.94,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "98",
+      "position": [
+        44.94,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "99",
+      "position": [
+        42.4,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.0
+    },
+    {
+      "number": "100",
+      "position": [
+        42.4,
+        124.12
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.0
+    }
+  ],
+  "board_edge": [
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        20.0,
+        20.0
+      ],
+      "end": [
+        200.0,
+        20.0
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        20.0,
+        120.0
+      ],
+      "end": [
+        20.0,
+        20.0
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        40.0,
+        120.0
+      ],
+      "end": [
+        20.0,
+        120.0
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        40.0,
+        127.62
+      ],
+      "end": [
+        40.0,
+        120.0
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        169.26,
+        120.0
+      ],
+      "end": [
+        169.26,
+        127.62
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        169.26,
+        127.62
+      ],
+      "end": [
+        40.0,
+        127.62
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        200.0,
+        20.0
+      ],
+      "end": [
+        200.0,
+        120.0
+      ],
+      "stroke": 0.05
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        200.0,
+        120.0
+      ],
+      "end": [
+        169.26,
+        120.0
+      ],
+      "stroke": 0.05
+    }
+  ],
+  "board_mask_graphics": [],
+  "connector_graphics": []
+}

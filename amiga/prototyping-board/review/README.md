@@ -4,6 +4,11 @@ The project is electrically complete as a passive breakout: 100 physical
 contacts, 83 nets, 130 breakout header/test-point pads, all 14 mandatory
 duplicate signals. The source specification has not been edited.
 
+See the follow-up [mechanical cross-check](../docs/mechanical-cross-check.md)
+and `mechanics/` measurements for the current mechanical release holds. That
+review leaves CAD and pin mapping unchanged; hashes are retained in
+`mechanics/design-unchanged.sha256`.
+
 ## Verification run
 
 From `repos/fujinet-nio-hardware/amiga/prototyping-board`:

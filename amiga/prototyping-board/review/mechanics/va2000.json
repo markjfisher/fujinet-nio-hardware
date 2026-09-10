@@ -1,0 +1,1771 @@
+{
+  "source_name": "amiga-gfxcard.kicad_pcb",
+  "sha256": "0de731e9dd4a6ef59745d6a39ff973a1f2fec53f572594ee698e1310711a9532",
+  "reference": "CON-Z21",
+  "value": "zorro2port",
+  "footprint_library_item": "zorro2card",
+  "pcb_thickness": 1.6,
+  "footprint_position": [
+    149.987,
+    134.493
+  ],
+  "footprint_rotation_deg": 0.0,
+  "pads": [
+    {
+      "number": "1",
+      "position": [
+        212.217,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "2",
+      "position": [
+        212.217,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "3",
+      "position": [
+        209.677,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "4",
+      "position": [
+        209.677,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "5",
+      "position": [
+        207.137,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "6",
+      "position": [
+        207.137,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "7",
+      "position": [
+        204.597,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "8",
+      "position": [
+        204.597,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "9",
+      "position": [
+        202.057,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "10",
+      "position": [
+        202.057,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "11",
+      "position": [
+        199.517,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "12",
+      "position": [
+        199.517,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "13",
+      "position": [
+        196.977,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "14",
+      "position": [
+        196.977,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "15",
+      "position": [
+        194.437,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "16",
+      "position": [
+        194.437,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "17",
+      "position": [
+        191.897,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "18",
+      "position": [
+        191.897,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "19",
+      "position": [
+        189.357,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "20",
+      "position": [
+        189.357,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "21",
+      "position": [
+        186.817,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "22",
+      "position": [
+        186.817,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "23",
+      "position": [
+        184.277,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "24",
+      "position": [
+        184.277,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "25",
+      "position": [
+        181.737,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "26",
+      "position": [
+        181.737,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "27",
+      "position": [
+        179.197,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "28",
+      "position": [
+        179.197,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "29",
+      "position": [
+        176.657,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "30",
+      "position": [
+        176.657,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "31",
+      "position": [
+        174.117,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "32",
+      "position": [
+        174.117,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "33",
+      "position": [
+        171.577,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "34",
+      "position": [
+        171.577,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "35",
+      "position": [
+        169.037,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "36",
+      "position": [
+        169.037,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "37",
+      "position": [
+        166.497,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "38",
+      "position": [
+        166.497,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "39",
+      "position": [
+        163.957,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "40",
+      "position": [
+        163.957,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "41",
+      "position": [
+        161.417,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "42",
+      "position": [
+        161.417,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "43",
+      "position": [
+        158.877,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "44",
+      "position": [
+        158.877,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "45",
+      "position": [
+        156.337,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "46",
+      "position": [
+        156.337,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "47",
+      "position": [
+        153.797,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "48",
+      "position": [
+        153.797,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "49",
+      "position": [
+        151.257,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "50",
+      "position": [
+        151.257,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "51",
+      "position": [
+        148.717,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "52",
+      "position": [
+        148.717,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "53",
+      "position": [
+        146.177,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "54",
+      "position": [
+        146.177,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "55",
+      "position": [
+        143.637,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "56",
+      "position": [
+        143.637,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "57",
+      "position": [
+        141.097,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "58",
+      "position": [
+        141.097,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "59",
+      "position": [
+        138.557,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "60",
+      "position": [
+        138.557,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "61",
+      "position": [
+        136.017,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "62",
+      "position": [
+        136.017,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "63",
+      "position": [
+        133.477,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "64",
+      "position": [
+        133.477,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "65",
+      "position": [
+        130.937,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "66",
+      "position": [
+        130.937,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "67",
+      "position": [
+        128.397,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "68",
+      "position": [
+        128.397,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "69",
+      "position": [
+        125.857,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "70",
+      "position": [
+        125.857,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "71",
+      "position": [
+        123.317,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "72",
+      "position": [
+        123.317,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "73",
+      "position": [
+        120.777,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "74",
+      "position": [
+        120.777,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "75",
+      "position": [
+        118.237,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "76",
+      "position": [
+        118.237,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "77",
+      "position": [
+        115.697,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "78",
+      "position": [
+        115.697,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "79",
+      "position": [
+        113.157,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "80",
+      "position": [
+        113.157,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "81",
+      "position": [
+        110.617,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "82",
+      "position": [
+        110.617,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "83",
+      "position": [
+        108.077,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "84",
+      "position": [
+        108.077,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "85",
+      "position": [
+        105.537,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "86",
+      "position": [
+        105.537,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "87",
+      "position": [
+        102.997,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "88",
+      "position": [
+        102.997,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "89",
+      "position": [
+        100.457,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "90",
+      "position": [
+        100.457,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "91",
+      "position": [
+        97.917,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "92",
+      "position": [
+        97.917,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "93",
+      "position": [
+        95.377,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "94",
+      "position": [
+        95.377,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "95",
+      "position": [
+        92.837,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "96",
+      "position": [
+        92.837,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "97",
+      "position": [
+        90.297,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "98",
+      "position": [
+        90.297,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "99",
+      "position": [
+        87.757,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_0000000c",
+      "front_copper": false,
+      "back_copper": true,
+      "mask_expansion": 0.2
+    },
+    {
+      "number": "100",
+      "position": [
+        87.757,
+        137.033
+      ],
+      "size": [
+        1.524,
+        5.0
+      ],
+      "rotation_deg": 0.0,
+      "shape_enum": 1,
+      "layers": "00000000_00000000_00000000_00000003",
+      "front_copper": true,
+      "back_copper": false,
+      "mask_expansion": 0.2
+    }
+  ],
+  "board_edge": [
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        213.614,
+        139.573
+      ],
+      "end": [
+        86.614,
+        139.573
+      ],
+      "stroke": 0.15
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        213.614,
+        43.561
+      ],
+      "end": [
+        213.614,
+        139.573
+      ],
+      "stroke": 0.15
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        86.614,
+        43.561
+      ],
+      "end": [
+        213.614,
+        43.561
+      ],
+      "stroke": 0.15
+    },
+    {
+      "kind": "Line",
+      "layer": "Edge.Cuts",
+      "start": [
+        86.614,
+        139.573
+      ],
+      "end": [
+        86.614,
+        43.561
+      ],
+      "stroke": 0.15
+    }
+  ],
+  "board_mask_graphics": [],
+  "connector_graphics": []
+}
