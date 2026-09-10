@@ -1,0 +1,304 @@
+You are designing a passive development/prototyping PCB for the Commodore Amiga Zorro-II bus.
+
+The immediate goal is NOT to build the FujiNet interface yet.
+
+The immediate goal is to build a completely passive 100-pin Zorro-II breakout card that plugs into a standard female Zorro-II slot and exposes all useful bus signals on labelled 2.54 mm headers/test points.
+
+This will be used with an Amiga 500 via an A500-to-Zorro-II adapter, and later with real Zorro-II slots in A2000/A3000/A4000 systems.
+
+The breakout will be used to connect:
+- a Waveshare Core2350B / RP2350B development board
+- logic analyser probes
+- jumper wires
+- later, an ESP32-S3/FujiNet prototype
+
+DO NOT add:
+- FPGA
+- CPLD
+- MCU
+- level translators
+- buffers
+- AutoConfig logic
+- regulators
+- memory
+- termination
+- active electronics of any kind
+
+This board is strictly passive.
+
+AUTHORITATIVE REFERENCE:
+
+Use Commodore's "Amiga Hardware Reference Manual, Third Edition",
+Appendix K: Zorro Expansion Bus.
+
+Particularly:
+- Zorro II Bus Architecture
+- Signal Description
+- Timing
+- Electrical Specifications
+- Mechanical Specifications
+- AutoConfig
+- Physical and Logical Signal Names, pages 437-438
+
+Also cross-check against an existing known-good open-source Zorro board footprint if useful, such as:
+https://github.com/mntmn/amiga2000-gfxcard
+
+Do not invent or infer connector geometry.
+
+The Zorro bus is a 100-pin one-piece connector. The Hardware Reference Manual identifies it as a 16-bit bus with 24-bit addressing and 68000-style bus cycles.
+
+Use the following Zorro-II logical pin map as a starting point, but VERIFY IT against the Hardware Reference Manual before routing:
+
+Pin   Zorro-II signal
+---   ----------------
+1     GND
+2     GND
+3     GND
+4     GND
+5     +5V
+6     +5V
+7     /OWN
+8     -5V
+9     /SLAVE
+10    +12V
+11    /CFGOUT
+12    /CFGIN
+13    GND
+14    /C3 clock
+15    CDAC clock
+16    /C1 clock
+17    /OVR
+18    XRDY
+19    /INT2
+20    -12V
+21    A5
+22    /INT6
+23    A6
+24    A4
+25    GND
+26    A3
+27    A2
+28    A1
+29    A7
+30    A8
+31    FC0
+32    A9
+33    FC1
+34    A10
+35    FC2
+36    A11
+37    GND
+38    A12
+39    A13
+40    Reserved (/EINT7 on older A2000 usage)
+41    A14
+42    Reserved (/EINT5 on older A2000 usage)
+43    A15
+44    Reserved (/EINT4 on older A2000 usage)
+45    A16
+46    /BERR
+47    A17
+48    /MTACK / legacy VPA-related signal
+49    GND
+50    E clock
+51    /DS0 / legacy VMA-related signal
+52    A18
+53    /RESET
+54    A19
+55    /HLT
+56    A20
+57    A22
+58    A21
+59    A23
+60    /BR
+61    GND
+62    /BGACK
+63    D15
+64    /BG
+65    D14
+66    /DTACK
+67    D13
+68    READ (R/W sense)
+69    D12
+70    /LDS
+71    D11
+72    /UDS
+73    GND
+74    /AS
+75    D0
+76    D10
+77    D1
+78    D9
+79    D2
+80    D8
+81    D3
+82    D7
+83    D4
+84    D6
+85    GND
+86    D5
+87    GND
+88    GND
+89    GND
+90    GND
+91    GND in Zorro-II mode
+92    7M clock
+93    DOE
+94    /BUSRST
+95    /GBG
+96    /EINT1
+97    NC in Zorro-II
+98    NC in Zorro-II
+99    GND
+100   GND
+
+DESIGN REQUIREMENTS
+
+1. Create a KiCad project containing:
+   - schematic
+   - PCB
+   - custom Zorro-II 100-pin edge connector footprint if required
+   - fabrication outputs
+   - pin mapping CSV
+   - README/documentation
+
+2. The PCB should plug directly into a standard female Zorro-II slot using PCB gold fingers.
+
+3. Route all 100 physical connector contacts to either:
+   - clearly-labelled breakout headers,
+   - clearly-labelled test points,
+   - or power/ground distribution points.
+
+4. Do not omit pins merely because they are unused by our eventual FujiNet design. This is intended to be a general Zorro-II development breakout.
+
+5. Group breakout headers physically and visually into:
+   - ADDRESS
+   - DATA
+   - BUS CONTROL
+   - AUTOCONFIG / SLOT CONTROL
+   - INTERRUPTS
+   - DMA / ARBITRATION
+   - CLOCKS
+   - POWER
+   - RESERVED / LEGACY
+
+6. Address signals:
+   A1-A23 should each be available on 2.54 mm headers.
+
+7. Data signals:
+   D0-D15 should each be available on 2.54 mm headers.
+
+8. Important control signals should have DUPLICATE access points:
+   - /AS
+   - /UDS
+   - /LDS
+   - READ / R/W
+   - /DTACK
+   - /SLAVE
+   - /CFGIN
+   - /CFGOUT
+   - /INT2
+   - /INT6
+   - /RESET
+   - DOE
+   - 7M
+   - E clock
+
+The purpose of duplicate points is to allow one connection to an RP2350B and another to a logic analyser simultaneously.
+
+9. Provide multiple GND header pins distributed across the breakout.
+
+10. Provide +5V breakout points.
+
+11. +12V, -12V, and -5V should be exposed only as clearly labelled test/breakout points.
+They must NOT be routed into any development-module footprint.
+
+12. Reserved and NC pins must be labelled exactly as such.
+
+13. Use very clear silkscreen labels.
+This is a learning/debug board, not a compact production board.
+Readability is more important than PCB area.
+
+14. Add pin numbers to the silkscreen wherever practical.
+
+15. Add a clear orientation marker:
+   "COMPONENT SIDE"
+   "ZORRO PIN 1"
+   or equivalent.
+
+16. The PCB should be physically large enough that:
+   - logic analyser clips can be attached
+   - Dupont leads fit comfortably
+   - adjacent labels remain readable
+
+17. Use appropriate gold-finger fabrication rules:
+   - ENIG or hard-gold edge contacts as appropriate
+   - correct bevel/chamfer
+   - correct contact dimensions
+   - correct connector pitch
+   - solder mask keepout around fingers
+
+18. Do not assume normal board-edge geometry.
+Verify the actual Zorro connector mechanical dimensions against authoritative references and/or known-working open-source Zorro PCB designs.
+
+19. Include a "DO NOT CONNECT DIRECTLY TO 3.3V LOGIC WITHOUT CHECKING ELECTRICAL COMPATIBILITY" warning on the silkscreen or documentation.
+
+20. This breakout itself must make NO attempt to level-shift between the Amiga 5V bus and 3.3V devices.
+
+21. Run KiCad ERC and DRC and report:
+   - any warnings
+   - whether each is intentional
+   - any unresolved issue
+Note kicad-cli is installed on this machine, which you can run to validate/generate from.
+
+22. Produce a machine-readable verification table:
+   physical pin number
+   Zorro-II signal
+   schematic net name
+   PCB footprint pad number
+   header/testpoint reference
+   category
+
+23. Add an automated consistency check if practical:
+   compare the authoritative CSV pin map against KiCad net assignments and fail if any pin differs.
+
+24. Do not fabricate/order anything.
+Only produce the design files and review material.
+
+25. Add some text to the silkscreen: "Fujinet-NIO Amiga Prototyping Board, © Mark Fisher 2026"
+
+PROJECT CONTEXT
+
+This breakout is the first step toward a FujiNet Zorro-II interface.
+
+The eventual architecture is expected to be:
+
+Amiga Zorro-II
+    |
+bus interface/buffering
+    |
+RP2350B
+    |
+SPI or similar
+    |
+ESP32-S3
+    |
+FujiNet firmware
+
+The RP2350B is expected to use PIO state machines to handle timing-sensitive Zorro traffic.
+
+The final FujiNet board is NOT part of this task.
+
+This task is only to create a safe, well-labelled, passive Zorro-II breakout suitable for learning, probing, and RP2350B development.
+
+Before creating the PCB layout:
+1. verify the 100-pin map,
+2. verify connector orientation,
+3. verify odd/even physical pin geometry,
+4. verify edge-finger dimensions,
+5. present any discrepancies you find,
+6. only then proceed.
+
+Put generated files into appropriate subdirectories of the newly created project at `repos/fujinet-nio-hardware/amiga/prototyping-board/`
+
+Do not silently "fix" discrepancies. Report them.
