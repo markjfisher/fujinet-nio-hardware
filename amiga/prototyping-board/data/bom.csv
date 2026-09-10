@@ -1,0 +1,12 @@
+reference,quantity,description,footprint,notes
+PCB,1,Passive Zorro-II breakout revision A,180 x 107.62 mm overall,4 layers; 1.6 mm; see fabrication notes
+J1,1,Integral 100-contact Zorro card edge,Zorro_II_100,Part of PCB; not a purchased connector
+J2,1,2.54 mm vertical pin header 1x24,Header_1x24,Cut-to-length strip
+J3,1,2.54 mm vertical pin header 1x17,Header_1x17,Cut-to-length strip
+J4,1,2.54 mm vertical pin header 2x16,Header_2x16,Horizontal pairs carry identical signals
+J5,1,2.54 mm vertical pin header 2x04,Header_2x04,Horizontal pairs carry identical signals
+J6,1,2.54 mm vertical pin header 2x03,Header_2x03,Horizontal pairs carry identical signals
+J7,1,2.54 mm vertical pin header 1x06,Header_1x06,Cut-to-length strip
+J8 J9,2,2.54 mm vertical pin header 2x06,Header_2x06,Horizontal pairs carry identical signals
+J10,1,2.54 mm vertical pin header 1x10,Header_1x10,Reserved and legacy contacts
+TP1 TP2 TP3,3,Single test pin or 2.54 mm header post,Header_1x01,1 mm finished hole; auxiliary supply rails only

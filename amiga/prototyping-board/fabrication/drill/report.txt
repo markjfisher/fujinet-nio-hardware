@@ -1,0 +1,25 @@
+Drill report for zorro-breakout.kicad_pcb
+Created on 2026-09-10T20:59:29
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'zorro-breakout-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.300mm  0.0118"  (158 holes))
+    T2  1.000mm  0.0394"  (130 holes))
+
+    Total plated holes count 288
+
+
+Drill file 'zorro-breakout-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

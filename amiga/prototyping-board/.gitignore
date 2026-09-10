@@ -1,0 +1,9 @@
+__pycache__/
+logs/
+*.log
+*.kicad_prl
+*.kicad_pcb.lck
+*.kicad_sch.lck
+~*.lck
+*-backups/
+review/unrouted-*

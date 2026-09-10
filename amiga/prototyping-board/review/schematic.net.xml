@@ -1,0 +1,1296 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/markf/dev/nio/fujinet-nio-workspace/repos/fujinet-nio-hardware/amiga/prototyping-board/kicad/zorro-breakout.kicad_sch</source>
+    <date>2026-09-10T21:01:17</date>
+    <tool>Eeschema 10.0.5-1-g226df246f3</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Passive Zorro-II development breakout</title>
+        <company>Mark Fisher</company>
+        <rev>A-review</rev>
+        <date>2026-09-10</date>
+        <source>zorro-breakout.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>Zorro-II 100</value>
+      <footprint>ZorroBreakout:Zorro_II_100</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Zorro_II_100</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J1" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca97fe4b-cd49-594d-9608-7dc7d07d9988</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="3"/>
+            <pin num="5"/>
+            <pin num="7"/>
+            <pin num="9"/>
+            <pin num="11"/>
+            <pin num="13"/>
+            <pin num="15"/>
+            <pin num="17"/>
+            <pin num="19"/>
+            <pin num="21"/>
+            <pin num="23"/>
+            <pin num="25"/>
+            <pin num="27"/>
+            <pin num="29"/>
+            <pin num="31"/>
+            <pin num="33"/>
+            <pin num="35"/>
+            <pin num="37"/>
+            <pin num="39"/>
+            <pin num="41"/>
+            <pin num="43"/>
+            <pin num="45"/>
+            <pin num="47"/>
+            <pin num="49"/>
+            <pin num="51"/>
+            <pin num="53"/>
+            <pin num="55"/>
+            <pin num="57"/>
+            <pin num="59"/>
+            <pin num="61"/>
+            <pin num="63"/>
+            <pin num="65"/>
+            <pin num="67"/>
+            <pin num="69"/>
+            <pin num="71"/>
+            <pin num="73"/>
+            <pin num="75"/>
+            <pin num="77"/>
+            <pin num="79"/>
+            <pin num="81"/>
+            <pin num="83"/>
+            <pin num="85"/>
+            <pin num="87"/>
+            <pin num="89"/>
+            <pin num="91"/>
+            <pin num="93"/>
+            <pin num="95"/>
+            <pin num="97"/>
+            <pin num="99"/>
+            <pin num="2"/>
+            <pin num="4"/>
+            <pin num="6"/>
+            <pin num="8"/>
+            <pin num="10"/>
+            <pin num="12"/>
+            <pin num="14"/>
+            <pin num="16"/>
+            <pin num="18"/>
+            <pin num="20"/>
+            <pin num="22"/>
+            <pin num="24"/>
+            <pin num="26"/>
+            <pin num="28"/>
+            <pin num="30"/>
+            <pin num="32"/>
+            <pin num="34"/>
+            <pin num="36"/>
+            <pin num="38"/>
+            <pin num="40"/>
+            <pin num="42"/>
+            <pin num="44"/>
+            <pin num="46"/>
+            <pin num="48"/>
+            <pin num="50"/>
+            <pin num="52"/>
+            <pin num="54"/>
+            <pin num="56"/>
+            <pin num="58"/>
+            <pin num="60"/>
+            <pin num="62"/>
+            <pin num="64"/>
+            <pin num="66"/>
+            <pin num="68"/>
+            <pin num="70"/>
+            <pin num="72"/>
+            <pin num="74"/>
+            <pin num="76"/>
+            <pin num="78"/>
+            <pin num="80"/>
+            <pin num="82"/>
+            <pin num="84"/>
+            <pin num="86"/>
+            <pin num="88"/>
+            <pin num="90"/>
+            <pin num="92"/>
+            <pin num="94"/>
+            <pin num="96"/>
+            <pin num="98"/>
+            <pin num="100"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J2">
+      <value>ADDRESS</value>
+      <footprint>ZorroBreakout:Header_1x24</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x24</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J2" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a26b7571-4220-520a-99e7-50014d974f01</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J3">
+      <value>DATA</value>
+      <footprint>ZorroBreakout:Header_1x17</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x17</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J3" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c15694bc-9e23-502a-bfef-7653e2312707</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J4">
+      <value>BUS CONTROL</value>
+      <footprint>ZorroBreakout:Header_2x16</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_2x16</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J4" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4744dace-3bd8-578b-aa33-b2d6e108454d</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+            <pin num="13"/>
+            <pin num="14"/>
+            <pin num="15"/>
+            <pin num="16"/>
+            <pin num="17"/>
+            <pin num="18"/>
+            <pin num="19"/>
+            <pin num="20"/>
+            <pin num="21"/>
+            <pin num="22"/>
+            <pin num="23"/>
+            <pin num="24"/>
+            <pin num="25"/>
+            <pin num="26"/>
+            <pin num="27"/>
+            <pin num="28"/>
+            <pin num="29"/>
+            <pin num="30"/>
+            <pin num="31"/>
+            <pin num="32"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J5">
+      <value>AUTOCONFIG / SLOT CONTROL</value>
+      <footprint>ZorroBreakout:Header_2x04</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_2x04</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J5" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c1ec7e0-38e1-5155-a336-66125731eed1</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J6">
+      <value>INTERRUPTS</value>
+      <footprint>ZorroBreakout:Header_2x03</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_2x03</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J6" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c950848c-7d68-5419-afd5-2c8c63bdcc90</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J7">
+      <value>DMA / ARBITRATION</value>
+      <footprint>ZorroBreakout:Header_1x06</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J7" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a512696c-4c63-5783-aafa-66efb56e4ae6</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J8">
+      <value>CLOCKS</value>
+      <footprint>ZorroBreakout:Header_2x06</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_2x06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J8" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0594ad2e-39b1-5d17-945b-7df4931ced06</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J9">
+      <value>POWER</value>
+      <footprint>ZorroBreakout:Header_2x06</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_2x06</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J9" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f3b04956-ae2d-50bf-9b54-c86036492991</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+            <pin num="11"/>
+            <pin num="12"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="J10">
+      <value>RESERVED / LEGACY</value>
+      <footprint>ZorroBreakout:Header_1x10</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x10</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="J10" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>391626a1-f472-5d16-ba82-9c3ec0dc452e</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+            <pin num="2"/>
+            <pin num="3"/>
+            <pin num="4"/>
+            <pin num="5"/>
+            <pin num="6"/>
+            <pin num="7"/>
+            <pin num="8"/>
+            <pin num="9"/>
+            <pin num="10"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP1">
+      <value>-5V TEST ONLY</value>
+      <footprint>ZorroBreakout:Header_1x01</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="TP1" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63111656-ec46-5462-b7c3-37b1db3e307f</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP2">
+      <value>+12V TEST ONLY</value>
+      <footprint>ZorroBreakout:Header_1x01</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="TP2" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4cf220e-347d-5304-af63-7cc4497a14b8</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+    <comp ref="TP3">
+      <value>-12V TEST ONLY</value>
+      <footprint>ZorroBreakout:Header_1x01</footprint>
+      <fields>
+        <field name="Footprint">ZorroBreakout:Header_1x01</field>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <libsource lib="ZorroBreakout" part="TP3" description=""/>
+      <property name="Sheetname" value="zorro-breakout"/>
+      <property name="Sheetfile" value="zorro-breakout.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ed44cf2b-0a84-56ff-9b72-6974c3e6494c</tstamps>
+      <units>
+        <unit name="A">
+          <pins>
+            <pin num="1"/>
+          </pins>
+        </unit>
+      </units>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="ZorroBreakout" part="J1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Zorro_II_100</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="GND" type="passive"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+        <pin num="5" name="+5V" type="passive"/>
+        <pin num="6" name="+5V" type="passive"/>
+        <pin num="7" name="OWN_N" type="passive"/>
+        <pin num="8" name="-5V" type="passive"/>
+        <pin num="9" name="SLAVE_N" type="passive"/>
+        <pin num="10" name="+12V" type="passive"/>
+        <pin num="11" name="CFGOUT_N" type="passive"/>
+        <pin num="12" name="CFGIN_N" type="passive"/>
+        <pin num="13" name="GND" type="passive"/>
+        <pin num="14" name="C3_N" type="passive"/>
+        <pin num="15" name="CDAC" type="passive"/>
+        <pin num="16" name="C1_N" type="passive"/>
+        <pin num="17" name="OVR_N" type="passive"/>
+        <pin num="18" name="XRDY" type="passive"/>
+        <pin num="19" name="INT2_N" type="passive"/>
+        <pin num="20" name="-12V" type="passive"/>
+        <pin num="21" name="A5" type="passive"/>
+        <pin num="22" name="INT6_N" type="passive"/>
+        <pin num="23" name="A6" type="passive"/>
+        <pin num="24" name="A4" type="passive"/>
+        <pin num="25" name="GND" type="passive"/>
+        <pin num="26" name="A3" type="passive"/>
+        <pin num="27" name="A2" type="passive"/>
+        <pin num="28" name="A7" type="passive"/>
+        <pin num="29" name="A1" type="passive"/>
+        <pin num="30" name="A8" type="passive"/>
+        <pin num="31" name="FC0" type="passive"/>
+        <pin num="32" name="A9" type="passive"/>
+        <pin num="33" name="FC1" type="passive"/>
+        <pin num="34" name="A10" type="passive"/>
+        <pin num="35" name="FC2" type="passive"/>
+        <pin num="36" name="A11" type="passive"/>
+        <pin num="37" name="GND" type="passive"/>
+        <pin num="38" name="A12" type="passive"/>
+        <pin num="39" name="A13" type="passive"/>
+        <pin num="40" name="RESERVED_40" type="passive"/>
+        <pin num="41" name="A14" type="passive"/>
+        <pin num="42" name="RESERVED_42" type="passive"/>
+        <pin num="43" name="A15" type="passive"/>
+        <pin num="44" name="RESERVED_44" type="passive"/>
+        <pin num="45" name="A16" type="passive"/>
+        <pin num="46" name="BERR_N" type="passive"/>
+        <pin num="47" name="A17" type="passive"/>
+        <pin num="48" name="LEGACY_VPA_N" type="passive"/>
+        <pin num="49" name="GND" type="passive"/>
+        <pin num="50" name="E" type="passive"/>
+        <pin num="51" name="LEGACY_VMA_N" type="passive"/>
+        <pin num="52" name="A18" type="passive"/>
+        <pin num="53" name="RESET_N" type="passive"/>
+        <pin num="54" name="A19" type="passive"/>
+        <pin num="55" name="HLT_N" type="passive"/>
+        <pin num="56" name="A20" type="passive"/>
+        <pin num="57" name="A22" type="passive"/>
+        <pin num="58" name="A21" type="passive"/>
+        <pin num="59" name="A23" type="passive"/>
+        <pin num="60" name="BR_N" type="passive"/>
+        <pin num="61" name="GND" type="passive"/>
+        <pin num="62" name="BGACK_N" type="passive"/>
+        <pin num="63" name="D15" type="passive"/>
+        <pin num="64" name="BG_N" type="passive"/>
+        <pin num="65" name="D14" type="passive"/>
+        <pin num="66" name="DTACK_N" type="passive"/>
+        <pin num="67" name="D13" type="passive"/>
+        <pin num="68" name="READ" type="passive"/>
+        <pin num="69" name="D12" type="passive"/>
+        <pin num="70" name="LDS_N" type="passive"/>
+        <pin num="71" name="D11" type="passive"/>
+        <pin num="72" name="UDS_N" type="passive"/>
+        <pin num="73" name="GND" type="passive"/>
+        <pin num="74" name="AS_N" type="passive"/>
+        <pin num="75" name="D0" type="passive"/>
+        <pin num="76" name="D10" type="passive"/>
+        <pin num="77" name="D1" type="passive"/>
+        <pin num="78" name="D9" type="passive"/>
+        <pin num="79" name="D2" type="passive"/>
+        <pin num="80" name="D8" type="passive"/>
+        <pin num="81" name="D3" type="passive"/>
+        <pin num="82" name="D7" type="passive"/>
+        <pin num="83" name="D4" type="passive"/>
+        <pin num="84" name="D6" type="passive"/>
+        <pin num="85" name="GND" type="passive"/>
+        <pin num="86" name="D5" type="passive"/>
+        <pin num="87" name="GND" type="passive"/>
+        <pin num="88" name="GND" type="passive"/>
+        <pin num="89" name="GND" type="passive"/>
+        <pin num="90" name="GND" type="passive"/>
+        <pin num="91" name="SENSEZ3_91" type="passive"/>
+        <pin num="92" name="CLK7M" type="passive"/>
+        <pin num="93" name="DOE" type="passive"/>
+        <pin num="94" name="BUSRST_N" type="passive"/>
+        <pin num="95" name="GBG_N" type="passive"/>
+        <pin num="96" name="RESERVED_96" type="passive"/>
+        <pin num="97" name="NC_97" type="passive"/>
+        <pin num="98" name="NC_98" type="passive"/>
+        <pin num="99" name="GND" type="passive"/>
+        <pin num="100" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J10">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_10</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_24</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_17</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J4">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_32</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+        <pin num="13" name="13" type="passive"/>
+        <pin num="14" name="14" type="passive"/>
+        <pin num="15" name="15" type="passive"/>
+        <pin num="16" name="16" type="passive"/>
+        <pin num="17" name="17" type="passive"/>
+        <pin num="18" name="18" type="passive"/>
+        <pin num="19" name="19" type="passive"/>
+        <pin num="20" name="20" type="passive"/>
+        <pin num="21" name="21" type="passive"/>
+        <pin num="22" name="22" type="passive"/>
+        <pin num="23" name="23" type="passive"/>
+        <pin num="24" name="24" type="passive"/>
+        <pin num="25" name="25" type="passive"/>
+        <pin num="26" name="26" type="passive"/>
+        <pin num="27" name="27" type="passive"/>
+        <pin num="28" name="28" type="passive"/>
+        <pin num="29" name="29" type="passive"/>
+        <pin num="30" name="30" type="passive"/>
+        <pin num="31" name="31" type="passive"/>
+        <pin num="32" name="32" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J5">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_8</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J6">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J7">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_6</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J8">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="J9">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_12</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+        <pin num="10" name="10" type="passive"/>
+        <pin num="11" name="11" type="passive"/>
+        <pin num="12" name="12" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="TP1">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="TP2">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="ZorroBreakout" part="TP3">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Connector_1</field>
+        <field name="Footprint"/>
+        <field name="Datasheet"/>
+        <field name="Description"/>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="ZorroBreakout">
+      <uri>${KIPRJMOD}/ZorroBreakout.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+5V" class="Default">
+      <node ref="J1" pin="5" pinfunction="+5V_5" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="+5V_6" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="2_2" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="2" name="+12V" class="Default">
+      <node ref="J1" pin="10" pinfunction="+12V_10" pintype="passive"/>
+      <node ref="TP2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="3" name="-5V" class="Default">
+      <node ref="J1" pin="8" pinfunction="-5V_8" pintype="passive"/>
+      <node ref="TP1" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="4" name="-12V" class="Default">
+      <node ref="J1" pin="20" pinfunction="-12V_20" pintype="passive"/>
+      <node ref="TP3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="5" name="A1" class="Default">
+      <node ref="J1" pin="29" pinfunction="A1_29" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="6" name="A2" class="Default">
+      <node ref="J1" pin="27" pinfunction="A2_27" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="7" name="A3" class="Default">
+      <node ref="J1" pin="26" pinfunction="A3_26" pintype="passive"/>
+      <node ref="J2" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="8" name="A4" class="Default">
+      <node ref="J1" pin="24" pinfunction="A4_24" pintype="passive"/>
+      <node ref="J2" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="9" name="A5" class="Default">
+      <node ref="J1" pin="21" pinfunction="A5_21" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="10" name="A6" class="Default">
+      <node ref="J1" pin="23" pinfunction="A6_23" pintype="passive"/>
+      <node ref="J2" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="11" name="A7" class="Default">
+      <node ref="J1" pin="28" pinfunction="A7_28" pintype="passive"/>
+      <node ref="J2" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="12" name="A8" class="Default">
+      <node ref="J1" pin="30" pinfunction="A8_30" pintype="passive"/>
+      <node ref="J2" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="13" name="A9" class="Default">
+      <node ref="J1" pin="32" pinfunction="A9_32" pintype="passive"/>
+      <node ref="J2" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="14" name="A10" class="Default">
+      <node ref="J1" pin="34" pinfunction="A10_34" pintype="passive"/>
+      <node ref="J2" pin="10" pinfunction="10_10" pintype="passive"/>
+    </net>
+    <net code="15" name="A11" class="Default">
+      <node ref="J1" pin="36" pinfunction="A11_36" pintype="passive"/>
+      <node ref="J2" pin="11" pinfunction="11_11" pintype="passive"/>
+    </net>
+    <net code="16" name="A12" class="Default">
+      <node ref="J1" pin="38" pinfunction="A12_38" pintype="passive"/>
+      <node ref="J2" pin="12" pinfunction="12_12" pintype="passive"/>
+    </net>
+    <net code="17" name="A13" class="Default">
+      <node ref="J1" pin="39" pinfunction="A13_39" pintype="passive"/>
+      <node ref="J2" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="18" name="A14" class="Default">
+      <node ref="J1" pin="41" pinfunction="A14_41" pintype="passive"/>
+      <node ref="J2" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+    <net code="19" name="A15" class="Default">
+      <node ref="J1" pin="43" pinfunction="A15_43" pintype="passive"/>
+      <node ref="J2" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="20" name="A16" class="Default">
+      <node ref="J1" pin="45" pinfunction="A16_45" pintype="passive"/>
+      <node ref="J2" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="21" name="A17" class="Default">
+      <node ref="J1" pin="47" pinfunction="A17_47" pintype="passive"/>
+      <node ref="J2" pin="17" pinfunction="17_17" pintype="passive"/>
+    </net>
+    <net code="22" name="A18" class="Default">
+      <node ref="J1" pin="52" pinfunction="A18_52" pintype="passive"/>
+      <node ref="J2" pin="18" pinfunction="18_18" pintype="passive"/>
+    </net>
+    <net code="23" name="A19" class="Default">
+      <node ref="J1" pin="54" pinfunction="A19_54" pintype="passive"/>
+      <node ref="J2" pin="19" pinfunction="19_19" pintype="passive"/>
+    </net>
+    <net code="24" name="A20" class="Default">
+      <node ref="J1" pin="56" pinfunction="A20_56" pintype="passive"/>
+      <node ref="J2" pin="20" pinfunction="20_20" pintype="passive"/>
+    </net>
+    <net code="25" name="A21" class="Default">
+      <node ref="J1" pin="58" pinfunction="A21_58" pintype="passive"/>
+      <node ref="J2" pin="21" pinfunction="21_21" pintype="passive"/>
+    </net>
+    <net code="26" name="A22" class="Default">
+      <node ref="J1" pin="57" pinfunction="A22_57" pintype="passive"/>
+      <node ref="J2" pin="22" pinfunction="22_22" pintype="passive"/>
+    </net>
+    <net code="27" name="A23" class="Default">
+      <node ref="J1" pin="59" pinfunction="A23_59" pintype="passive"/>
+      <node ref="J2" pin="23" pinfunction="23_23" pintype="passive"/>
+    </net>
+    <net code="28" name="AS_N" class="Default">
+      <node ref="J1" pin="74" pinfunction="AS_N_74" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="29" name="BERR_N" class="Default">
+      <node ref="J1" pin="46" pinfunction="BERR_N_46" pintype="passive"/>
+      <node ref="J4" pin="19" pinfunction="19_19" pintype="passive"/>
+      <node ref="J4" pin="20" pinfunction="20_20" pintype="passive"/>
+    </net>
+    <net code="30" name="BGACK_N" class="Default">
+      <node ref="J1" pin="62" pinfunction="BGACK_N_62" pintype="passive"/>
+      <node ref="J7" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="31" name="BG_N" class="Default">
+      <node ref="J1" pin="64" pinfunction="BG_N_64" pintype="passive"/>
+      <node ref="J7" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="32" name="BR_N" class="Default">
+      <node ref="J1" pin="60" pinfunction="BR_N_60" pintype="passive"/>
+      <node ref="J7" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="33" name="BUSRST_N" class="Default">
+      <node ref="J1" pin="94" pinfunction="BUSRST_N_94" pintype="passive"/>
+      <node ref="J4" pin="29" pinfunction="29_29" pintype="passive"/>
+      <node ref="J4" pin="30" pinfunction="30_30" pintype="passive"/>
+    </net>
+    <net code="34" name="C1_N" class="Default">
+      <node ref="J1" pin="16" pinfunction="C1_N_16" pintype="passive"/>
+      <node ref="J8" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J8" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="35" name="C3_N" class="Default">
+      <node ref="J1" pin="14" pinfunction="C3_N_14" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="36" name="CDAC" class="Default">
+      <node ref="J1" pin="15" pinfunction="CDAC_15" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="37" name="CFGIN_N" class="Default">
+      <node ref="J1" pin="12" pinfunction="CFGIN_N_12" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J5" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="38" name="CFGOUT_N" class="Default">
+      <node ref="J1" pin="11" pinfunction="CFGOUT_N_11" pintype="passive"/>
+      <node ref="J5" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J5" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="39" name="CLK7M" class="Default">
+      <node ref="J1" pin="92" pinfunction="CLK7M_92" pintype="passive"/>
+      <node ref="J8" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J8" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="40" name="D0" class="Default">
+      <node ref="J1" pin="75" pinfunction="D0_75" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="41" name="D1" class="Default">
+      <node ref="J1" pin="77" pinfunction="D1_77" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="42" name="D2" class="Default">
+      <node ref="J1" pin="79" pinfunction="D2_79" pintype="passive"/>
+      <node ref="J3" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="43" name="D3" class="Default">
+      <node ref="J1" pin="81" pinfunction="D3_81" pintype="passive"/>
+      <node ref="J3" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="44" name="D4" class="Default">
+      <node ref="J1" pin="83" pinfunction="D4_83" pintype="passive"/>
+      <node ref="J3" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="45" name="D5" class="Default">
+      <node ref="J1" pin="86" pinfunction="D5_86" pintype="passive"/>
+      <node ref="J3" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="46" name="D6" class="Default">
+      <node ref="J1" pin="84" pinfunction="D6_84" pintype="passive"/>
+      <node ref="J3" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="47" name="D7" class="Default">
+      <node ref="J1" pin="82" pinfunction="D7_82" pintype="passive"/>
+      <node ref="J3" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="48" name="D8" class="Default">
+      <node ref="J1" pin="80" pinfunction="D8_80" pintype="passive"/>
+      <node ref="J3" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="49" name="D9" class="Default">
+      <node ref="J1" pin="78" pinfunction="D9_78" pintype="passive"/>
+      <node ref="J3" pin="10" pinfunction="10_10" pintype="passive"/>
+    </net>
+    <net code="50" name="D10" class="Default">
+      <node ref="J1" pin="76" pinfunction="D10_76" pintype="passive"/>
+      <node ref="J3" pin="11" pinfunction="11_11" pintype="passive"/>
+    </net>
+    <net code="51" name="D11" class="Default">
+      <node ref="J1" pin="71" pinfunction="D11_71" pintype="passive"/>
+      <node ref="J3" pin="12" pinfunction="12_12" pintype="passive"/>
+    </net>
+    <net code="52" name="D12" class="Default">
+      <node ref="J1" pin="69" pinfunction="D12_69" pintype="passive"/>
+      <node ref="J3" pin="13" pinfunction="13_13" pintype="passive"/>
+    </net>
+    <net code="53" name="D13" class="Default">
+      <node ref="J1" pin="67" pinfunction="D13_67" pintype="passive"/>
+      <node ref="J3" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+    <net code="54" name="D14" class="Default">
+      <node ref="J1" pin="65" pinfunction="D14_65" pintype="passive"/>
+      <node ref="J3" pin="15" pinfunction="15_15" pintype="passive"/>
+    </net>
+    <net code="55" name="D15" class="Default">
+      <node ref="J1" pin="63" pinfunction="D15_63" pintype="passive"/>
+      <node ref="J3" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="56" name="DOE" class="Default">
+      <node ref="J1" pin="93" pinfunction="DOE_93" pintype="passive"/>
+      <node ref="J4" pin="27" pinfunction="27_27" pintype="passive"/>
+      <node ref="J4" pin="28" pinfunction="28_28" pintype="passive"/>
+    </net>
+    <net code="57" name="DTACK_N" class="Default">
+      <node ref="J1" pin="66" pinfunction="DTACK_N_66" pintype="passive"/>
+      <node ref="J4" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J4" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="58" name="E" class="Default">
+      <node ref="J1" pin="50" pinfunction="E_50" pintype="passive"/>
+      <node ref="J8" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J8" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="59" name="FC0" class="Default">
+      <node ref="J1" pin="31" pinfunction="FC0_31" pintype="passive"/>
+      <node ref="J4" pin="21" pinfunction="21_21" pintype="passive"/>
+      <node ref="J4" pin="22" pinfunction="22_22" pintype="passive"/>
+    </net>
+    <net code="60" name="FC1" class="Default">
+      <node ref="J1" pin="33" pinfunction="FC1_33" pintype="passive"/>
+      <node ref="J4" pin="23" pinfunction="23_23" pintype="passive"/>
+      <node ref="J4" pin="24" pinfunction="24_24" pintype="passive"/>
+    </net>
+    <net code="61" name="FC2" class="Default">
+      <node ref="J1" pin="35" pinfunction="FC2_35" pintype="passive"/>
+      <node ref="J4" pin="25" pinfunction="25_25" pintype="passive"/>
+      <node ref="J4" pin="26" pinfunction="26_26" pintype="passive"/>
+    </net>
+    <net code="62" name="GBG_N" class="Default">
+      <node ref="J1" pin="95" pinfunction="GBG_N_95" pintype="passive"/>
+      <node ref="J7" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="63" name="GND" class="Default">
+      <node ref="J1" pin="1" pinfunction="GND_1" pintype="passive"/>
+      <node ref="J1" pin="100" pinfunction="GND_100" pintype="passive"/>
+      <node ref="J1" pin="13" pinfunction="GND_13" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="GND_2" pintype="passive"/>
+      <node ref="J1" pin="25" pinfunction="GND_25" pintype="passive"/>
+      <node ref="J1" pin="3" pinfunction="GND_3" pintype="passive"/>
+      <node ref="J1" pin="37" pinfunction="GND_37" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="GND_4" pintype="passive"/>
+      <node ref="J1" pin="49" pinfunction="GND_49" pintype="passive"/>
+      <node ref="J1" pin="61" pinfunction="GND_61" pintype="passive"/>
+      <node ref="J1" pin="73" pinfunction="GND_73" pintype="passive"/>
+      <node ref="J1" pin="85" pinfunction="GND_85" pintype="passive"/>
+      <node ref="J1" pin="87" pinfunction="GND_87" pintype="passive"/>
+      <node ref="J1" pin="88" pinfunction="GND_88" pintype="passive"/>
+      <node ref="J1" pin="89" pinfunction="GND_89" pintype="passive"/>
+      <node ref="J1" pin="90" pinfunction="GND_90" pintype="passive"/>
+      <node ref="J1" pin="99" pinfunction="GND_99" pintype="passive"/>
+      <node ref="J10" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J2" pin="24" pinfunction="24_24" pintype="passive"/>
+      <node ref="J3" pin="17" pinfunction="17_17" pintype="passive"/>
+      <node ref="J4" pin="31" pinfunction="31_31" pintype="passive"/>
+      <node ref="J4" pin="32" pinfunction="32_32" pintype="passive"/>
+      <node ref="J5" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J5" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J6" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="J7" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="J8" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J8" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J9" pin="10" pinfunction="10_10" pintype="passive"/>
+      <node ref="J9" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J9" pin="12" pinfunction="12_12" pintype="passive"/>
+      <node ref="J9" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J9" pin="6" pinfunction="6_6" pintype="passive"/>
+      <node ref="J9" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J9" pin="8" pinfunction="8_8" pintype="passive"/>
+      <node ref="J9" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="64" name="HLT_N" class="Default">
+      <node ref="J1" pin="55" pinfunction="HLT_N_55" pintype="passive"/>
+      <node ref="J4" pin="17" pinfunction="17_17" pintype="passive"/>
+      <node ref="J4" pin="18" pinfunction="18_18" pintype="passive"/>
+    </net>
+    <net code="65" name="INT2_N" class="Default">
+      <node ref="J1" pin="19" pinfunction="INT2_N_19" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J6" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="66" name="INT6_N" class="Default">
+      <node ref="J1" pin="22" pinfunction="INT6_N_22" pintype="passive"/>
+      <node ref="J6" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J6" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="67" name="LDS_N" class="Default">
+      <node ref="J1" pin="70" pinfunction="LDS_N_70" pintype="passive"/>
+      <node ref="J4" pin="5" pinfunction="5_5" pintype="passive"/>
+      <node ref="J4" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="68" name="LEGACY_VMA_N" class="Default">
+      <node ref="J1" pin="51" pinfunction="LEGACY_VMA_N_51" pintype="passive"/>
+      <node ref="J10" pin="6" pinfunction="6_6" pintype="passive"/>
+    </net>
+    <net code="69" name="LEGACY_VPA_N" class="Default">
+      <node ref="J1" pin="48" pinfunction="LEGACY_VPA_N_48" pintype="passive"/>
+      <node ref="J10" pin="5" pinfunction="5_5" pintype="passive"/>
+    </net>
+    <net code="70" name="NC_97" class="Default">
+      <node ref="J1" pin="97" pinfunction="NC_97_97" pintype="passive"/>
+      <node ref="J10" pin="7" pinfunction="7_7" pintype="passive"/>
+    </net>
+    <net code="71" name="NC_98" class="Default">
+      <node ref="J1" pin="98" pinfunction="NC_98_98" pintype="passive"/>
+      <node ref="J10" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="72" name="OVR_N" class="Default">
+      <node ref="J1" pin="17" pinfunction="OVR_N_17" pintype="passive"/>
+      <node ref="J4" pin="11" pinfunction="11_11" pintype="passive"/>
+      <node ref="J4" pin="12" pinfunction="12_12" pintype="passive"/>
+    </net>
+    <net code="73" name="OWN_N" class="Default">
+      <node ref="J1" pin="7" pinfunction="OWN_N_7" pintype="passive"/>
+      <node ref="J7" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="74" name="READ" class="Default">
+      <node ref="J1" pin="68" pinfunction="READ_68" pintype="passive"/>
+      <node ref="J4" pin="7" pinfunction="7_7" pintype="passive"/>
+      <node ref="J4" pin="8" pinfunction="8_8" pintype="passive"/>
+    </net>
+    <net code="75" name="RESERVED_40" class="Default">
+      <node ref="J1" pin="40" pinfunction="RESERVED_40_40" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="1_1" pintype="passive"/>
+    </net>
+    <net code="76" name="RESERVED_42" class="Default">
+      <node ref="J1" pin="42" pinfunction="RESERVED_42_42" pintype="passive"/>
+      <node ref="J10" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="77" name="RESERVED_44" class="Default">
+      <node ref="J1" pin="44" pinfunction="RESERVED_44_44" pintype="passive"/>
+      <node ref="J10" pin="3" pinfunction="3_3" pintype="passive"/>
+    </net>
+    <net code="78" name="RESERVED_96" class="Default">
+      <node ref="J1" pin="96" pinfunction="RESERVED_96_96" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="79" name="RESET_N" class="Default">
+      <node ref="J1" pin="53" pinfunction="RESET_N_53" pintype="passive"/>
+      <node ref="J4" pin="15" pinfunction="15_15" pintype="passive"/>
+      <node ref="J4" pin="16" pinfunction="16_16" pintype="passive"/>
+    </net>
+    <net code="80" name="SENSEZ3_91" class="Default">
+      <node ref="J1" pin="91" pinfunction="SENSEZ3_91_91" pintype="passive"/>
+      <node ref="J10" pin="9" pinfunction="9_9" pintype="passive"/>
+    </net>
+    <net code="81" name="SLAVE_N" class="Default">
+      <node ref="J1" pin="9" pinfunction="SLAVE_N_9" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="1_1" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="2_2" pintype="passive"/>
+    </net>
+    <net code="82" name="UDS_N" class="Default">
+      <node ref="J1" pin="72" pinfunction="UDS_N_72" pintype="passive"/>
+      <node ref="J4" pin="3" pinfunction="3_3" pintype="passive"/>
+      <node ref="J4" pin="4" pinfunction="4_4" pintype="passive"/>
+    </net>
+    <net code="83" name="XRDY" class="Default">
+      <node ref="J1" pin="18" pinfunction="XRDY_18" pintype="passive"/>
+      <node ref="J4" pin="13" pinfunction="13_13" pintype="passive"/>
+      <node ref="J4" pin="14" pinfunction="14_14" pintype="passive"/>
+    </net>
+  </nets>
+</export>
