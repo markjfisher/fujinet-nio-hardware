@@ -9,6 +9,7 @@ import json
 from pathlib import Path
 import uuid
 import pcbnew as p
+from mechanics import apply as apply_mechanics
 
 ROOT = Path(__file__).resolve().parents[1]
 CAD = ROOT / 'kicad'
@@ -167,6 +168,7 @@ def make_board():
     zone.Outline().NewOutline()
     for xy in [(21,21),(199,21),(199,118),(21,118)]: zone.Outline().Append(int(mm(xy[0])),int(mm(xy[1])))
     b.Add(zone)
+    apply_mechanics(b)
     # Library copy of the exact edge geometry, no copied upstream artwork.
     copy=p.FOOTPRINT(connector); copy.SetPosition(v(0,0)); copy.SetReference('REF**')
     for pad in copy.Pads(): pad.SetNetCode(0)

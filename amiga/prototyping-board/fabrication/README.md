@@ -1,82 +1,102 @@
-# Fabrication instructions — revision A, REVIEW ONLY
+# Fabrication instructions — revision A, prototype release
 
-Follow-up [mechanical cross-check](../docs/mechanical-cross-check.md):
-**NOT FABRICATION-READY**. The remaining release items are the seated
-insertion/contact envelope, bevel depth/remaining land with tolerances, and
-mask registration allowance. A 45° bevel has corroborating evidence, but
-no complete machining callout is approved. The design files are unchanged.
-
-**DO NOT ORDER FROM THIS PACKAGE YET.** No board has been ordered. The bevel
-callout in the available A-5 scan is not legible enough to release to a
-manufacturer. Confirm bevel depth/angle using a legible original drawing or
-the selected mating connector manufacturer's specification. Do not let a
-default online ordering option silently supply that missing dimension.
-The current 7.62 mm tongue projection, 1 mm contact-to-tip offset and square
-shoulders are provisional review geometry, not verified connector dimensions.
-Confirm the insertion depth and shoulder-radius/profile as well as the bevel,
-then update the outline/contact placement and rerun routing and checks as
-needed. The supplied outline must not be released unchanged on the strength
-of its electrical DRC pass.
+**FABRICATION-READY — PROTOTYPE SPIN ONLY.** Target fabricator: **PCBWay**.
+Mating socket: **WingTAT ED100BGFBK / LCSC C5173320**.
+Commodore A-5 controls the mating-card outline and bevel.
+Nothing has been uploaded, ordered, manufactured or physically fit-tested.
 
 ## Board and stack
 
-* Four copper layers; finished board thickness **1.6 mm**, including finishes.
-* FR-4; nominal 35 µm copper per layer. Stack order is F.Cu / In1.Cu GND /
-  In2.Cu / B.Cu. In1 is reserved for the ground plane; no signal tracks there.
-  Specify a symmetric stack with thin outer dielectric spacing to the inner
-  layers. Exact laminate stack and thickness tolerance require fabricator
-  agreement; this design does not claim controlled impedance.
-* Outer board: 180 ×100 mm above the shoulder; 107.62 mm overall height.
-  Zorro tongue: **129.26 ±0.1 mm**, 7.62 mm projection, 124.46 mm extreme
-  contact-centre span. See the mechanical review for source qualifications.
-* Fingers: 50 per face, **2.54 mm pitch**, **1.524 ×5 mm copper contact area**.
-  Even pads on component face; odd pads on reverse. Extreme right pair is
-  2/1 viewed from the component face. Do not mirror Gerbers for manufacture.
-* Nominal trace width 0.30 mm; minimum allowed 0.25 mm. Clearance 0.20 mm.
-  Via diameter 0.65 mm / hole 0.30 mm. Header plated holes 1.00 mm with
-  1.70 mm pads. Exact hole counts appear in `drill/report.txt`.
-* Copper-to-outline clearance is 0.50 mm minimum. The fingers stop 1.00 mm
-  short of the insertion edge. Keep all internal copper out of the tongue
-  and bevel machining region. No via or drilled hole belongs in a finger.
+- Four copper layers; FR-4; **1.6 mm nominal finished thickness, including
+  finishes; specify ±0.10 mm**. This tighter order requirement keeps the
+  board within WingTAT's recommended 1.42–1.72 mm range. Do not silently
+  substitute a standard thickness tolerance extending above 1.72 mm.
+  PCBWay must confirm the requested tolerance during normal CAM/order review.
+- Nominal 35 µm copper per layer. Stack: F.Cu / In1.Cu GND / In2.Cu / B.Cu.
+  Use a symmetric stack; no controlled impedance is claimed.
+- Body: 180 ×100 above the shoulder, overall height 107.62.
+- Tongue: **129.26 ±0.1 width; 7.62 projection; R1.5 concave roots;
+  1.5 ×45° planar tip-corner chamfers**. Follow Edge.Cuts, not a rectangular
+  bounding box. The 2.40 nominal end margins follow the explicit tongue
+  width and 124.46 contact span; do not move contacts to impose 2.50.
+- Fingers: 50 per face, **2.54 pitch; 1.6 ×5 copper; 1.00 tip setback**.
+  Even contacts on component face; odd on reverse. Do not mirror Gerbers.
+  Length/setback are retained prototype choices, not separate A-5 dimensions.
+- Trace minimum 0.25; design clearance 0.20; via 0.65 / drill 0.30;
+  header pads 1.70 / plated holes 1.00. Copper-to-outline minimum 0.50.
+  No internal copper, vias or drilled holes in the tongue/bevel region.
 
-## Contact finish and edge preparation
+## Bevel: controlling dimensions and process tolerances
 
-Use **selective hard gold over nickel on the mating contacts** for repeated
-insertion/probing service. The rest of the board may use ENIG. Confirm gold
-and nickel thickness, contact durability and the manufacturer's plating
-process before release. Ordinary HASL or solder-tinned fingers are not an
-acceptable substitution. The design intentionally has no solder-paste
-apertures on the fingers; no stencil is required for this all-through-hole
-assembly.
+**Machine both faces of the insertion edge: 0.5 mm ×45° per face.**
+These A-5 dimensions control. With 1.6 nominal finished thickness, the
+remaining centre land is **0.6 mm REF**, calculated as 1.6 −2×0.5.
+**Do not independently constrain the land to 0.5 mm.**
+The thickness bevel is distinct from the planar 1.5 ×45° corner chamfers.
 
-Chamfer/bevel both sides of the insertion edge only after the unresolved
-Commodore/mating-connector dimension is confirmed. The final machining must
-not remove the working gold contact area. The bare PCB edge must be smooth
-and free of burrs. No breakaway tabs, mouse bites, tooling holes, panel rails,
-plating-bus remnants or conductive debris may remain on the mating edge.
-Any temporary electroplating connections must be fully removed so all 100
-contacts retain the net assignments in the verification CSV.
+PCBWay's [edge-connector guidance][edge] publishes machining tolerances of
+**±5° angle and ±5 mil (±0.127 mm) chamfer height**. These are process
+tolerances, not alternative nominal bevel dimensions or a tolerance assigned
+to the reference land. Its [capability matrix][cap] separately lists bevel
+depth ±0.15 mm in the normal capability band. Request the help-centre
+±0.127 mm height tolerance; any process deviation is subject to CAM review.
+Nominal copper starts 0.50 mm beyond the bevel. Even 0.627 axial machining
+extent leaves 0.373 nominal clearance to copper before outline/registration
+variation. Reject machining that reaches finger copper or leaves a knife edge.
 
-F.Mask and B.Mask contain explicit openings for every mating contact.
-Do not mask, silkscreen or apply solder paste over those contact surfaces.
-The supplied Gerbers contain no manufacturing panel or plating bus; a
-fabricator must provide its own process plan while preserving this finished
-geometry. The outline Gerber describes planar routing only: **it cannot
-encode an edge bevel or gold plating specification**.
+The [gold-finger parameter table][gold] lists a 0.5 land alongside a 0.5
+depth for a 1.6 board. Do not copy those as three independent exact constraints.
+Use the A-5 callout above. The outline Gerber encodes planar routing only;
+**these instructions must accompany it** to define the thickness bevel.
 
-## Package contents and acceptance
+## Gold and mask
 
-`gerbers/`: four copper layers, two masks, two silkscreens, Edge.Cuts and
-Gerber job file. `drill/`: Excellon plated/non-plated files, map and report.
-`SHA256SUMS` covers the machine fabrication outputs. Units are millimetres;
-all layers use the same absolute origin. `review/` contains human-readable
-views and electrical/design-rule reports.
+- **Selective electroplated hard gold over nickel on all 100 fingers**;
+  target 30 µin gold over 120–150 µin nickel (within PCBWay's published
+  gold-finger capability). ENIG may be used elsewhere. No HASL, tin or
+  immersion-gold substitution on mating contacts.
+- F.Mask and B.Mask each contain a **continuous filled opening**, extending
+  across the complete tongue to/beyond the routed edge: board coordinates
+  x=38…171.26, y=120…128.12. This follows PCBWay's
+  [full-edge-connector exposure guidance][mask].
+  No inter-finger mask dams; no mask, silk or paste on the contact region.
+- J1 alone permits intentional solder-mask bridges in KiCad. This models
+  the continuous window, not a waived copper short or global DRC exclusion.
+- Smooth, burr-free mating edge. No tabs, tooling holes, plating-bus remnants
+  or conductive debris may remain there. The fabricator supplies its plating
+  process/panel plan and removes temporary plating connections, preserving
+  every final net and all isolation requirements.
+- No stencil is required; this assembly is through-hole only.
 
-Before any future manufacturing release, resolve the insertion profile, bevel and finished
-connector fit, agree the stack/finish/tolerances with the manufacturer, and
-review the CAM overlay at 1:1. This work does not authorize that release.
-After fabrication, visually inspect the finger plating/bevel and test every
-J1 contact against `data/verification.csv`, including isolation of opposite
-contacts, supply rails, all reserved/NC nets, SenseZ3, and /CFGIN vs /CFGOUT.
-Host-powered insertion, loading, timing, current capacity and case/adapter
-fit are **not** validated by ERC or DRC.
+## Package and verification
+
+Submit this file with the regenerated `gerbers/` and `drill/` outputs.
+`SHA256SUMS` covers machine outputs and this instruction file. All layers
+share one absolute millimetre origin. Review outputs include ERC/DRC,
+schematic, layout and copper views.
+
+Mechanical assertions, 100-contact mapping with five negative cases, ERC,
+DRC and schematic parity must pass before export. Track/via geometry,
+pad positions and electrical mapping are protected by a frozen pre-change
+electrical digest; the original comparison datasets remain historical evidence.
+
+## Prototype validation — not missing-documentation release holds
+
+1. With power off, inspect board thickness, plating, bevel and mask; verify
+   seating in the actual socket without forcing. Check root/housing clearance.
+   A floor gap is not itself a failed fit; do not deepen the tongue to bottom it.
+2. Check all 100 contacts for continuity and neighbouring/opposite-contact
+   isolation using `data/verification.csv`, including rails, reserved/NC,
+   SenseZ3 and /CFGIN versus /CFGOUT.
+3. Inspect contact witness marks and repeat continuity while gently moving the
+   supported board. Record actual engagement/wipe and any intermittency.
+   The WingTAT drawing does not specify a wipe envelope; prototype acceptance
+   must establish adequate engagement with the retained 5 mm fingers.
+4. Test host operation only after passive continuity checks. Support the
+   bracketless board and leads. Loading, timing, thermal/current capacity,
+   durability and other Amiga sockets are not qualified by this release.
+
+[edge]: https://www.pcbway.com/helpcenter/ordering_parameter_instruction/Edge_Connector.html
+[cap]: https://www.pcbway.com/capabilities.html
+[gold]: https://www.pcbway.com/pcb_prototype/PCB_Gold_fingers.html
+[mask]: https://www.pcbway.com/helpcenter/soldermask_issues/Soldermask_opening_for_Gold_fingers.html

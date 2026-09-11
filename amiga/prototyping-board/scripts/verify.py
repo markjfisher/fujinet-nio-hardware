@@ -74,7 +74,7 @@ def run(self_test=False):
         n=int(pad.GetNumber()); x=p.ToMM(pad.GetPosition().x); y=p.ToMM(pad.GetPosition().y)
         assert abs(x-(166.86-((n-1)//2)*2.54))<1e-6, f'Pin {n}: wrong X/pitch'
         assert abs(y-124.12)<1e-6, f'Pin {n}: wrong contact Y'
-        assert abs(p.ToMM(pad.GetSize().x)-1.524)<1e-6
+        assert abs(p.ToMM(pad.GetSize().x)-1.6)<1e-6
         assert abs(p.ToMM(pad.GetSize().y)-5)<1e-6
         assert pad.GetAttribute()==p.PAD_ATTRIB_CONN
         expected=p.F_Cu if n%2==0 else p.B_Cu
@@ -98,9 +98,11 @@ def run(self_test=False):
         d=b.Drawings()[i].Cast()
         if d.GetLayer()==p.Edge_Cuts:
             edge_segments.add(tuple(round(p.ToMM(z),5) for z in [d.GetStart().x,d.GetStart().y,d.GetEnd().x,d.GetEnd().y]))
-    assert (169.26,127.62,40.,127.62) in edge_segments
-    assert (169.26,120.,169.26,127.62) in edge_segments
-    assert (40.,127.62,40.,120.) in edge_segments
+    assert (167.76,127.62,41.5,127.62) in edge_segments
+    assert (169.26,121.5,169.26,126.12) in edge_segments
+    assert (40.,126.12,40.,121.5) in edge_segments
+    assert (169.26,126.12,167.76,127.62) in edge_segments
+    assert (41.5,127.62,40.,126.12) in edge_segments
     for i in range(len(b.Tracks())):
         item=b.Tracks()[i].Cast()
         if isinstance(item,p.PCB_VIA):

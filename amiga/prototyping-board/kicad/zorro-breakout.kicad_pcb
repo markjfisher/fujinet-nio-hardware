@@ -2091,11 +2091,33 @@
 			)
 		)
 		(path "/844a4445-00cb-5ef5-8061-30bfb610a6e7/ca97fe4b-cd49-594d-9608-7dc7d07d9988")
-		(attr exclude_from_pos_files)
+		(attr exclude_from_pos_files allow_soldermask_bridges)
 		(duplicate_pad_numbers_are_jumpers no)
+		(fp_rect
+			(start -66.63 -4.12)
+			(end 66.63 4)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Mask")
+			(uuid "7b9903dd-6ba1-42ad-8bd1-320e3f70a207")
+		)
+		(fp_rect
+			(start -66.63 -4.12)
+			(end 66.63 4)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "B.Mask")
+			(uuid "fe649a84-a477-4db8-9ff4-a77c2f39e0e6")
+		)
 		(pad "1" connect rect
 			(at 62.23 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2103,7 +2125,7 @@
 		)
 		(pad "2" connect rect
 			(at 62.23 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2111,7 +2133,7 @@
 		)
 		(pad "3" connect rect
 			(at 59.69 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2119,7 +2141,7 @@
 		)
 		(pad "4" connect rect
 			(at 59.69 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2127,7 +2149,7 @@
 		)
 		(pad "5" connect rect
 			(at 57.15 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "+5V")
 			(thermal_bridge_angle 45)
@@ -2135,7 +2157,7 @@
 		)
 		(pad "6" connect rect
 			(at 57.15 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "+5V")
 			(thermal_bridge_angle 45)
@@ -2143,7 +2165,7 @@
 		)
 		(pad "7" connect rect
 			(at 54.61 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "OWN_N")
 			(thermal_bridge_angle 45)
@@ -2151,7 +2173,7 @@
 		)
 		(pad "8" connect rect
 			(at 54.61 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "-5V")
 			(thermal_bridge_angle 45)
@@ -2159,7 +2181,7 @@
 		)
 		(pad "9" connect rect
 			(at 52.07 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "SLAVE_N")
 			(thermal_bridge_angle 45)
@@ -2167,7 +2189,7 @@
 		)
 		(pad "10" connect rect
 			(at 52.07 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "+12V")
 			(thermal_bridge_angle 45)
@@ -2175,7 +2197,7 @@
 		)
 		(pad "11" connect rect
 			(at 49.53 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "CFGOUT_N")
 			(thermal_bridge_angle 45)
@@ -2183,7 +2205,7 @@
 		)
 		(pad "12" connect rect
 			(at 49.53 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "CFGIN_N")
 			(thermal_bridge_angle 45)
@@ -2191,7 +2213,7 @@
 		)
 		(pad "13" connect rect
 			(at 46.99 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2199,7 +2221,7 @@
 		)
 		(pad "14" connect rect
 			(at 46.99 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "C3_N")
 			(thermal_bridge_angle 45)
@@ -2207,7 +2229,7 @@
 		)
 		(pad "15" connect rect
 			(at 44.45 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "CDAC")
 			(thermal_bridge_angle 45)
@@ -2215,7 +2237,7 @@
 		)
 		(pad "16" connect rect
 			(at 44.45 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "C1_N")
 			(thermal_bridge_angle 45)
@@ -2223,7 +2245,7 @@
 		)
 		(pad "17" connect rect
 			(at 41.91 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "OVR_N")
 			(thermal_bridge_angle 45)
@@ -2231,7 +2253,7 @@
 		)
 		(pad "18" connect rect
 			(at 41.91 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "XRDY")
 			(thermal_bridge_angle 45)
@@ -2239,7 +2261,7 @@
 		)
 		(pad "19" connect rect
 			(at 39.37 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "INT2_N")
 			(thermal_bridge_angle 45)
@@ -2247,7 +2269,7 @@
 		)
 		(pad "20" connect rect
 			(at 39.37 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "-12V")
 			(thermal_bridge_angle 45)
@@ -2255,7 +2277,7 @@
 		)
 		(pad "21" connect rect
 			(at 36.83 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A5")
 			(thermal_bridge_angle 45)
@@ -2263,7 +2285,7 @@
 		)
 		(pad "22" connect rect
 			(at 36.83 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "INT6_N")
 			(thermal_bridge_angle 45)
@@ -2271,7 +2293,7 @@
 		)
 		(pad "23" connect rect
 			(at 34.29 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A6")
 			(thermal_bridge_angle 45)
@@ -2279,7 +2301,7 @@
 		)
 		(pad "24" connect rect
 			(at 34.29 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A4")
 			(thermal_bridge_angle 45)
@@ -2287,7 +2309,7 @@
 		)
 		(pad "25" connect rect
 			(at 31.75 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2295,7 +2317,7 @@
 		)
 		(pad "26" connect rect
 			(at 31.75 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A3")
 			(thermal_bridge_angle 45)
@@ -2303,7 +2325,7 @@
 		)
 		(pad "27" connect rect
 			(at 29.21 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A2")
 			(thermal_bridge_angle 45)
@@ -2311,7 +2333,7 @@
 		)
 		(pad "28" connect rect
 			(at 29.21 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A7")
 			(thermal_bridge_angle 45)
@@ -2319,7 +2341,7 @@
 		)
 		(pad "29" connect rect
 			(at 26.67 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A1")
 			(thermal_bridge_angle 45)
@@ -2327,7 +2349,7 @@
 		)
 		(pad "30" connect rect
 			(at 26.67 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A8")
 			(thermal_bridge_angle 45)
@@ -2335,7 +2357,7 @@
 		)
 		(pad "31" connect rect
 			(at 24.13 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "FC0")
 			(thermal_bridge_angle 45)
@@ -2343,7 +2365,7 @@
 		)
 		(pad "32" connect rect
 			(at 24.13 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A9")
 			(thermal_bridge_angle 45)
@@ -2351,7 +2373,7 @@
 		)
 		(pad "33" connect rect
 			(at 21.59 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "FC1")
 			(thermal_bridge_angle 45)
@@ -2359,7 +2381,7 @@
 		)
 		(pad "34" connect rect
 			(at 21.59 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A10")
 			(thermal_bridge_angle 45)
@@ -2367,7 +2389,7 @@
 		)
 		(pad "35" connect rect
 			(at 19.05 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "FC2")
 			(thermal_bridge_angle 45)
@@ -2375,7 +2397,7 @@
 		)
 		(pad "36" connect rect
 			(at 19.05 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A11")
 			(thermal_bridge_angle 45)
@@ -2383,7 +2405,7 @@
 		)
 		(pad "37" connect rect
 			(at 16.51 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2391,7 +2413,7 @@
 		)
 		(pad "38" connect rect
 			(at 16.51 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A12")
 			(thermal_bridge_angle 45)
@@ -2399,7 +2421,7 @@
 		)
 		(pad "39" connect rect
 			(at 13.97 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A13")
 			(thermal_bridge_angle 45)
@@ -2407,7 +2429,7 @@
 		)
 		(pad "40" connect rect
 			(at 13.97 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "RESERVED_40")
 			(thermal_bridge_angle 45)
@@ -2415,7 +2437,7 @@
 		)
 		(pad "41" connect rect
 			(at 11.43 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A14")
 			(thermal_bridge_angle 45)
@@ -2423,7 +2445,7 @@
 		)
 		(pad "42" connect rect
 			(at 11.43 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "RESERVED_42")
 			(thermal_bridge_angle 45)
@@ -2431,7 +2453,7 @@
 		)
 		(pad "43" connect rect
 			(at 8.89 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A15")
 			(thermal_bridge_angle 45)
@@ -2439,7 +2461,7 @@
 		)
 		(pad "44" connect rect
 			(at 8.89 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "RESERVED_44")
 			(thermal_bridge_angle 45)
@@ -2447,7 +2469,7 @@
 		)
 		(pad "45" connect rect
 			(at 6.35 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A16")
 			(thermal_bridge_angle 45)
@@ -2455,7 +2477,7 @@
 		)
 		(pad "46" connect rect
 			(at 6.35 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "BERR_N")
 			(thermal_bridge_angle 45)
@@ -2463,7 +2485,7 @@
 		)
 		(pad "47" connect rect
 			(at 3.81 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A17")
 			(thermal_bridge_angle 45)
@@ -2471,7 +2493,7 @@
 		)
 		(pad "48" connect rect
 			(at 3.81 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "LEGACY_VPA_N")
 			(thermal_bridge_angle 45)
@@ -2479,7 +2501,7 @@
 		)
 		(pad "49" connect rect
 			(at 1.27 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2487,7 +2509,7 @@
 		)
 		(pad "50" connect rect
 			(at 1.27 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "E")
 			(thermal_bridge_angle 45)
@@ -2495,7 +2517,7 @@
 		)
 		(pad "51" connect rect
 			(at -1.27 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "LEGACY_VMA_N")
 			(thermal_bridge_angle 45)
@@ -2503,7 +2525,7 @@
 		)
 		(pad "52" connect rect
 			(at -1.27 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A18")
 			(thermal_bridge_angle 45)
@@ -2511,7 +2533,7 @@
 		)
 		(pad "53" connect rect
 			(at -3.81 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "RESET_N")
 			(thermal_bridge_angle 45)
@@ -2519,7 +2541,7 @@
 		)
 		(pad "54" connect rect
 			(at -3.81 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A19")
 			(thermal_bridge_angle 45)
@@ -2527,7 +2549,7 @@
 		)
 		(pad "55" connect rect
 			(at -6.35 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "HLT_N")
 			(thermal_bridge_angle 45)
@@ -2535,7 +2557,7 @@
 		)
 		(pad "56" connect rect
 			(at -6.35 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A20")
 			(thermal_bridge_angle 45)
@@ -2543,7 +2565,7 @@
 		)
 		(pad "57" connect rect
 			(at -8.89 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A22")
 			(thermal_bridge_angle 45)
@@ -2551,7 +2573,7 @@
 		)
 		(pad "58" connect rect
 			(at -8.89 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "A21")
 			(thermal_bridge_angle 45)
@@ -2559,7 +2581,7 @@
 		)
 		(pad "59" connect rect
 			(at -11.43 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "A23")
 			(thermal_bridge_angle 45)
@@ -2567,7 +2589,7 @@
 		)
 		(pad "60" connect rect
 			(at -11.43 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "BR_N")
 			(thermal_bridge_angle 45)
@@ -2575,7 +2597,7 @@
 		)
 		(pad "61" connect rect
 			(at -13.97 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2583,7 +2605,7 @@
 		)
 		(pad "62" connect rect
 			(at -13.97 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "BGACK_N")
 			(thermal_bridge_angle 45)
@@ -2591,7 +2613,7 @@
 		)
 		(pad "63" connect rect
 			(at -16.51 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D15")
 			(thermal_bridge_angle 45)
@@ -2599,7 +2621,7 @@
 		)
 		(pad "64" connect rect
 			(at -16.51 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "BG_N")
 			(thermal_bridge_angle 45)
@@ -2607,7 +2629,7 @@
 		)
 		(pad "65" connect rect
 			(at -19.05 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D14")
 			(thermal_bridge_angle 45)
@@ -2615,7 +2637,7 @@
 		)
 		(pad "66" connect rect
 			(at -19.05 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "DTACK_N")
 			(thermal_bridge_angle 45)
@@ -2623,7 +2645,7 @@
 		)
 		(pad "67" connect rect
 			(at -21.59 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D13")
 			(thermal_bridge_angle 45)
@@ -2631,7 +2653,7 @@
 		)
 		(pad "68" connect rect
 			(at -21.59 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "READ")
 			(thermal_bridge_angle 45)
@@ -2639,7 +2661,7 @@
 		)
 		(pad "69" connect rect
 			(at -24.13 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D12")
 			(thermal_bridge_angle 45)
@@ -2647,7 +2669,7 @@
 		)
 		(pad "70" connect rect
 			(at -24.13 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "LDS_N")
 			(thermal_bridge_angle 45)
@@ -2655,7 +2677,7 @@
 		)
 		(pad "71" connect rect
 			(at -26.67 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D11")
 			(thermal_bridge_angle 45)
@@ -2663,7 +2685,7 @@
 		)
 		(pad "72" connect rect
 			(at -26.67 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "UDS_N")
 			(thermal_bridge_angle 45)
@@ -2671,7 +2693,7 @@
 		)
 		(pad "73" connect rect
 			(at -29.21 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2679,7 +2701,7 @@
 		)
 		(pad "74" connect rect
 			(at -29.21 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "AS_N")
 			(thermal_bridge_angle 45)
@@ -2687,7 +2709,7 @@
 		)
 		(pad "75" connect rect
 			(at -31.75 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D0")
 			(thermal_bridge_angle 45)
@@ -2695,7 +2717,7 @@
 		)
 		(pad "76" connect rect
 			(at -31.75 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D10")
 			(thermal_bridge_angle 45)
@@ -2703,7 +2725,7 @@
 		)
 		(pad "77" connect rect
 			(at -34.29 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D1")
 			(thermal_bridge_angle 45)
@@ -2711,7 +2733,7 @@
 		)
 		(pad "78" connect rect
 			(at -34.29 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D9")
 			(thermal_bridge_angle 45)
@@ -2719,7 +2741,7 @@
 		)
 		(pad "79" connect rect
 			(at -36.83 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D2")
 			(thermal_bridge_angle 45)
@@ -2727,7 +2749,7 @@
 		)
 		(pad "80" connect rect
 			(at -36.83 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D8")
 			(thermal_bridge_angle 45)
@@ -2735,7 +2757,7 @@
 		)
 		(pad "81" connect rect
 			(at -39.37 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D3")
 			(thermal_bridge_angle 45)
@@ -2743,7 +2765,7 @@
 		)
 		(pad "82" connect rect
 			(at -39.37 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D7")
 			(thermal_bridge_angle 45)
@@ -2751,7 +2773,7 @@
 		)
 		(pad "83" connect rect
 			(at -41.91 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "D4")
 			(thermal_bridge_angle 45)
@@ -2759,7 +2781,7 @@
 		)
 		(pad "84" connect rect
 			(at -41.91 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D6")
 			(thermal_bridge_angle 45)
@@ -2767,7 +2789,7 @@
 		)
 		(pad "85" connect rect
 			(at -44.45 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2775,7 +2797,7 @@
 		)
 		(pad "86" connect rect
 			(at -44.45 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "D5")
 			(thermal_bridge_angle 45)
@@ -2783,7 +2805,7 @@
 		)
 		(pad "87" connect rect
 			(at -46.99 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2791,7 +2813,7 @@
 		)
 		(pad "88" connect rect
 			(at -46.99 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2799,7 +2821,7 @@
 		)
 		(pad "89" connect rect
 			(at -49.53 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2807,7 +2829,7 @@
 		)
 		(pad "90" connect rect
 			(at -49.53 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2815,7 +2837,7 @@
 		)
 		(pad "91" connect rect
 			(at -52.07 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "SENSEZ3_91")
 			(thermal_bridge_angle 45)
@@ -2823,7 +2845,7 @@
 		)
 		(pad "92" connect rect
 			(at -52.07 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "CLK7M")
 			(thermal_bridge_angle 45)
@@ -2831,7 +2853,7 @@
 		)
 		(pad "93" connect rect
 			(at -54.61 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "DOE")
 			(thermal_bridge_angle 45)
@@ -2839,7 +2861,7 @@
 		)
 		(pad "94" connect rect
 			(at -54.61 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "BUSRST_N")
 			(thermal_bridge_angle 45)
@@ -2847,7 +2869,7 @@
 		)
 		(pad "95" connect rect
 			(at -57.15 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GBG_N")
 			(thermal_bridge_angle 45)
@@ -2855,7 +2877,7 @@
 		)
 		(pad "96" connect rect
 			(at -57.15 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "RESERVED_96")
 			(thermal_bridge_angle 45)
@@ -2863,7 +2885,7 @@
 		)
 		(pad "97" connect rect
 			(at -59.69 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "NC_97")
 			(thermal_bridge_angle 45)
@@ -2871,7 +2893,7 @@
 		)
 		(pad "98" connect rect
 			(at -59.69 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "NC_98")
 			(thermal_bridge_angle 45)
@@ -2879,7 +2901,7 @@
 		)
 		(pad "99" connect rect
 			(at -62.23 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "B.Cu" "B.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -2887,7 +2909,7 @@
 		)
 		(pad "100" connect rect
 			(at -62.23 0)
-			(size 1.524 5)
+			(size 1.6 5)
 			(layers "F.Cu" "F.Mask")
 			(net "GND")
 			(thermal_bridge_angle 45)
@@ -3728,7 +3750,7 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "61a60609-272b-425d-b675-db657117a687")
+		(uuid "d83ac30d-cff5-40c1-9582-ad944a0f05fd")
 	)
 	(gr_line
 		(start 20 120)
@@ -3738,47 +3760,89 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "e6b976d4-e471-4fe7-851d-1a9874862207")
+		(uuid "2cb5d378-6bd1-427a-a123-123e2669cacd")
 	)
 	(gr_line
-		(start 40 120)
+		(start 38.5 120)
 		(end 20 120)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "f36e8216-aada-41a4-821a-6db6c508184f")
+		(uuid "9b208f99-c8c3-42bf-892b-ed87c093ddf7")
 	)
-	(gr_line
-		(start 40 127.62)
-		(end 40 120)
+	(gr_arc
+		(start 38.5 120)
+		(mid 39.56066 120.43934)
+		(end 40 121.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "15f369c3-bd15-4c99-9b65-7461bb1254cc")
+		(uuid "ac0a6bb0-40b9-4b91-849b-cb240488de9a")
 	)
 	(gr_line
-		(start 169.26 120)
-		(end 169.26 127.62)
+		(start 40 126.12)
+		(end 40 121.5)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "b2d9adfd-97a9-458f-bd6a-17a8534edbb6")
+		(uuid "d8043ecc-3103-4577-91b9-956ffe460173")
 	)
 	(gr_line
-		(start 169.26 127.62)
-		(end 40 127.62)
+		(start 41.5 127.62)
+		(end 40 126.12)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "bab989c1-fe42-46e5-b9ad-7437b80fabd0")
+		(uuid "111f7d87-5d21-43ea-8817-432e30bdb99c")
+	)
+	(gr_line
+		(start 167.76 127.62)
+		(end 41.5 127.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "730b52e0-2344-4b3f-bcb7-9c4b120fbbc6")
+	)
+	(gr_line
+		(start 169.26 121.5)
+		(end 169.26 126.12)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7d15deb2-318a-45b3-b003-d59f69d92572")
+	)
+	(gr_arc
+		(start 169.26 121.5)
+		(mid 169.69934 120.43934)
+		(end 170.76 120)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "73b26e20-954c-4ddd-8653-48abab85c00c")
+	)
+	(gr_line
+		(start 169.26 126.12)
+		(end 167.76 127.62)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dcbc5acb-92c8-4533-9cc3-2694aaf49d2d")
 	)
 	(gr_line
 		(start 200 20)
@@ -3788,17 +3852,17 @@
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "434ef92b-9273-426d-9b2c-f06a9c8287d4")
+		(uuid "f421ce23-f419-4222-9e03-2d261462c734")
 	)
 	(gr_line
 		(start 200 120)
-		(end 169.26 120)
+		(end 170.76 120)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(layer "Edge.Cuts")
-		(uuid "56c0df0a-baa0-4781-8992-44f1606e4bea")
+		(uuid "f6ed3c8c-da6b-4341-89ca-4e33fea72a2e")
 	)
 	(gr_text "100"
 		(at 42.4 119.4 0)

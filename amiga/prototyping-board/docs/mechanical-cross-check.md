@@ -1,11 +1,12 @@
 # Zorro-II mechanical cross-check
 
-Updated 2026-09-11. **NOT FABRICATION-READY.**
+Updated 2026-09-11. **FABRICATION-READY — PROTOTYPE SPIN ONLY.**
 
 Scope: the current breakout mating with **WingTAT ED100BGFBK,
 [LCSC C5173320][socket]**. This report records measured CAD, Commodore
-dimensions and connector recommendations separately. No electrical mapping,
-routing, PCB geometry or manufacturing outputs were changed by this review.
+dimensions and connector recommendations separately. The approved A-5 outline, 1.6 mm finger width and continuous mask windows
+are implemented. Electrical mapping, pad positions and routed tracks/vias
+are unchanged. Fabrication outputs are regenerated for PCBWay.
 
 ## Controlling evidence
 
@@ -31,14 +32,14 @@ finger length nor mask-opening height is a projection measurement.
 |---|---|---|---|---|---|---|
 | PCB thickness | 1.6 | Not dimensioned on supplied page | 1.6 CAD | 1.6 CAD + ordering notes | 1.6 CAD/stack | 1.6 motherboard |
 | Pitch; extreme contact-centre span | 2.54; 124.46 | 2.54; 124.46 | 2.54; 124.46 | 2.54; 124.46 | 2.54; 124.46 | 2.54; 124.46 socket tails |
-| Finger width × length | 1.524 ×5 | Width 1.6; length not separately dimensioned | 1.524 ×5 | 1.524 ×6.754 | 1.524 ×10 | N/A; socket pads 1.31 ×1.31 |
+| Finger width × length | 1.6 ×5 | Width 1.6; length not separately dimensioned | 1.524 ×5 | 1.524 ×6.754 | 1.524 ×10 | N/A; socket pads 1.31 ×1.31 |
 | Finger-to-tip setback | 1 | Not separately dimensioned as a copper setback | 0.040 | 0.955241–0.955245 | 0.1016 | N/A |
 | Tongue / insertion-region width | 129.26 | 129.26 ±0.1 | 127, whole card | 129.235206 between side flats | 130.048, whole card | N/A |
 | Shoulder-to-tip projection | 7.62 | **7.62**, detail X | No shoulders | No shoulders | No shoulders | N/A |
-| Shoulder roots | Square | **R1.5** | No shoulders | No shoulders | No shoulders | N/A |
-| Planar tip corners | Square | **1.5 ×45°** chamfer | Square | R≈1.27 | Square | N/A |
-| Through-thickness bevel | Unspecified | **0.5 ×45° BEVEL** | No numeric callout found | 45° ordering instruction; depth absent | No numeric callout found | N/A |
-| Mask expansion per finger edge | 0; isolated openings | Not specified | +0.2; isolated openings | 0 on pads plus blanket opening | 0; isolated openings | +0.05 on socket pads only |
+| Shoulder roots | R1.5 | **R1.5** | No shoulders | No shoulders | No shoulders | N/A |
+| Planar tip corners | 1.5 ×45° | **1.5 ×45°** chamfer | Square | R≈1.27 | Square | N/A |
+| Through-thickness bevel | 0.5 ×45° per face; fabrication instructions | **0.5 ×45° BEVEL** | No numeric callout found | 45° ordering instruction; depth absent | No numeric callout found | N/A |
+| Mask expansion per finger edge | 0 on pads plus continuous window | Not specified | +0.2; isolated openings | 0 on pads plus blanket opening | 0; isolated openings | +0.05 on socket pads only |
 
 The **1.5 ×45° planar corner chamfer and 0.5 ×45° thickness bevel are
 different features**. A-5's projection is dimensioned in detail X; the 7.62
@@ -48,8 +49,9 @@ A-5 detail X also specifies **2.5** from an outer contact centre to the
 tongue side. Its main width/span dimensions imply centred end margins of
 `(129.26 − 124.46) / 2 = 2.40`. The current centred layout has 2.40.
 These nominal values differ; no unstated tolerance is assigned to reconcile
-them. Retain the explicit width/span and existing centring for review,
-rather than shift contacts or widen the tongue based on the generic detail.
+them. The user-approved explicit width/span and existing centring control.
+The 2.40/2.50 detail discrepancy creates no demonstrated fit conflict and is
+not a release blocker; contacts are not shifted to impose the generic detail.
 
 RIPPLE's tiny setback range is stored CAD precision, not a manufacturing
 tolerance. Its front/back mask polygons span
@@ -96,22 +98,40 @@ instruction or solder-mask clearance is specified.
   copper. These are distinct profiles, not interchangeable requirements.
   Fabrication tolerances and finish termination still need approval.
 
-## Recommended disposition
+## Prototype release disposition
 
 Confidence distinguishes a readable dimension from demonstrated compatibility.
 
-| Feature | Recommendation | Confidence / unresolved discrepancy |
+| Feature | Released disposition | Confidence / validation |
 |---|---|---|
-| Thickness | Retain 1.6 nominal; specify finished tolerance within socket recommendation | High nominal; manufacturing tolerance pending |
-| Pitch/span | Retain 2.54 /124.46 | High; all sources agree |
-| Tongue width | Retain 129.26 ±0.1 | High; explicit Commodore dimension |
-| End margin | Retain centred 2.40 for review; resolve detail-X 2.5 discrepancy before release | High readings; discrepancy not averaged |
-| Projection | Retain 7.62 as the Commodore dimension; do not extend to socket floor depth | High A-5 confidence; actual-socket engagement still to qualify |
-| Roots/corners | Use A-5 R1.5 roots and 1.5 ×45° planar tip chamfers in a subsequent approved CAD revision | High source confidence; current square profile differs |
-| Finger width | Review 1.6 as nominal target supported by A-5 and WingTAT; current 1.524 has three working-card precedents | High source readings; current width is not identical to A-5 |
-| Finger length/setback | No released replacement selected | Actual-socket contact/wipe envelope and bevel choice must agree |
-| Thickness bevel | A-5 defines 0.5 ×45°; qualify that profile for WingTAT before selecting it for fabrication | High dimension confidence; conflicts with socket recommendation |
-| Mask | Approve a mask-free contact region with fabricator registration allowance; blanket opening is a supported precedent | No sourced universal numeric margin; current isolated openings unqualified |
+| Thickness | 1.6 nominal, order requirement ±0.10 finished | Within WingTAT recommendation; confirm requested tolerance in normal PCBWay CAM review |
+| Pitch/span | 2.54 /124.46 unchanged | High; all sources agree |
+| Tongue width | 129.26 ±0.1 | High; A-5 controls |
+| End margin | Centred 2.40 | No demonstrated conflict with explicit outline; not a hold |
+| Projection | 7.62 | High A-5 confidence; seating/wipe are prototype validation |
+| Roots/corners | R1.5; planar 1.5 ×45° | Implemented and checked |
+| Finger width | 1.6 | A-5 and WingTAT agree; implemented |
+| Finger length/setback | Retain 5 /1 | Prototype choice; witness-mark/continuity validation required |
+| Thickness bevel | 0.5 ×45° per face; 0.6 centre land REF at 1.6 thickness | A-5 controls; no independent 0.5 land constraint |
+| Mask | Continuous F.Mask/B.Mask windows to the board edge, x=38…171.26, y=120…128.12 | Matches PCBWay exposure guidance; inspect manufactured mask |
+| Finish | Selective hard gold over nickel | Required by fabrication instructions; inspect supplied finish |
+
+The larger root geometry can determine actual shoulder seating against the
+socket housing; the simple 1.38 floor-gap calculation is not a tolerance
+stack or proof of the seated position. No demonstrated dimensional
+incompatibility has been found. The socket's different recommended bevel and
+absent wipe-envelope dimensions are recorded risks, not prototype-release
+blockers under the user's approved A-5 control policy.
+
+PCBWay publishes 45° machining, whole-region mask exposure and hard-gold
+processing. Its edge-connector help page specifies ±5° and ±5 mil
+(±0.127 mm) chamfer-height process tolerances; the capability matrix separately
+lists ±0.15 mm normal bevel-depth capability. Neither alters the A-5 nominal
+dimensions. Detailed manufacturing requirements, sources and the derived
+land calculation are in [fabrication instructions](../fabrication/README.md).
+Standard board-thickness tolerance must not silently replace the specified
+±0.10 finished requirement. Supplier CAM confirmation is normal order review,
+not evidence that the unbuilt prototype has been physically qualified.
 
 No card comparison establishes that its exact measured revision was tested
 with this socket. VA2000, RIPPLE and AmigaSID document operating hardware,
@@ -126,7 +146,7 @@ finger dimensions.
 
 ## Source revisions and reproducibility
 
-Read-only measurements, pad coordinates, outlines and source-file hashes:
+Historical pre-release measurements, pad coordinates, outlines and source-file hashes:
 [review/mechanics](../review/mechanics/).
 
 | Source/revision | Measured board and manufacturing cross-check |
@@ -156,32 +176,39 @@ environment:
 
 ```sh
 python scripts/test-mechanics.py
-sha256sum -c review/mechanics/design-unchanged.sha256
+python scripts/check.py
+python scripts/export.py
+(cd fabrication && sha256sum -c SHA256SUMS)
 git diff --check
 ```
 
-Documentation-only review: measurement tests and unchanged-design hashes
-passed; CAD and electrical mapping remain unchanged. KiCad's measurement
-binding emitted enum-choice assertion diagnostics but the test completed.
-ERC/DRC were not rerun for this documentation edit. The recorded baseline
-is ERC 0 violations; DRC 0 violations, 0 unconnected items and 0 parity
-issues. These electrical checks do not establish mechanical compatibility.
+Mechanical assertions, 100-contact mapping and five negative cases passed.
+ERC: **0 violations**. DRC: **0 violations, 0 unconnected items, 0 parity
+issues**. No global rule relaxations or per-violation exclusions were added.
+J1 alone has KiCad's intentional solder-mask-bridge flag for the continuous
+window. KiCad's Python binding emits enum-choice diagnostics but checks finish
+successfully.
+
+The pre-change electrical digest is
+`67610cbc42d6f03976cf59b8a909f560a1fe18d3ae8fde59059cf2d786920dec`;
+tests protect net assignments, pad positions and routed track/via geometry.
+Schematic and mapping-file hashes remain unchanged. The historical
+`current.json` and `design-unchanged.sha256` describe the original review PCB,
+not the new mechanical release; the tests explicitly distinguish them.
+Current fabrication outputs and their instructions have their own SHA256SUMS.
 
 ## Release decision
 
-**NOT FABRICATION-READY.** Release requires:
+**FABRICATION-READY — PROTOTYPE SPIN ONLY.** The user-approved A-5 geometry
+is implemented, checked and compatible with the identified nominal socket
+dimensions and requested PCBWay process. No demonstrated incompatibility
+requires holding this prototype for additional wipe documentation.
 
-1. Approve the complete A-5-based outline/contact positioning, including the
-   2.40/2.5 end-margin discrepancy, and qualify seating/contact coverage for
-   the identified WingTAT socket.
-2. Approve a compatible bevel, finger interval and finished-thickness
-   manufacturing specification. The Commodore and WingTAT bevel profiles
-   must not be mixed or averaged.
-3. Approve mask openings and registration clearance with the fabricator.
-4. Apply the approved mechanical changes and fabrication notes, then rerun
-   verification scripts, KiCad ERC/DRC and manufacturing exports.
-
-Nothing was ordered. Electrical mapping and routing are outside this review.
+Prototype acceptance must establish actual seating/root clearance, contact
+witness marks, all-contact continuity/isolation, mask/bevel quality and host
+operation. These are listed in the fabrication instructions. This is not
+production qualification or a guarantee of compatibility with every Zorro
+socket. Nothing was ordered.
 
 [va]: https://github.com/mntmn/amiga2000-gfxcard/tree/a512aabb95d28c2b844760b6c8536440c317a4c6
 [ripple]: https://github.com/LIV2/RIPPLE-IDE/tree/a87ed5c9e8ecc55eed080cf1763fcd71e5b707a9

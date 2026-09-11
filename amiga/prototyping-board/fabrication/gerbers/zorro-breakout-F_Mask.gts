@@ -1,18 +1,28 @@
 %TF.GenerationSoftware,KiCad,Pcbnew,10.0.5-1-g226df246f3*%
-%TF.CreationDate,2026-09-10T20:59:29+01:00*%
+%TF.CreationDate,2026-09-11T10:55:31+01:00*%
 %TF.ProjectId,zorro-breakout,7a6f7272-6f2d-4627-9265-616b6f75742e,rev?*%
 %TF.SameCoordinates,Original*%
 %TF.FileFunction,Soldermask,Top*%
 %TF.FilePolarity,Negative*%
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW 10.0.5-1-g226df246f3) date 2026-09-10 20:59:29*
+G04 Created by KiCad (PCBNEW 10.0.5-1-g226df246f3) date 2026-09-11 10:55:31*
 %MOMM*%
 %LPD*%
 G01*
 G04 APERTURE LIST*
-%ADD10R,1.524000X5.000000*%
+%ADD10R,1.600000X5.000000*%
 G04 APERTURE END LIST*
+%TO.C,J1*%
+G36*
+X38000000Y-120000000D02*
+G01*
+X171260000Y-120000000D01*
+X171260000Y-128120000D01*
+X38000000Y-128120000D01*
+X38000000Y-120000000D01*
+G37*
+%TD*%
 D10*
 %TO.C,J1*%
 X166860000Y-124120000D03*

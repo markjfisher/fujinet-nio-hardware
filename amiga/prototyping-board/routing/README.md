@@ -1,6 +1,10 @@
 # Reproducible local routing
 
-The stored DSN and SES are the routing input and output for revision A.
+The stored DSN and SES are the pre-mechanical-release routing input and
+output for revision A. The released PCB retains exactly those routed
+tracks/vias, but has the approved A-5 outline, finger widths and continuous
+mask window applied by `scripts/mechanics.py`. The stored DSN is not the
+current fabrication outline.
 No cloud router was used. Routing uses Freerouting **2.4.1**, downloaded from
 its [official release](https://github.com/freerouting/freerouting/releases/tag/v2.4.1).
 The Linux distribution archive SHA256 is

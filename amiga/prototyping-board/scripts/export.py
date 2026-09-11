@@ -30,7 +30,11 @@ def main():
         run(*args)
     run('kicad-cli','pcb','export','svg',PCB,'--layers','F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts',
         '--mode-multi','--fit-page-to-board','--exclude-drawing-sheet','--output','review/copper/')
+    # KiCad emits trailing spaces after filled-mask SVG paths.
+    for svg in (ROOT/'review').rglob('*.svg'):
+        svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
     files=sorted(p for folder in ['fabrication/gerbers','fabrication/drill'] for p in (ROOT/folder).iterdir() if p.is_file())
+    files.append(ROOT/'fabrication/README.md')
     (ROOT/'fabrication/SHA256SUMS').write_text(''.join(hashlib.sha256(p.read_bytes()).hexdigest()+'  '+str(p.relative_to(ROOT/'fabrication'))+'\n' for p in files))
     print('Exported local review/fabrication outputs. No files were uploaded or ordered.')
 

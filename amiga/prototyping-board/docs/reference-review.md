@@ -50,24 +50,23 @@ divides the Zorro tongue. The full-card envelope is 337.19 ×114.5 mm above
 the connector shoulder; this project uses a shorter, lower board without an
 ISA/video extension or case bracket. Case support is not supplied.
 
-The working MNT VA2000 footprint independently confirms the face assignment,
-pitch and span, and uses **1.524 ×5 mm** contacts. Its PCB specifies **1.6 mm**
-thickness. Those dimensions are used here. The project does not copy the
-VA2000's rectangular board outline, which differs from A-5's shouldered
-tongue. The review layout currently uses a 7.62 mm projection below a square
-shoulder, with contacts stopping 1 mm short of the insertion edge and no
-solder paste. These insertion-depth/contact-offset and shoulder-profile
-choices are **provisional, not verified Zorro-II dimensions**. A-5 also shows
-a shoulder-radius detail that this square-shouldered review outline does
-not implement. Confirm the complete insertion profile against a legible
-A-5 or mating-connector drawing before revising and releasing the outline.
+The implemented prototype mechanics use the clear local [A-5 scan](a5.png):
+7.62 projection, R1.5 roots, 1.5 ×45° planar corner chamfers, 1.6-wide
+fingers and a 0.5 ×45° bevel on each face. The 1.6 nominal finished board
+implies a 0.6 nominal centre land (reference only). Finger length 5 and tip
+setback 1 remain explicit prototype choices; all contact positions and
+electrical routing are unchanged.
 
-The A-5 bevel annotation is faint in the available scan. Do not represent a
-guessed bevel angle/depth as a verified Commodore dimension. The fabrication
-notes explicitly retain a **mechanical release hold** on insertion-profile and bevel confirmation
-against a legible A-5 or the actual mating connector specification. Gerbers
-are review outputs, not authorization to manufacture. A physical fit test
-and examination of the A500 adapter orientation also remain necessary.
+The intended socket is WingTAT ED100BGFBK / LCSC C5173320. The release
+targets PCBWay with continuous mask openings and selective hard gold.
+Full measurements, sources and evidence limits are in
+[mechanical-cross-check.md](mechanical-cross-check.md); machining and
+process tolerances are in [fabrication instructions](../fabrication/README.md).
+
+**FABRICATION-READY — PROTOTYPE SPIN ONLY.** Actual seating, contact witness
+marks, continuity/isolation and host behaviour remain physical validation
+items. The missing manufacturer wipe envelope is not a prototype release
+hold. No hardware has been tested and nothing has been ordered.
 
 ## Sources
 

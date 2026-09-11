@@ -12,6 +12,7 @@ def run(*args):
     subprocess.run(args,cwd=ROOT,check=True)
 
 def main():
+    run(sys.executable,'scripts/test-mechanics.py')
     run('kicad-cli','sch','export','netlist',CAD+'.kicad_sch','--format','kicadxml','--output','review/schematic.net.xml')
     run(sys.executable,'scripts/verify.py','--self-test')
     run('kicad-cli','sch','erc',CAD+'.kicad_sch','--severity-all','--exit-code-violations','--output','review/erc.rpt')

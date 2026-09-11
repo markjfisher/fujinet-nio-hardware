@@ -6,15 +6,16 @@ downloaded library is required. All 100 physical edge contacts are exposed.
 There are **no active components, buffers, level shifters, termination,
 regulators, memory or AutoConfig logic**, and no development-module footprint.
 
-This is a **review design, not a hardware-tested or released product**.
+**FABRICATION-READY for a prototype spin, not hardware-tested or production-qualified.**
 Read [reference-review.md](docs/reference-review.md) for the pin-map corrections
 and mechanical findings, and [fabrication notes](fabrication/README.md) before
 using the fabrication outputs. Nothing has been ordered or manufactured.
 
 The follow-up [mechanical cross-check](docs/mechanical-cross-check.md) measures
 VA2000, RIPPLE-IDE, AmigaSID and the EATX socket against this board and
-Commodore drawings. It retains the fabrication hold: insertion/contact
-envelope, bevel depth/land and mask registration allowance remain unresolved.
+Commodore drawings. A-5 controls the released geometry; PCBWay is the target
+fabricator and WingTAT ED100BGFBK the mating socket. Actual seating/wipe and
+host operation remain prototype validation items.
 
 ## Files
 
@@ -98,9 +99,10 @@ are legacy functions unavailable in A3000 Zorro-II cycles. SenseZ3 may float
 on a Zorro-III backplane; this board deliberately adds no pull-up.
 
 The board is 180 mm wide, 100 mm above the connector shoulder, with a
-129.26 mm tongue provisionally projecting 7.62 mm. Insertion depth,
-contact-to-tip offset, shoulder profile and bevel still require authoritative
-confirmation; **the current outline is not approved for manufacture**.
+129.26 ±0.1 mm tongue projecting 7.62 mm, R1.5 roots and 1.5 ×45° planar
+corner chamfers. Fingers are 1.6 ×5 mm with a 1 mm tip setback. Machine
+0.5 ×45° per face; 0.6 mm centre land is a derived nominal reference only.
+Continuous mask windows and selective hard gold are specified in the fabrication notes.
 It omits an enclosure bracket and
 full-length card guide tabs; support the board and attached leads during
 bench use. Case/adapter fit and physical insertion have not been tested.
@@ -119,7 +121,8 @@ The check exports fresh schematic connectivity, runs the independent mapping
 and geometry assertions (including five negative cases), then KiCad ERC and
 DRC with schematic parity. It does not regenerate or reroute the board.
 Reports include warnings and fail on any unresolved violation; no DRC/ERC
-exclusions are added by this project.
+exclusions are added by this project. J1 alone allows intentional mask
+bridges for the continuous gold-finger window.
 
 To reproduce the CAD **overwriting generated design files**, run
 `python scripts/generate.py`, followed by `python scripts/import-routing.py`
@@ -127,6 +130,13 @@ and the check above. Reuse the stored routing session only while connector
 placement, nets and mechanics are unchanged. `generate.py` explicitly resets
 the PCB to its placement/fan-out state; it must not be used to update text on
 a manually edited board without preserving those edits first.
+
+For a mechanical-only reapplication, `python scripts/mechanics.py` preserves
+pad positions, nets and tracks/vias; it updates the outline, finger widths,
+mask openings and local connector library without regenerating the schematic.
+The generator also uses this mechanical definition. The historical routing
+session remains pre-mechanical-release evidence; do not treat it as the current
+fabrication outline.
 
 Routing uses local Freerouting 2.4.1 via DSN/SES. It is not needed for opening,
 checking or exporting the finished project. See `routing/README.md` for the
