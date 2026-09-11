@@ -5,8 +5,8 @@ Updated 2026-09-11. **FABRICATION-READY — PROTOTYPE SPIN ONLY.**
 Scope: the current breakout mating with **WingTAT ED100BGFBK,
 [LCSC C5173320][socket]**. This report records measured CAD, Commodore
 dimensions and connector recommendations separately. The approved A-5 outline, 1.6 mm finger width and continuous mask windows
-are implemented. Electrical mapping, pad positions and routed tracks/vias
-are unchanged. Fabrication outputs are regenerated for PCBWay.
+are implemented. Electrical mapping and pad positions are unchanged. Routing is now top/bottom
+only; the [two-layer review](two-layer-review.md) records the intentional reroute. Fabrication outputs are regenerated for PCBWay.
 
 ## Controlling evidence
 
@@ -189,9 +189,10 @@ J1 alone has KiCad's intentional solder-mask-bridge flag for the continuous
 window. KiCad's Python binding emits enum-choice diagnostics but checks finish
 successfully.
 
-The pre-change electrical digest is
-`67610cbc42d6f03976cf59b8a909f560a1fe18d3ae8fde59059cf2d786920dec`;
-tests protect net assignments, pad positions and routed track/via geometry.
+The two-layer conversion preserves the pad/placement digest
+`2b50b0156b9286cdf3ca5ca85dda12a1ade08a2852a383d0d97b9590baa579f2`.
+Tracks/vias are intentionally rerouted; mechanical geometry and mapping are
+protected separately from routing.
 Schematic and mapping-file hashes remain unchanged. The historical
 `current.json` and `design-unchanged.sha256` describe the original review PCB,
 not the new mechanical release; the tests explicitly distinguish them.

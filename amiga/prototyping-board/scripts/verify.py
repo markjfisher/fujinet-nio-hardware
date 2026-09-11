@@ -49,7 +49,7 @@ def compare(rows, schematic, pcb, table):
             raise ValueError('Auxiliary rail escaped its dedicated test point')
     if pcb['J1','11']==pcb['J1','12']: raise ValueError('AutoConfig chain unintentionally bridged')
 
-def run(self_test=False):
+def run(self_test=False,pcb_path=None):
     rows=list(csv.DictReader((ROOT/'data/pin-map.csv').open()))
     table=list(csv.DictReader((ROOT/'data/verification.csv').open()))
     xml=ET.parse(ROOT/'review/schematic.net.xml')
@@ -60,7 +60,7 @@ def run(self_test=False):
             if key in schematic: raise ValueError('Duplicate schematic node '+str(key))
             schematic[key]=net.attrib['name']
             if node.attrib['pintype']!='passive': raise ValueError('Non-passive symbol pin')
-    b=p.LoadBoard(str(ROOT/'kicad/zorro-breakout.kicad_pcb'))
+    b=p.LoadBoard(str(pcb_path or ROOT/'kicad/zorro-breakout.kicad_pcb'))
     pcb={}; footprints={fp.GetReference():fp for fp in b.GetFootprints()}
     for ref,fp in footprints.items():
         for pad in fp.Pads():
@@ -68,7 +68,7 @@ def run(self_test=False):
             if key in pcb: raise ValueError('Duplicate physical pad '+str(key))
             pcb[key]=pad.GetNetname()
     compare(rows,schematic,pcb,table)
-    assert b.GetCopperLayerCount()==4
+    assert b.GetCopperLayerCount()==2
     assert abs(p.ToMM(b.GetDesignSettings().GetBoardThickness())-1.6)<1e-6
     for pad in footprints['J1'].Pads():
         n=int(pad.GetNumber()); x=p.ToMM(pad.GetPosition().x); y=p.ToMM(pad.GetPosition().y)
@@ -108,9 +108,7 @@ def run(self_test=False):
         if isinstance(item,p.PCB_VIA):
             assert p.ToMM(item.GetPosition().y)+p.ToMM(item.GetWidth(p.F_Cu))/2<120, 'Via in mating tongue'
         else:
-            assert item.GetLayer()!=p.In1_Cu, 'Signal routing splits reference plane'
-            if item.GetLayer()==p.In2_Cu:
-                assert p.ToMM(max(item.GetStart().y,item.GetEnd().y))+p.ToMM(item.GetWidth())/2<120, 'Inner copper in tongue'
+            assert item.GetLayer() in (p.F_Cu,p.B_Cu), 'Inner-layer route in two-layer release'
     tested=0
     if self_test:
         # Mutate each artifact independently, including an incorrect face mapping
@@ -133,4 +131,5 @@ def run(self_test=False):
 
 if __name__=='__main__':
     ap=argparse.ArgumentParser(); ap.add_argument('--self-test',action='store_true')
-    run(ap.parse_args().self_test)
+    ap.add_argument('--pcb',type=Path)
+    args=ap.parse_args();run(args.self_test,args.pcb)

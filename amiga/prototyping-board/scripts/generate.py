@@ -10,6 +10,7 @@ from pathlib import Path
 import uuid
 import pcbnew as p
 from mechanics import apply as apply_mechanics
+from two_layer import setup as setup_two_layer, export_dsn
 
 ROOT = Path(__file__).resolve().parents[1]
 CAD = ROOT / 'kicad'
@@ -70,7 +71,7 @@ def track(board, net, a, b, layer, width=.3):
     t.SetWidth(mm(width)); t.SetNet(net); board.Add(t)
 
 def make_board():
-    b=p.BOARD(); b.SetCopperLayerCount(4)
+    b=p.BOARD(); b.SetCopperLayerCount(2)
     b.GetDesignSettings().SetBoardThickness(mm(1.6))
     b.GetDesignSettings().m_MinClearance=mm(.2)
     b.GetDesignSettings().m_TrackMinWidth=mm(.25)
@@ -162,32 +163,15 @@ def make_board():
     text(b,'PIN 2 / PIN 1 ON REVERSE',177,117,1)
     text(b,'ZORRO PIN 1',177,117,1,p.B_SilkS)
     text(b,'SOLDER SIDE - ODD PINS',110,107,1.5,p.B_SilkS)
-    # Continuous internal reference plane, pulled back from finger/tongue area.
-    zone=p.ZONE(b); zone.SetLayer(p.In1_Cu); zone.SetNet(nets['GND']); zone.SetLocalClearance(mm(.25))
-    zone.SetThermalReliefGap(mm(.25)); zone.SetThermalReliefSpokeWidth(mm(.3))
-    zone.Outline().NewOutline()
-    for xy in [(21,21),(199,21),(199,118),(21,118)]: zone.Outline().Append(int(mm(xy[0])),int(mm(xy[1])))
-    b.Add(zone)
     apply_mechanics(b)
+    setup_two_layer(b)
     # Library copy of the exact edge geometry, no copied upstream artwork.
     copy=p.FOOTPRINT(connector); copy.SetPosition(v(0,0)); copy.SetReference('REF**')
     for pad in copy.Pads(): pad.SetNetCode(0)
     p.PCB_IO_MGR.FindPlugin(p.PCB_IO_MGR.KICAD_SEXP).FootprintSave(str(CAD/'ZorroBreakout.pretty'),copy)
     p.SaveBoard(str(CAD/(NAME+'.kicad_pcb')),b)
     dsn=ROOT/'routing'/(NAME+'.dsn')
-    p.ExportSpecctraDSN(b,str(dsn))
-    # Reserve In1 for a continuous GND plane; never let routing split it.
-    content=dsn.read_text().replace('(layer In1.Cu\n      (type signal)', '(layer In1.Cu\n      (type power)')
-    content=content.replace('    (boundary\n', '''
-    (autoroute_settings
-      (layer_rule F.Cu (active on) (preferred_direction vertical))
-      (layer_rule In1.Cu (active off) (preferred_direction horizontal))
-      (layer_rule In2.Cu (active on) (preferred_direction horizontal))
-      (layer_rule B.Cu (active on) (preferred_direction vertical))
-    )
-    (boundary
-''')
-    dsn.write_text(content)
+    export_dsn(b,dsn)
     with (ROOT/'data/verification.csv').open('w',newline='') as out:
         w=csv.writer(out); w.writerow(['physical_pin','zorro_ii_signal','schematic_net_name','pcb_footprint_pad','header_testpoint_references','category'])
         for r in ROWS:

@@ -1,33 +1,51 @@
-# Reproducible local routing
+# Reproducible two-layer routing
 
-The stored DSN and SES are the pre-mechanical-release routing input and
-output for revision A. The released PCB retains exactly those routed
-tracks/vias, but has the approved A-5 outline, finger widths and continuous
-mask window applied by `scripts/mechanics.py`. The stored DSN is not the
-current fabrication outline.
-No cloud router was used. Routing uses Freerouting **2.4.1**, downloaded from
-its [official release](https://github.com/freerouting/freerouting/releases/tag/v2.4.1).
-The Linux distribution archive SHA256 is
-`3ad5a956ab474b12f331d24195feadac90e8344b8e013c6a4ab26e203ce51519`.
-The executable JAR is inside `lib/app/freerouting-executable.jar`.
+The checked-in DSN and SES describe the current two-layer routing candidate.
+The reviewed `two-layer-completion.json` completes GND, BERR and INT2 after
+SES import and dangling-copper cleanup. It is bound to the exact session
+SHA256 and pad/placement digest; it must not be applied to arbitrary new
+routing sessions. The old four-layer board is available at repository commit
+`7d2c536cdc554b39942488d1791c985eb286db0b`.
 
-After `python scripts/generate.py`, from the project directory:
+Reproduce the current board (explicitly overwrites generated CAD):
 
 ```sh
-java -Xmx2g -Djava.awt.headless=true -jar /path/to/freerouting-executable.jar \
-  -de routing/zorro-breakout.dsn -do routing/zorro-breakout.ses \
-  -mp 20 -mt 1 -da --gui.enabled=false --api_server.enabled=false \
-  --router.job_timeout=00:02:00 --router.optimizer.enabled=false
+python scripts/generate.py
 python scripts/import-routing.py
 python scripts/check.py
+python scripts/export.py
 ```
 
-In1.Cu is explicitly disabled for signal routing; it is the GND plane.
-The generator supplies the complete finger fan-out. The import script removes
-only redundant vias/dead-end traces identified by fresh KiCad DRC reports,
-then refills the plane. Final connectivity is judged by KiCad after import,
-not by the router's completion message.
+No router or NumPy installation is needed for that replay. The generator
+retains the established footprints, silkscreen and A-5 geometry, prepares
+straight finger escapes/duplicate-header links and exports a two-layer DSN.
+Import fills both GND pours and removes unconnected islands. The complete
+pipeline was tested in a scratch copy, as well as checking the release PCB.
 
-The stored session can be reimported without installing or running Java.
-Do not reuse it after moving headers or changing connectivity/mechanics;
-generate and review new routing instead. Regeneration overwrites the CAD.
+To explore a new route without overwriting the release:
+
+```sh
+python scripts/two_layer.py /path/to/new-candidate
+java -Xmx2g -Djava.awt.headless=true -jar /path/to/freerouting-executable.jar \
+  -de /path/to/new-candidate/zorro-breakout.dsn \
+  -do /path/to/new-candidate/zorro-breakout.ses \
+  -mp 30 -mt 1 -da --gui.enabled=false --api_server.enabled=false \
+  --router.job_timeout=00:04:00 --router.optimizer.enabled=true
+python scripts/import-routing.py \
+  --pcb /path/to/new-candidate/zorro-breakout.kicad_pcb \
+  --session /path/to/new-candidate/zorro-breakout.ses --ground-pours
+```
+
+The selected base session came from local Freerouting **2.4.1**; no cloud
+router was used. Signals use 0.30 mm tracks; power/GND 0.60; clearance 0.20.
+A via keepout protects the tongue. Router completion messages are not
+acceptance: the initial session had three missing connections, subsequently
+completed and verified in KiCad. New sessions need their own completion
+review, full verification and DRC; do not reuse the hash-bound paths blindly.
+
+The router's [official release](https://github.com/freerouting/freerouting/releases/tag/v2.4.1)
+Linux archive SHA256 is
+`3ad5a956ab474b12f331d24195feadac90e8344b8e013c6a4ab26e203ce51519`.
+The JAR is `lib/app/freerouting-executable.jar`.
+
+Metrics and return-path limitations: [two-layer review](../docs/two-layer-review.md).

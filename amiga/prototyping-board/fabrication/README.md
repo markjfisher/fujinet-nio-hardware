@@ -1,4 +1,4 @@
-# Fabrication instructions — revision A, prototype release
+# Fabrication instructions — revision A, two-layer prototype release
 
 **FABRICATION-READY — PROTOTYPE SPIN ONLY.** Target fabricator: **PCBWay**.
 Mating socket: **WingTAT ED100BGFBK / LCSC C5173320**.
@@ -7,13 +7,14 @@ Nothing has been uploaded, ordered, manufactured or physically fit-tested.
 
 ## Board and stack
 
-- Four copper layers; FR-4; **1.6 mm nominal finished thickness, including
+- **Two copper layers, top/bottom only**; FR-4; **1.6 mm nominal finished thickness, including
   finishes; specify ±0.10 mm**. This tighter order requirement keeps the
   board within WingTAT's recommended 1.42–1.72 mm range. Do not silently
   substitute a standard thickness tolerance extending above 1.72 mm.
   PCBWay must confirm the requested tolerance during normal CAM/order review.
-- Nominal 35 µm copper per layer. Stack: F.Cu / In1.Cu GND / In2.Cu / B.Cu.
-  Use a symmetric stack; no controlled impedance is claimed.
+- Nominal 35 µm copper per layer. Stack: **F.Cu / FR-4 / B.Cu**.
+  Solid GND pours on both faces stop above the tongue; remove unconnected
+  islands. No internal copper layers or controlled impedance are specified.
 - Body: 180 ×100 above the shoulder, overall height 107.62.
 - Tongue: **129.26 ±0.1 width; 7.62 projection; R1.5 concave roots;
   1.5 ×45° planar tip-corner chamfers**. Follow Edge.Cuts, not a rectangular
@@ -22,9 +23,10 @@ Nothing has been uploaded, ordered, manufactured or physically fit-tested.
 - Fingers: 50 per face, **2.54 pitch; 1.6 ×5 copper; 1.00 tip setback**.
   Even contacts on component face; odd on reverse. Do not mirror Gerbers.
   Length/setback are retained prototype choices, not separate A-5 dimensions.
-- Trace minimum 0.25; design clearance 0.20; via 0.65 / drill 0.30;
+- Routed signals 0.30; power/GND routes 0.60 minimum; absolute design
+  minimum 0.25; clearance 0.20; via 0.65 / drill 0.30;
   header pads 1.70 / plated holes 1.00. Copper-to-outline minimum 0.50.
-  No internal copper, vias or drilled holes in the tongue/bevel region.
+  No vias, drilled holes or ground pours in the tongue/bevel region.
 
 ## Bevel: controlling dimensions and process tolerances
 
@@ -76,9 +78,10 @@ share one absolute millimetre origin. Review outputs include ERC/DRC,
 schematic, layout and copper views.
 
 Mechanical assertions, 100-contact mapping with five negative cases, ERC,
-DRC and schematic parity must pass before export. Track/via geometry,
-pad positions and electrical mapping are protected by a frozen pre-change
-electrical digest; the original comparison datasets remain historical evidence.
+DRC and schematic parity must pass before export. Pad geometry/positions and electrical mapping are protected by a frozen
+placement digest; tracks/vias were intentionally rerouted for two layers.
+The original comparison datasets remain historical evidence. See the
+[two-layer review](../docs/two-layer-review.md) for metrics and return-path limits.
 
 ## Prototype validation — not missing-documentation release holds
 
@@ -95,6 +98,8 @@ electrical digest; the original comparison datasets remain historical evidence.
 4. Test host operation only after passive continuity checks. Support the
    bracketless board and leads. Loading, timing, thermal/current capacity,
    durability and other Amiga sockets are not qualified by this release.
+   Signal bundles interrupt the two-layer ground pours; use short probe leads
+   and check clock/control waveforms and host stability with the intended load.
 
 [edge]: https://www.pcbway.com/helpcenter/ordering_parameter_instruction/Edge_Connector.html
 [cap]: https://www.pcbway.com/capabilities.html

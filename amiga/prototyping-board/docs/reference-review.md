@@ -55,7 +55,8 @@ The implemented prototype mechanics use the clear local [A-5 scan](a5.png):
 fingers and a 0.5 ×45° bevel on each face. The 1.6 nominal finished board
 implies a 0.6 nominal centre land (reference only). Finger length 5 and tip
 setback 1 remain explicit prototype choices; all contact positions and
-electrical routing are unchanged.
+electrical mappings are unchanged. The [two-layer conversion](two-layer-review.md)
+intentionally reroutes signals on top/bottom and adds GND pours on both faces.
 
 The intended socket is WingTAT ED100BGFBK / LCSC C5173320. The release
 targets PCBWay with continuous mask openings and selective hard gold.

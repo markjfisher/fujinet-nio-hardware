@@ -4,6 +4,7 @@ import hashlib
 from pathlib import Path
 import subprocess
 import sys
+import pcbnew as p
 
 ROOT=Path(__file__).resolve().parents[1]
 PCB='kicad/zorro-breakout.kicad_pcb'
@@ -11,10 +12,25 @@ def run(*args): subprocess.run(args,cwd=ROOT,check=True)
 
 def main():
     run(sys.executable,'scripts/check.py')
+    count=p.LoadBoard(str(ROOT/PCB)).GetCopperLayerCount()
+    assert count in (2,4)
+    copper='F.Cu,B.Cu' if count==2 else 'F.Cu,In1.Cu,In2.Cu,B.Cu'
+    if count==2:
+        # Preserve obsolete generated inner-layer files outside the release.
+        old=ROOT/'review/layer-comparison/four-layer-exports';old.mkdir(parents=True,exist_ok=True)
+        for relative in ('fabrication/gerbers/zorro-breakout-In1_Cu.g1',
+                         'fabrication/gerbers/zorro-breakout-In2_Cu.g2',
+                         'review/copper/zorro-breakout-In1_Cu.svg',
+                         'review/copper/zorro-breakout-In2_Cu.svg'):
+            source=ROOT/relative
+            if source.exists():
+                target=old/source.name
+                assert not target.exists(), 'Refusing to overwrite four-layer comparison artifact'
+                source.rename(target)
     (ROOT/'fabrication/gerbers').mkdir(exist_ok=True)
     (ROOT/'fabrication/drill').mkdir(exist_ok=True)
     run('kicad-cli','pcb','export','gerbers',PCB,'--layers',
-        'F.Cu,In1.Cu,In2.Cu,B.Cu,F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts',
+        copper+',F.Mask,B.Mask,F.SilkS,B.SilkS,Edge.Cuts',
         '--output','fabrication/gerbers/','--check-zones')
     run('kicad-cli','pcb','export','drill',PCB,'--output','fabrication/drill/',
         '--excellon-units','mm','--excellon-separate-th','--generate-map','--generate-report',
@@ -28,7 +44,7 @@ def main():
               '--output',f'review/layout-{side}.svg']
         if side=='back': args.append('--mirror')
         run(*args)
-    run('kicad-cli','pcb','export','svg',PCB,'--layers','F.Cu,In1.Cu,In2.Cu,B.Cu,Edge.Cuts',
+    run('kicad-cli','pcb','export','svg',PCB,'--layers',copper+',Edge.Cuts',
         '--mode-multi','--fit-page-to-board','--exclude-drawing-sheet','--output','review/copper/')
     # KiCad emits trailing spaces after filled-mask SVG paths.
     for svg in (ROOT/'review').rglob('*.svg'):

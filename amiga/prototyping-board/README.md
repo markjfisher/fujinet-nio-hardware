@@ -11,6 +11,9 @@ Read [reference-review.md](docs/reference-review.md) for the pin-map corrections
 and mechanical findings, and [fabrication notes](fabrication/README.md) before
 using the fabrication outputs. Nothing has been ordered or manufactured.
 
+The [two-layer conversion review](docs/two-layer-review.md) records the
+before/after measurements, return-path trade-offs and cost limitations.
+
 The follow-up [mechanical cross-check](docs/mechanical-cross-check.md) measures
 VA2000, RIPPLE-IDE, AmigaSID and the EATX socket against this board and
 Commodore drawings. A-5 controls the released geometry; PCBWay is the target
@@ -19,7 +22,7 @@ host operation remain prototype validation items.
 
 ## Files
 
-* `kicad/`: editable schematic, four-layer PCB, project and local libraries.
+* `kicad/`: editable schematic, two-layer PCB, project and local libraries.
 * `data/pin-map.csv`: independently transcribed/reviewed Appendix K pin map.
 * `data/verification.csv`: each physical contact → net → footprint pad →
   every matching header/test-point pad, including shared grounds and +5V.
@@ -79,7 +82,8 @@ their presence and current budget depend on the host/adapter.
 
 Keep probe and jumper leads short and use a nearby labelled GND. Prefer
 high-impedance, low-capacitance inputs; each attached probe/board adds bus
-loading. The internal GND plane helps return paths but does not certify bus
+loading. Top/bottom GND pours help return paths but are interrupted by signal routing.
+They do not provide the old uninterrupted inner plane or certify bus
 timing or signal integrity. The routed stubs and external wiring must be
 evaluated on the intended machine. This is not a ribbon-cable extension bus.
 No rail output current rating has been established by a thermal test.
@@ -134,9 +138,8 @@ a manually edited board without preserving those edits first.
 For a mechanical-only reapplication, `python scripts/mechanics.py` preserves
 pad positions, nets and tracks/vias; it updates the outline, finger widths,
 mask openings and local connector library without regenerating the schematic.
-The generator also uses this mechanical definition. The historical routing
-session remains pre-mechanical-release evidence; do not treat it as the current
-fabrication outline.
+The generator also uses this mechanical definition. The stored routing session and hash-bound completion paths reproduce the
+current two-layer board; see `routing/README.md`.
 
 Routing uses local Freerouting 2.4.1 via DSN/SES. It is not needed for opening,
 checking or exporting the finished project. See `routing/README.md` for the
