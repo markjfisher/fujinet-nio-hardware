@@ -1,4 +1,4 @@
-# Zorro-II mechanical cross-check — 2026-09-10
+# Zorro-II mechanical cross-check — updated 2026-09-11
 
 **NOT FABRICATION-READY.** No PCB, footprint, copper, schematic or pin-map
 changes were made. Pitch, finger width, nominal thickness and nominal tongue
@@ -7,6 +7,9 @@ by these references; their conflicting dimensions have not been averaged.
 The EDAC follow-up below establishes nominal seating/contact datums, but
 does **not** remove the fabrication hold. This follow-up changes this report
 only; electrical mapping, routing and all CAD remain unchanged.
+The **WingTAT follow-up** below now identifies the actual mating socket and
+supersedes EDAC/TE as the connector-specific evidence. It supplies a readable
+bevel recommendation, but does not yet remove the fabrication hold.
 
 ## Measurements
 
@@ -48,6 +51,8 @@ inter-finger mask dams. It is not equivalent to zero-expansion isolated pads.
 
 Confidence concerns applicability to this breakout, not accuracy of reading
 the CAD. An exact CAD value is not proof of a universal Zorro requirement.
+The EDAC-based contact and projection assessments in this table are historical;
+use the WingTAT follow-up and final release decision for the identified socket.
 
 | Feature | Recommended disposition/value | Confidence; unresolved discrepancy |
 |---|---|---|
@@ -57,7 +62,7 @@ the CAD. An exact CAD value is not proof of a universal Zorro requirement.
 | Finger length and setback | Retain review geometry only; no replacement pair selected | Medium for nominal EDAC contact-point coverage (see follow-up); low for guaranteed wipe/engagement over tolerances. VA's 5-long fingers start 0.040 from the tip; RIPPLE and SID use longer fingers. |
 | Tongue width | Retain 129.26, fabrication tolerance ±0.1 | High: Commodore is controlling; RIPPLE fits this interval. VA's 127 and SID's 130.048 are out-of-interval alternatives, not new tolerances. |
 | Projection/shoulders | No released value yet; R1.5 is the sourced Commodore root detail | EDAC's 8.38 slot is deeper than the current 7.62 projection. TE gives a typical 7.62 **minimum** for its family. Neither releases this profile for every intended socket. |
-| Bevel | 45° is supported; depth/remaining land not released | Medium for angle (RIPPLE + TE). TE's typical 0.38 ×45° is conditional evidence, not a verified Commodore callout. |
+| Bevel | Actual-socket WingTAT recommendation below supersedes the earlier 45° candidate; CAD/fabrication integration held | High drawing confidence; differs from RIPPLE + TE, and must not be combined with their dimensions. |
 | Mask | No universal numeric margin selected | Conflicting implementations: +0.2 isolated, zero isolated, and blanket opening. Obtain registration allowance for the selected contact/wipe envelope; do not average them. |
 
 ## Evidence qualifications that affect the decision
@@ -96,7 +101,7 @@ documents operating hardware. These are author reports, not measurements of
 physical samples of the exact downloaded revisions. EATX identifies R3.1 as
 production. None supplies an as-built bevel-depth inspection record.
 
-## EDAC 395-100-520-202 follow-up
+## EDAC 395-100-520-202 follow-up (historical comparison)
 
 Inspected the [part-specific EDAC drawing][edac-part], issue 1,
 2017-05-16, both sheets, and the [345/395 family ordering/mechanical
@@ -167,6 +172,89 @@ above were checked against the retained pad coordinates using decimal
 arithmetic. ERC/DRC were not rerun for this documentation-only follow-up;
 the previously checked CAD is byte-for-byte unchanged.
 
+## WingTAT actual-socket follow-up — 2026-09-11
+
+User identifies [LCSC C5173320][wingtat-product] as the actual socket:
+**WingTAT ED100BGFBK**. Its linked [EDxxxBGFBK drawing][wingtat-drawing],
+revision A, sheet 1/1, is legible. EDAC is now comparison evidence only;
+its contact-position calculation is **not applicable evidence for WingTAT**.
+
+### Printed values (mm)
+
+| Drawing location | Value | Confidence |
+|---|---|---|
+| 100-position row; socket top view | Pitch 2.54 ±0.05; A 124.46 ±0.20; slot length B 129.84 ±0.30 | High |
+| Socket section, upper centre | Mouth-to-floor 9.00; title-block two-decimal tolerance ±0.10 | High reading; not an insertion instruction |
+| Recommended card, lower left | Thickness 1.57 ±0.15; width B 129.84 ±0.20; fingers 1.60 wide, gaps 0.94 | High |
+| Same card face view | Tip-to-finger-top 8.00 ±0.20; tip-to-finger-bottom 1.54 | High; no shoulder datum |
+| Card section, lower centre | Both-face bevel 20.0° to board face, axial extent 1.54, remaining tip land 0.45 | High |
+| Title block | Unqualified two-decimal dimensions ±0.10; one-decimal angles ±0.5° | High; explicit tolerances override |
+
+Contact height/wipe, permissible partial seating, shoulder profile and mask
+clearance are **not specified**, rather than unreadable. The second
+“Recommended Card Layout” is the socket's host-board drilling, not fingers.
+
+### Comparison and disposition
+
+Current thickness 1.6 is nominally compatible; the finished-board tolerance
+still needs specifying. Retain the Commodore tongue width, not the wider
+WingTAT card recommendation. Calculated total slot clearance at the proposed
+Commodore maximum width is `129.54 − 129.36 = 0.18`; this is longitudinal
+clearance only, not a shoulder or lateral-contact qualification.
+
+Assuming shoulders bear at the socket mouth, the current 7.62 projection
+stops the tip **1.38 nominally short of the floor** (`9.00 − 7.62`). That
+does not prove failure, but neither establishes permissible seating. Do not
+change projection to the slot depth without qualifying the shoulder shape.
+
+The recommended copper interval is **z=1.54…8.00**, calculated length 6.46,
+versus the breakout's **z=1.00…6.00**, length 5. Neither the VA2000's equal
+length nor the longer RIPPLE/SID fingers validates this combination in the
+identified socket. None of their recorded evidence identifies this exact
+mating part. Without a contact datum, the previous EDAC point-coverage and
+wipe calculations cannot be repeated for WingTAT.
+
+The bevel drawing resolves the missing **socket-specific nominal bevel**.
+It does not support retaining the earlier 45° candidate. Applying its axial
+extent unchanged would reach 0.54 into the current copper interval
+(`1.54 − 1.00`), so this cannot be treated as a fabrication-note-only change.
+The board maker must resolve which bevel dimensions control across finished
+thickness tolerance and how copper/finish terminate. No dimensions are
+averaged, and no CAD is changed pending review.
+
+The isolated zero-expansion mask openings remain unqualified. A blanket
+opening is supported as a working-card precedent by RIPPLE, but its precise
+extent and the selected fabricator's registration allowance still need
+approval for this board. Connector drawing shading is not a mask definition.
+
+### Assets for human cross-check
+
+These are existing local assets, not new independent sources:
+
+| Asset | What to inspect / limitation |
+|---|---|
+| `/tmp/zorro-reference.JbSlda/fingers-detail.png` | Best focused A-5 crop: faded vertical dimension left of fingers, lower-left tip/chamfer leader, and bevel annotation above the lower sectional view. Full numeric transcription remains unreliable. |
+| `/tmp/zorro-reference.JbSlda/a5.png` | Upright complete A-5; detail at right provides context for the crop. |
+| `/tmp/zorro-reference.JbSlda/detail.png` | Full scanned spread: A-5 on left, A-6 on right. A-5 is rotated/faint. |
+| `/tmp/zorro-reference.JbSlda/scan5-a5.png` | Despite filename, this is **A-6 video card**, not the 100-pin A-5. Do not use its 7.62 as the missing Zorro dimension. |
+| `/tmp/zorro-wingtat.zWCKfj/EDxxxBGFBK.pdf` | New exact-socket source, one page; readable. Check upper-centre socket section and lower-centre card bevel. |
+| `/tmp/zorro-wingtat.zWCKfj/drawing-large.png` and `card-section.png` | High-resolution rendering and bevel crop for inspection; readable, not additional evidence. |
+| `/tmp/edac-mechanics.WibJ0C/part-edac.pdf`, `family.pdf` | Earlier readable EDAC sources, not the selected socket; missing bevel/mask requirements cannot be recovered by magnifying them. |
+| `/tmp/zorro-mechanics.kjTyKu/te-application.pdf` | Readable Figure 4, printed p. 6: earlier **typical TE** bevel, not a WingTAT requirement. |
+
+WingTAT PDF SHA256:
+`c1ea539601b0ea821a9cdbd0b26ef051f1474a121ecf388562e0d5f95b0c9a9f`.
+Temporary assets are inspection aids; the source URL and hash above identify
+the drawing independently of their retention.
+
+Follow-up verification: after sourcing the workspace environment,
+`python scripts/test-mechanics.py`,
+`sha256sum -c review/mechanics/design-unchanged.sha256` and `git diff --check`
+passed. The measurement test emitted KiCad enum-choice assertion diagnostics
+but completed successfully. This follow-up edits documentation only; PCB,
+schematic and mapping hashes are unchanged. ERC/DRC were not rerun because
+no CAD changed; earlier results above are historical, not a new run.
+
 ## Reproduction and source revisions
 
 Raw read-only measurements, including all 100 pad coordinates, outline
@@ -218,16 +306,16 @@ application PDF: `64ee09e3122c0e99fe57f16eacccc04bb014b2287ca881ee16ad8193e1e8d8
 
 **NOT FABRICATION-READY.** Exactly these mechanical release items remain:
 
-1. **Seated insertion/contact envelope:** confirm projection and shoulder
-   profile against a legible 100-pin Commodore detail or identified compatible
-   mating socket, including tolerances. EDAC nominally places the contact
-   on copper but the shoulders stop 0.76 short of its floor; establish whether
-   that seating and the resulting contact/wipe envelope are acceptable.
-   None of the three card outlines validates the stepped combination.
-2. **Bevel manufacturing callout:** confirm the applicable depth/remaining
-   land and tolerances at 45°. A conditional TE typical drawing is available,
-   but EDAC supplies no bevel callout, and the Commodore detail and actual
-   A500 adapter remain unconfirmed.
+1. **Seated insertion/contact envelope:** qualify the current stepped
+   outline, or a supported replacement, for WingTAT ED100BGFBK. Establish
+   permissible seating, contact/wipe coverage and tolerances. The socket is
+   now identified, but its drawing does not supply the needed contact datum
+   or partial-seating acceptance. None of the three reference cards validates
+   this stepped combination in that socket.
+2. **Bevel/copper manufacturing integration:** reconcile WingTAT's now-readable
+   bevel recommendation with finger setback/length, finished thickness and
+   fabrication tolerances; approve a consistent manufacturing callout.
+   Do not retain 45° by default or bevel into existing copper without review.
 3. **Mask registration allowance:** specify/approve openings that keep mask
    off the required contact/wipe area at manufacturing tolerances. The current
    zero-expansion, isolated openings are measured, not process-qualified.
@@ -248,3 +336,5 @@ implied by electrical DRC.
 [socket-id]: https://www.digikey.com/en/products/detail/te-connectivity-amp-connectors/5645235-3/1122009
 [edac-part]: https://files.edac.net/edac/content/395/395-100-520-202%20-%20EDAC%20Card%20Edge%20Connector.PDF
 [edac-family]: https://files.edac.net/edac/content/series/og/English/EDAC%20345%20395%20Series%20Card%20Edge%20Connectors%20English%20Ordering%20Guide.pdf
+[wingtat-product]: https://www.lcsc.com/product-detail/C5173320.html
+[wingtat-drawing]: https://datasheet.lcsc.com/datasheet/pdf/71aee04542fa26ea605dbae05f1ac670.pdf?productCode=C5173320
