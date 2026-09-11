@@ -7,3 +7,4 @@ logs/
 ~*.lck
 *-backups/
 review/unrouted-*
+build/
