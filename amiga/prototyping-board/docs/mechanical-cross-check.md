@@ -104,7 +104,7 @@ Confidence distinguishes a readable dimension from demonstrated compatibility.
 
 | Feature | Released disposition | Confidence / validation |
 |---|---|---|
-| Thickness | 1.6 nominal, order requirement ±0.10 finished | Within WingTAT recommendation; confirm requested tolerance in normal PCBWay CAM review |
+| Thickness | 1.6 nominal, standard ±10% accepted (1.44–1.76) | High arithmetic/process confidence; full-range socket fit unverified, upper end 0.04 above WingTAT recommendation; prototype validation |
 | Pitch/span | 2.54 /124.46 unchanged | High; all sources agree |
 | Tongue width | 129.26 ±0.1 | High; A-5 controls |
 | End margin | Centred 2.40 | No demonstrated conflict with explicit outline; not a hold |
@@ -129,9 +129,18 @@ processing. Its edge-connector help page specifies ±5° and ±5 mil
 lists ±0.15 mm normal bevel-depth capability. Neither alters the A-5 nominal
 dimensions. Detailed manufacturing requirements, sources and the derived
 land calculation are in [fabrication instructions](../fabrication/README.md).
-Standard board-thickness tolerance must not silently replace the specified
-±0.10 finished requirement. Supplier CAM confirmation is normal order review,
-not evidence that the unbuilt prototype has been physically qualified.
+The released board-thickness tolerance is PCBWay's standard **±10%**, as
+offered by its engineer and listed in the capability matrix for boards ≥1 mm.
+No precision thickness process or thickness sorting is required. At 1.6 nominal
+this permits 1.44–1.76, compared with WingTAT's recommended 1.42–1.72.
+The upper 0.04 lies outside that recommendation; this is a documented
+tolerance-envelope mismatch, not evidence of actual interference or proof
+of full-range compatibility. Measure the finished fingers and verify unforced
+seating and contact continuity before powering the prototype. Accepting this
+standard fabrication range is a prototype risk decision, not connector
+qualification. The 0.6 centre land remains nominal REF only; at exact 0.5
+bevel depth per face, thickness variation alone gives 0.44–0.76 land, before
+bevel machining variation. A-5 outline dimensions and hard gold are unchanged.
 
 No card comparison establishes that its exact measured revision was tested
 with this socket. VA2000, RIPPLE and AmigaSID document operating hardware,

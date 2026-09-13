@@ -3,15 +3,14 @@
 **FABRICATION-READY — PROTOTYPE SPIN ONLY.** Target fabricator: **PCBWay**.
 Mating socket: **WingTAT ED100BGFBK / LCSC C5173320**.
 Commodore A-5 controls the mating-card outline and bevel.
-Nothing has been uploaded, ordered, manufactured or physically fit-tested.
+Physical fit and operation remain subject to prototype validation.
 
 ## Board and stack
 
-- **Two copper layers, top/bottom only**; FR-4; **1.6 mm nominal finished thickness, including
-  finishes; specify ±0.10 mm**. This tighter order requirement keeps the
-  board within WingTAT's recommended 1.42–1.72 mm range. Do not silently
-  substitute a standard thickness tolerance extending above 1.72 mm.
-  PCBWay must confirm the requested tolerance during normal CAM/order review.
+- **Two copper layers, top/bottom only**; FR-4; **1.6 mm nominal finished
+  board thickness with standard ±10% tolerance (1.44–1.76 mm) accepted**.
+  Use PCBWay's standard thickness process. No tighter thickness tolerance,
+  thickness sorting or advanced-line thickness control is required.
 - Nominal 35 µm copper per layer. Stack: **F.Cu / FR-4 / B.Cu**.
   Solid GND pours on both faces stop above the tongue; remove unconnected
   islands. No internal copper layers or controlled impedance are specified.
@@ -87,6 +86,10 @@ The original comparison datasets remain historical evidence. See the
 
 1. With power off, inspect board thickness, plating, bevel and mask; verify
    seating in the actual socket without forcing. Check root/housing clearance.
+   Record finished thickness at the fingers. The accepted fabrication range
+   reaches 1.76 mm, 0.04 mm above WingTAT's recommended 1.72 mm upper limit;
+   socket fit across the full fabrication range has not been established.
+   This is a prototype validation item, not a tighter supplier thickness limit.
    A floor gap is not itself a failed fit; do not deepen the tongue to bottom it.
 2. Check all 100 contacts for continuity and neighbouring/opposite-contact
    isolation using `data/verification.csv`, including rails, reserved/NC,

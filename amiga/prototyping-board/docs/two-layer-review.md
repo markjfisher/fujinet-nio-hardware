@@ -29,7 +29,7 @@ source PCB hashes and per-net via counts/minimum widths.
 | Overall dimensions | 180 ×107.62 mm | Unchanged |
 | Body above shoulder | 180 ×100 mm | Unchanged |
 | A-5 tongue, roots, corners, bevel | Approved prototype geometry | Unchanged |
-| Finished thickness | 1.6 mm nominal, specified ±0.10 | Unchanged |
+| Finished thickness | 1.6 mm nominal | 1.6 mm nominal; current release accepts standard ±10% |
 | Copper layers | F.Cu, In1.Cu, In2.Cu, B.Cu | F.Cu and B.Cu only |
 | Via count | 158 | **136**, 22 fewer (13.9%) |
 | Track segments | 907 | 1,061, about 17% more |
@@ -80,12 +80,17 @@ schematic/mapping files are unchanged. The pad/placement SHA256 is identical:
 ## PCBWay cost implications
 
 Two copper layers remove two foils and multilayer processing. Lower base-board
-cost is expected, but **no matched quote or numeric saving is available**.
+cost is expected, but **no matched four-/two-layer quote is available**.
 [PCBWay's quote form](https://www.pcbway.com/orderonline.aspx) separately
 offers layer-count and finish options. The board's dimensions, selective hard
-gold, bevel and finished-thickness/outline requirements are unchanged, so
-these costs remain. Quantity, finish, tolerances and shipping must match for
-a meaningful comparison. No files were uploaded and nothing was ordered.
+gold, bevel and outline still contribute to cost. On 2026-09-13 the user
+reported an initial $70 quote rising to $746 after CAM review; PCBWay's
+engineer identified our tight finished-thickness requirement as requiring
+the advanced line and offered ±10%. The current fabrication instructions
+accept that standard tolerance at 1.6 mm nominal. The revised price is not
+yet confirmed; a return to $70 is not guaranteed. See the
+[mechanical cross-check](mechanical-cross-check.md) for the resulting
+thickness-range/socket-fit validation item.
 
 ## Verification and reproducibility
 
