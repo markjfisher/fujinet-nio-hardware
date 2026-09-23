@@ -1,3 +1,11 @@
+# Passive Amiga Zorro-II breakout — maintained design specification
+
+This document records the corrected electrical requirements used by revision A.
+`data/pin-map.csv` is the authoritative machine-readable logical assignment.
+`data/verification.csv` is the authoritative continuity table from each edge
+contact to its schematic net, PCB pad, and breakout header/test point.
+`docs/reference-review.md` records the source review and corrections.
+
 You are designing a passive development/prototyping PCB for the Commodore Amiga Zorro-II bus.
 
 The immediate goal is NOT to build the FujiNet interface yet.
@@ -47,7 +55,7 @@ Do not invent or infer connector geometry.
 
 The Zorro bus is a 100-pin one-piece connector. The Hardware Reference Manual identifies it as a 16-bit bus with 24-bit addressing and 68000-style bus cycles.
 
-Use the following Zorro-II logical pin map as a starting point, but VERIFY IT against the Hardware Reference Manual before routing:
+The following corrected Zorro-II logical pin map matches `data/pin-map.csv`. Verify future changes against the Hardware Reference Manual before routing:
 
 Pin   Zorro-II signal
 ---   ----------------
@@ -78,8 +86,8 @@ Pin   Zorro-II signal
 25    GND
 26    A3
 27    A2
-28    A1
-29    A7
+28    A7
+29    A1
 30    A8
 31    FC0
 32    A9
@@ -98,12 +106,12 @@ Pin   Zorro-II signal
 45    A16
 46    /BERR
 47    A17
-48    /MTACK / legacy VPA-related signal
+48    (/VPA), legacy function; physical /MTACK
 49    GND
 50    E clock
-51    /DS0 / legacy VMA-related signal
+51    (/VMA), legacy function; physical /DS0
 52    A18
-53    /RESET
+53    /RST (physical /RESET; breakout label /RESET)
 54    A19
 55    /HLT
 56    A20
@@ -141,12 +149,12 @@ Pin   Zorro-II signal
 88    GND
 89    GND
 90    GND
-91    GND in Zorro-II mode
-92    7M clock
+91    SenseZ3 (grounded by a Zorro-II backplane only; isolated from board GND)
+92    E7M (physical 7M; breakout label 7M)
 93    DOE
 94    /BUSRST
 95    /GBG
-96    /EINT1
+96    Reserved (legacy /EINT1)
 97    NC in Zorro-II
 98    NC in Zorro-II
 99    GND
