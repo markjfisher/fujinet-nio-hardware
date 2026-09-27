@@ -1,5 +1,7 @@
 # Pinmap between 86 pin expansion and zorro-ii
 
+See also https://amigadev.elowar.com/read/ADCD_2.1/Hardware_Manual_guide/node02C9.html for the full 100 pins for zorro.
+
 
 | A500 pin | A500 signal                      | Zorro-II pinR/E | Zorro-II signal   | Mapping                            |
 | -------- | -------------------------------- | --------------- | ----------------- | ---------------------------------- |
