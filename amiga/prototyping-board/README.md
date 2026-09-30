@@ -116,8 +116,7 @@ bench use. Case/adapter fit and physical insertion have not been tested.
 From this directory in the workspace:
 
 ```sh
-export NIO_WORKSPACE=/home/markf/dev/nio/fujinet-nio-workspace
-source "$NIO_WORKSPACE/scripts/env.sh"
+source ../../../../scripts/env.sh   # finds the workspace from its own location
 python scripts/check.py
 ```
 

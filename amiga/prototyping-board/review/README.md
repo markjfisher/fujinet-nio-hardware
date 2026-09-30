@@ -14,8 +14,7 @@ review leaves CAD and pin mapping unchanged; hashes are retained in
 From `repos/fujinet-nio-hardware/amiga/prototyping-board`:
 
 ```sh
-export NIO_WORKSPACE=/home/markf/dev/nio/fujinet-nio-workspace
-source "$NIO_WORKSPACE/scripts/env.sh"
+source ../../../../scripts/env.sh   # finds the workspace from its own location
 python scripts/check.py
 python scripts/export.py
 ```
