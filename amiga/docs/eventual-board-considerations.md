@@ -61,6 +61,87 @@ with separate internal/test pads for programming, debugging and recovery.
 
 If a shared USB connector is intended to program both processors, some deliberate switching, muxing, hub, or boot-routing design will be required.
 
+## RP2350 ↔ ESP32-S3 interconnect pin-budget gate
+
+**Do not freeze a schematic or PCB layout until this has been resolved.**
+
+The currently working RP2350 ↔ ESP32-S3 SPI wiring is a two-development-board
+laboratory fixture, not an eventual-board pin assignment.  Its RP2350 pins
+GP2–GP7 are used for SCLK, MOSI, MISO, CS, `READY`, and `DATA_AVAILABLE`.
+In the currently proposed Zorro-facing mapping, GP2–GP7 are already assigned
+to Amiga address lines A2–A7.  They cannot be copied to the integrated board
+or electrically shared with the Zorro bus.
+
+Before selecting the production link ABI or finalising RP2350 bus routing:
+
+- Make a complete RP2350 GPIO budget, including Zorro address/data/control,
+  reset/debug, and all interprocessor signals.
+- Reserve dedicated, electrically isolated pins for the selected RP2350 ↔
+  ESP32-S3 transport.  SPI needs SCLK, MOSI, MISO, and CS; the feasibility
+  fixture also uses two ESP-to-RP flow-control signals (`READY` and
+  `DATA_AVAILABLE`).
+- Decide, from the link-feasibility evidence, whether the production protocol
+  can safely reduce or replace those flow-control wires.  Do not assume that
+  it can.
+- Record the chosen pinout, reset/boot ownership, and any intentional mux or
+  isolation circuitry in the schematic review before layout.
+
+The pin scarcity is a design decision to resolve, not evidence that SPI has
+already been ruled in or out.  A direct shared connection to Zorro address or
+data nets is not an acceptable shortcut.
+
+### Current-map observation
+
+The Core2350B mapping under review assigns GP0–GP46 to Zorro or board-level
+signals; GP47 is the only visibly uncommitted GPIO/test point.  GP2–GP7 are
+not spare: they carry A2–A7.  The integrated bare-RP2350 schematic may make
+different choices (for example, it need not retain a development-board
+`LOWBAT` signal), but it must not claim spare GPIOs without a reviewed,
+signal-by-signal budget.  As drawn, there are not enough dedicated RP GPIOs
+for the six-wire SPI feasibility fixture.
+
+### Candidate solutions
+
+1. **Recommended baseline: internal USB link.**  Use RP2350 USB in host mode
+   and ESP32-S3 USB-OTG in device mode, connected by D+, D−, VBUS and GND.
+   The ESP exposes a CDC-ACM or vendor-bulk packet endpoint; the RP is the
+   sole host.  This consumes the chips' dedicated USB pads rather than the
+   exhausted RP GPIO budget, and USB supplies framing, flow control and
+   integrity handling.  It does require an explicit programming/recovery
+   design: that USB port cannot at the same time be the PC-facing port for
+   either chip.  Retain RP SWD/RUN and ESP EN/GPIO0/USB service pads, and
+   choose a USB switch or an intentional service connector if PC flashing is
+   required through one external connector.
+
+2. **Keep SPI by redesigning the Zorro front end.**  Put Zorro capture,
+   buffering and address/decode work in a small CPLD/FPGA or dedicated bus
+   interface with the necessary 5 V-tolerant buffers.  Present the RP2350
+   with a narrower local FIFO/register interface, freeing RP GPIOs for a
+   dedicated SPI link.  This is the robust SPI route, but it is a real board
+   architecture change with extra silicon and verification work; it is not a
+   late pin swap.
+
+3. **Use a lower-pin-count serial transport only after measurement.**  A
+   point-to-point UART uses TX/RX; I²C uses two wires.  Either could fit if
+   the final GPIO budget releases two pins, with packet framing, sequence
+   numbers and backpressure implemented in the protocol.  They are not
+   substitutes for the demonstrated SPI throughput/recovery properties until
+   tested at required packet rates.  A three-wire/no-CS SPI variant is also
+   only viable if the chosen ESP slave implementation has a reliable framing
+   and recovery mechanism without chip select.
+
+4. **Do not time-multiplex Zorro nets with the ESP link as the default
+   solution.**  Bus switches and strict idle-window arbitration may be
+   theoretically possible, but they add contention, timing and missed-cycle
+   risks to a real-time bus interface.  Consider them only if a complete bus
+   isolation/capture design proves it, effectively converging on option 2.
+
+**Decision recommendation:** make the internal USB link the next architecture
+spike and keep USB service/recovery pads.  In parallel, perform a final-board
+GPIO audit.  If production requirements demand SPI rather than USB, choose
+the Zorro-front-end redesign deliberately; do not expect the present direct
+GPIO map to grow the required pins.
+
 ## Independent recovery
 
 It may be useful for one processor to control the other's reset/boot pins, for example:
