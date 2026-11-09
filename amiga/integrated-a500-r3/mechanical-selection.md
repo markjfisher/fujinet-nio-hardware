@@ -105,3 +105,42 @@ investigating the edge-solder mounting inference from the renderings; it does
 not establish tail shape, row spacing, pad face assignment or case clearance.
 Gerbers and BOM remain the next mechanical inputs. No candidate pin mapping
 or connector footprint was changed on the basis of this schematic alone.
+
+## Supplied Gerbers and BOM inspected
+
+The owner provided `~/Downloads/gerbers_PCBWay Community/gerbers/` and
+`~/Downloads/A-Zorro-Edge-2b_PCBWay Community.txt`. These are the matching
+**A-Zorro-Edge-2b** reference artifacts: all layer/drill basenames agree,
+CAM reports identify EAGLE 7.6.0 and the same design name, and the BOM's
+CN1/CN2/CN3 references and device names agree with the supplied schematic.
+The BOM was exported 29.06.2016; Gerber/drill reports were generated
+25.01.2026. Matching identity is established, but the later CAM date means
+we do not assume byte-for-byte equivalence to the original 2015 board.
+Reference file hashes are in [the manifest](review/matze-reference-sha256.json).
+
+The set includes top/bottom copper, mask, paste, silkscreen, GKO and an XLN
+drill file plus CAM reports. Read-only parsing of the rectangular pad flashes
+in GTL/GBL and GTP/GBP found identical coordinate sets: two regions each with
+43 pads on each face, at 2.54mm pitch and 106.68mm first-to-last contact span.
+The nominal rectangular copper aperture is approximately **1.650 x 9.500mm**.
+Both ends also occur in the paste files; do not treat these reference paste
+layers as a ready-to-use stencil prescription for our new board.
+
+| BOM reference | Device | Custom EAGLE package |
+| --- | --- | --- |
+| CN1 | A500-EXPANSION-SLOT-SOLDER | LKONT_43-SLOT-SOLDER |
+| CN2 | A500-EXPANSION_EDGE | LKONT_43 |
+| CN3 | ZORROII_SLOT | SLOT_100 |
+
+This supports the edge-solder socket interpretation and rules out copying a
+central through-hole Zorro footprint as the A500 mating connector. The BOM
+still does not specify a connector manufacturer/orderable MPN. Gerber pads
+alone do not identify an available socket's tail geometry or establish its
+contact numbering viewed from the mating face. The provisional Sullins
+right-angle part is therefore not qualified by these files; its different
+mounting pattern must not be substituted into this reference geometry.
+
+These inputs resolve the missing-reference-file request. Remaining mechanical
+work is to identify a compatible purchasable socket and reconcile its drawing,
+contact-face mapping and case fit. No additional USB/bus experiment is needed
+for that work. No reference CAD was imported or candidate circuit changed.
