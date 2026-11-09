@@ -1,0 +1,24 @@
+{
+  "current_limit_A": [
+    1.1969364045223503,
+    1.4777244327605141
+  ],
+  "input_budget_A": 1.1662425468388506,
+  "current_margin_A": 0.030693857683499637,
+  "ovlo_rising_V": [
+    5.533313402857142,
+    5.795678474734733
+  ],
+  "uvlo_rising_V": [
+    4.109836980529471,
+    4.266374171681681
+  ],
+  "assessed_input_range_V": [
+    4.5,
+    5.5
+  ],
+  "assumed_max_junction_C": 85,
+  "assumed_buck_efficiency": 0.85,
+  "efuse_nominal_ramp_ms": 1.1904761904761905,
+  "status": "allocation checks pass; not transient/thermal or USB compliance qualification"
+}

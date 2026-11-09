@@ -6,6 +6,12 @@ The primary product plugs directly into the A500 86-contact expansion edge throu
 
 The [A500 R2 circuit candidate](../integrated-a500-r2/README.md) implements the processor and bus circuits as well as USB/power/recovery. R2 corrects R1's acknowledgement scheme: hardware XRDY inserts waits while the A500 owns /DTACK; per-cycle latches prevent stale completion/read-drive requests, and /BERR disables outputs. See the [bus review](../integrated-a500-r2/bus-review.md). It remains under electrical and mechanical review; no PCB release is implied. Earlier candidates are preserved.
 
+The [A500 R3 circuit candidate](../integrated-a500-r3/README.md) extends R2 with
+TPS259630 input current/voltage protection, LM66100 reverse blocking and CC ESD.
+Its [power review](../integrated-a500-r3/power-review.md) records tolerance limits
+and a conditional current/thermal budget. Socket mapping, final BOM, fault
+transients and layout remain open; R3 is not fabrication-ready.
+
 The selected bring-up direction is one external USB-C connector shared between
 PC service access and the internal RP2350-host / ESP32-S3-device link. The
 bench has demonstrated that internal link and manual flashing of each processor
