@@ -1,0 +1,35 @@
+#!/usr/bin/env bash
+set -euo pipefail
+tool_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+repo_dir=$(cd -- "$tool_dir/../.." && pwd)
+venv="$repo_dir/.local-tools/kicad/venv"
+command -v uv >/dev/null
+kicad-cli version
+/usr/bin/python3 -c 'import pcbnew; print("pcbnew", pcbnew.GetBuildVersion())'
+if [[ ! -x "$venv/bin/python" ]]; then
+    uv venv --python 3.13 "$venv"
+fi
+uv pip sync --python "$venv/bin/python" "$tool_dir/requirements.lock"
+python3 - "$repo_dir/.local-tools/kicad/freerouting-2.2.3.jar" <<'PY'
+import hashlib
+from pathlib import Path
+import sys
+import urllib.request
+
+destination = Path(sys.argv[1])
+expected = "9d3e7fc6263b273992e10803578304c6e4e0b4323bff487f68f60c4fd2ce2ddb"
+if destination.exists():
+    data = destination.read_bytes()
+else:
+    with urllib.request.urlopen(
+        "https://github.com/freerouting/freerouting/releases/download/"
+        "v2.2.3/freerouting-2.2.3.jar", timeout=60
+    ) as response:
+        data = response.read()
+if hashlib.sha256(data).hexdigest() != expected:
+    raise SystemExit("FreeRouter SHA256 mismatch; refusing this artifact")
+if not destination.exists():
+    destination.write_bytes(data)
+PY
+java -version
+printf 'Installed. Run tools/kicad/smoke.py using %s/bin/python\n' "$venv"

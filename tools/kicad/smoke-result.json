@@ -1,0 +1,141 @@
+{
+  "date": "2026-11-09",
+  "server_commit": "c6a72ab643ed3b8d862325e3012b47e62792ce6f",
+  "tool_count": 18,
+  "result": "tool smoke PASS; circuit intentionally incomplete",
+  "pcb_readback": "pcbnew read-back PASS",
+  "routing": {
+    "status": "ok",
+    "pcb_path": "/tmp/fujinet-kicad-smoke-juxb8e1g/smoke.kicad_pcb",
+    "freerouter_jar": "/home/markf/dev/nio/fujinet-nio-workspace/repos/fujinet-nio-hardware/.local-tools/kicad/freerouting-2.2.3.jar",
+    "freerouter": {
+      "version": "2.2.3",
+      "status": "validated",
+      "validated_max": "2.2.3",
+      "warning": null
+    },
+    "zones_removed": 0,
+    "tracks_before": 0,
+    "vias_before": 0,
+    "tracks_after": 1,
+    "vias_after": 0,
+    "net_count": 2,
+    "unconnected_after_routing": 0,
+    "passes_run": 1,
+    "best_unconnected": 0,
+    "pass_results": [
+      {
+        "pass": 1,
+        "status": "ok",
+        "dsn_order": "canonical",
+        "unconnected": 0
+      }
+    ],
+    "note": "Routing complete."
+  },
+  "reports": {
+    "erc": {
+      "$schema": "https://schemas.kicad.org/erc.v1.json",
+      "coordinate_units": "mm",
+      "date": "2026-11-09T16:11:17",
+      "ignored_checks": [
+        {
+          "description": "Global label only appears once in the schematic",
+          "key": "single_global_label"
+        },
+        {
+          "description": "Four connection points are joined together",
+          "key": "four_way_junction"
+        },
+        {
+          "description": "SPICE model issue",
+          "key": "simulation_model_issue"
+        },
+        {
+          "description": "Assigned footprint doesn't match footprint filters",
+          "key": "footprint_filter"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ],
+      "kicad_version": "10.0.7",
+      "sheets": [
+        {
+          "path": "/",
+          "uuid_path": "/bf7ea10e-06d3-4077-a437-1e764e1e71e4",
+          "violations": [
+            {
+              "description": "Pin not connected",
+              "items": [
+                {
+                  "description": "Symbol R1 Pin 1 [Passive, Line]",
+                  "pos": {
+                    "x": 50.8,
+                    "y": 46.99
+                  },
+                  "uuid": "0d32d7b1-d5b1-4602-86f2-2fa6e9ca228d"
+                }
+              ],
+              "severity": "error",
+              "type": "pin_not_connected"
+            },
+            {
+              "description": "Pin not connected",
+              "items": [
+                {
+                  "description": "Symbol R2 Pin 2 [Passive, Line]",
+                  "pos": {
+                    "x": 76.2,
+                    "y": 54.61
+                  },
+                  "uuid": "84e41e69-e463-41cc-a81c-364c0739442b"
+                }
+              ],
+              "severity": "error",
+              "type": "pin_not_connected"
+            }
+          ]
+        }
+      ],
+      "source": "smoke.kicad_sch"
+    },
+    "drc": {
+      "$schema": "https://schemas.kicad.org/drc.v1.json",
+      "coordinate_units": "mm",
+      "date": "2026-11-09T16:11:18",
+      "ignored_checks": [
+        {
+          "description": "Footprint has no courtyard defined",
+          "key": "missing_courtyard"
+        },
+        {
+          "description": "Track endpoint not centered on via",
+          "key": "track_not_centered_on_via"
+        },
+        {
+          "description": "Tuning profile track geometries",
+          "key": "tuning_profile_track_geometries"
+        },
+        {
+          "description": "Footprint doesn't match symbol's footprint filters",
+          "key": "footprint_filters_mismatch"
+        },
+        {
+          "description": "Footprint component type doesn't match footprint pads",
+          "key": "footprint_type_mismatch"
+        }
+      ],
+      "included_severities": [
+        "error",
+        "warning"
+      ],
+      "kicad_version": "10.0.7",
+      "schematic_parity": [],
+      "source": "smoke.kicad_pcb",
+      "unconnected_items": [],
+      "violations": []
+    }
+  }
+}

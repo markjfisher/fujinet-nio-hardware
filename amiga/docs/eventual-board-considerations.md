@@ -6,7 +6,11 @@ The selected bring-up direction is one external USB-C connector shared between
 PC service access and the internal RP2350-host / ESP32-S3-device link. The
 bench has demonstrated that internal link and manual flashing of each processor
 through the same USB-C breakout. That manually rewired fixture is not yet a
-finished switching or independent-recovery design.
+finished switching circuit. Physical ROM entry at power-on with the peer
+isolated establishes sufficient recovery-path feasibility to proceed to design.
+
+CAD tooling and execution rules are in the repository
+[agent guide](../../AGENTS.md) and [tooling decision](../../tools/kicad/README.md).
 
 ## RP2350 programming/debug access
 
@@ -64,15 +68,16 @@ must not be the sole recovery path unless they work independently of the failed
 firmware. Service/debug pads are additional recovery access, not a substitute
 for the user-facing procedure.
 
-Before final board design, demonstrate recovery on a simple breadboard fixture:
-select each target, enter its ROM bootloader with its own application
-nonfunctional and its peer held inactive or unpowered, flash it through the
-same PC-facing connector, restore Run mode, and exchange a request. Record
-power and isolation for each mode. The manual breakout test proves both flashing
-paths and return to communication with working firmware; it does not yet prove
-nonfunctional-firmware recovery or automatic selection. Keep a clear manual
-fallback if automatic updates are added. The bench instructions and results
-are in the firmware repository's `bridges/rp2350-zorro/lab/usb-host/` directory.
+The manual breakout test entered each ROM bootloader with physical BOOT held
+at power-on and its peer isolated, flashed through the same PC-facing connector,
+then restored Run communication. Deliberately corrupted application images were
+not tested; they are not a prerequisite to circuit design because this entry
+path precedes application execution. Automatic selection was not tested either.
+Validate the chosen switching circuit's data isolation, power paths and
+Run/Flash/Run transitions when that circuit exists; manual rewiring cannot
+qualify its behaviour. Keep a physical recovery fallback if automatic updates
+are added. Bench instructions and evidence are in the firmware repository's
+`bridges/rp2350-zorro/lab/usb-host/` directory.
 
 ## RP2350 ↔ ESP32-S3 interconnect pin-budget gate
 

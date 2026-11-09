@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+set -euo pipefail
+tool_dir=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
+repo_dir=$(cd -- "$tool_dir/../.." && pwd)
+server="$repo_dir/.local-tools/kicad/venv/bin/kicad-mcp"
+if [[ ! -x "$server" ]]; then
+    printf 'Run %s/setup first.\n' "$tool_dir" >&2
+    exit 1
+fi
+export KICAD_SEARCH_PATHS="$repo_dir"
+export KICAD_MCP_STRICT_PATHS=1
+export KICAD_CLI_PATH=/usr/bin/kicad-cli
+export FREEROUTER_JAR="$repo_dir/.local-tools/kicad/freerouting-2.2.3.jar"
+cd -- "$repo_dir"
+exec "$server"
