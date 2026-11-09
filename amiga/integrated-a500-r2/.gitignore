@@ -1,0 +1,5 @@
+review/build-log.json
+*.kicad_prl
+*.lck
+*-backups/
+__pycache__/

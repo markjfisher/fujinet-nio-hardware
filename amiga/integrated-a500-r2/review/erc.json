@@ -1,0 +1,552 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-11-09T17:58:57",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.7",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60",
+            "violations": []
+        },
+        {
+            "path": "/USB-C power and qualification/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/32582dfe-cdbf-4ba6-8fbb-c8c8d5e1276e",
+            "violations": []
+        },
+        {
+            "path": "/A500 socket and input buffers/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/2f0424db-140a-4c53-922e-9d01f30781bb",
+            "violations": [
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 19 [INT2, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 119.38
+                            },
+                            "uuid": "8b6045c1-e38c-46b5-a1e1-256b4daa684a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 53 [RST, Input, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 139.7
+                            },
+                            "uuid": "a471213b-a21b-4644-9356-3e954b07ba98"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 46 [BERR, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 147.32
+                            },
+                            "uuid": "972dc30b-042c-4c29-a3bc-6c0fc8f10f08"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 66 [DTACK, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 160.02
+                            },
+                            "uuid": "23795945-270d-4b35-861c-3ce141f043ad"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 68 [R/W, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 162.56
+                            },
+                            "uuid": "2c6b10cd-0d99-441d-bf35-93d12d79168a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 70 [LDS, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 165.1
+                            },
+                            "uuid": "ed9b117c-878c-464e-8d0b-fe295f09f953"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 72 [UDS, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 167.64
+                            },
+                            "uuid": "8c9166f8-35fb-41fd-a6b9-3070105840dc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 74 [AS, Input, Inverted]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 170.18
+                            },
+                            "uuid": "c155ac34-b8e8-47fc-907e-e00f32717631"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 18 [XRDY, Input, Line]",
+                            "pos": {
+                                "x": 57.15,
+                                "y": 175.26
+                            },
+                            "uuid": "ba109273-6830-4f9c-a267-970989f9890b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 29 [A1, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 63.5
+                            },
+                            "uuid": "13ece19f-e9e9-4d65-a7f7-76ad153ef7a8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 27 [A2, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 66.04
+                            },
+                            "uuid": "e1754212-6b48-4d0a-94de-bff7f4a259bc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 26 [A3, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 68.58
+                            },
+                            "uuid": "08c7692c-a080-4a20-a9ea-c8445db05cfb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 24 [A4, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 71.12
+                            },
+                            "uuid": "99d9325e-dbe7-4334-b7a0-fa8f3984639b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 21 [A5, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 73.66
+                            },
+                            "uuid": "e618633d-dc16-492c-b34a-85b672ff723f"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 23 [A6, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 76.2
+                            },
+                            "uuid": "f4381379-1afd-4650-997b-ca53a743a43d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 28 [A7, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 78.74
+                            },
+                            "uuid": "ab96f2c3-7821-45b7-bcc0-a21c60f5f71d"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 30 [A8, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 81.28
+                            },
+                            "uuid": "8a871f78-751f-42ed-9f06-7e994e037779"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 32 [A9, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 83.82
+                            },
+                            "uuid": "739804f7-29c0-44db-83eb-d1b970f637ca"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 34 [A10, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 86.36
+                            },
+                            "uuid": "508ed2cf-09d9-48d0-a84d-45a8e86e6047"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 36 [A11, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 88.9
+                            },
+                            "uuid": "84f8ac4d-a84a-4ff7-949d-e9fd41f7ee01"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 38 [A12, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 91.44
+                            },
+                            "uuid": "a22884b2-d55a-4e7a-8020-e2c157ea229a"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 39 [A13, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 93.98
+                            },
+                            "uuid": "1df7a03e-f4de-4567-940d-758a5b11d368"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 41 [A14, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 96.52
+                            },
+                            "uuid": "2baa77a6-6b71-4fd6-92a4-f0234505eef8"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 43 [A15, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 99.06
+                            },
+                            "uuid": "d0b3e2b1-6ea8-4532-97af-3b89cc5ccdbc"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 45 [A16, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 101.6
+                            },
+                            "uuid": "e2f14a12-917f-471c-afe0-fcda74aeecb1"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 47 [A17, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 104.14
+                            },
+                            "uuid": "fd9bec2f-d4f0-4970-80de-87f96d9df64c"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 52 [A18, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 106.68
+                            },
+                            "uuid": "9b89361e-5a36-4d74-8165-a84f8704d91b"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 54 [A19, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 109.22
+                            },
+                            "uuid": "e27bd560-01db-4465-930f-ce78bfb07cf7"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 56 [A20, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 111.76
+                            },
+                            "uuid": "30306dd2-72f0-43cc-9de8-7b3f861b7530"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 58 [A21, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 114.3
+                            },
+                            "uuid": "111947ba-d1e5-4ddd-940a-23ba9a88f3a9"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 57 [A22, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 116.84
+                            },
+                            "uuid": "47810676-ad83-410c-8b9a-db57dac94211"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                },
+                {
+                    "description": "Input pin not driven by any Output pins",
+                    "items": [
+                        {
+                            "description": "Symbol J40 Pin 59 [A23, Input, Line]",
+                            "pos": {
+                                "x": 100.33,
+                                "y": 119.38
+                            },
+                            "uuid": "bbe75216-7b4e-41d7-aed7-f5bdfbdbebfb"
+                        }
+                    ],
+                    "severity": "error",
+                    "type": "pin_not_driven"
+                }
+            ]
+        },
+        {
+            "path": "/USB routing and physical recovery/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/037f3f93-a5fe-4968-b57f-28801b5f4f7e",
+            "violations": []
+        },
+        {
+            "path": "/Independent byte-lane data buffers/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/2b94778a-7916-4718-9370-377b79f193e9",
+            "violations": []
+        },
+        {
+            "path": "/RP2350B and support/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/ffbfb91a-f8fa-407f-8f55-7d4da4dcaf28",
+            "violations": []
+        },
+        {
+            "path": "/Hardware bus interlocks/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/b41c7d00-017d-4ef3-a991-d6802d34c7ed",
+            "violations": []
+        },
+        {
+            "path": "/ESP32-S3 module and microSD/",
+            "uuid_path": "/61178cb4-f122-4436-800b-7b86ad8f1e60/99e0f3f0-5acf-4446-9925-23cc89927bff",
+            "violations": []
+        }
+    ],
+    "source": "integrated-a500-r2.kicad_sch"
+}

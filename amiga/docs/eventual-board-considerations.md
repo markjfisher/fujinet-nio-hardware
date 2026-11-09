@@ -4,7 +4,7 @@ For the integrated board, programming and recovery access must be designed in de
 
 The primary product plugs directly into the A500 86-contact expansion edge through a female mating socket. The manufactured passive Zorro-II breakout and purchased A500 adapter are bench infrastructure, not required final-product parts. A future A2000 version uses a separate 100-contact Zorro-II card and its appropriate control signals. The existing A500 library footprint represents male edge fingers; it is not a female mating-socket footprint.
 
-The [A500 R1 circuit candidate](../integrated-a500-r1/README.md) implements the processor and bus circuits as well as USB/power/recovery. It remains under electrical and mechanical review; no PCB release is implied.
+The [A500 R2 circuit candidate](../integrated-a500-r2/README.md) implements the processor and bus circuits as well as USB/power/recovery. R2 corrects R1's acknowledgement scheme: hardware XRDY inserts waits while the A500 owns /DTACK; per-cycle latches prevent stale completion/read-drive requests, and /BERR disables outputs. See the [bus review](../integrated-a500-r2/bus-review.md). It remains under electrical and mechanical review; no PCB release is implied. Earlier candidates are preserved.
 
 The selected bring-up direction is one external USB-C connector shared between
 PC service access and the internal RP2350-host / ESP32-S3-device link. The
