@@ -12,6 +12,12 @@ Its [power review](../integrated-a500-r3/power-review.md) records tolerance limi
 and a conditional current/thermal budget. Socket mapping, final BOM, fault
 transients and layout remain open; R3 is not fabrication-ready.
 
+The [A500 R4 placement candidate](../integrated-a500-r4/README.md) implements
+that circuit as a horizontal 105 × 124 mm sidecar placement with a reference-
+derived ED86 assembly footprint. All 86 socket lands and schematic/PCB parity
+are checked. Tail forming/case fit, critical routing, stackup, final BOM and
+electrical qualification remain open; the board is unrouted.
+
 The selected bring-up direction is one external USB-C connector shared between
 PC service access and the internal RP2350-host / ESP32-S3-device link. The
 bench has demonstrated that internal link and manual flashing of each processor

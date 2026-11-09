@@ -1,0 +1,19 @@
+{
+  "status": "PASS for connectivity and documented placement constraints; not routing or fabrication",
+  "physical_components": 188,
+  "mounting_holes": 4,
+  "checked_functional_pin_assignments": 864,
+  "schematic_parity_findings": 0,
+  "socket_contacts_checked": 86,
+  "rp_reference_footprints_and_positions_checked": 6,
+  "local_control_bypass_caps_checked": 27,
+  "maximum_control_cap_center_to_power_pad_mm": 3.5,
+  "copper_layers": 4,
+  "tracks": 0,
+  "drc_violations_retained": {
+    "hole_clearance": 4,
+    "silk_edge_clearance": 2
+  },
+  "unconnected_items": 499,
+  "stackup_and_usb_geometry": "not qualified"
+}

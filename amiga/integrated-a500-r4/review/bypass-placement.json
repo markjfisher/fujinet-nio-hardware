@@ -1,0 +1,194 @@
+{
+  "moves": [
+    {
+      "reference": "C70",
+      "x_mm": 77.921,
+      "y_mm": 56.042,
+      "load": "U61",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C71",
+      "x_mm": 36.138,
+      "y_mm": 25.0,
+      "load": "U62",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C72",
+      "x_mm": 48.227,
+      "y_mm": 58.51,
+      "load": "U63",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C73",
+      "x_mm": 54.477,
+      "y_mm": 74.408,
+      "load": "U64",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C74",
+      "x_mm": 64.919,
+      "y_mm": 79.79,
+      "load": "U65",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C75",
+      "x_mm": 69.111,
+      "y_mm": 48.892,
+      "load": "U66",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C76",
+      "x_mm": 36.914,
+      "y_mm": 32.898,
+      "load": "U67",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C77",
+      "x_mm": 46.914,
+      "y_mm": 24.898,
+      "load": "U68",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C78",
+      "x_mm": 65.528,
+      "y_mm": 43.318,
+      "load": "U69",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C79",
+      "x_mm": 78.055,
+      "y_mm": 50.564,
+      "load": "U70",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C80",
+      "x_mm": 48.736,
+      "y_mm": 31.5,
+      "load": "U71",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C81",
+      "x_mm": 79.215,
+      "y_mm": 68.058,
+      "load": "U72",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C82",
+      "x_mm": 77.698,
+      "y_mm": 80.258,
+      "load": "U73",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C83",
+      "x_mm": 66.267,
+      "y_mm": 74.238,
+      "load": "U74",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C84",
+      "x_mm": 51.972,
+      "y_mm": 72.395,
+      "load": "U75",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C85",
+      "x_mm": 49.214,
+      "y_mm": 68.062,
+      "load": "U76",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C86",
+      "x_mm": 78.18,
+      "y_mm": 92.058,
+      "load": "U77",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C87",
+      "x_mm": 90.645,
+      "y_mm": 107.722,
+      "load": "U78",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C88",
+      "x_mm": 71.805,
+      "y_mm": 69.398,
+      "load": "U79",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C89",
+      "x_mm": 73.308,
+      "y_mm": 63.358,
+      "load": "U80",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C90",
+      "x_mm": 79.416,
+      "y_mm": 76.27,
+      "load": "U81",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C91",
+      "x_mm": 49.096,
+      "y_mm": 51.9,
+      "load": "U82",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C92",
+      "x_mm": 44.248,
+      "y_mm": 43.828,
+      "load": "U83",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C60",
+      "x_mm": 70.594,
+      "y_mm": 46.83,
+      "load": "U60",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C93",
+      "x_mm": 68.392,
+      "y_mm": 65.858,
+      "load": "U84",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C94",
+      "x_mm": 76.567,
+      "y_mm": 39.808,
+      "load": "U85",
+      "max_power_pad_center_distance_mm": 5
+    },
+    {
+      "reference": "C95",
+      "x_mm": 47.29,
+      "y_mm": 64.168,
+      "load": "U86",
+      "max_power_pad_center_distance_mm": 5
+    }
+  ],
+  "unplaced": []
+}

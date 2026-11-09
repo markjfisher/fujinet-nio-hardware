@@ -1,0 +1,238 @@
+{
+  "status": "ok",
+  "total_footprints": 192,
+  "total_issues": 32,
+  "footprint_overlaps": [
+    {
+      "ref_a": "U45",
+      "ref_b": "Q2",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "R31",
+      "ref_b": "C80",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "C31",
+      "ref_b": "C39",
+      "overlap": true,
+      "overlap_mm2": 0.01
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R33",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R35",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R12",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R40",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R11",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "Q1",
+      "overlap": true,
+      "overlap_mm2": 13.49
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "Q4",
+      "overlap": true,
+      "overlap_mm2": 13.49
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R30",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R34",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "H1",
+      "overlap": true,
+      "overlap_mm2": 6.81
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R39",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R38",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R41",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "C10",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U3",
+      "ref_b": "C101",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "R101",
+      "ref_b": "R11",
+      "overlap": false,
+      "overlap_mm2": 0
+    }
+  ],
+  "keepout_violations": [
+    {
+      "reference": "J1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U30",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "U30",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "H4",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "H4",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "H1",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "H1",
+      "keepout_source": "U30",
+      "blocked": [
+        "tracks",
+        "vias",
+        "pads",
+        "footprints",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": true
+    }
+  ],
+  "silkscreen_overlaps": [
+    {
+      "silk_component": "C5",
+      "silk_type": "reference",
+      "pad_component": "C3"
+    },
+    {
+      "silk_component": "C5",
+      "silk_type": "reference",
+      "pad_component": "C3"
+    }
+  ],
+  "silkscreen_text_overlaps": [
+    {
+      "text_a_component": "C7",
+      "text_a_type": "reference",
+      "text_b_component": null,
+      "text_b_type": "standalone"
+    }
+  ],
+  "summary": "19 footprint overlap(s), 10 keepout/boundary issue(s), 2 silkscreen-over-pad overlap(s), 1 silkscreen text-to-text overlap(s)"
+}

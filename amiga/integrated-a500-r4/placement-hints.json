@@ -1,0 +1,443 @@
+{
+  "J40": {
+    "fixed": [
+      105,
+      62
+    ],
+    "rotation": 0
+  },
+  "U20": {
+    "fixed": [
+      60.0,
+      60.0
+    ],
+    "rotation": 0.0
+  },
+  "U30": {
+    "fixed": [
+      7,
+      30
+    ],
+    "rotation": 90
+  },
+  "J1": {
+    "fixed": [
+      3,
+      82
+    ],
+    "rotation": 270
+  },
+  "J30": {
+    "fixed": [
+      9.32,
+      62.32
+    ],
+    "rotation": 90
+  },
+  "J2": {
+    "fixed": [
+      12,
+      110
+    ],
+    "rotation": 0
+  },
+  "J60": {
+    "fixed": [
+      88,
+      117
+    ],
+    "rotation": 90
+  },
+  "J20": {
+    "fixed": [
+      54,
+      8
+    ],
+    "rotation": 90
+  },
+  "J31": {
+    "fixed": [
+      32,
+      8
+    ],
+    "rotation": 90
+  },
+  "U1": {
+    "fixed": [
+      29,
+      76
+    ],
+    "rotation": 0
+  },
+  "U2": {
+    "fixed": [
+      39,
+      76
+    ],
+    "rotation": 0
+  },
+  "U3": {
+    "fixed": [
+      14,
+      72
+    ],
+    "rotation": 0
+  },
+  "U8": {
+    "fixed": [
+      14,
+      92
+    ],
+    "rotation": 0
+  },
+  "U9": {
+    "fixed": [
+      25,
+      92
+    ],
+    "rotation": 0
+  },
+  "U5": {
+    "fixed": [
+      36,
+      94
+    ],
+    "rotation": 0
+  },
+  "SW1": {
+    "fixed": [
+      48,
+      115
+    ],
+    "rotation": 0
+  },
+  "SW2": {
+    "fixed": [
+      58,
+      115
+    ],
+    "rotation": 0
+  },
+  "SW3": {
+    "fixed": [
+      68,
+      115
+    ],
+    "rotation": 0
+  },
+  "SW4": {
+    "fixed": [
+      78,
+      115
+    ],
+    "rotation": 0
+  },
+  "U40": {
+    "fixed": [
+      85,
+      20
+    ],
+    "rotation": 0
+  },
+  "U41": {
+    "fixed": [
+      85,
+      32
+    ],
+    "rotation": 0
+  },
+  "U42": {
+    "fixed": [
+      85,
+      44
+    ],
+    "rotation": 0
+  },
+  "U43": {
+    "fixed": [
+      85,
+      56
+    ],
+    "rotation": 0
+  },
+  "U44": {
+    "fixed": [
+      85,
+      68
+    ],
+    "rotation": 0
+  },
+  "U45": {
+    "fixed": [
+      85,
+      80
+    ],
+    "rotation": 0
+  },
+  "U46": {
+    "fixed": [
+      85,
+      92
+    ],
+    "rotation": 0
+  },
+  "U47": {
+    "fixed": [
+      85,
+      104
+    ],
+    "rotation": 0
+  },
+  "L20": {
+    "fixed": [
+      63.0,
+      51.349999999999994
+    ],
+    "rotation": 0.0
+  },
+  "C24": {
+    "fixed": [
+      63.0,
+      53.94
+    ],
+    "rotation": 0.0
+  },
+  "C25": {
+    "fixed": [
+      63.0,
+      53.0
+    ],
+    "rotation": 0.0
+  },
+  "C23": {
+    "fixed": [
+      65.2,
+      53.5
+    ],
+    "rotation": 270.0
+  },
+  "R24": {
+    "fixed": [
+      65.2,
+      51.650000000000006
+    ],
+    "rotation": 270.0
+  },
+  "U21": {
+    "fixed": [
+      53,
+      45
+    ],
+    "rotation": 0
+  },
+  "C20": {
+    "fixed": [
+      56,
+      40
+    ],
+    "rotation": 0
+  },
+  "R20": {
+    "fixed": [
+      50,
+      40
+    ],
+    "rotation": 90
+  },
+  "Y20": {
+    "fixed": [
+      60,
+      74
+    ],
+    "rotation": 0
+  },
+  "R21": {
+    "fixed": [
+      60.2,
+      69.5
+    ],
+    "rotation": 90
+  },
+  "C21": {
+    "fixed": [
+      57,
+      72
+    ],
+    "rotation": 90
+  },
+  "C22": {
+    "fixed": [
+      63,
+      72
+    ],
+    "rotation": 90
+  },
+  "R22": {
+    "fixed": [
+      58,
+      53
+    ],
+    "rotation": 90
+  },
+  "R23": {
+    "fixed": [
+      60,
+      53
+    ],
+    "rotation": 90
+  },
+  "C26": {
+    "fixed": [
+      52,
+      57.8
+    ],
+    "rotation": 0
+  },
+  "C27": {
+    "fixed": [
+      52,
+      62
+    ],
+    "rotation": 0
+  },
+  "C28": {
+    "fixed": [
+      56.5,
+      68
+    ],
+    "rotation": 90
+  },
+  "C29": {
+    "fixed": [
+      58.4,
+      68
+    ],
+    "rotation": 90
+  },
+  "C30": {
+    "fixed": [
+      68,
+      64
+    ],
+    "rotation": 0
+  },
+  "C31": {
+    "fixed": [
+      68,
+      60
+    ],
+    "rotation": 0
+  },
+  "C32": {
+    "fixed": [
+      68,
+      56
+    ],
+    "rotation": 0
+  },
+  "C33": {
+    "fixed": [
+      71.5,
+      57.5
+    ],
+    "rotation": 0
+  },
+  "C34": {
+    "fixed": [
+      61,
+      48
+    ],
+    "rotation": 90
+  },
+  "C35": {
+    "fixed": [
+      58.5,
+      49.5
+    ],
+    "rotation": 90
+  },
+  "C36": {
+    "fixed": [
+      56,
+      52
+    ],
+    "rotation": 90
+  },
+  "C37": {
+    "fixed": [
+      52,
+      60
+    ],
+    "rotation": 0
+  },
+  "C38": {
+    "fixed": [
+      62.5,
+      68
+    ],
+    "rotation": 90
+  },
+  "C39": {
+    "fixed": [
+      70.5,
+      61.5
+    ],
+    "rotation": 0
+  },
+  "C50": {
+    "fixed": [
+      90.5,
+      17.1
+    ],
+    "rotation": 90
+  },
+  "C51": {
+    "fixed": [
+      90.5,
+      29.1
+    ],
+    "rotation": 90
+  },
+  "C52": {
+    "fixed": [
+      90.5,
+      41.1
+    ],
+    "rotation": 90
+  },
+  "C53": {
+    "fixed": [
+      90.5,
+      53.1
+    ],
+    "rotation": 90
+  },
+  "C54": {
+    "fixed": [
+      90.5,
+      65.1
+    ],
+    "rotation": 90
+  },
+  "C55": {
+    "fixed": [
+      90.5,
+      77.1
+    ],
+    "rotation": 90
+  },
+  "C56": {
+    "fixed": [
+      90.5,
+      89.1
+    ],
+    "rotation": 90
+  },
+  "C57": {
+    "fixed": [
+      90.5,
+      101.1
+    ],
+    "rotation": 90
+  }
+}

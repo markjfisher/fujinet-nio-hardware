@@ -1,0 +1,15 @@
+{
+  "scope": "A500 R4 circuit candidate; NOT electrical/layout release",
+  "components": 188,
+  "checked_physical_pin_assignments": 864,
+  "exact_nets": 195,
+  "rp_package_pads": 81,
+  "bus_logic_cases": 65536,
+  "sequential_cases": 65536,
+  "address_decode_cases": 32,
+  "usb_cases": 8,
+  "erc_findings_retained": 33,
+  "erc_status": "32 external A500 model findings plus manufacturer-directed grounded ST; no exclusions; not zero ERC",
+  "pcb": "placement candidate; see pcb-checks.json and drc.json; NOT routed or released",
+  "unresolved_project_library_links": 0
+}
