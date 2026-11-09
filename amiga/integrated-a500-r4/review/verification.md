@@ -16,7 +16,7 @@ are unchanged; no push, order, fabrication export or submodule pin change.
 | Native schematic/PCB parity | **0 findings** |
 | A500 lands | All 86 checked for face, numbering, position, dimensions and no paste |
 | RP reference cell | Six footprints and relative positions checked; no reference copper imported |
-| Control bypass capacitors | 27 paired to their loads; maximum center-to-power-pad distance 3.5 mm |
+| Control bypass capacitors | 27 paired to their loads; maximum center-to-power-pad distance 3.111 mm |
 | Native ERC | 33 retained, unchanged electrical/model findings |
 | Native DRC | Four USB connector hole-clearance findings; two antenna-overhang silk findings |
 | Unconnected PCB items | **499**, expected at this unrouted stage; not waived |
@@ -106,3 +106,40 @@ mounting holes fit the new outline, with H1 inset to clear the ESP courtyard.
 Native parity remains zero, with the same six DRC findings and 499 unconnected
 items. Updated native preview was visually inspected. Rectangular PCB shape is
 a candidate envelope, not proof of enclosure or formed-tail fit.
+
+## Circuit-cluster and label review
+
+The revised placement restores 34 previously hidden references and replaces
+four font sizes with visible 0.9 mm references / 0.15 mm strokes on all 192
+footprints. Repeated IC/bypass cells share offsets and label baselines, including
+C71/C76/C77/C80. Unrelated logic is moved out of the RP/flash region. The six
+RP regulator reference placements remain unchanged. All references around U20,
+including its tightly spaced north-side regulator parts, are now visible.
+
+Named native PCB groups cover 183 components in 54 functional groups. The five
+standalone connectors and four mounting holes are intentionally ungrouped.
+Native read-back verifies every group membership, all reference styles and
+visibility, seven local supply-capacitor relationships, and thirteen power-cell
+positions/orientations. The buck output capacitor C8 is now in the power stage;
+C4/C5 sit beside the always-on regulator. These checks verify saved geometry,
+not routed loop inductance or transient performance.
+
+C42/C43 are the only bottom-side components, beside the SD supply contact in
+plan view. Native mirrored bottom and top previews were both rendered and
+visually inspected. The bottom preview shows both labels clearly. Underside
+component clearance is now part of the enclosure/assembly review.
+
+Final native checks retain 864 functional assignments, zero schematic parity
+findings, the same six DRC findings and 499 unrouted items. No new native
+courtyard, pad-clearance or silkscreen-overlap findings appeared. No exclusions
+were added. The board still contains zero tracks.
+
+`cluster-mcp-audit.json` retains the separate MCP audit: 30 reported items,
+including zero-area bounding-box contacts, the concave ESP courtyard's broad
+bounding box, deliberate edge interfaces, and cross-side SD items. In particular,
+MCP flags C42 against J30's keepout and C43 text against J30 pads without
+respecting their opposite faces: native read-back confirms all five J30 keepout
+zones are F.Cu-only while C42/C43 and their labels are on the back. Native DRC
+reports none of those SD conflicts. This audit is not presented as clean or
+used to override the retained native findings. Both audit and native DRC remain
+necessary as routing proceeds.

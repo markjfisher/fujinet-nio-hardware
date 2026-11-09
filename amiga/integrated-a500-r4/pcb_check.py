@@ -56,10 +56,38 @@ for ref,f in fs.items():
 points=[p for g in b.GetDrawings() if g.GetLayer()==k.Edge_Cuts for p in [g.GetStart(),g.GetEnd()]]
 xs=[k.ToMM(p.x) for p in points];ys=[k.ToMM(p.y) for p in points];o=mechanical['outline']
 assert [min(xs),min(ys),max(xs)-min(xs),max(ys)-min(ys)]==[o['x_mm'],o['y_mm'],o['width_mm'],o['height_mm']]
+# Every reference remains visible and consistently styled; no hidden-label
+# workaround is accepted after the readability review.
+for ref,f in fs.items():
+ text=f.Reference()
+ assert text.IsVisible(),('hidden reference',ref)
+ assert abs(k.ToMM(text.GetTextSize().x)-.9)<1e-6 and abs(k.ToMM(text.GetTextSize().y)-.9)<1e-6,ref
+ assert abs(k.ToMM(text.GetTextThickness())-.15)<1e-6,ref
+ assert abs(text.GetTextAngle().AsDegrees())<1e-6,ref
+ assert text.GetLayer()==(k.B_SilkS if f.GetLayer()==k.B_Cu else k.F_SilkS),ref
+cluster=json.loads((R/'cluster-plan.json').read_text());power_distances=[]
+for item in cluster['local_power_distances']:
+ cap=fs[item['capacitor']];load=fs[item['load']];pad=next(p for p in load.Pads() if p.GetNumber()==item['power_pin'])
+ distance=math.hypot(k.ToMM(cap.GetPosition().x-pad.GetPosition().x),k.ToMM(cap.GetPosition().y-pad.GetPosition().y))
+ assert abs(distance-item['center_to_power_pad_mm'])<.002,item
+ power_distances.append(dict(item,measured_mm=round(distance,3)))
+assert {r for r,f in fs.items() if f.GetLayer()==k.B_Cu}=={'C42','C43'}
+group_report=json.loads((R/'group-checks.json').read_text())
+actual_groups={g.GetName():g for g in b.Groups()}
+for record in group_report['groups']:
+ g=actual_groups['FN: '+record['name']]
+ assert {item.GetReference() for item in g.GetItems()}==set(record['members']),record
+power_moves=json.loads((R/'power-cell-plan.json').read_text())['moves']
+for move in power_moves:
+ f=fs[move['reference']]
+ assert math.hypot(k.ToMM(f.GetPosition().x)-move['x_mm'],k.ToMM(f.GetPosition().y)-move['y_mm'])<1e-5,move
+ assert abs((f.GetOrientationDegrees()-move['rotation_deg']+180)%360-180)<1e-5,move
 assert b.GetCopperLayerCount()==4
 subprocess.run(['kicad-cli','pcb','drc','--schematic-parity','--format','json','-o',str(R/'drc.json'),str(P)],check=True,capture_output=True)
 drc=json.loads((R/'drc.json').read_text());assert not drc['schematic_parity'],drc['schematic_parity'][:2]
 subprocess.run(['kicad-cli','pcb','export','svg','--mode-single','--exclude-drawing-sheet','--layers','F.Cu,F.Silkscreen,Edge.Cuts','--page-size-mode','2','--output',str(R/'placement.svg'),str(P)],check=True,capture_output=True)
+subprocess.run(['kicad-cli','pcb','export','svg','--mode-single','--mirror','--exclude-drawing-sheet','--layers','B.Cu,B.Silkscreen,Edge.Cuts','--page-size-mode','2','--output',str(R/'placement-bottom.svg'),str(P)],check=True,capture_output=True)
+back=R/'placement-bottom.svg';back.write_text('\n'.join(line.rstrip() for line in back.read_text().splitlines())+'\n')
 svg=R/'placement.svg';svg.write_text('\n'.join(line.rstrip() for line in svg.read_text().splitlines())+'\n')
 result={'status':'PASS for connectivity and documented placement constraints; not routing or fabrication',
  'physical_components':len(plan),'mounting_holes':4,'checked_functional_pin_assignments':checked,
@@ -68,6 +96,9 @@ result={'status':'PASS for connectivity and documented placement constraints; no
  'maximum_control_cap_center_to_power_pad_mm':round(max(local),3),'copper_layers':4,
  'outline_mm':[o['width_mm'],o['height_mm']],'component_free_band_mm':mechanical['component_free_depth_mm'],
  'rightmost_non_socket_courtyard_or_pad_x_mm':round(rightmost,3),
+ 'visible_reference_labels':len(fs),'reference_font_mm':.9,'native_component_groups':len(group_report['groups']),
+ 'grouped_components':group_report['grouped_components'],'local_supply_capacitors':power_distances,
+ 'backside_components':['C42','C43'],'power_cell_positions_checked':len(power_moves),
  'tracks':len(b.GetTracks()),'drc_violations_retained':dict(collections.Counter(x['type'] for x in drc['violations'])),
  'unconnected_items':len(drc['unconnected_items']),'stackup_and_usb_geometry':'not qualified'}
 (R/'pcb-checks.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))

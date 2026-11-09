@@ -1,0 +1,469 @@
+{
+  "groups": [
+    {
+      "name": "ESP recovery and USB",
+      "members": [
+        "Q4",
+        "R12",
+        "R30",
+        "R31",
+        "R33",
+        "C10",
+        "Q1",
+        "R11",
+        "R32",
+        "R34",
+        "R35",
+        "R36"
+      ]
+    },
+    {
+      "name": "SD pullups",
+      "members": [
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R41"
+      ]
+    },
+    {
+      "name": "Logic U61",
+      "members": [
+        "U61",
+        "C70"
+      ]
+    },
+    {
+      "name": "Logic U62",
+      "members": [
+        "U62",
+        "C71",
+        "R63",
+        "R3"
+      ]
+    },
+    {
+      "name": "Logic U63",
+      "members": [
+        "U63",
+        "C72",
+        "R64"
+      ]
+    },
+    {
+      "name": "Logic U85",
+      "members": [
+        "U85",
+        "C94"
+      ]
+    },
+    {
+      "name": "Logic U64",
+      "members": [
+        "U64",
+        "C73"
+      ]
+    },
+    {
+      "name": "Logic U65",
+      "members": [
+        "U65",
+        "C74"
+      ]
+    },
+    {
+      "name": "Logic U66",
+      "members": [
+        "U66",
+        "C75"
+      ]
+    },
+    {
+      "name": "Logic U67",
+      "members": [
+        "U67",
+        "C76"
+      ]
+    },
+    {
+      "name": "Logic U68",
+      "members": [
+        "U68",
+        "C77"
+      ]
+    },
+    {
+      "name": "Logic U69",
+      "members": [
+        "U69",
+        "C78"
+      ]
+    },
+    {
+      "name": "Logic U70",
+      "members": [
+        "U70",
+        "C79"
+      ]
+    },
+    {
+      "name": "Logic U79",
+      "members": [
+        "U79",
+        "C88"
+      ]
+    },
+    {
+      "name": "Logic U84",
+      "members": [
+        "U84",
+        "C93",
+        "R66"
+      ]
+    },
+    {
+      "name": "Logic U86",
+      "members": [
+        "U86",
+        "C95",
+        "R65"
+      ]
+    },
+    {
+      "name": "Logic U71",
+      "members": [
+        "U71",
+        "C80"
+      ]
+    },
+    {
+      "name": "Logic U72",
+      "members": [
+        "U72",
+        "C81"
+      ]
+    },
+    {
+      "name": "Logic U73",
+      "members": [
+        "U73",
+        "C82"
+      ]
+    },
+    {
+      "name": "Logic U74",
+      "members": [
+        "U74",
+        "C83"
+      ]
+    },
+    {
+      "name": "Logic U75",
+      "members": [
+        "U75",
+        "C84"
+      ]
+    },
+    {
+      "name": "Logic U76",
+      "members": [
+        "U76",
+        "C85"
+      ]
+    },
+    {
+      "name": "Logic U77",
+      "members": [
+        "U77",
+        "C86"
+      ]
+    },
+    {
+      "name": "Logic U78",
+      "members": [
+        "U78",
+        "C87"
+      ]
+    },
+    {
+      "name": "Logic U80",
+      "members": [
+        "U80",
+        "C89"
+      ]
+    },
+    {
+      "name": "Logic U81",
+      "members": [
+        "U81",
+        "C90"
+      ]
+    },
+    {
+      "name": "Logic U82",
+      "members": [
+        "U82",
+        "C91",
+        "R67"
+      ]
+    },
+    {
+      "name": "Logic U83",
+      "members": [
+        "U83",
+        "C92"
+      ]
+    },
+    {
+      "name": "Logic U60",
+      "members": [
+        "U60",
+        "C60",
+        "R60",
+        "R61",
+        "R62"
+      ]
+    },
+    {
+      "name": "RP regulator reference cell",
+      "members": [
+        "U20",
+        "L20",
+        "R24",
+        "C23",
+        "C24",
+        "C25",
+        "C26",
+        "C27",
+        "C28",
+        "C29",
+        "C30",
+        "C31",
+        "C32",
+        "C33",
+        "C34",
+        "C35",
+        "C36",
+        "C37",
+        "C38",
+        "C39",
+        "R22",
+        "R23"
+      ]
+    },
+    {
+      "name": "RP crystal",
+      "members": [
+        "Y20",
+        "R21",
+        "C21",
+        "C22"
+      ]
+    },
+    {
+      "name": "RP QSPI flash",
+      "members": [
+        "U21",
+        "R20",
+        "C20",
+        "R13"
+      ]
+    },
+    {
+      "name": "USB switch RP",
+      "members": [
+        "U1",
+        "C1",
+        "R1"
+      ]
+    },
+    {
+      "name": "USB switch ESP",
+      "members": [
+        "U2",
+        "C2",
+        "R2"
+      ]
+    },
+    {
+      "name": "USB CC detection",
+      "members": [
+        "U3",
+        "C3",
+        "R4",
+        "R5"
+      ]
+    },
+    {
+      "name": "ESP local supply",
+      "members": [
+        "U30",
+        "C40",
+        "C41"
+      ]
+    },
+    {
+      "name": "microSD local supply",
+      "members": [
+        "J30",
+        "C42",
+        "C43"
+      ]
+    },
+    {
+      "name": "Bus buffer U40",
+      "members": [
+        "U40",
+        "C50"
+      ]
+    },
+    {
+      "name": "Bus buffer U41",
+      "members": [
+        "U41",
+        "C51"
+      ]
+    },
+    {
+      "name": "Bus buffer U42",
+      "members": [
+        "U42",
+        "C52"
+      ]
+    },
+    {
+      "name": "Bus buffer U43",
+      "members": [
+        "U43",
+        "C53"
+      ]
+    },
+    {
+      "name": "Bus buffer U44",
+      "members": [
+        "U44",
+        "C54",
+        "R50"
+      ]
+    },
+    {
+      "name": "Bus buffer U45",
+      "members": [
+        "U45",
+        "C55",
+        "R51"
+      ]
+    },
+    {
+      "name": "Bus buffer U46",
+      "members": [
+        "U46",
+        "C56",
+        "R52"
+      ]
+    },
+    {
+      "name": "Bus buffer U47",
+      "members": [
+        "U47",
+        "C57",
+        "R53"
+      ]
+    },
+    {
+      "name": "USB receptacle and ESD",
+      "members": [
+        "J1",
+        "D2",
+        "D3"
+      ]
+    },
+    {
+      "name": "Input eFuse",
+      "members": [
+        "U8",
+        "C100",
+        "C101",
+        "C102",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105"
+      ]
+    },
+    {
+      "name": "Reverse blocking",
+      "members": [
+        "U9"
+      ]
+    },
+    {
+      "name": "Always-on regulator",
+      "members": [
+        "U6",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "name": "USB current qualification inverter",
+      "members": [
+        "U7",
+        "R6"
+      ]
+    },
+    {
+      "name": "Main power switch",
+      "members": [
+        "U4",
+        "C6",
+        "R14"
+      ]
+    },
+    {
+      "name": "3V3 buck regulator",
+      "members": [
+        "U5",
+        "L1",
+        "C7",
+        "C8",
+        "C9",
+        "R7",
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "name": "RP physical recovery bias",
+      "members": [
+        "Q2",
+        "Q3",
+        "R10"
+      ]
+    },
+    {
+      "name": "Recovery buttons",
+      "members": [
+        "SW1",
+        "SW2",
+        "SW3",
+        "SW4"
+      ]
+    }
+  ],
+  "grouped_components": 183,
+  "ungrouped": [
+    "H1",
+    "H2",
+    "H3",
+    "H4",
+    "J2",
+    "J20",
+    "J31",
+    "J40",
+    "J60"
+  ]
+}

@@ -5,7 +5,7 @@ placement**, with the female A500 socket at the right edge and an 18 mm
 component-free band behind that edge (the socket solder lands are excepted). It is a new project;
 released passive hardware and R0–R3 remain unchanged.
 
-Open the [board preview](review/placement.png), [native project](integrated-a500-r4.kicad_pro)
+Open the [top preview](review/placement.png), [bottom preview](review/placement-bottom.png), [native project](integrated-a500-r4.kicad_pro)
 or [nine-page schematic](review/schematic.pdf). The PCB contains all 188 physical
 components and four mounting holes. **It has no routed copper yet.** Separate
 pads in the preview are component lands, not completed connections. Matching
@@ -60,11 +60,35 @@ Run the native checking/geometry scripts with system Python:
    positions and apply them through MCP.
 7. `fit_mechanics.py`, then `apply_mechanics.py`, then `reserve_connector.py`
    applies the owner-measured envelope without regenerating the board.
-8. `check.py`, `power_check.py`, `pcb_check.py`: independent final checks.
-   `pcb_check.py` also exports the native placement SVG. Raster preview uses
+8. `plan_clusters.py`, then MCP `apply_clusters.py`, then native
+   `create_groups.py`: place circuit cells, create named groups and move the
+   two SD supply capacitors to the underside.
+9. `plan_power_cell.py`, then MCP `apply_clusters.py power-cell-plan.json`:
+   orient the buck cell and place its supply capacitors locally.
+10. `plan_labels.py`, then MCP `apply_labels.py`: reserve consistent cell-label
+    positions and apply visible 0.9 mm references. Run the planner immediately
+    before the applicator; its update list is relative to the saved board.
+11. `check.py`, `power_check.py`, `pcb_check.py`: independent final checks.
+   `pcb_check.py` also exports native top and mirrored bottom placement SVGs. Raster preview uses
    CairoSVG; no image generation or hand-edited CAD is involved.
 
 The actual saved candidate is the review artifact. These scripts are not a
 fabrication pipeline. Do not run whole-board generation after adding routes:
 it replaces the board. Do not run generic placement autofix: this pinned MCP
 implementation does not respect footprint locks.
+
+## Placement readability pass
+
+All 192 references are visible, horizontal and use 0.9 mm lettering with
+0.15 mm strokes. Repeated control IC/bypass pairs share a placement pattern
+and label baseline. Native KiCad groups collect 183 components into 54 named
+circuit groups; standalone connectors and mounting holes remain separate.
+Groups support selecting related parts together; they do not enforce electrical
+layout rules. The RP reference regulator geometry is preserved.
+
+USB, CC, ESP, SD and regulator capacitors have explicit circuit owners rather
+than proximity inferred from the shared supply net. C42/C43 are on the bottom
+near the SD supply contact; allow underside component clearance in the housing.
+The buck output capacitor is now beside its regulator and inductor. These are
+placement improvements; copper loops, return paths and USB geometry still need
+routing and verification. See the detailed verification record.

@@ -1,0 +1,136 @@
+{
+  "extend": {
+    "RP regulator reference cell": [
+      "C26",
+      "C27",
+      "C28",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C39",
+      "R22",
+      "R23"
+    ],
+    "USB switch RP": [
+      "R1"
+    ],
+    "USB switch ESP": [
+      "R2"
+    ],
+    "USB CC detection": [
+      "R4",
+      "R5"
+    ],
+    "ESP recovery and USB": [
+      "Q1",
+      "R11",
+      "R32",
+      "R34",
+      "R35",
+      "R36"
+    ],
+    "Bus buffer U44": [
+      "R50"
+    ],
+    "Bus buffer U45": [
+      "R51"
+    ],
+    "Bus buffer U46": [
+      "R52"
+    ],
+    "Bus buffer U47": [
+      "R53"
+    ]
+  },
+  "groups": [
+    {
+      "name": "USB receptacle and ESD",
+      "members": [
+        "J1",
+        "D2",
+        "D3"
+      ]
+    },
+    {
+      "name": "Input eFuse",
+      "members": [
+        "U8",
+        "C100",
+        "C101",
+        "C102",
+        "R100",
+        "R101",
+        "R102",
+        "R103",
+        "R104",
+        "R105"
+      ]
+    },
+    {
+      "name": "Reverse blocking",
+      "members": [
+        "U9"
+      ]
+    },
+    {
+      "name": "Always-on regulator",
+      "members": [
+        "U6",
+        "C4",
+        "C5"
+      ]
+    },
+    {
+      "name": "USB current qualification inverter",
+      "members": [
+        "U7",
+        "R6"
+      ]
+    },
+    {
+      "name": "Main power switch",
+      "members": [
+        "U4",
+        "C6",
+        "R14"
+      ]
+    },
+    {
+      "name": "3V3 buck regulator",
+      "members": [
+        "U5",
+        "L1",
+        "C7",
+        "C8",
+        "C9",
+        "R7",
+        "R8",
+        "R9"
+      ]
+    },
+    {
+      "name": "RP physical recovery bias",
+      "members": [
+        "Q2",
+        "Q3",
+        "R10"
+      ]
+    },
+    {
+      "name": "Recovery buttons",
+      "members": [
+        "SW1",
+        "SW2",
+        "SW3",
+        "SW4"
+      ]
+    }
+  ]
+}

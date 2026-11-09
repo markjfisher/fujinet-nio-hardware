@@ -7,7 +7,7 @@
   "socket_contacts_checked": 86,
   "rp_reference_footprints_and_positions_checked": 6,
   "local_control_bypass_caps_checked": 27,
-  "maximum_control_cap_center_to_power_pad_mm": 3.5,
+  "maximum_control_cap_center_to_power_pad_mm": 3.111,
   "copper_layers": 4,
   "outline_mm": [
     111,
@@ -15,6 +15,68 @@
   ],
   "component_free_band_mm": 18,
   "rightmost_non_socket_courtyard_or_pad_x_mm": 86.975,
+  "visible_reference_labels": 192,
+  "reference_font_mm": 0.9,
+  "native_component_groups": 54,
+  "grouped_components": 183,
+  "local_supply_capacitors": [
+    {
+      "capacitor": "C1",
+      "load": "U1",
+      "power_pin": "10",
+      "center_to_power_pad_mm": 3.0,
+      "measured_mm": 3.0
+    },
+    {
+      "capacitor": "C2",
+      "load": "U2",
+      "power_pin": "10",
+      "center_to_power_pad_mm": 2.0,
+      "measured_mm": 2.0
+    },
+    {
+      "capacitor": "C3",
+      "load": "U3",
+      "power_pin": "12",
+      "center_to_power_pad_mm": 3.0,
+      "measured_mm": 3.0
+    },
+    {
+      "capacitor": "C41",
+      "load": "U30",
+      "power_pin": "2",
+      "center_to_power_pad_mm": 2.0,
+      "measured_mm": 2.0
+    },
+    {
+      "capacitor": "C40",
+      "load": "U30",
+      "power_pin": "2",
+      "center_to_power_pad_mm": 4.0,
+      "measured_mm": 4.0
+    },
+    {
+      "capacitor": "C43",
+      "load": "J30",
+      "power_pin": "4",
+      "center_to_power_pad_mm": 1.406,
+      "side": "B.Cu",
+      "measured_mm": 1.406
+    },
+    {
+      "capacitor": "C42",
+      "load": "J30",
+      "power_pin": "4",
+      "center_to_power_pad_mm": 5.177,
+      "side": "B.Cu",
+      "measured_mm": 5.177
+    }
+  ],
+  "backside_components": [
+    "C42",
+    "C43"
+  ],
+  "power_cell_positions_checked": 13,
   "tracks": 0,
   "drc_violations_retained": {
     "hole_clearance": 4,

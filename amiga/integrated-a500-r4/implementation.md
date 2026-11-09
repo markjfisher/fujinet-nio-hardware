@@ -113,3 +113,29 @@ No new physical USB feasibility test is needed. The existing passive captures
 establish bus visibility, not active-buffer timing. Active timing/PIO and fault
 qualification belong to the assembled prototype stage, not to a replay of
 breadboard acceptance before drawing the board.
+
+## Circuit clusters and readable references
+
+The first automated placement left 34 reference fields hidden and used four
+font sizes. Some supply capacitors were also assigned unsuitable positions.
+The saved revision replaces that result with explicit IC/capacitor associations,
+regular control cells and all references at 0.9 mm with 0.15 mm strokes. The
+planner reserves IC/capacitor label baselines before placing surrounding labels.
+It checks text bounding boxes against pads, bodies and other labels without
+hiding or shrinking references to make them fit.
+
+MCP applies component positions, orientations and reference-field changes.
+Its current API does not expose native group creation or flipping an existing
+footprint; `create_groups.py` uses public pcbnew APIs for those two operations.
+There are 54 named groups with 183 components. C42/C43 use B.Cu beneath the SD
+socket vicinity; its library component keepouts are front-only. Underside
+assembly and enclosure clearance must include these two capacitors.
+
+The buck cell follows the topology/orientation guidance in
+[TI TPS62130 datasheet §11, Figure 11-1](https://www.ti.com/lit/ds/symlink/tps62130.pdf):
+input capacitance beside VIN, inductor beside SW, output capacitance beside the
+inductor/regulator and feedback components away from SW. The eventual routing
+must join AGND/PGND/exposed-pad ground, keep switching loops short, and give VOS
+its own connection to the output capacitor. Placement alone does not satisfy
+these requirements. C4/C5 also sit beside the always-on regulator. The native
+checker verifies the thirteen power-cell placements and orientations.

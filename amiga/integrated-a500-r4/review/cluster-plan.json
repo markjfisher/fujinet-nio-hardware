@@ -1,0 +1,836 @@
+{
+  "moves": [
+    {
+      "reference": "R13",
+      "x_mm": 47,
+      "y_mm": 38
+    },
+    {
+      "reference": "Q4",
+      "x_mm": 11.2,
+      "y_mm": 17.67
+    },
+    {
+      "reference": "R12",
+      "x_mm": 11.2,
+      "y_mm": 13.5
+    },
+    {
+      "reference": "R30",
+      "x_mm": 10.5,
+      "y_mm": 42
+    },
+    {
+      "reference": "R31",
+      "x_mm": 14,
+      "y_mm": 42
+    },
+    {
+      "reference": "R33",
+      "x_mm": 17,
+      "y_mm": 33
+    },
+    {
+      "reference": "C10",
+      "x_mm": 0.5,
+      "y_mm": 44
+    },
+    {
+      "reference": "R37",
+      "x_mm": 16.5,
+      "y_mm": 55.5
+    },
+    {
+      "reference": "R38",
+      "x_mm": 16.5,
+      "y_mm": 58.5
+    },
+    {
+      "reference": "R39",
+      "x_mm": 16.5,
+      "y_mm": 61.5
+    },
+    {
+      "reference": "R40",
+      "x_mm": 16.5,
+      "y_mm": 64.5
+    },
+    {
+      "reference": "R41",
+      "x_mm": 16.5,
+      "y_mm": 67.5
+    },
+    {
+      "reference": "U61",
+      "x_mm": 22,
+      "y_mm": 16
+    },
+    {
+      "reference": "C70",
+      "x_mm": 26.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "U62",
+      "x_mm": 31,
+      "y_mm": 16
+    },
+    {
+      "reference": "C71",
+      "x_mm": 35.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "R63",
+      "x_mm": 35.1,
+      "y_mm": 18.2
+    },
+    {
+      "reference": "R3",
+      "x_mm": 35.1,
+      "y_mm": 20.5
+    },
+    {
+      "reference": "U63",
+      "x_mm": 40,
+      "y_mm": 16
+    },
+    {
+      "reference": "C72",
+      "x_mm": 44.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "R64",
+      "x_mm": 44.1,
+      "y_mm": 18.2
+    },
+    {
+      "reference": "U85",
+      "x_mm": 49,
+      "y_mm": 16
+    },
+    {
+      "reference": "C94",
+      "x_mm": 53.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "U64",
+      "x_mm": 58,
+      "y_mm": 16
+    },
+    {
+      "reference": "C73",
+      "x_mm": 62.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "U65",
+      "x_mm": 67,
+      "y_mm": 16
+    },
+    {
+      "reference": "C74",
+      "x_mm": 71.1,
+      "y_mm": 15.05
+    },
+    {
+      "reference": "U66",
+      "x_mm": 22,
+      "y_mm": 25
+    },
+    {
+      "reference": "C75",
+      "x_mm": 26.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U67",
+      "x_mm": 31,
+      "y_mm": 25
+    },
+    {
+      "reference": "C76",
+      "x_mm": 35.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U68",
+      "x_mm": 40,
+      "y_mm": 25
+    },
+    {
+      "reference": "C77",
+      "x_mm": 44.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U69",
+      "x_mm": 49,
+      "y_mm": 25
+    },
+    {
+      "reference": "C78",
+      "x_mm": 53.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U70",
+      "x_mm": 58,
+      "y_mm": 25
+    },
+    {
+      "reference": "C79",
+      "x_mm": 62.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U79",
+      "x_mm": 67,
+      "y_mm": 25
+    },
+    {
+      "reference": "C88",
+      "x_mm": 71.1,
+      "y_mm": 24.05
+    },
+    {
+      "reference": "U84",
+      "x_mm": 22,
+      "y_mm": 34
+    },
+    {
+      "reference": "C93",
+      "x_mm": 26.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "R66",
+      "x_mm": 26.1,
+      "y_mm": 36.2
+    },
+    {
+      "reference": "U86",
+      "x_mm": 31,
+      "y_mm": 34
+    },
+    {
+      "reference": "C95",
+      "x_mm": 35.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "R65",
+      "x_mm": 35.1,
+      "y_mm": 36.2
+    },
+    {
+      "reference": "U71",
+      "x_mm": 40,
+      "y_mm": 34
+    },
+    {
+      "reference": "C80",
+      "x_mm": 44.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "U72",
+      "x_mm": 49,
+      "y_mm": 34
+    },
+    {
+      "reference": "C81",
+      "x_mm": 53.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "U73",
+      "x_mm": 58,
+      "y_mm": 34
+    },
+    {
+      "reference": "C82",
+      "x_mm": 62.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "U74",
+      "x_mm": 67,
+      "y_mm": 34
+    },
+    {
+      "reference": "C83",
+      "x_mm": 71.1,
+      "y_mm": 33.05
+    },
+    {
+      "reference": "U75",
+      "x_mm": 22,
+      "y_mm": 43
+    },
+    {
+      "reference": "C84",
+      "x_mm": 26.1,
+      "y_mm": 42.05
+    },
+    {
+      "reference": "U76",
+      "x_mm": 31,
+      "y_mm": 43
+    },
+    {
+      "reference": "C85",
+      "x_mm": 35.1,
+      "y_mm": 42.05
+    },
+    {
+      "reference": "U77",
+      "x_mm": 22,
+      "y_mm": 52
+    },
+    {
+      "reference": "C86",
+      "x_mm": 26.1,
+      "y_mm": 51.05
+    },
+    {
+      "reference": "U78",
+      "x_mm": 31,
+      "y_mm": 52
+    },
+    {
+      "reference": "C87",
+      "x_mm": 35.1,
+      "y_mm": 51.05
+    },
+    {
+      "reference": "U80",
+      "x_mm": 22,
+      "y_mm": 61
+    },
+    {
+      "reference": "C89",
+      "x_mm": 26.1,
+      "y_mm": 60.05
+    },
+    {
+      "reference": "U81",
+      "x_mm": 31,
+      "y_mm": 70
+    },
+    {
+      "reference": "C90",
+      "x_mm": 35.1,
+      "y_mm": 69.05
+    },
+    {
+      "reference": "U82",
+      "x_mm": 66,
+      "y_mm": 85
+    },
+    {
+      "reference": "C91",
+      "x_mm": 70.1,
+      "y_mm": 84.05
+    },
+    {
+      "reference": "R67",
+      "x_mm": 70.1,
+      "y_mm": 87.2
+    },
+    {
+      "reference": "U83",
+      "x_mm": 48,
+      "y_mm": 94
+    },
+    {
+      "reference": "C92",
+      "x_mm": 52.1,
+      "y_mm": 93.05
+    },
+    {
+      "reference": "U60",
+      "x_mm": 57,
+      "y_mm": 94
+    },
+    {
+      "reference": "C60",
+      "x_mm": 61.1,
+      "y_mm": 93.05
+    },
+    {
+      "reference": "R60",
+      "x_mm": 61.1,
+      "y_mm": 96.2
+    },
+    {
+      "reference": "R61",
+      "x_mm": 61.1,
+      "y_mm": 98.5
+    },
+    {
+      "reference": "R62",
+      "x_mm": 57,
+      "y_mm": 98.5
+    },
+    {
+      "reference": "C1",
+      "x_mm": 27.9978,
+      "y_mm": 74.2235
+    },
+    {
+      "reference": "C2",
+      "x_mm": 34.5824,
+      "y_mm": 73.0681
+    },
+    {
+      "reference": "C3",
+      "x_mm": 4.4,
+      "y_mm": 71.175
+    },
+    {
+      "reference": "C41",
+      "x_mm": -3.5076,
+      "y_mm": 40.6819
+    },
+    {
+      "reference": "C40",
+      "x_mm": -2.99,
+      "y_mm": 42.75
+    },
+    {
+      "reference": "C43",
+      "x_mm": -3,
+      "y_mm": 62.8
+    },
+    {
+      "reference": "C42",
+      "x_mm": 0.5,
+      "y_mm": 64.5
+    }
+  ],
+  "groups": [
+    {
+      "name": "ESP recovery and USB",
+      "members": [
+        "Q4",
+        "R12",
+        "R30",
+        "R31",
+        "R33",
+        "C10"
+      ]
+    },
+    {
+      "name": "SD pullups",
+      "members": [
+        "R37",
+        "R38",
+        "R39",
+        "R40",
+        "R41"
+      ]
+    },
+    {
+      "name": "Logic U61",
+      "members": [
+        "U61",
+        "C70"
+      ]
+    },
+    {
+      "name": "Logic U62",
+      "members": [
+        "U62",
+        "C71",
+        "R63",
+        "R3"
+      ]
+    },
+    {
+      "name": "Logic U63",
+      "members": [
+        "U63",
+        "C72",
+        "R64"
+      ]
+    },
+    {
+      "name": "Logic U85",
+      "members": [
+        "U85",
+        "C94"
+      ]
+    },
+    {
+      "name": "Logic U64",
+      "members": [
+        "U64",
+        "C73"
+      ]
+    },
+    {
+      "name": "Logic U65",
+      "members": [
+        "U65",
+        "C74"
+      ]
+    },
+    {
+      "name": "Logic U66",
+      "members": [
+        "U66",
+        "C75"
+      ]
+    },
+    {
+      "name": "Logic U67",
+      "members": [
+        "U67",
+        "C76"
+      ]
+    },
+    {
+      "name": "Logic U68",
+      "members": [
+        "U68",
+        "C77"
+      ]
+    },
+    {
+      "name": "Logic U69",
+      "members": [
+        "U69",
+        "C78"
+      ]
+    },
+    {
+      "name": "Logic U70",
+      "members": [
+        "U70",
+        "C79"
+      ]
+    },
+    {
+      "name": "Logic U79",
+      "members": [
+        "U79",
+        "C88"
+      ]
+    },
+    {
+      "name": "Logic U84",
+      "members": [
+        "U84",
+        "C93",
+        "R66"
+      ]
+    },
+    {
+      "name": "Logic U86",
+      "members": [
+        "U86",
+        "C95",
+        "R65"
+      ]
+    },
+    {
+      "name": "Logic U71",
+      "members": [
+        "U71",
+        "C80"
+      ]
+    },
+    {
+      "name": "Logic U72",
+      "members": [
+        "U72",
+        "C81"
+      ]
+    },
+    {
+      "name": "Logic U73",
+      "members": [
+        "U73",
+        "C82"
+      ]
+    },
+    {
+      "name": "Logic U74",
+      "members": [
+        "U74",
+        "C83"
+      ]
+    },
+    {
+      "name": "Logic U75",
+      "members": [
+        "U75",
+        "C84"
+      ]
+    },
+    {
+      "name": "Logic U76",
+      "members": [
+        "U76",
+        "C85"
+      ]
+    },
+    {
+      "name": "Logic U77",
+      "members": [
+        "U77",
+        "C86"
+      ]
+    },
+    {
+      "name": "Logic U78",
+      "members": [
+        "U78",
+        "C87"
+      ]
+    },
+    {
+      "name": "Logic U80",
+      "members": [
+        "U80",
+        "C89"
+      ]
+    },
+    {
+      "name": "Logic U81",
+      "members": [
+        "U81",
+        "C90"
+      ]
+    },
+    {
+      "name": "Logic U82",
+      "members": [
+        "U82",
+        "C91",
+        "R67"
+      ]
+    },
+    {
+      "name": "Logic U83",
+      "members": [
+        "U83",
+        "C92"
+      ]
+    },
+    {
+      "name": "Logic U60",
+      "members": [
+        "U60",
+        "C60",
+        "R60",
+        "R61",
+        "R62"
+      ]
+    },
+    {
+      "name": "RP regulator reference cell",
+      "members": [
+        "U20",
+        "L20",
+        "R24",
+        "C23",
+        "C24",
+        "C25"
+      ]
+    },
+    {
+      "name": "RP crystal",
+      "members": [
+        "Y20",
+        "R21",
+        "C21",
+        "C22"
+      ]
+    },
+    {
+      "name": "RP QSPI flash",
+      "members": [
+        "U21",
+        "R20",
+        "C20",
+        "R13"
+      ]
+    },
+    {
+      "name": "USB switch RP",
+      "members": [
+        "U1",
+        "C1"
+      ]
+    },
+    {
+      "name": "USB switch ESP",
+      "members": [
+        "U2",
+        "C2"
+      ]
+    },
+    {
+      "name": "USB CC detection",
+      "members": [
+        "U3",
+        "C3"
+      ]
+    },
+    {
+      "name": "ESP local supply",
+      "members": [
+        "U30",
+        "C40",
+        "C41"
+      ]
+    },
+    {
+      "name": "microSD local supply",
+      "members": [
+        "J30",
+        "C42",
+        "C43"
+      ]
+    },
+    {
+      "name": "Bus buffer U40",
+      "members": [
+        "U40",
+        "C50"
+      ]
+    },
+    {
+      "name": "Bus buffer U41",
+      "members": [
+        "U41",
+        "C51"
+      ]
+    },
+    {
+      "name": "Bus buffer U42",
+      "members": [
+        "U42",
+        "C52"
+      ]
+    },
+    {
+      "name": "Bus buffer U43",
+      "members": [
+        "U43",
+        "C53"
+      ]
+    },
+    {
+      "name": "Bus buffer U44",
+      "members": [
+        "U44",
+        "C54"
+      ]
+    },
+    {
+      "name": "Bus buffer U45",
+      "members": [
+        "U45",
+        "C55"
+      ]
+    },
+    {
+      "name": "Bus buffer U46",
+      "members": [
+        "U46",
+        "C56"
+      ]
+    },
+    {
+      "name": "Bus buffer U47",
+      "members": [
+        "U47",
+        "C57"
+      ]
+    }
+  ],
+  "bypass_loads": {
+    "U61": "C70",
+    "U62": "C71",
+    "U63": "C72",
+    "U64": "C73",
+    "U65": "C74",
+    "U66": "C75",
+    "U67": "C76",
+    "U68": "C77",
+    "U69": "C78",
+    "U70": "C79",
+    "U71": "C80",
+    "U72": "C81",
+    "U73": "C82",
+    "U74": "C83",
+    "U75": "C84",
+    "U76": "C85",
+    "U77": "C86",
+    "U78": "C87",
+    "U79": "C88",
+    "U80": "C89",
+    "U81": "C90",
+    "U82": "C91",
+    "U83": "C92",
+    "U60": "C60",
+    "U84": "C93",
+    "U85": "C94",
+    "U86": "C95"
+  },
+  "local_power_distances": [
+    {
+      "capacitor": "C1",
+      "load": "U1",
+      "power_pin": "10",
+      "center_to_power_pad_mm": 3.0
+    },
+    {
+      "capacitor": "C2",
+      "load": "U2",
+      "power_pin": "10",
+      "center_to_power_pad_mm": 2.0
+    },
+    {
+      "capacitor": "C3",
+      "load": "U3",
+      "power_pin": "12",
+      "center_to_power_pad_mm": 3.0
+    },
+    {
+      "capacitor": "C41",
+      "load": "U30",
+      "power_pin": "2",
+      "center_to_power_pad_mm": 2.0
+    },
+    {
+      "capacitor": "C40",
+      "load": "U30",
+      "power_pin": "2",
+      "center_to_power_pad_mm": 4.0
+    },
+    {
+      "capacitor": "C43",
+      "load": "J30",
+      "power_pin": "4",
+      "center_to_power_pad_mm": 1.406,
+      "side": "B.Cu"
+    },
+    {
+      "capacitor": "C42",
+      "load": "J30",
+      "power_pin": "4",
+      "center_to_power_pad_mm": 5.177,
+      "side": "B.Cu"
+    }
+  ],
+  "backside": [
+    "C42",
+    "C43"
+  ]
+}
