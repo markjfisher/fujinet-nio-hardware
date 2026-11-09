@@ -10,7 +10,7 @@ library footprints do not by themselves qualify a purchasable part.
 | D3 | TPD2E2U06DCKR | Implemented; three-pin DCK map checked; CC shunt ESD only |
 | R100–R104 | 24.9k, 10k, 37.4k, 10k, 681 ohm; 0.1% | Tolerance used in limits; final manufacturer series/TCR required |
 | C100–C102 | 1uF/25V X7R, 10nF/25V C0G, 1uF/10V X7R | Values implemented; final MPN and effective capacitance required |
-| J40 | Sullins ECC43DRAN catalogue configuration | Female A500 socket candidate; contact mapping/case fit unresolved, footprint deliberately unassigned |
+| J40 | WING TAT ED86BGFBK, owner-identified fitted part | Preferred horizontal sidecar reference; tail forming/contact mapping/case fit unresolved, footprint deliberately unassigned |
 | L1 | Coilcraft XAL4020-222MEC candidate | Manufacturer 2.2uH part identified; not yet assigned to CAD pending complete buck qualification |
 | J1 | GCT USB4105-GF-A candidate | Manufacturer drawing located; pad map/stake variant and enclosure position still to reconcile |
 | J30 | Hirose DM3 family under review | Need selected switch/shield contact numbering, not just mechanical similarity |

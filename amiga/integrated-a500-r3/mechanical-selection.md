@@ -1,6 +1,19 @@
 # Direct A500 mating socket selection
 
-The layout candidate is **Sullins ECC43DRAN**: PBT/phosphor bronze, 30 microinch
+The preferred reference connector is now **WING TAT ED86BGFBK**, identified
+by the owner from the marking on the working Matze adapter. The intended
+product is a compact horizontal sidecar extending left from the A500, with
+the socket at its right edge, supported by an enclosure and leaving the
+keyboard clear. USB-C and physical service controls must remain accessible.
+
+This supersedes the provisional Sullins choice as the direction to pursue.
+The actual Wing Tat tail arrangement, any forming done during assembly,
+contact-face mapping and enclosure clearance still need reconciliation with
+the recovered edge-solder geometry before assigning J40's footprint.
+
+## Earlier catalogue alternative (not the preferred selection)
+
+The earlier candidate was **Sullins ECC43DRAN**: PBT/phosphor bronze, 30 microinch
 gold contact plating, 43 positions on each face, dual readout, right-angle
 through-hole tails, no mounting ears. This is a manufacturer catalogue
 configuration, not a claim of stock or confirmed A500 case fit.
@@ -144,3 +157,19 @@ These inputs resolve the missing-reference-file request. Remaining mechanical
 work is to identify a compatible purchasable socket and reconcile its drawing,
 contact-face mapping and case fit. No additional USB/bus experiment is needed
 for that work. No reference CAD was imported or candidate circuit changed.
+
+## Connector marking supplied by the owner
+
+The owner read **WING TAT ED86BGFBK** directly from the fitted 86-contact
+connector. This is evidence of the part used on the working bench adapter,
+stronger than identifying its custom EAGLE package name alone. It does not
+establish that replacement parts are available or that their tails arrive
+ready for edge-solder assembly without forming.
+
+The owner also supplied [this video at 3:23](https://www.youtube.com/watch?v=xXqZaLqiKjE&t=203s),
+reporting that the presenter mentions AliExpress availability. Video retrieval
+failed in this session; that statement is recorded as owner-reported, not an
+independently verified stock listing. No exact current AliExpress offer or
+manufacturer dimensioned drawing was verified. Manufacturer-site retrieval
+also failed. Proceed with the identified part as the mechanical reference;
+do not substitute another ED86 variant solely because the contact count agrees.

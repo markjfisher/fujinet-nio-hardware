@@ -18,7 +18,7 @@ remaining gates. R0/R1/R2 and released passive hardware are untouched.
 | Reverse VBUS isolation | LM66100, CE tied to output | Manufacturer pin map and full net membership | Transient backfeed qualification |
 | CC ESD | TPD2E2U06 shunt channels | Pin table, normal voltage rating | System ESD / layout |
 | Current budget | 1.2A at 3.3V, USB-C >=1.5A | Calculated 1.166A input; minimum limit 1.197A | Thermal and efficiency assumptions |
-| A500 socket | ECC43DRAN catalogue candidate | Pitch, mating thickness, tail rows and housing dimensions | Contact orientation and case envelope |
+| A500 socket | WING TAT ED86BGFBK marking on working adapter | Reference Gerber pitch/pads; owner identification | Tail forming, contact orientation and case envelope |
 | PCB preparation | Existing circuit and package review | No substitute male-edge footprint | Final BOM and mechanical constraints before placement |
 
 Run after `source scripts/env.sh`:
