@@ -4,6 +4,12 @@ For the current prototype, separate USB connections to the RP2350 and ESP32-S3 d
 
 For the eventual integrated board, where both devices will be bare SMD parts rather than dev boards, programming and recovery access should be designed in deliberately.
 
+The selected bring-up direction is one external USB-C connector shared between
+PC service access and the internal RP2350-host / ESP32-S3-device link. The
+bench has demonstrated that internal link and manual flashing of each processor
+through the same USB-C breakout. That manually rewired fixture is not yet a
+finished switching or independent-recovery design.
+
 ## RP2350 programming/debug access
 
 Provide:
@@ -60,6 +66,13 @@ Single external USB-C connector
 with separate internal/test pads for programming, debugging and recovery.
 
 If a shared USB connector is intended to program both processors, some deliberate switching, muxing, hub, or boot-routing design will be required.
+
+The shared-connector design must provide three isolated modes: internal Run,
+PC-to-RP flashing and PC-to-ESP flashing. Specify data routing, USB-C CC/VBUS,
+power sources and backfeed prevention for each mode, including transitions and
+unpowered devices. A hub alone does not select between the internal RP host
+and an external PC host. User-accessible selection may be a switch, jumper or
+another documented control; the final mechanism remains to be chosen and tested.
 
 ## RP2350 ↔ ESP32-S3 interconnect pin-budget gate
 
@@ -155,6 +168,26 @@ or vice versa.
 However, independent physical recovery access should still exist.
 
 Do not create a design where broken firmware on one processor prevents the other processor from being reflashed.
+
+### User-serviceable recovery requirement
+
+An owner must be able to select and reflash either processor through the shared
+external USB connector using accessible, documented controls, even when that
+processor's application is invalid or the other processor's application is not
+running. Physical BOOT/RESET controls, jumpers or a proven equivalent are
+acceptable. Automatic routing and boot entry are desirable conveniences, but
+must not be the sole recovery path unless they work independently of the failed
+firmware. Service/debug pads are additional recovery access, not a substitute
+for the user-facing procedure.
+
+Before final board design, demonstrate the actual recovery sequence on a simple
+breadboard fixture: select each target, enter its ROM bootloader with its own
+application nonfunctional and its peer held inactive or unpowered, flash it
+through the same PC-facing connector, restore Run mode, and exchange a request.
+Record power and isolation for each mode. The current manual breakout test
+proves both physical flashing paths and return to communication with working
+firmware; it does not yet prove nonfunctional-firmware recovery or automatic
+selection. Keep a clear manual fallback if automatic updates are added.
 
 Suggested service/test access:
 
