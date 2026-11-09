@@ -173,3 +173,14 @@ independently verified stock listing. No exact current AliExpress offer or
 manufacturer dimensioned drawing was verified. Manufacturer-site retrieval
 also failed. Proceed with the identified part as the mechanical reference;
 do not substitute another ED86 variant solely because the contact count agrees.
+
+## Exact-part supplier lead
+
+The owner supplied [eBee's ED86BGFBK product URL](https://www.ebee.com/product-detail/wingtat-ed86bgfbk_166335.html).
+The URL names the same manufacturer/part as the marking on the working
+adapter. The page could not be independently inspected: both browsing and
+direct retrieval failed, with HTTP 403 on direct retrieval. Record it as an
+exact-part supplier lead, not verified stock or a verified mechanical drawing.
+No purchase or supplier contact was made. The installed connector remains
+the identity evidence; its edge-solder assembly and pin-face mapping remain
+the mechanical details to reproduce.
