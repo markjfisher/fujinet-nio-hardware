@@ -1,0 +1,39 @@
+{
+  "scope": "USB/power/recovery sheet and proposed RP allocation; not whole board",
+  "checked_physical_pin_assignments": 170,
+  "switch_modes": [
+    {
+      "flash_rp": 0,
+      "flash_esp": 0,
+      "connected": [
+        "ESP",
+        "RP"
+      ]
+    },
+    {
+      "flash_rp": 1,
+      "flash_esp": 0,
+      "connected": [
+        "PC",
+        "RP"
+      ]
+    },
+    {
+      "flash_rp": 0,
+      "flash_esp": 1,
+      "connected": [
+        "ESP",
+        "PC"
+      ]
+    },
+    {
+      "flash_rp": 1,
+      "flash_esp": 1,
+      "connected": []
+    }
+  ],
+  "rp_package_pads": 81,
+  "rp_gpio_count": 48,
+  "erc_violations": 0,
+  "pcb": "not implemented; no DRC/parity claim"
+}

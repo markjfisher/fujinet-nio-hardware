@@ -1,0 +1,276 @@
+{
+  "description": "Expected saved pin-to-net membership for the implemented USB/power/recovery sheet only.",
+  "pins": {
+    "J1": {
+      "A1": "GND",
+      "A4": "VBUS_C",
+      "A5": "CC1",
+      "B5": "CC2",
+      "A6": "PC_DP",
+      "B6": "PC_DP",
+      "A7": "PC_DM",
+      "B7": "PC_DM",
+      "SH": "GND",
+      "A9": "VBUS_C",
+      "B4": "VBUS_C",
+      "B9": "VBUS_C",
+      "A12": "GND",
+      "B1": "GND",
+      "B12": "GND"
+    },
+    "U1": {
+      "1": "FLASH_RP",
+      "2": "LINK_DP",
+      "3": "PC_DP",
+      "4": "RP_DP",
+      "5": "GND",
+      "6": "RP_DM",
+      "7": "PC_DM",
+      "8": "LINK_DM",
+      "9": "FLASH_ESP",
+      "10": "3V3"
+    },
+    "U2": {
+      "1": "FLASH_ESP",
+      "2": "LINK_DP",
+      "3": "PC_DP",
+      "4": "ESP_DP",
+      "5": "GND",
+      "6": "ESP_DM",
+      "7": "PC_DM",
+      "8": "LINK_DM",
+      "9": "FLASH_RP",
+      "10": "3V3"
+    },
+    "U3": {
+      "1": "CC1",
+      "2": "CC2",
+      "3": "CC_PORT",
+      "4": "CC_VBUS_DET",
+      "7": "CC_LOW_CURRENT",
+      "10": "GND",
+      "11": "GND",
+      "12": "3V3_AON"
+    },
+    "U4": {
+      "1": "VBUS_PROTECTED",
+      "2": "GND",
+      "3": "POWER_ALLOW",
+      "4": "SOFT_START",
+      "5": "DISCHARGE",
+      "6": "5V_MAIN"
+    },
+    "U5": {
+      "1": "BUCK_SW",
+      "2": "BUCK_SW",
+      "3": "BUCK_SW",
+      "4": "3V3_PG",
+      "5": "BUCK_FB",
+      "6": "GND",
+      "7": "GND",
+      "8": "GND",
+      "9": "BUCK_SS",
+      "10": "5V_MAIN",
+      "11": "5V_MAIN",
+      "12": "5V_MAIN",
+      "13": "5V_MAIN",
+      "14": "3V3",
+      "15": "GND",
+      "16": "GND",
+      "17": "GND"
+    },
+    "U6": {
+      "1": "VBUS_PROTECTED",
+      "2": "GND",
+      "3": "VBUS_PROTECTED",
+      "5": "3V3_AON"
+    },
+    "U7": {
+      "2": "CC_LOW_CURRENT",
+      "3": "GND",
+      "4": "POWER_ALLOW",
+      "5": "3V3_AON"
+    },
+    "J2": {
+      "1": "3V3",
+      "2": "RUN_MODE",
+      "3": "3V3",
+      "4": "FLASH_RP",
+      "5": "3V3",
+      "6": "FLASH_ESP"
+    },
+    "J3": {
+      "1": "RP_DP",
+      "2": "RP_DM",
+      "3": "GND",
+      "4": "RP_RUN",
+      "5": "RP_BOOT_N",
+      "6": "3V3"
+    },
+    "J4": {
+      "1": "ESP_DP",
+      "2": "ESP_DM",
+      "3": "GND",
+      "4": "ESP_EN",
+      "5": "ESP_BOOT_N",
+      "6": "3V3"
+    },
+    "D1": {
+      "1": "VBUS_PROTECTED",
+      "2": "VBUS_C"
+    },
+    "D2": {
+      "1": "PC_DP",
+      "2": "GND",
+      "3": "PC_DM",
+      "4": "PC_DM",
+      "5": "VBUS_C",
+      "6": "PC_DP"
+    },
+    "R1": {
+      "1": "FLASH_RP",
+      "2": "GND"
+    },
+    "R2": {
+      "1": "FLASH_ESP",
+      "2": "GND"
+    },
+    "R3": {
+      "1": "RUN_MODE",
+      "2": "GND"
+    },
+    "R4": {
+      "1": "CC_PORT",
+      "2": "GND"
+    },
+    "R5": {
+      "1": "VBUS_C",
+      "2": "CC_VBUS_DET"
+    },
+    "R6": {
+      "1": "3V3_AON",
+      "2": "CC_LOW_CURRENT"
+    },
+    "R7": {
+      "1": "3V3",
+      "2": "BUCK_FB"
+    },
+    "R8": {
+      "1": "BUCK_FB",
+      "2": "GND"
+    },
+    "R9": {
+      "1": "3V3",
+      "2": "3V3_PG"
+    },
+    "R10": {
+      "1": "3V3",
+      "2": "RP_RUN"
+    },
+    "R11": {
+      "1": "3V3",
+      "2": "ESP_EN"
+    },
+    "R12": {
+      "1": "3V3",
+      "2": "ESP_BOOT_N"
+    },
+    "R13": {
+      "1": "RP_BOOT_N",
+      "2": "RP_BOOT_PULL"
+    },
+    "C1": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "C2": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "C3": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C4": {
+      "1": "VBUS_PROTECTED",
+      "2": "GND"
+    },
+    "C5": {
+      "1": "3V3_AON",
+      "2": "GND"
+    },
+    "C6": {
+      "1": "SOFT_START",
+      "2": "VBUS_PROTECTED"
+    },
+    "C7": {
+      "1": "5V_MAIN",
+      "2": "GND"
+    },
+    "C8": {
+      "1": "3V3",
+      "2": "GND"
+    },
+    "C9": {
+      "1": "BUCK_SS",
+      "2": "GND"
+    },
+    "C10": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "L1": {
+      "1": "BUCK_SW",
+      "2": "3V3"
+    },
+    "SW1": {
+      "1": "RP_RUN",
+      "2": "GND"
+    },
+    "SW2": {
+      "1": "RP_BOOT_PULL",
+      "2": "GND"
+    },
+    "SW3": {
+      "1": "ESP_EN",
+      "2": "GND"
+    },
+    "SW4": {
+      "1": "ESP_BOOT_N",
+      "2": "GND"
+    },
+    "Q1": {
+      "1": "FLASH_RP",
+      "2": "GND",
+      "3": "ESP_EN"
+    },
+    "Q2": {
+      "1": "FLASH_ESP",
+      "2": "GND",
+      "3": "RP_RUN"
+    },
+    "Q3": {
+      "1": "FLASH_RP",
+      "2": "GND",
+      "3": "RP_BOOT_PULL"
+    },
+    "Q4": {
+      "1": "FLASH_ESP",
+      "2": "GND",
+      "3": "ESP_BOOT_N"
+    },
+    "R14": {
+      "1": "DISCHARGE",
+      "2": "5V_MAIN"
+    },
+    "#FLG01": {
+      "1": "GND"
+    },
+    "#FLG02": {
+      "1": "VBUS_PROTECTED"
+    },
+    "#FLG03": {
+      "1": "3V3"
+    }
+  }
+}
