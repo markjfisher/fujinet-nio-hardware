@@ -53,3 +53,27 @@ Next reconcile the original socket footprint/contact mapping with the
 manufacturer drawing and A500 case envelope. Keep ECC43DRAN provisional and
 J40 unassigned until that comparison is possible. The adapter identification
 does not change any circuit nets or invalidate the accepted bench results.
+
+## PCBWay reference located
+
+The owner supplied [this PCBWay project](https://www.pcbway.com/project/shareproject/Commodore_Amiga_500_Zorro_II_slot_adapter_board_A500_plus_expansion_eda5396e.html).
+It credits Matze and lists `A-Zorro-Edge-2b.sch.pdf`, `gerbers.zip` and
+`A-Zorro-Edge-2b.txt` (BOM), plus a linked DigiKey list. Download handlers require
+login; direct retrieval of an advertised archive returned HTTP 403. The
+DigiKey page did not expose its component rows in the accessible response.
+No downloadable design contents have therefore been verified.
+
+Both public top/bottom PCB renderings were downloaded and visually inspected.
+They show opposing edge-contact regions and a central through-hole slot
+connector. The low-resolution images suggest the A500 mating connector may
+attach at an edge rather than use the provisional Sullins right-angle
+through-hole pattern. This is an inference to resolve from the Gerbers and
+BOM, not a confirmed socket type or a dimensioned footprint. Do not equate
+the central Zorro slot footprint with the female A500 mating socket.
+
+The schematic PDF, Gerber ZIP and BOM text are the useful next inputs. Inspect
+connector pad numbering, mounting style and board outline before choosing
+whether to retain or replace ECC43DRAN. The public project lists CC BY-NC-SA;
+record provenance and review reuse terms before importing any third-party CAD.
+No third-party CAD has been copied into the candidate, and no order/upload or
+circuit change was performed in this reference review.
