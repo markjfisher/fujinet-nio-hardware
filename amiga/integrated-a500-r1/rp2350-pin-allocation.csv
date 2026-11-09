@@ -1,0 +1,82 @@
+package_pad,signal,candidate_net,function
+1,GPIO4,Z_A4,buffered input
+2,GPIO5,Z_A5,buffered input
+3,GPIO6,Z_A6,buffered input
+4,GPIO7,Z_A7,buffered input
+5,IOVDD,3V3,I/O power
+6,GPIO8,Z_A8,buffered input
+7,GPIO9,Z_A9,buffered input
+8,GPIO10,Z_A10,buffered input
+9,GPIO11,Z_A11,buffered input
+10,DVDD,RP_DVDD,core power
+11,GPIO12,Z_A12,buffered input
+12,GPIO13,Z_A13,buffered input
+13,GPIO14,Z_A14,buffered input
+14,GPIO15,Z_A15,buffered input
+15,IOVDD,3V3,I/O power
+16,GPIO16,Z_A16,buffered input
+17,GPIO17,Z_A17,buffered input
+18,GPIO18,Z_A18,buffered input
+19,GPIO19,Z_A19,buffered input
+20,GPIO20,Z_A20,buffered input
+21,GPIO21,Z_A21,buffered input
+22,GPIO22,Z_A22,buffered input
+23,GPIO23,Z_A23,buffered input
+24,IOVDD,3V3,I/O power
+25,GPIO24,Z_D0,buffered bidirectional
+26,GPIO25,Z_D1,buffered bidirectional
+27,GPIO26,Z_D2,buffered bidirectional
+28,GPIO27,Z_D3,buffered bidirectional
+29,IOVDD,3V3,I/O power
+30,XIN,RP_XIN,12MHz crystal reference
+31,XOUT,RP_XOUT,12MHz crystal reference
+32,DVDD,RP_DVDD,core power
+33,SWCLK,RP_SWCLK,debug input
+34,SWDIO,RP_SWDIO,debug bidirectional
+35,RUN,RP_RUN,physical reset; no GPIO
+36,GPIO28,Z_D4,buffered bidirectional
+37,GPIO29,Z_D5,buffered bidirectional
+38,GPIO30,Z_D6,buffered bidirectional
+39,GPIO31,Z_D7,buffered bidirectional
+40,GPIO32,Z_D8,buffered bidirectional
+41,IOVDD,3V3,I/O power
+42,GPIO33,Z_D9,buffered bidirectional
+43,GPIO34,Z_D10,buffered bidirectional
+44,GPIO35,Z_D11,buffered bidirectional
+45,GPIO36,Z_D12,buffered bidirectional
+46,GPIO37,Z_D13,buffered bidirectional
+47,GPIO38,Z_D14,buffered bidirectional
+48,GPIO39,Z_D15,buffered bidirectional
+49,GPIO40/ADC0,Z_UDS_N,input
+50,IOVDD,3V3,I/O power
+51,DVDD,RP_DVDD,core power
+52,GPIO41/ADC1,Z_LDS_N,input
+53,GPIO42/ADC2,Z_READ,input
+54,GPIO43/ADC3,Z_CFGIN_N,input
+55,GPIO44/ADC4,ACK_REQ,output; external pulldown
+56,GPIO45/ADC5,IRQ_REQ,output; external pulldown
+57,GPIO46/ADC6,BUS_READY,output; external pulldown
+58,GPIO47/ADC7,DATA_DRIVE,output; external pulldown
+59,ADC_AVDD,3V3,analog supply; local decoupling
+60,IOVDD,3V3,I/O power
+61,VREG_AVDD,RP_VREG_AVDD,regulator analog supply; 33-ohm/4.7uF filter
+62,VREG_PGND,GND,regulator power ground
+63,VREG_LX,RP_LX,core regulator switch node
+64,VREG_VIN,3V3,regulator input
+65,VREG_FB,RP_DVDD,core regulator feedback
+66,USB_DM,RP_USB_DM,dedicated USB through 27R
+67,USB_DP,RP_USB_DP,dedicated USB through 27R
+68,USB_OTP_VDD,3V3,USB/OTP supply
+69,QSPI_IOVDD,3V3,flash I/O supply
+70,QSPI_SD3,QSPI_SD3,dedicated flash
+71,QSPI_SCLK,QSPI_SCLK,dedicated flash
+72,QSPI_SD0,QSPI_SD0,dedicated flash
+73,QSPI_SD2,QSPI_SD2,dedicated flash
+74,QSPI_SD1,QSPI_SD1,dedicated flash
+75,~{QSPI_SS},RP_BOOT_N,QSPI CS; 1k physical BOOT pull-down path
+76,IOVDD,3V3,I/O power
+77,GPIO0,Z_AS_N,input
+78,GPIO1,Z_A1,buffered input
+79,GPIO2,Z_A2,buffered input
+80,GPIO3,Z_A3,buffered input
+81,GND,GND,exposed pad

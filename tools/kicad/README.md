@@ -176,3 +176,42 @@ the passive breakout, its existing `scripts/check.py` remains authoritative.
 No broad hardware retest is part of setup. The next design work is the shared
 USB/power circuit and complete Zorro pin budget. Only a specific unresolved
 electrical issue or changed circuit earns another physical experiment.
+
+### KiCad 10 symbol compatibility and R1 findings
+
+The A500 R1 build found a native-load failure that the original two-resistor
+smoke could not reveal. KiCad 10 library symbols can contain
+`property private` metadata; kicad-sch-api 0.5.6's formatter treated the keyword
+as the property name and emitted the actual value without quotes. RP2350B and
+Crystal_GND24 then produced schematics native KiCad could not load.
+
+`setup` now applies the narrow, hash-guarded
+[formatter compatibility patch](patches/kicad10-private-properties.patch)
+through [apply-compat.py](apply-compat.py). Dependency versions remain pinned.
+The patch corrects tool serialization of existing library metadata; it does
+not patch or generate CAD files directly. Round-trip tests of both real symbol
+definitions and native export of the full R1 hierarchy pass. Restart any
+previously running MCP process before writing these symbols; R1's batch
+constructor starts a fresh process through the configured repository launcher.
+
+Other observed limitations, handled without changing the released design:
+
+- `bulk_update_components` requires `reference_pattern`, not `reference`, in
+  its criteria. An unrecognized key was silently ignored and selected all
+  components. R1 uses anchored patterns and asserts exactly one update.
+- `add_global_label` in the public schematic API does not serialize a global
+  label in this pinned version. R1 uses MCP-supported hierarchical ports and
+  independently checks their whole-net membership instead.
+- A left sheet pin's distance is measured from the **bottom-left** corner.
+  The top-left assumption disconnects the root wires. R1 accounts for this.
+- Hierarchical-label shapes serialize as input in this API path; the R1 ports
+  are used for connectivity, not as authoritative electrical direction models.
+  Component pin types and the engineering signal table define direction.
+- `add_wire_between_pins` can route through another pin. Native whole-net
+  membership checks caught a temporary supply/ground short while adding local
+  capacitor wiring. The candidate was corrected before acceptance. Inspect
+  the route and re-export nets after such edits; tool success is insufficient.
+- MCP still lacks page metadata and no-connect operations. R1 uses the public
+  API for only those finishing operations, after the construction process exits.
+
+See [R1 verification](../../amiga/integrated-a500-r1/review/verification.md).

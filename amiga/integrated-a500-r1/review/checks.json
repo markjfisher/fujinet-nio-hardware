@@ -1,0 +1,13 @@
+{
+  "scope": "A500 R1 circuit candidate; NOT electrical/layout release",
+  "components": 171,
+  "checked_physical_pin_assignments": 803,
+  "exact_nets": 183,
+  "rp_package_pads": 81,
+  "bus_logic_cases": 32768,
+  "address_decode_cases": 32,
+  "usb_cases": 8,
+  "erc_findings_retained": 30,
+  "erc_status": "30 external A500 driver/pull-up model findings; no exclusions; not zero ERC",
+  "pcb": "not implemented; DRC and parity not applicable"
+}

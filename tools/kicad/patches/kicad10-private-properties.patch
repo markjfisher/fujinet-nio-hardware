@@ -1,0 +1,17 @@
+--- formatter.py
++++ formatter.py
+@@ -304,3 +304,8 @@
+-        escaped_name = self._escape_string(str(lst[1]))
+-        escaped_value = self._escape_string(str(lst[2]))
+-        result = f'({lst[0]} "{escaped_name}" "{escaped_value}"'
++        # KiCad 10 library metadata: (property private "Name" "Value" ...).
++        # Preserve the keyword and quote both strings, including spaces/semicolons.
++        private = len(lst) > 3 and str(lst[1]) == "private" and isinstance(lst[1], sexpdata.Symbol)
++        offset = 1 if private else 0
++        escaped_name = self._escape_string(str(lst[1 + offset]))
++        escaped_value = self._escape_string(str(lst[2 + offset]))
++        prefix = " private" if private else ""
++        result = f'({lst[0]}{prefix} "{escaped_name}" "{escaped_value}"'
+@@ -309 +314 @@
+-        for element in lst[3:]:
++        for element in lst[3 + offset:]:

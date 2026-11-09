@@ -10,6 +10,7 @@ if [[ ! -x "$venv/bin/python" ]]; then
     uv venv --python 3.13 "$venv"
 fi
 uv pip sync --python "$venv/bin/python" "$tool_dir/requirements.lock"
+"$venv/bin/python" "$tool_dir/apply-compat.py"
 python3 - "$repo_dir/.local-tools/kicad/freerouting-2.2.3.jar" <<'PY'
 import hashlib
 from pathlib import Path
