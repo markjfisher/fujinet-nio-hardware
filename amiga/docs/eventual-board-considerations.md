@@ -1,7 +1,5 @@
 # Eventual Board Considerations
 
-For the current prototype, separate USB connections to the RP2350 and ESP32-S3 development boards are fine and convenient for flashing.
-
 For the eventual integrated board, where both devices will be bare SMD parts rather than dev boards, programming and recovery access should be designed in deliberately.
 
 The selected bring-up direction is one external USB-C connector shared between
@@ -35,44 +33,46 @@ Provide:
 - GPIO0/BOOT access so the ROM bootloader can always be entered.
 - Optional JTAG/debug pads.
 
-The ESP32-S3 USB Serial/JTAG capability should make USB flashing/debugging straightforward without needing a separate USB-to-UART bridge.
+The ESP32-S3 native USB supports flashing without a separate USB-to-UART bridge;
+automatic bootloader entry depends on the board's control and routing design.
 
 ## USB connector strategy
 
-For the prototype:
+The shared connector and internal link have three modes:
 
-```text
-USB -> RP2350 dev board
-USB -> ESP32-S3 dev board
-```
+| Mode | Data path | Boot control |
+| --- | --- | --- |
+| Run | RP USB host ↔ ESP USB device; PC data isolated | Normal firmware |
+| Flash RP | PC ↔ RP; ESP USB data isolated | RP BOOTSEL and reset |
+| Flash ESP | PC ↔ ESP; RP USB data isolated | ESP BOOT and reset |
 
-For the final board, possible designs include:
-
-```text
-USB-C #1 -> RP2350
-USB-C #2 -> ESP32-S3
-```
-
-This is simple, but probably unnecessary on a finished product.
-
-A cleaner final arrangement would likely be:
-
-```text
-Single external USB-C connector
-        |
-        +--> normal device power/data path
-```
-
-with separate internal/test pads for programming, debugging and recovery.
-
-If a shared USB connector is intended to program both processors, some deliberate switching, muxing, hub, or boot-routing design will be required.
-
-The shared-connector design must provide three isolated modes: internal Run,
-PC-to-RP flashing and PC-to-ESP flashing. Specify data routing, USB-C CC/VBUS,
+Flashing suspends normal communication. Specify data routing, USB-C CC/VBUS,
 power sources and backfeed prevention for each mode, including transitions and
 unpowered devices. A hub alone does not select between the internal RP host
 and an external PC host. User-accessible selection may be a switch, jumper or
 another documented control; the final mechanism remains to be chosen and tested.
+Account for the [ESP32-S3 USB-OTG and Serial/JTAG shared PHY](https://docs.espressif.com/projects/esp-usb/en/latest/esp32s3/usb_device.html):
+runtime and bootloader enumeration are distinct. Include switching, boot and
+reset controls in the RP2350 GPIO budget; do not consume Zorro-assigned pins.
+
+An owner must be able to select and reflash either processor through the shared
+external USB connector using accessible, documented controls, even when that
+processor's application is invalid or the other processor's application is not
+running. Physical BOOT/RESET controls, jumpers or a proven equivalent are
+acceptable. Automatic routing and boot entry are desirable conveniences, but
+must not be the sole recovery path unless they work independently of the failed
+firmware. Service/debug pads are additional recovery access, not a substitute
+for the user-facing procedure.
+
+Before final board design, demonstrate recovery on a simple breadboard fixture:
+select each target, enter its ROM bootloader with its own application
+nonfunctional and its peer held inactive or unpowered, flash it through the
+same PC-facing connector, restore Run mode, and exchange a request. Record
+power and isolation for each mode. The manual breakout test proves both flashing
+paths and return to communication with working firmware; it does not yet prove
+nonfunctional-firmware recovery or automatic selection. Keep a clear manual
+fallback if automatic updates are added. The bench instructions and results
+are in the firmware repository's `bridges/rp2350-zorro/lab/usb-host/` directory.
 
 ## RP2350 ↔ ESP32-S3 interconnect pin-budget gate
 
@@ -99,9 +99,9 @@ Before selecting the production link ABI or finalising RP2350 bus routing:
 - Record the chosen pinout, reset/boot ownership, and any intentional mux or
   isolation circuitry in the schematic review before layout.
 
-The pin scarcity is a design decision to resolve, not evidence that SPI has
-already been ruled in or out.  A direct shared connection to Zorro address or
-data nets is not an acceptable shortcut.
+The USB link is the selected bring-up baseline; the final GPIO budget remains
+to be reviewed. A direct shared connection to Zorro address or data nets is not
+an acceptable shortcut.
 
 ### Current-map observation
 
@@ -149,8 +149,8 @@ for the six-wire SPI feasibility fixture.
    risks to a real-time bus interface.  Consider them only if a complete bus
    isolation/capture design proves it, effectively converging on option 2.
 
-**Decision recommendation:** make the internal USB link the next architecture
-spike and keep USB service/recovery pads.  In parallel, perform a final-board
+**Selected direction:** retain the internal USB link and USB service/recovery
+pads. Perform a final-board
 GPIO audit.  If production requirements demand SPI rather than USB, choose
 the Zorro-front-end redesign deliberately; do not expect the present direct
 GPIO map to grow the required pins.
@@ -165,29 +165,8 @@ RP2350 -> ESP32-S3 EN / GPIO0
 
 or vice versa.
 
-However, independent physical recovery access should still exist.
-
-Do not create a design where broken firmware on one processor prevents the other processor from being reflashed.
-
-### User-serviceable recovery requirement
-
-An owner must be able to select and reflash either processor through the shared
-external USB connector using accessible, documented controls, even when that
-processor's application is invalid or the other processor's application is not
-running. Physical BOOT/RESET controls, jumpers or a proven equivalent are
-acceptable. Automatic routing and boot entry are desirable conveniences, but
-must not be the sole recovery path unless they work independently of the failed
-firmware. Service/debug pads are additional recovery access, not a substitute
-for the user-facing procedure.
-
-Before final board design, demonstrate the actual recovery sequence on a simple
-breadboard fixture: select each target, enter its ROM bootloader with its own
-application nonfunctional and its peer held inactive or unpowered, flash it
-through the same PC-facing connector, restore Run mode, and exchange a request.
-Record power and isolation for each mode. The current manual breakout test
-proves both physical flashing paths and return to communication with working
-firmware; it does not yet prove nonfunctional-firmware recovery or automatic
-selection. Keep a clear manual fallback if automatic updates are added.
+Such controls must satisfy the independent, user-serviceable recovery requirement
+in the USB connector strategy above.
 
 Suggested service/test access:
 
