@@ -77,3 +77,31 @@ whether to retain or replace ECC43DRAN. The public project lists CC BY-NC-SA;
 record provenance and review reuse terms before importing any third-party CAD.
 No third-party CAD has been copied into the candidate, and no order/upload or
 circuit change was performed in this reference review.
+
+## Supplied schematic inspected
+
+The owner provided `~/Downloads/A-Zorro-Edge-2b.sch_PCBWay Community.pdf`.
+SHA-256: `b98e4c90fc96800524143247595f602047e43bb976550a2408eaffc5783b377f`. Text extraction and a rendered full-page
+visual inspection were completed. The title is `A-Zorro-Edge-2b`, sheet 1/1,
+with drawing date 15.11.2015 and print timestamp 29.06.2016.
+
+| Reference | Explicit schematic name | Role |
+| --- | --- | --- |
+| CN1 | A500-EXPANSION-SLOT-SOLDER | 86-contact A500 mating socket |
+| CN2 | A500-EXPANSION_EDGE | 86-contact pass-through male edge |
+| CN3 | ZORROII_SLOT | 100-contact Zorro-II card slot |
+
+An independent transcription of CN1's address/data, ground, +5V and used
+control pin numbers was compared with R3 J40: **61 assignments agree**.
+In particular XRDY=18, BERR=46, RESET=53, DTACK=66, R/W=68, LDS=70,
+UDS=72 and AS=74. The remaining used J40 pin, 12, is CN1 CFIN; R3 grounds
+that local configuration input for its direct single-board arrangement.
+The adapter instead carries a configuration chain through its connectors;
+that distinction is intentional, not a pin-number mismatch.
+
+The connector name establishes which symbol represents the mating socket,
+but is not an orderable MPN or dimensioned mounting specification. It supports
+investigating the edge-solder mounting inference from the renderings; it does
+not establish tail shape, row spacing, pad face assignment or case clearance.
+Gerbers and BOM remain the next mechanical inputs. No candidate pin mapping
+or connector footprint was changed on the basis of this schematic alone.
