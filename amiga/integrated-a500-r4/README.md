@@ -65,7 +65,8 @@ Run the native checking/geometry scripts with system Python:
    two SD supply capacitors to the underside.
 9. `plan_power_cell.py`, then MCP `apply_clusters.py power-cell-plan.json`:
    orient the buck cell and place its supply capacitors locally.
-10. `plan_labels.py`, then MCP `apply_labels.py`: reserve consistent cell-label
+10. MCP `apply_clusters.py tidy-plan.json` applies the subsequent review
+    adjustments. Then `plan_labels.py`, followed by MCP `apply_labels.py`: reserve consistent cell-label
     positions and apply visible 0.9 mm references. Run the planner immediately
     before the applicator; its update list is relative to the saved board.
 11. `check.py`, `power_check.py`, `pcb_check.py`: independent final checks.

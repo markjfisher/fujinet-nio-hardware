@@ -82,6 +82,12 @@ for move in power_moves:
  f=fs[move['reference']]
  assert math.hypot(k.ToMM(f.GetPosition().x)-move['x_mm'],k.ToMM(f.GetPosition().y)-move['y_mm'])<1e-5,move
  assert abs((f.GetOrientationDegrees()-move['rotation_deg']+180)%360-180)<1e-5,move
+for move in json.loads((R/'tidy-plan.json').read_text())['moves']:
+ f=fs[move['reference']]
+ assert math.hypot(k.ToMM(f.GetPosition().x)-move['x_mm'],k.ToMM(f.GetPosition().y)-move['y_mm'])<1e-5,move
+ if 'rotation_deg' in move:assert abs((f.GetOrientationDegrees()-move['rotation_deg']+180)%360-180)<1e-5,move
+for ref in ['U69','U70','U74','U79']:
+ assert {p.GetNumber() for p in fs[ref].Pads()}=={'1','2','3','4','5'},ref
 assert b.GetCopperLayerCount()==4
 subprocess.run(['kicad-cli','pcb','drc','--schematic-parity','--format','json','-o',str(R/'drc.json'),str(P)],check=True,capture_output=True)
 drc=json.loads((R/'drc.json').read_text());assert not drc['schematic_parity'],drc['schematic_parity'][:2]

@@ -1,0 +1,110 @@
+{
+  "moves": [
+    {
+      "reference": "R3",
+      "x_mm": 27.5,
+      "y_mm": 20.5,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "R53",
+      "x_mm": 81.24,
+      "y_mm": 109.36
+    },
+    {
+      "reference": "R22",
+      "x_mm": 49,
+      "y_mm": 50.5,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "R23",
+      "x_mm": 49,
+      "y_mm": 53,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C36",
+      "x_mm": 45,
+      "y_mm": 55,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C33",
+      "x_mm": 66,
+      "y_mm": 58
+    },
+    {
+      "reference": "R32",
+      "x_mm": 17,
+      "y_mm": 29,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "R33",
+      "x_mm": 17,
+      "y_mm": 33,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "R36",
+      "x_mm": 17,
+      "y_mm": 37,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C28",
+      "x_mm": 49,
+      "y_mm": 68,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C29",
+      "x_mm": 53,
+      "y_mm": 68,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C38",
+      "x_mm": 57,
+      "y_mm": 68,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "R21",
+      "x_mm": 61,
+      "y_mm": 70,
+      "rotation_deg": 90
+    },
+    {
+      "reference": "C35",
+      "x_mm": 53,
+      "y_mm": 49.5,
+      "rotation_deg": 90
+    },
+    {
+      "reference": "C34",
+      "x_mm": 56,
+      "y_mm": 47,
+      "rotation_deg": 90
+    },
+    {
+      "reference": "U7",
+      "x_mm": 14,
+      "y_mm": 72,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C21",
+      "x_mm": 49.4,
+      "y_mm": 72,
+      "rotation_deg": 0
+    },
+    {
+      "reference": "C22",
+      "x_mm": 58.6,
+      "y_mm": 72,
+      "rotation_deg": 0
+    }
+  ]
+}

@@ -32,6 +32,8 @@ original={ref:(xy(f.Reference()),k.ToMM(f.Reference().GetTextSize().x),k.ToMM(f.
 preferred={}
 for ic,cap in plan['bypass_loads'].items():
  x,y=xy(fs[ic]);cx,cy=xy(fs[cap]);preferred[ic]=(x,y-2.9);preferred[cap]=(cx,y-2.9)
+# Explicit review preferences keep references associated with their own parts.
+preferred.update(json.loads((ROOT/'label-preferences.json').read_text()))
 options={};offsets={}
 for ref,f in fs.items():
  field=f.Reference();field.SetVisible(True);field.SetTextSize(k.VECTOR2I(k.FromMM(.9),k.FromMM(.9)));field.SetTextThickness(k.FromMM(.15));field.SetTextAngle(k.EDA_ANGLE(0,k.DEGREES_T))

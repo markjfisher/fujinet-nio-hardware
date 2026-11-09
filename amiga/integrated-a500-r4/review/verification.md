@@ -143,3 +143,32 @@ zones are F.Cu-only while C42/C43 and their labels are on the back. Native DRC
 reports none of those SD conflicts. This audit is not presented as clean or
 used to override the retained native findings. Both audit and native DRC remain
 necessary as routing proceeds.
+
+## Follow-up visual review
+
+Explicit label preferences replace generic free-space choices in the marked
+areas. R3 is separated from R63; R32/R33/R36 use a regularly spaced column
+with a reference immediately below each resistor. U3 is labelled beside its
+QFN footprint, separately from C3. R53 aligns with R50–R52 and SW4's reference
+is centered over its switch. RP support parts are spaced into clearer rows;
+the six original RP regulator reference footprints retain their exact geometry.
+The crystal capacitors remain beside Y20; their placement and the USB-series
+resistor positions still require the critical-routing review.
+
+`tidy-plan.json` records the component moves; `label-preferences.json` records
+preferred label positions, checked against native geometry by the planner.
+Native read-back checks the final moves and all five pads on each of
+U69/U70/U74/U79. U69/U70/U74 are SN74LVC1G04DBVR inverters; U79 is an
+SN74LVC1G32DBVR OR gate. TI specifies a five-pin DBV/SOT-23 package for both:
+[1G04 datasheet](https://www.ti.com/lit/ds/symlink/sn74lvc1g04.pdf),
+[1G32 datasheet](https://www.ti.com/lit/ds/symlink/sn74lvc1g32.pdf).
+The absent sixth pad is intentional; these are different packages from the
+neighbouring six-pin devices.
+
+Final follow-up verification: all 864 functional assignments and zero schematic
+parity findings retained. Native DRC returns only the prior four hole-clearance
+and two silk-edge findings; no additional findings remain. All 192 references
+are visible at the uniform size. The regenerated top view was visually inspected
+against the six marked areas. `tidy-mcp-audit.json` retains the separate 30-item
+MCP audit with the same limitations described above. This remains an unrouted
+placement candidate with 499 unconnected items.
