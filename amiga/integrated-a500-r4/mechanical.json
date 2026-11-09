@@ -1,0 +1,11 @@
+{
+  "revision": "owner-measured adapter envelope",
+  "measurement_status": "approximate owner measurements; not a dimensioned manufacturing drawing",
+  "outline": {"x_mm": -6, "y_mm": 3.5, "width_mm": 111, "height_mm": 117},
+  "connector_edge_x_mm": 105,
+  "component_free_depth_mm": 18,
+  "component_limit_x_mm": 87,
+  "reference_cell_translation_mm": [-6, 0],
+  "source_observations": ["117 mm top-to-bottom around the A500 connection", "18 mm from right edge before components", "Existing adapter is plus-shaped; rectangular candidate acceptable"],
+  "assumption": "18 mm measured from the sidecar PCB edge, not the socket's outer mating face"
+}

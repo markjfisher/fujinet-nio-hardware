@@ -1,7 +1,8 @@
 # A500 R4 — first physical placement candidate
 
-R4 turns the protected R3 circuit into a **105 × 124 mm horizontal sidecar
-placement**, with the female A500 socket at the right edge. It is a new project;
+R4 turns the protected R3 circuit into a **111 × 117 mm horizontal sidecar
+placement**, with the female A500 socket at the right edge and an 18 mm
+component-free band behind that edge (the socket solder lands are excepted). It is a new project;
 released passive hardware and R0–R3 remain unchanged.
 
 Open the [board preview](review/placement.png), [native project](integrated-a500-r4.kicad_pro)
@@ -57,7 +58,9 @@ Run the native checking/geometry scripts with system Python:
    gaps, establish DFM targets and make the placement adjustments.
 6. `plan_bypass.py`, then `apply_bypass.py`: calculate legal local bypass
    positions and apply them through MCP.
-7. `check.py`, `power_check.py`, `pcb_check.py`: independent final checks.
+7. `fit_mechanics.py`, then `apply_mechanics.py`, then `reserve_connector.py`
+   applies the owner-measured envelope without regenerating the board.
+8. `check.py`, `power_check.py`, `pcb_check.py`: independent final checks.
    `pcb_check.py` also exports the native placement SVG. Raster preview uses
    CairoSVG; no image generation or hand-edited CAD is involved.
 

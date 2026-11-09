@@ -1,7 +1,7 @@
 {
   "status": "ok",
   "total_footprints": 192,
-  "total_issues": 32,
+  "total_issues": 29,
   "footprint_overlaps": [
     {
       "ref_a": "U45",
@@ -74,12 +74,6 @@
       "ref_b": "R34",
       "overlap": true,
       "overlap_mm2": 4.55
-    },
-    {
-      "ref_a": "U30",
-      "ref_b": "H1",
-      "overlap": true,
-      "overlap_mm2": 6.81
     },
     {
       "ref_a": "U30",
@@ -156,60 +150,38 @@
       "is_footprint_keepout": false
     },
     {
-      "reference": "H4",
-      "keepout_source": "board_outline",
+      "reference": "J40",
+      "keepout_source": "board",
       "blocked": [
-        "outside_board"
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "footprints"
       ],
       "is_footprint_keepout": true
     },
     {
       "reference": "J40",
-      "keepout_source": "board",
-      "blocked": [
-        "tracks",
-        "vias",
-        "copper_pour"
-      ],
-      "is_footprint_keepout": false
-    },
-    {
-      "reference": "J40",
-      "keepout_source": "board",
-      "blocked": [
-        "tracks",
-        "vias",
-        "copper_pour"
-      ],
-      "is_footprint_keepout": false
-    },
-    {
-      "reference": "J40",
       "keepout_source": "board_outline",
       "blocked": [
         "outside_board"
-      ],
-      "is_footprint_keepout": true
-    },
-    {
-      "reference": "H1",
-      "keepout_source": "board",
-      "blocked": [
-        "tracks",
-        "vias",
-        "copper_pour"
-      ],
-      "is_footprint_keepout": false
-    },
-    {
-      "reference": "H1",
-      "keepout_source": "U30",
-      "blocked": [
-        "tracks",
-        "vias",
-        "pads",
-        "footprints",
-        "copper_pour"
       ],
       "is_footprint_keepout": true
     }
@@ -234,5 +206,5 @@
       "text_b_type": "standalone"
     }
   ],
-  "summary": "19 footprint overlap(s), 10 keepout/boundary issue(s), 2 silkscreen-over-pad overlap(s), 1 silkscreen text-to-text overlap(s)"
+  "summary": "18 footprint overlap(s), 8 keepout/boundary issue(s), 2 silkscreen-over-pad overlap(s), 1 silkscreen text-to-text overlap(s)"
 }

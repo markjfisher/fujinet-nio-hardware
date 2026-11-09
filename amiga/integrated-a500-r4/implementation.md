@@ -22,11 +22,36 @@ face, position, dimensions and absence of solder-paste apertures.
 The custom footprint records factual land geometry, not a copy of the whole
 Eagle library. The board edge is local x=0; the sidecar is at negative x.
 Placement is (105,62) mm, so the connector occupies the right side of the
-105 × 124 mm board. Socket plastic and the Amiga case extend beyond this PCB
+111 × 117 mm board. Socket plastic and the Amiga case extend beyond this PCB
 outline; the outline is not an enclosure drawing. Tail forming, insertion
 clearance, vertical board position, underside clearance and enclosure supports
 remain mechanical qualification items. The manufacturer's 1.57 ±0.15 mm card
 thickness refers to the mating edge, not automatically to the sidecar PCB.
+
+## Owner-measured mechanical refinement
+
+The owner measured approximately 117 mm along the connector on the working
+adapter and 18 mm from its right PCB edge before components. The original R4
+outline was 124 mm long; it added 3.5 mm at each end. The revised rectangle
+removes those end margins while preserving the socket position and pad pitch.
+All electronics move 6 mm away from the Amiga, keeping their relative placement
+and yielding a 111 × 117 mm envelope. Mounting holes and recovery switches are
+repositioned inside that envelope. The upper-left support is inset to clear the
+ESP module/antenna courtyard; the housing should use the saved mounting pattern. The extra 6 mm of depth preserves usable
+circuit area while establishing the component-free connector band.
+
+The saved outline is x=-6..105, y=3.5..120.5 mm. No component courtyard, pad or
+mounting hardware courtyard except J40 extends right of x=87 mm. A component
+keepout covers the gap from x=87 to x=94.5 on both faces; J40's own courtyard
+occupies the remainder. Tracks and planes remain permitted there because the
+bus must reach the socket. The native check verifies the entire 18 mm band,
+including the part not covered by the keepout due to J40's exception.
+
+These are approximate owner measurements, not a qualified mating drawing.
+The 18 mm datum is assumed to be the PCB edge, not the socket's outer mating
+face. The original adapter's plus-shaped outline is not copied: a rectangle is
+the current candidate, with the enclosure providing support and case clearance.
+No exact square, completed enclosure fit or additional physical test is implied.
 
 ## Raspberry Pi reference cell
 

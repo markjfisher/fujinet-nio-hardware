@@ -9,6 +9,12 @@
   "local_control_bypass_caps_checked": 27,
   "maximum_control_cap_center_to_power_pad_mm": 3.5,
   "copper_layers": 4,
+  "outline_mm": [
+    111,
+    117
+  ],
+  "component_free_band_mm": 18,
+  "rightmost_non_socket_courtyard_or_pad_x_mm": 86.975,
   "tracks": 0,
   "drc_violations_retained": {
     "hole_clearance": 4,

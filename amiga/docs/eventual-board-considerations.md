@@ -13,7 +13,7 @@ and a conditional current/thermal budget. Socket mapping, final BOM, fault
 transients and layout remain open; R3 is not fabrication-ready.
 
 The [A500 R4 placement candidate](../integrated-a500-r4/README.md) implements
-that circuit as a horizontal 105 × 124 mm sidecar placement with a reference-
+that circuit as a horizontal 111 × 117 mm sidecar placement with a reference-
 derived ED86 assembly footprint. All 86 socket lands and schematic/PCB parity
 are checked. Tail forming/case fit, critical routing, stackup, final BOM and
 electrical qualification remain open; the board is unrouted.

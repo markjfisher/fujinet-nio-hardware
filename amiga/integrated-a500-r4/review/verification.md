@@ -89,3 +89,20 @@ critical RP/USB routing, then use ordinary routing with preservation checks.
 Keep antenna copper exclusion on all layers. Finish the package/MPN, capacitor
 bias and mechanical-fit reviews. These are engineering tasks, not another
 permission gate or a request to repeat the accepted USB experiments.
+
+## Owner-measured envelope refinement
+
+The revised outline is 111 × 117 mm. The owner's approximate 117 mm adapter
+length replaces the initial 124 mm envelope. An 18 mm component-free strip is
+measured inward from the right PCB edge; the socket lands are its intentional
+exception. All other component pads and courtyards, including mounting hardware,
+remain outside that strip. Native read-back checks the exact outline, the whole
+strip and the two-sided component-only rule area. The maximum non-socket
+courtyard/pad x coordinate is 86.975 mm against a limit of 87 mm.
+
+Electronics translate left 6 mm as a group, preserving the RP reference cell,
+local bypass relationships and all connections. Recovery switches move inward;
+mounting holes fit the new outline, with H1 inset to clear the ESP courtyard.
+Native parity remains zero, with the same six DRC findings and 499 unconnected
+items. Updated native preview was visually inspected. Rectangular PCB shape is
+a candidate envelope, not proof of enclosure or formed-tail fit.

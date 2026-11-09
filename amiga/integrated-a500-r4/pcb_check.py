@@ -3,6 +3,7 @@ from pathlib import Path
 import json,math,subprocess,collections,xml.etree.ElementTree as E
 import pcbnew as k
 ROOT=Path(__file__).resolve().parent;P=ROOT/'integrated-a500-r4.kicad_pcb';R=ROOT/'review'
+mechanical=json.loads((ROOT/'mechanical.json').read_text())
 b=k.LoadBoard(str(P));fs={f.GetReference():f for f in b.GetFootprints()}
 plan={c['reference']:c for c in json.loads((ROOT/'circuit.json').read_text())['components'] if not c['reference'].startswith('#')}
 assert set(fs)==set(plan)|{'H1','H2','H3','H4'},set(fs)^set(plan)
@@ -28,7 +29,7 @@ for pad in f.Pads():
  assert abs(k.ToMM(pad.GetSize().x)-9.5)<1e-5 and abs(k.ToMM(pad.GetSize().y)-1.65)<1e-5
  assert not pad.IsOnLayer(k.F_Paste) and not pad.IsOnLayer(k.B_Paste)
 for item in json.loads((ROOT/'reference/rp-core-footprints.json').read_text())['records']:
- f=fs[item['reference']];x,y=item['fixed']
+ f=fs[item['reference']];x,y=item['fixed'];dx,dy=mechanical['reference_cell_translation_mm'];x+=dx;y+=dy
  assert math.hypot(k.ToMM(f.GetPosition().x)-x,k.ToMM(f.GetPosition().y)-y)<1e-5,item
  assert abs((f.GetOrientationDegrees()-item['rotation'])%360)<1e-5,item
 local=[]
@@ -37,6 +38,24 @@ for m in json.loads((R/'bypass-placement.json').read_text())['moves']:
  distance=min(math.hypot(k.ToMM(cp.x-p.GetPosition().x),k.ToMM(cp.y-p.GetPosition().y)) for p in u.Pads() if str(p.GetNetname())=='/3V3')
  assert distance<5.01,(m,distance)
  local.append(distance)
+# A full 18 mm band is clear of non-socket parts on both faces, including
+# mounting hardware courtyards. Solder lands belonging to J40 are intentional.
+zones=[z for z in b.Zones() if z.GetZoneName()=='A500 connector component clearance']
+assert len(zones)==1
+z=zones[0]
+assert z.GetIsRuleArea() and z.GetDoNotAllowFootprints()
+assert set(z.GetLayerSet().Seq())=={k.F_Cu,k.B_Cu}
+assert not z.GetDoNotAllowTracks() and not z.GetDoNotAllowVias() and not z.GetDoNotAllowZoneFills()
+rightmost=-1e9
+for ref,f in fs.items():
+ if ref=='J40':continue
+ items=[g for g in f.GraphicalItems() if g.GetLayer() in [k.F_CrtYd,k.B_CrtYd]]+list(f.Pads())
+ edge=max(k.ToMM(g.GetBoundingBox().GetRight()) for g in items)
+ assert edge<=mechanical['component_limit_x_mm']+1e-5,(ref,edge)
+ rightmost=max(rightmost,edge)
+points=[p for g in b.GetDrawings() if g.GetLayer()==k.Edge_Cuts for p in [g.GetStart(),g.GetEnd()]]
+xs=[k.ToMM(p.x) for p in points];ys=[k.ToMM(p.y) for p in points];o=mechanical['outline']
+assert [min(xs),min(ys),max(xs)-min(xs),max(ys)-min(ys)]==[o['x_mm'],o['y_mm'],o['width_mm'],o['height_mm']]
 assert b.GetCopperLayerCount()==4
 subprocess.run(['kicad-cli','pcb','drc','--schematic-parity','--format','json','-o',str(R/'drc.json'),str(P)],check=True,capture_output=True)
 drc=json.loads((R/'drc.json').read_text());assert not drc['schematic_parity'],drc['schematic_parity'][:2]
@@ -47,6 +66,8 @@ result={'status':'PASS for connectivity and documented placement constraints; no
  'schematic_parity_findings':len(drc['schematic_parity']),'socket_contacts_checked':86,
  'rp_reference_footprints_and_positions_checked':6,'local_control_bypass_caps_checked':len(local),
  'maximum_control_cap_center_to_power_pad_mm':round(max(local),3),'copper_layers':4,
+ 'outline_mm':[o['width_mm'],o['height_mm']],'component_free_band_mm':mechanical['component_free_depth_mm'],
+ 'rightmost_non_socket_courtyard_or_pad_x_mm':round(rightmost,3),
  'tracks':len(b.GetTracks()),'drc_violations_retained':dict(collections.Counter(x['type'] for x in drc['violations'])),
  'unconnected_items':len(drc['unconnected_items']),'stackup_and_usb_geometry':'not qualified'}
 (R/'pcb-checks.json').write_text(json.dumps(result,indent=2)+'\n');print(json.dumps(result,indent=2))
