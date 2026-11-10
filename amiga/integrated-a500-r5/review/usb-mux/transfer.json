@@ -1,0 +1,9 @@
+{
+  "source_commit": "99bb7cf1",
+  "corridor_approval": "7acec70c",
+  "mcp_transferred_footprints": 36,
+  "native_group_metadata_only": true,
+  "all_203_footprint_trees_match_approved_candidate": true,
+  "native_drc_no_new_findings": true,
+  "schematic_parity_issues": 0
+}
