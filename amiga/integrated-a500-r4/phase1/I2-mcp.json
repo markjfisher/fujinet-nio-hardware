@@ -1,0 +1,13 @@
+{
+  "calls": 112,
+  "operations": {
+    "load": 2,
+    "remove_wire": 34,
+    "remove_label": 34,
+    "remove_component": 11,
+    "add_component": 1,
+    "add_wire": 14,
+    "add_label": 14,
+    "save": 2
+  }
+}

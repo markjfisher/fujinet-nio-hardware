@@ -2204,24 +2204,6 @@
     },
     {
       "page": "control",
-      "reference": "U64",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        269.24,
-        119.38
-      ],
-      "pins": {
-        "2": "Z_AS_N",
-        "4": "AS_ACTIVE",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "C73",
       "lib_id": "Device:C",
       "value": "100n",
@@ -2238,113 +2220,11 @@
     },
     {
       "page": "control",
-      "reference": "U65",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        342.9,
-        119.38
-      ],
-      "pins": {
-        "2": "Z_A20",
-        "4": "A20_LOW",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C74",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        365.76,
-        132.07999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "C75",
       "lib_id": "Device:C",
       "value": "100n",
       "position": [
         71.12,
-        170.17999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U69",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        269.24,
-        157.48
-      ],
-      "pins": {
-        "2": "Z_LDS_N",
-        "4": "LO_ACTIVE",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C78",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        292.1,
-        170.17999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U70",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        342.9,
-        157.48
-      ],
-      "pins": {
-        "2": "Z_UDS_N",
-        "4": "HI_ACTIVE",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C79",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        365.76,
         170.17999999999998
       ],
       "pins": {
@@ -2433,74 +2313,6 @@
       "value": "100n",
       "position": [
         218.44,
-        208.27999999999997
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U74",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        269.24,
-        195.57999999999998
-      ],
-      "pins": {
-        "2": "Z_READ",
-        "4": "WRITE_CYCLE",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C83",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        292.1,
-        208.27999999999997
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U75",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
-      "position": [
-        342.9,
-        195.57999999999998
-      ],
-      "pins": {
-        "2": "DATA_VALID",
-        "4": "DATA_RECEIVE",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C84",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        365.76,
         208.27999999999997
       ],
       "pins": {
@@ -4053,6 +3865,34 @@
       "page": "control",
       "position": [
         550,
+        260
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U64",
+      "lib_id": "Phase1:SN74LVC04A",
+      "value": "SN74LVC04APWR",
+      "pins": {
+        "14": "3V3",
+        "7": "GND",
+        "1": "Z_AS_N",
+        "2": "AS_ACTIVE",
+        "3": "Z_A20",
+        "4": "A20_LOW",
+        "5": "Z_LDS_N",
+        "6": "LO_ACTIVE",
+        "9": "Z_UDS_N",
+        "8": "HI_ACTIVE",
+        "11": "Z_READ",
+        "10": "WRITE_CYCLE",
+        "13": "DATA_VALID",
+        "12": "DATA_RECEIVE"
+      },
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "page": "control",
+      "position": [
+        680,
         260
       ],
       "rotation": 0
