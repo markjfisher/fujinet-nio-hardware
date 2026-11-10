@@ -1,6 +1,12 @@
-# Phase 1: stopped at pre-substitution electrical verification
+# Phase 1: implementation status
 
-Follow-up: the approved wider audit is recorded in
+Current authority: [final USB-power requirement and bus-disable proposal](bus-output-disable-proposal.md). USB main power is now mandatory; the TPS2121
+proposal is rejected. Implementation is stopped on the specific unmonitored
+3V3_BUS failure path documented there. No substitutions have been applied.
+The earlier slew finding below is historical context, not a request to restart
+the general audit.
+
+Earlier follow-up: the approved wider audit is recorded in
 [conditioning-proposal.md](conditioning-proposal.md), with resistor inventory,
 RC calculations and CAD preservation evidence. No substitutions have yet been
 implemented; that proposal also identifies an unresolved power-state guard.

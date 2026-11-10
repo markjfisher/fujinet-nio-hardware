@@ -1,92 +1,87 @@
-# A500 R4 — dual-source power and bus-output disable proposal
+# A500 R4 — final USB-power requirement and bus-output protection
 
-2026-11-10 revision 2. **Proposed; implementation blocked by the stock A500 power budget. Not implemented.**
+2026-11-10 revision 3. **USB main-power requirement decided by the user.**
+TPS2121 and dual-source main power are rejected. No CAD changes in this revision.
+The bus-disable circuit below remains a candidate, with one specific unresolved
+host-safety issue documented below; it is not an implementation-ready design.
 
-This records the circuit proposed in the conversation. Saving this document
-does not authorize CAD changes. It narrows the earlier
-[conditioning review](conditioning-proposal.md) to one implementation for
-power-state bus-output disabling. The existing schematic and PCB remain
-unchanged.
+## Final power requirement
 
-## Corrected requirements and one proposed power topology
-
-USB is optional for normal operation. Amiga +5 V must power the processors,
-SD card and interface; USB must independently power the processors and all
-flashing/debugging functions when the host is off. With both available, use
-qualified USB power preferentially. Source selection never grants bus-drive
-permission. This supersedes the USB-only assumption in the earlier proposal
-and the existing R3 power review; CAD still represents that earlier circuit.
-
-**Concrete incompatibility:** the existing load allocation exceeds the documented
-stock A500 expansion-port allowance. The topology below is the selected direction,
-but it is not an electrically approved implementation at the present load.
-
-| Requirement | Proposed schematic connection | Evidence / outstanding constraint |
+| Requirement | Implementation decision | Evidence / check |
 |---|---|---|
-| Dual source with reverse blocking | Add **TPS2121RUXR**. IN1 pin 7 receives qualified USB; IN2 pin 2 receives current-limited Amiga +5 V. OUT pins 1/8 become `5V_MAIN`, feeding existing U5 **TPS62130RGTR**. GND pin 12 to ground. | TI documents independent reverse-current blocking and automatic source selection. No direct connection between sources. |
-| USB priority | CP2 pin 3 to GND; PR1 pin 6 from IN1 through 100 kΩ / 100 kΩ (1%) divider. At 4.5 V IN1, PR1 is at least 2.23 V, above the 1.10 V maximum priority threshold. | VREF mode selects valid IN1 regardless of relative input voltage. This is not the fast-comparator mode; uninterrupted transfer is not promised. |
-| Reuse USB protection and qualification | Retain J1 → U8 TPS259630DDAR → U9 LM66100DCKR → U4 TPS22917DBVR; reconnect U4 output to mux IN1 instead of directly powering U5. Retain the protected upstream U6/FUSB303B supply, so USB qualification can cold-start independently. | Existing CC permission controls **only the USB branch**, never the common main supply. Keep U9 for upstream/AON reverse isolation. |
-| Qualify USB current | Retain FUSB303B OUT1 and replace U7 with pin-compatible **SN74LVC1G14DBVR**, with local 100 nF bypass. Rename POWER_ALLOW to USB_POWER_ALLOW. Retain the 10 kΩ OUT1 pull-up. | Open-drain CC indication needs Schmitt conditioning. Complete-board USB operation requires a source advertising at least 1.5 A; a default-current computer port is not sufficient under the present allocation. |
-| Protect the Amiga input | J40 pins 5/6 → dedicated input current limiter → mux IN2. Feed any host-only interface supply from the same limited branch; raw Amiga sense remains high impedance. | All host draw, including bypass paths, must fit **300 mA total**. A fuse alone is not a precise current limiter. Exact limiter/value selection is deliberately blocked by the incompatible operating load. |
-| Mux auxiliary components | Local input/output ceramics, SS ramp capacitor and ILM programming resistor are required; retain U5 support circuitry and proposed local AVIN bypass. ST may be grounded if unused. | Final SS/ILM values depend on the resolved load and startup allowance. TPS2121's 80 kΩ setting spans 1–2 A and cannot protect a 300 mA host allocation. Do not reuse it as the sole host limiter. |
-| Host-off isolation | Keep bus permission dependent on raw Amiga power, valid main 3V3, host reset and existing hardware/firmware readiness. USB selection or mux ST is never BUS_PERMIT. | Host-facing outputs must remain high impedance during USB-only flashing, even though the processors run. |
+| Normal R4 operation | USB power is required. Retain J1 → U8 TPS259630DDAR → U9 LM66100DCKR → U4 TPS22917DBVR → U5 TPS62130RGTR and main 3V3. | Existing schematic and R3 power allocation. No TPS2121 or source-selection circuitry. |
+| USB-powered, Amiga off | Both processors and flashing/debug facilities operate from USB. All host-facing outputs remain disconnected. | Bus permission must depend on valid host power separately from USB availability. |
+| Amiga-powered, USB off | No RP2350, ESP32 or main-3V3 power from the expansion connector. | No power OR connection, main-regulator input connection or alternate main-rail feed from Amiga 5 V. |
+| Permitted host consumption | Raw Amiga 5 V is sensed through a high-impedance divider. A small current-limited host-interface rail is permitted only to keep the output-disable stage operational as USB/main power fails. | All host-interface and sense consumption counts against the same 300 mA allowance. |
+| USB qualification | Keep the existing ≥1.5 A advertised-current requirement. Retain FUSB303B and AON supply; U7 remains a separate AON-domain device. | A default-current USB host port is not assumed capable of powering this board. U7 Schmitt replacement and its bypass remain within the scoped conditioning work. |
+| Bus permission | Require valid Amiga power, valid relevant board rails, host reset released, RUN mode, BUS_ARM, BUS_READY and existing cycle/BERR interlocks. | USB presence alone must never enable a host output. |
 
-This retains the existing USB protection rather than adding another alternative
-architecture. The USB-only AON rail serves USB detection; normal Amiga operation
-must not depend on that rail. U4's discharge connection remains on its own USB
-branch, not the common mux output. Recalculate USB current/thermal margins with
-the additional mux resistance before implementation: the old 31 mA margin is
-not transferable. Keep data-ESD references on the protected USB branch.
+The existing [USB power review](../../../integrated-a500-r3/power-review.md)
+allocates 1.2 A at 3.3 V and estimates 1.166 A USB input under its stated
+loss/efficiency assumptions. Consolidation does not justify lowering that
+allocation without evidence.
 
-Mux authority: [TI TPS2121 datasheet](https://www.ti.com/lit/ds/symlink/tps2121.pdf),
-pin table, electrical characteristics and Table 9-3. Reverse blocking permits
-finite leakage and switching transients; it is not a zero-current guarantee.
-CC authority: [onsemi FUSB303B datasheet](https://www.onsemi.com/pdf/datasheet/fusb303b-d.pdf).
-Conditioner: [TI SN74LVC1G14](https://www.ti.com/lit/ds/symlink/sn74lvc1g14.pdf).
-
-## Verified current-budget blocker
-
-Commodore's **A500/A2000 Technical Reference Manual**, printed page **227**
-(PDF page 233), specifies **300 mA from expansion pins 5 and 6 combined** and
-states that this port has **no current limiting**. The downloaded page was
-rendered and visually checked, not inferred from a third-party connector table.
+Commodore specifies **300 mA total at +5 V from expansion pins 5 and 6**, with
+no port current limiting. The manual's printed page 227 (PDF page 233) was
+visually checked. At 85% assumed conversion efficiency, the existing 3.96 W
+load allocation alone requires 932 mA at 5 V before path losses. This explains
+the final USB requirement; it is no longer an unresolved architecture decision.
 [Commodore manual scan](https://support.retrorewind.ca/media/commodore/amiga/commodore_a500-a2000_technical_reference_manual.pdf#page=233)
 
-The [existing allocation](../../../integrated-a500-r3/power-review.md) is
-3.3 V × 1.2 A = **3.96 W**: ESP 600 mA, RP/flash 200 mA, SD 200 mA,
-bus/control 100 mA and margin 100 mA. These are allocations, not measured
-simultaneous consumption. At the existing assumed 85% regulator efficiency:
+## Host-interface limiter candidate
 
-- Required input before path losses: **4.66 W**, or **932 mA at 5 V**
-  (**1.035 A at 4.5 V**), plus control/interface overhead.
-- Stock port allocation: **1.50 W at 5 V**; at 85% efficiency, at most
-  **386 mA at 3.3 V**, before path losses and host-interface overhead.
-- Even at impossible 100% conversion efficiency, the present 3.96 W allocation
-  exceeds the port's 1.50 W allowance. A more efficient mux cannot close this gap.
+For the proposed ≤100 mA interface allocation, use **TPS2553DBVR** ahead of
+the SS14/AP2112 branch, never ahead of a main-rail feed. DBV pins: 1=raw
+AMIGA_5V, 2=GND, 3=EN tied to raw AMIGA_5V, 4=/FAULT diagnostic only,
+5=ILIM through **133 kΩ ±1%** to GND, 6=HOST_5V_LIMITED. Add a local 100 nF
+input bypass. Keep the isolation diode and downstream capacitance.
 
-A host limiter must have a worst-case upper limit, including tolerance and all
-bypass draw, no greater than 300 mA. Under the current allocation that limiter
-would prevent reliable startup or cause brownout. Setting it near 1 A instead
-would violate the documented stock-host budget. A stronger external Amiga PSU
-alone does not establish a higher rating for the motherboard/connector path.
+TI Table 9-2 gives **173.7–233.9 mA** limiting for this resistor, leaving
+headroom below the stock 300 mA allocation for device quiescent current and
+the raw host-sense divider. This is a sustained current-limit envelope, not
+an instantaneous peak-current ceiling. Startup charging and output-load
+transients must be checked; /FAULT's deglitch delay is unsuitable as the only
+fast bus-disable signal. This candidate is **not installed** and does not close
+the rail-supervision issue below.
+[TI TPS2553 datasheet, pin table and Table 9-2](https://www.ti.com/lit/ds/symlink/tps2553.pdf)
 
-**Required decision before detailed implementation:** establish a reduced
-complete-board operating budget that fits 300 mA at the host connector, or
-explicitly change the supported-host assumption to an electrically qualified
-higher-current A500 power path. No such qualification or reduced-load evidence
-currently exists. Do not silently substitute mandatory USB power: that would
-contradict the corrected requirement. This is the specific reason to stop;
-no unrelated audit is requested.
+## Specific host-safety blocker before implementation
 
-## Retained bus-disable circuit, subject to the power-budget decision
+The saved guard monitors raw AMIGA_5V with MIC2790 and main 3V3 with MIC2793,
+but supplies both supervisors and the host-facing drivers from **3V3_BUS**.
+It does not sense that local rail. A local overload/current-limited ramp or
+LDO dropout can lower 3V3_BUS while both sensed rails remain valid. Neither
+SNS comparator is then required to assert reset. Connecting VDD to a rail is
+not equivalent to supervising that rail at the bus's qualified voltage.
 
-The separately powered output stage below remains the proposed safety mechanism.
-Its host-derived rail must sit behind the host input limiter and its current
-counts toward the same 300 mA allowance. During USB-only operation this small
-host-facing stage is intentionally unpowered/high impedance; both processors
-and their flashing/debug functions must still operate. Host absence must not
-hold RP_RUN low: the reset clamp must act on a powered host-side fault, while
-existing physical boot/reset controls remain usable without the Amiga.
+Microchip specifies valid supervisor operation down to 1.5 V, not a 3.1 V
+local-VDD brownout trip. The SN74LVC541A supports operation down to 1.65 V,
+but the reviewed bus timing is specified at 3.0–3.6 V, and its Ioff test at
+VCC=0 does not guarantee high impedance throughout an intermediate-voltage
+collapse. Thus a still-enabled interface could miss bus turnaround or enter
+an unspecified state and contend with a host driver. This is a credible
+possible host-damage mechanism, not an observed failure or a claim that every
+brownout causes damage.
+[Microchip MIC2790/1/3, electrical limits and functional description](https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MIC2790-1-3-Supervisor-with-High-Accuracy-Ultra-Fast-Propagation-Delay-and-Capacitor-Programmable-Reset-Delay-DS20007151.pdf)
+[TI SN74LVC541A operating, timing and Ioff limits](https://www.ti.com/lit/ds/symlink/sn74lvc541a.pdf)
+
+Required narrow correction: independently qualify **3V3_BUS** and force the
+same data-OE and XRDY/IRQ overrides on its undervoltage, with enough local
+hold-up for the shutdown response. A further MIC2790-family monitor is a
+candidate, but its precise reset combining and full shutdown bound have not
+been verified. Do not simply wire push-pull reset outputs together or treat
+the published typical /MR delay as a guaranteed maximum. Do not implement the
+previous two-monitor candidate unchanged. No new general architecture audit
+or repeat USB feasibility experiment is requested.
+
+## Existing bus-disable candidate — requires the correction above
+
+The host-derived rail is justified solely by keeping host output control alive
+when USB power fails. It must sit behind the host input limiter. During USB-only
+operation this small host-facing stage is intentionally unpowered/high impedance;
+both processors remain usable. Host absence must not hold RP_RUN low. Any
+supervisor /MR tie must use its own valid supply domain, not leave the previous
+main-3V3 tie connected to an unpowered host-domain supervisor.
 
 | Circuit change | Exact implementation |
 |---|---|
@@ -137,10 +132,13 @@ is a design allocation, not measured timing compliance.
 2. Verify recovery cannot re-enable outputs until supervisor delays expire and
    firmware deliberately reasserts BUS_READY.
 3. Verify USB-only operation permits independent processor flashing/debug and
-   produces no host backfeed. Verify Amiga-only normal operation within the
-   agreed host current limit. With both present, verify USB priority and
-   transfer on unplugging either source; outputs remain disabled during any
-   resulting brownout until hardware and firmware readiness return.
+   produces no host backfeed. With Amiga power only, processors and main 3V3
+   remain off and all host outputs disconnect. With both present, USB powers
+   the processors; host power only supplies the limited interface stage.
+5. Exercise a controlled local 3V3_BUS sag with raw Amiga 5 V and main 3V3
+   still valid; verify the corrected guard releases outputs before the
+   interface leaves its qualified range. This is a newly identified circuit
+   acceptance condition, not an instruction to test an unprotected host.
 4. Measure XRDY assertion and sink voltage with representative host loads.
 
 These focused tests are acceptance gates for the proposed implementation,
@@ -149,10 +147,17 @@ another general audit. Schematic implementation, native connectivity checks,
 ERC and incremental PCB synchronisation remain subject to approval. Preserve
 the existing PCB; do not regenerate its placement or route globally.
 
-**Decision pending:** resolve the documented host-current incompatibility before
-approving implementation. No CAD, placement, routing or fabrication ordering is
-authorized by this document.
+## Implementation status
 
-Documentation validation: source page visually inspected; budget arithmetic and
-relative documentation link checked; `git diff --check` passed. This revision
-changes only this Markdown proposal, not the schematic, PCB or submodule pins.
+The final USB requirement supersedes revision 2's dual-source proposal and
+closes its current-budget decision. The local-interface-rail supervision gap
+is the only new stop condition recorded here. Protection implementation and
+I1/I2/R-A/R-B remain unimplemented; no component-count reduction is claimed.
+The existing PCB, schematic and placement remain unchanged. Continue with
+schematic-first edits and independent checks once this specific guard gap is
+closed; preserve the PCB and synchronise incrementally. No routing or ordering.
+
+Verification this revision: manufacturer limiter table and supervisor/driver
+limits read; final USB requirement checked against the unchanged power chain;
+local documentation link checked and `git diff --check` passed. No CAD test is
+claimed for a documentation-only change.
