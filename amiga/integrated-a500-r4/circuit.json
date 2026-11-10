@@ -3399,7 +3399,7 @@
     },
     {
       "reference": "Q5",
-      "lib_id": "Transistor_BJT:MMBT3904",
+      "lib_id": "Transistor_BJT:Q_NPN_BEC",
       "value": "MMBT3904-7-F",
       "pins": {
         "1": "GUARD_RESET_BASE",

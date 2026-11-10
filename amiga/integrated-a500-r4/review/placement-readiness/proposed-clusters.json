@@ -1,0 +1,138 @@
+[
+  {
+    "name": "Host input limiter and LDO",
+    "members": [
+      "U95",
+      "R110",
+      "C110",
+      "D4",
+      "U96",
+      "C111",
+      "C112"
+    ],
+    "suggested_region_mm": "x=59\u201373, y=14\u201325",
+    "constraints": "Near raw host 5V entry, inside x<87 corridor; C110 at U95 IN, R110 at ILIM; C111/C112 at LDO pins."
+  },
+  {
+    "name": "Shared supervisor and Schmitt guard",
+    "members": [
+      "U60",
+      "U90",
+      "U91",
+      "U92",
+      "R60",
+      "R61",
+      "R112",
+      "R113",
+      "R114",
+      "R115",
+      "R116",
+      "R117",
+      "R122",
+      "C60",
+      "C114",
+      "C115",
+      "C116",
+      "C118",
+      "C119",
+      "C120"
+    ],
+    "suggested_region_mm": "x=55\u201373, y=27\u201340",
+    "constraints": "Compact common RESET net \u226450pF; divider bottoms and CT capacitors locally grounded, avoid L1/L20 switch nodes. Sense rails at the loads, not upstream of isolation."
+  },
+  {
+    "name": "Host-output disable and bus hold-up",
+    "members": [
+      "U93",
+      "U94",
+      "C121",
+      "C122",
+      "R118",
+      "R119",
+      "C113",
+      "R111"
+    ],
+    "suggested_region_mm": "x=66\u201374, y=66\u201396",
+    "constraints": "Between RP support and U44\u2013U47 corridor; U94 near XRDY/IRQ connector routing, C113 near U44/U45 bus-rail loads. Supervisor-to-OE direct route; no shared switching-return neck."
+  },
+  {
+    "name": "Main-rail hold-up",
+    "members": [
+      "C117"
+    ],
+    "suggested_region_mm": "x=39\u201348, y=88\u2013100",
+    "constraints": "Adjacent to main regulator output/power distribution, outside switch node and feedback loop. Keep original C7/C8/L1 cell unchanged."
+  },
+  {
+    "name": "RP reset clamp and released-control conditioning",
+    "members": [
+      "Q5",
+      "R120",
+      "R121",
+      "U97",
+      "C125"
+    ],
+    "suggested_region_mm": "x=35\u201343, y=60\u201372",
+    "constraints": "Near RP_RUN and recovery bias; short collector route; bypass at buffer VCC."
+  },
+  {
+    "name": "Request conditioning",
+    "members": [
+      "U98",
+      "U99",
+      "C126",
+      "C127",
+      "R64"
+    ],
+    "suggested_region_mm": "x=30\u201345, y=46\u201360",
+    "constraints": "Near U84/U86/U82 request/clock logic and RP source pins. R64 must bias raw signals, not conditioned outputs."
+  },
+  {
+    "name": "Host open-collector receive conditioning",
+    "members": [
+      "U100",
+      "C128"
+    ],
+    "suggested_region_mm": "x=68\u201374, y=48\u201357",
+    "constraints": "Immediately upstream of U43 reset/BERR/DTACK inputs; keep noisy edge-corridor returns out of threshold path."
+  },
+  {
+    "name": "Consolidated combinational logic",
+    "members": [
+      "U61",
+      "C70",
+      "U66",
+      "C75",
+      "U71",
+      "C80",
+      "U64",
+      "C73"
+    ],
+    "suggested_region_mm": "x=20\u201354, y=14\u201340",
+    "constraints": "Use vacated gate rows; U66 near address-buffer outputs, U71 toward byte OE and U93; U64 balances six distributed loads. Bypasses move with packages in next stage."
+  },
+  {
+    "name": "SD bias array",
+    "members": [
+      "R37"
+    ],
+    "suggested_region_mm": "x=12\u201321, y=50\u201365",
+    "constraints": "Close to J30/ESP SD signal paths with R41; maintain card insertion access."
+  },
+  {
+    "name": "AON local bypass",
+    "members": [
+      "C123"
+    ],
+    "suggested_region_mm": "within 2mm of U7 VCC routing",
+    "constraints": "Add to U7 group; 3V3_AON only."
+  },
+  {
+    "name": "Buck AVIN bypass",
+    "members": [
+      "C124"
+    ],
+    "suggested_region_mm": "at U5 AVIN with local ground",
+    "constraints": "Add to U5 group; 5V_MAIN only, outside switch-node copper."
+  }
+]

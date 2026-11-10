@@ -1,0 +1,522 @@
+[
+  {
+    "name": "FN: Logic U82",
+    "locked": false,
+    "items": [
+      "U82",
+      "C91"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U41",
+    "locked": false,
+    "items": [
+      "C51",
+      "U41"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U46",
+    "locked": false,
+    "items": [
+      "R52",
+      "C56",
+      "U46"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U72",
+    "locked": false,
+    "items": [
+      "U72",
+      "C81"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: USB switch RP",
+    "locked": false,
+    "items": [
+      "R1",
+      "C1",
+      "U1"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U62",
+    "locked": false,
+    "items": [
+      "R3",
+      "R63"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: USB receptacle and ESD",
+    "locked": false,
+    "items": [
+      "J1",
+      "D2",
+      "D3"
+    ],
+    "classification": "mechanically fixed",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: USB current qualification inverter",
+    "locked": false,
+    "items": [
+      "R6",
+      "U7"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: 3V3 buck regulator",
+    "locked": false,
+    "items": [
+      "C8",
+      "R8",
+      "C9",
+      "U5",
+      "L1",
+      "R7",
+      "C7"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U86",
+    "locked": false,
+    "items": [
+      "C95",
+      "U86"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U44",
+    "locked": false,
+    "items": [
+      "C54",
+      "R50",
+      "U44"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: USB CC detection",
+    "locked": false,
+    "items": [
+      "C3",
+      "U3",
+      "R4",
+      "R5"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U66",
+    "locked": false,
+    "items": [
+      "C75"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Main power switch",
+    "locked": false,
+    "items": [
+      "R14",
+      "U4",
+      "C6"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Recovery buttons",
+    "locked": false,
+    "items": [
+      "SW1",
+      "SW2",
+      "SW4",
+      "SW3"
+    ],
+    "classification": "provisionally locked",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: RP QSPI flash",
+    "locked": false,
+    "items": [
+      "U21",
+      "R13",
+      "C20",
+      "R20"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: ESP recovery and USB",
+    "locked": false,
+    "items": [
+      "R31",
+      "R33",
+      "R35",
+      "R12",
+      "R30",
+      "R36",
+      "R11",
+      "Q1",
+      "Q4",
+      "R34",
+      "C10",
+      "R32"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U77",
+    "locked": false,
+    "items": [
+      "U77",
+      "C86"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U64",
+    "locked": false,
+    "items": [
+      "C73"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: RP physical recovery bias",
+    "locked": false,
+    "items": [
+      "R10",
+      "Q3",
+      "Q2"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Input eFuse",
+    "locked": false,
+    "items": [
+      "R101",
+      "R103",
+      "R100",
+      "C100",
+      "C102",
+      "R104",
+      "C101",
+      "R102",
+      "R105",
+      "U8"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U71",
+    "locked": false,
+    "items": [
+      "C80"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U78",
+    "locked": false,
+    "items": [
+      "U78",
+      "C87"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: ESP local supply",
+    "locked": false,
+    "items": [
+      "U30",
+      "C40",
+      "C41"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U73",
+    "locked": false,
+    "items": [
+      "U73",
+      "C82"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U47",
+    "locked": false,
+    "items": [
+      "R53",
+      "C57",
+      "U47"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U79",
+    "locked": false,
+    "items": [
+      "C88",
+      "U79"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: USB switch ESP",
+    "locked": false,
+    "items": [
+      "C2",
+      "R2",
+      "U2"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U60",
+    "locked": false,
+    "items": [
+      "C60",
+      "R60",
+      "R61"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: SD pullups",
+    "locked": false,
+    "items": [
+      "R41"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U43",
+    "locked": false,
+    "items": [
+      "C53",
+      "U43"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U40",
+    "locked": false,
+    "items": [
+      "U40",
+      "C50"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U84",
+    "locked": false,
+    "items": [
+      "U84",
+      "C93"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U42",
+    "locked": false,
+    "items": [
+      "U42",
+      "C52"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Bus buffer U45",
+    "locked": false,
+    "items": [
+      "U45",
+      "C55",
+      "R51"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Reverse blocking",
+    "locked": false,
+    "items": [
+      "U9"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: RP regulator reference cell",
+    "locked": false,
+    "items": [
+      "C32",
+      "C25",
+      "C29",
+      "C23",
+      "C30",
+      "C33",
+      "U20",
+      "C34",
+      "R23",
+      "C35",
+      "C24",
+      "C36",
+      "C39",
+      "C26",
+      "C28",
+      "R22",
+      "L20",
+      "C38",
+      "C31",
+      "C27",
+      "R24",
+      "C37"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U85",
+    "locked": false,
+    "items": [
+      "C94",
+      "U85"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: RP crystal",
+    "locked": false,
+    "items": [
+      "C21",
+      "C22",
+      "R21",
+      "Y20"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Always-on regulator",
+    "locked": false,
+    "items": [
+      "C5",
+      "C4",
+      "U6"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: Logic U61",
+    "locked": false,
+    "items": [
+      "C70"
+    ],
+    "classification": "electrically constrained",
+    "needs_regrouping": true,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  },
+  {
+    "name": "FN: microSD local supply",
+    "locked": false,
+    "items": [
+      "J30",
+      "C43",
+      "C42"
+    ],
+    "classification": "mechanically fixed",
+    "needs_regrouping": false,
+    "note": "Group itself unlocked; member locks and local electrical relationships still apply. No permission to move fixed members."
+  }
+]

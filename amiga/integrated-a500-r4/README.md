@@ -5,6 +5,8 @@ placement**, with the female A500 socket at the right edge and an 18 mm
 component-free band behind that edge (the socket solder lands are excepted). It is a new project;
 released passive hardware and R0–R3 remain unchanged.
 
+Placement preparation: [readiness report, exact bulk capacitors and lock classifications](review/placement-readiness/report.md). Q5 library warning is resolved; PCB positions/locks are unchanged.
+
 Current status: [Phase 1 implementation and checks](review/component-optimisation/phase1-status.md).
 Open the [native project](integrated-a500-r4.kicad_pro), [current schematic](review/schematic.pdf)
 or [board and staging preview](phase1/board-and-staging.png). There are **199 fitted
