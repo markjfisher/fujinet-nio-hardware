@@ -2433,70 +2433,6 @@
       "rotation": 0
     },
     {
-      "page": "control",
-      "reference": "R64",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        243.84,
-        76.2
-      ],
-      "pins": {
-        "1": "BUS_READY",
-        "2": "GND"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R65",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        279.4,
-        76.2
-      ],
-      "pins": {
-        "1": "DATA_DRIVE",
-        "2": "GND"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R66",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        314.96000000000004,
-        76.2
-      ],
-      "pins": {
-        "1": "ACK_REQ",
-        "2": "GND"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R67",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        350.52,
-        76.2
-      ],
-      "pins": {
-        "1": "IRQ_REQ",
-        "2": "GND"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
       "page": "power",
       "reference": "#FLG01",
       "lib_id": "power:PWR_FLAG",
@@ -3852,6 +3788,28 @@
       "position": [
         550,
         120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R64",
+      "lib_id": "Device:R_Pack04",
+      "value": "CAT16-1002F4LF",
+      "pins": {
+        "1": "BUS_READY",
+        "8": "GND",
+        "2": "DATA_DRIVE",
+        "7": "GND",
+        "3": "ACK_REQ",
+        "6": "GND",
+        "4": "IRQ_REQ",
+        "5": "GND"
+      },
+      "footprint": "Resistor_SMD:R_Array_Concave_4x0603",
+      "page": "control",
+      "position": [
+        680,
+        400
       ],
       "rotation": 0
     }

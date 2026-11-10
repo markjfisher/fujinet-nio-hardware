@@ -1,0 +1,24 @@
+{
+  "retained_placement_changes": [
+    "R37",
+    "R64",
+    "U60",
+    "U61",
+    "U64",
+    "U66",
+    "U71"
+  ],
+  "expected_repackaged_references": [
+    "U60",
+    "U61",
+    "U66",
+    "U71",
+    "U64",
+    "R37",
+    "R64"
+  ],
+  "edge_cuts_unchanged": true,
+  "zone_uuids_unchanged": true,
+  "tracks": 0,
+  "footprints": 203
+}

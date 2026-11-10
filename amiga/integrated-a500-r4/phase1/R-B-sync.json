@@ -1,0 +1,7023 @@
+{
+  "before": {
+    "U45": {
+      "position": [
+        79000000,
+        80000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "0011d12a-bb89-4749-8163-e5fcdb0a5c80",
+      "locked": true
+    },
+    "U21": {
+      "position": [
+        47000000,
+        45000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "008b2312-7e32-4cc1-b3d8-8fe3d364f930",
+      "locked": true
+    },
+    "J1": {
+      "position": [
+        -3000000,
+        82000000
+      ],
+      "angle": -90.0,
+      "side": 0,
+      "uuid": "00bfa9ab-82a7-4487-8d1e-d99cf6c7e580",
+      "locked": true
+    },
+    "C128": {
+      "position": [
+        125000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "01d30ad3-9483-4730-aeea-1cdbd1996d7e",
+      "locked": false
+    },
+    "R31": {
+      "position": [
+        14000000,
+        42000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "02d480ce-01b5-4114-9cbe-3aed9c7ea131",
+      "locked": false
+    },
+    "C31": {
+      "position": [
+        62000000,
+        60000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "03950b6d-e53d-4f24-bb84-b74e778f0235",
+      "locked": true
+    },
+    "U30": {
+      "position": [
+        1000000,
+        30000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "05504d03-0bf2-4434-91e8-f2281b5a22e5",
+      "locked": true
+    },
+    "C95": {
+      "position": [
+        35100000,
+        33049999
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "05f23f97-a2ed-4258-bfbf-bd789f2cf5a6",
+      "locked": false
+    },
+    "R53": {
+      "position": [
+        81240000,
+        109360000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "07f20993-8200-4932-a6e8-0627c27fe748",
+      "locked": false
+    },
+    "SW1": {
+      "position": [
+        41500000,
+        113000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "0865db8e-3955-4595-a87a-a1eb149dd161",
+      "locked": true
+    },
+    "C3": {
+      "position": [
+        4400000,
+        71175000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "09a23549-72ed-4582-8543-2d829f4dd78d",
+      "locked": false
+    },
+    "C123": {
+      "position": [
+        173000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "0cd1e882-dbe0-496e-9eb4-649686f46bc9",
+      "locked": false
+    },
+    "U40": {
+      "position": [
+        79000000,
+        20000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "10168a6d-7911-406e-a702-5d1f267033dd",
+      "locked": true
+    },
+    "R33": {
+      "position": [
+        17000000,
+        33000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "112b580f-f0af-40b9-8991-c185b260e431",
+      "locked": false
+    },
+    "U3": {
+      "position": [
+        8000000,
+        72000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "12df46ec-7ec2-432c-b457-aee035e20ac8",
+      "locked": true
+    },
+    "R35": {
+      "position": [
+        1500000,
+        15010000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "16c9cfcd-3216-4d58-a678-465a9a5bb078",
+      "locked": false
+    },
+    "C54": {
+      "position": [
+        84500000,
+        65099999
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "172b228b-99e4-489f-886e-28cb38b450a9",
+      "locked": true
+    },
+    "C113": {
+      "position": [
+        161000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "1baa5800-4281-453e-8ab8-1b645e198057",
+      "locked": false
+    },
+    "R113": {
+      "position": [
+        197000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "1bbb2816-e553-404d-b460-b87085dd8e42",
+      "locked": false
+    },
+    "C112": {
+      "position": [
+        149000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "1c0fe75c-ebb7-4854-8b5c-2f74b306c96e",
+      "locked": false
+    },
+    "R101": {
+      "position": [
+        6750000,
+        87160000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "1dd04221-75f9-492f-b04e-29213a4622cd",
+      "locked": false
+    },
+    "R12": {
+      "position": [
+        11200000,
+        13500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "200f3b84-0273-4259-aed8-90ca2c96c798",
+      "locked": false
+    },
+    "L20": {
+      "position": [
+        57000000,
+        51350000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "20466d06-2463-4730-82ed-d228d29caa84",
+      "locked": true
+    },
+    "C55": {
+      "position": [
+        84500000,
+        77100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "219fc164-5573-4daa-be36-d3c7946f621e",
+      "locked": true
+    },
+    "R122": {
+      "position": [
+        209000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "2390c986-290b-4392-b030-c6f744eb9ba3",
+      "locked": false
+    },
+    "R52": {
+      "position": [
+        81240000,
+        97570000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "24be721c-69e6-40f1-affe-ea8e59a05a36",
+      "locked": false
+    },
+    "R4": {
+      "position": [
+        -770000,
+        74000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "295d8743-4279-43ce-bfc6-b7769d1383d7",
+      "locked": false
+    },
+    "U77": {
+      "position": [
+        22000000,
+        52000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "29b5f7a7-b4d0-4b53-98ec-e234010cbd81",
+      "locked": false
+    },
+    "C8": {
+      "position": [
+        33000000,
+        98200000
+      ],
+      "angle": 180.0,
+      "side": 0,
+      "uuid": "2d59c624-9048-480e-9dd1-816ec90cd7b4",
+      "locked": false
+    },
+    "U84": {
+      "position": [
+        22000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "2d67aa31-09d7-4cdc-a01a-e57a96e7ab32",
+      "locked": false
+    },
+    "R67": {
+      "position": [
+        70100000,
+        87200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "2d91b636-be9c-46dc-b73a-f0603b348029",
+      "locked": false
+    },
+    "R120": {
+      "position": [
+        185000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "2db193a3-2972-4757-998e-ea0a4d313885",
+      "locked": false
+    },
+    "C27": {
+      "position": [
+        46000000,
+        62000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "314efa1b-f2cb-4bbf-a3e6-7cd489722fe6",
+      "locked": true
+    },
+    "U66": {
+      "position": [
+        137000000,
+        110000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "315cadb4-edd8-47ec-a8dd-46cd421b7ce9",
+      "locked": false
+    },
+    "D4": {
+      "position": [
+        137000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3171a29e-1a63-4809-940f-5378f9c5b5b9",
+      "locked": false
+    },
+    "U42": {
+      "position": [
+        79000000,
+        44000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "332374b9-8bdc-42a6-8eab-08496e37494c",
+      "locked": true
+    },
+    "C57": {
+      "position": [
+        84500000,
+        101100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "3348a2dd-a5e3-4906-b1db-6ed4f0249016",
+      "locked": true
+    },
+    "R110": {
+      "position": [
+        161000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "33ef4c5d-a522-4f7b-8220-1909c93c01bc",
+      "locked": false
+    },
+    "R14": {
+      "position": [
+        25000000,
+        99900000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "34927428-e33f-4307-9595-47ff939cfe90",
+      "locked": false
+    },
+    "C110": {
+      "position": [
+        125000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3493d64a-7493-4fb9-ae36-ce991b27f86e",
+      "locked": false
+    },
+    "C26": {
+      "position": [
+        46000000,
+        57800000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "354766e0-6c72-40dc-8945-39a6558fbd97",
+      "locked": true
+    },
+    "C21": {
+      "position": [
+        49400000,
+        72000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "36f295cb-d0a5-45e4-b16a-45f0d6870ada",
+      "locked": true
+    },
+    "R103": {
+      "position": [
+        5300000,
+        97360000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "37145c75-cb6a-488b-8837-b99e40166444",
+      "locked": false
+    },
+    "H3": {
+      "position": [
+        83500000,
+        117000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3734e45b-4049-460b-a5c9-b3c6b4de3010",
+      "locked": false
+    },
+    "U64": {
+      "position": [
+        125000000,
+        130000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "378eae67-f775-40eb-900e-ecfb1c8a2567",
+      "locked": false
+    },
+    "C56": {
+      "position": [
+        84500000,
+        89100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "38207e20-50c5-484f-85d6-077617385531",
+      "locked": true
+    },
+    "C116": {
+      "position": [
+        197000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "38614627-21bc-4967-891f-6a88d7865ae1",
+      "locked": false
+    },
+    "R36": {
+      "position": [
+        17000000,
+        37000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "38bc8481-81e0-4b13-b538-d0b26a66daa7",
+      "locked": false
+    },
+    "U71": {
+      "position": [
+        149000000,
+        110000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3b685172-1bce-4c98-9f18-039ec6fa931a",
+      "locked": false
+    },
+    "R100": {
+      "position": [
+        1460000,
+        94500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3c0274d4-512b-4a0d-81ac-52fcf0332f40",
+      "locked": false
+    },
+    "J30": {
+      "position": [
+        3320000,
+        62320000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "3eefd766-c3b7-4ff9-aecc-aebafbe4bf5d",
+      "locked": true
+    },
+    "R11": {
+      "position": [
+        3740000,
+        41680000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "3f53ba80-2723-450b-aeb1-c364597236f7",
+      "locked": false
+    },
+    "C119": {
+      "position": [
+        137000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4076cbf7-207a-4baf-a89d-5fddab232f50",
+      "locked": false
+    },
+    "SW3": {
+      "position": [
+        61500000,
+        113000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4176723c-15ef-473f-9fa4-43b833910aba",
+      "locked": true
+    },
+    "U93": {
+      "position": [
+        173000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "41d24bc1-7432-4fe2-909f-0c5a36e30146",
+      "locked": false
+    },
+    "J20": {
+      "position": [
+        48000000,
+        8000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "42be0410-310b-4bbf-bf91-067d896b8984",
+      "locked": true
+    },
+    "C117": {
+      "position": [
+        209000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "43db1cc9-c47b-4e12-8002-ef0dac408b96",
+      "locked": false
+    },
+    "U73": {
+      "position": [
+        58000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4413593b-93d8-4b34-9986-4e98889a029c",
+      "locked": false
+    },
+    "U4": {
+      "position": [
+        21000000,
+        96800000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4561d6c2-6e3d-46d1-a1b1-7ce5325f8070",
+      "locked": false
+    },
+    "Q1": {
+      "position": [
+        4980000,
+        45500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "45fbed2a-a90e-4cbc-b8a4-7973f235d709",
+      "locked": false
+    },
+    "C100": {
+      "position": [
+        4750000,
+        83990000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "48038ac0-aca5-400f-8c32-3110ab0cce43",
+      "locked": false
+    },
+    "J60": {
+      "position": [
+        22000000,
+        115000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "49954f4d-ca90-4f92-a225-9bbe55c76d78",
+      "locked": true
+    },
+    "Q4": {
+      "position": [
+        11200000,
+        17670000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4be5cd85-e0ac-4da9-80e6-245e9a16813c",
+      "locked": false
+    },
+    "Q5": {
+      "position": [
+        149000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4c570d73-6b97-44cd-b5de-88890ddb8f43",
+      "locked": false
+    },
+    "R66": {
+      "position": [
+        26100000,
+        36200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4c8588a3-6526-400c-af93-7c7d2c82a68a",
+      "locked": false
+    },
+    "C51": {
+      "position": [
+        84500000,
+        29100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "4ccc8019-b349-4166-9f84-24741dcc1ea1",
+      "locked": true
+    },
+    "R30": {
+      "position": [
+        10500000,
+        42000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4d05fc44-42b5-4e59-8e58-08bfdfba1412",
+      "locked": false
+    },
+    "C111": {
+      "position": [
+        137000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4d7e41bd-6e4f-431d-a870-e2d5407d22ec",
+      "locked": false
+    },
+    "C127": {
+      "position": [
+        209000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "4d82c476-a8f5-41d9-acce-d3d8a59a8411",
+      "locked": false
+    },
+    "D2": {
+      "position": [
+        21750000,
+        71160000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "530b8749-2cd6-4432-be77-fd208e87edf2",
+      "locked": false
+    },
+    "R10": {
+      "position": [
+        61150000,
+        83960000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "53d9f8f5-92f4-43fc-9534-5bdba82f9af1",
+      "locked": false
+    },
+    "C88": {
+      "position": [
+        71100000,
+        24050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "53e5c586-9f35-4dde-9755-395a86d9284d",
+      "locked": false
+    },
+    "C122": {
+      "position": [
+        173000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "540cf5e9-21cc-4827-9a40-87bb79c3015c",
+      "locked": false
+    },
+    "R114": {
+      "position": [
+        209000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "544e1846-9312-4c71-b3ee-60ff996c663b",
+      "locked": false
+    },
+    "C22": {
+      "position": [
+        58600000,
+        72000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "55311849-577c-42fb-9d04-4cf0f5512a4b",
+      "locked": true
+    },
+    "C115": {
+      "position": [
+        185000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "573b6e3a-dd08-41f3-bf3e-b4b7d171d704",
+      "locked": false
+    },
+    "U72": {
+      "position": [
+        49000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5815b359-5fab-48ab-93f1-6946df2825b2",
+      "locked": false
+    },
+    "U41": {
+      "position": [
+        79000000,
+        32000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5b080cb3-493a-4994-bcb1-dbe54b887d84",
+      "locked": true
+    },
+    "R34": {
+      "position": [
+        -2230000,
+        18440000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5bb625ee-bf73-44b3-be63-e4431fea88fe",
+      "locked": false
+    },
+    "C28": {
+      "position": [
+        49000000,
+        68000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5c3ecc43-0027-480c-88ec-8e7f2d9257c5",
+      "locked": true
+    },
+    "C102": {
+      "position": [
+        9740000,
+        96690000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5cf785f3-3d9e-4a96-a436-71c2ee157f5c",
+      "locked": false
+    },
+    "C5": {
+      "position": [
+        10900000,
+        75890000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5e934d5b-ed44-465c-9b35-aae7bb8d748a",
+      "locked": false
+    },
+    "C9": {
+      "position": [
+        26500000,
+        89500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5ea1d7b4-12d7-4ad9-b6c3-0cbe5a744c4b",
+      "locked": false
+    },
+    "R1": {
+      "position": [
+        19940000,
+        79950000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "5f51fcfd-4d63-4f47-8583-fea88bc53d94",
+      "locked": false
+    },
+    "R24": {
+      "position": [
+        59200000,
+        51650000
+      ],
+      "angle": -90.0,
+      "side": 0,
+      "uuid": "60c6f196-0661-4a9c-94ac-bac0fe21374f",
+      "locked": true
+    },
+    "C60": {
+      "position": [
+        61100000,
+        93050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6206cd9b-70d6-4659-bbc9-df720c5caf32",
+      "locked": false
+    },
+    "C114": {
+      "position": [
+        173000000,
+        10000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "63c33d5f-9a87-49e0-95be-8dc67cb985e6",
+      "locked": false
+    },
+    "U95": {
+      "position": [
+        197000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "680fe1f6-5a04-4bba-812a-a071010cf49b",
+      "locked": false
+    },
+    "Y20": {
+      "position": [
+        54000000,
+        74000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6a539444-c0ef-4071-b5b6-71e99dfd7103",
+      "locked": true
+    },
+    "U94": {
+      "position": [
+        185000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6d9699cf-9a8f-4a20-8005-adf60e88f217",
+      "locked": false
+    },
+    "U9": {
+      "position": [
+        19000000,
+        92000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6e2f2dc5-cb7c-42d3-84d0-40a2ab1929d6",
+      "locked": true
+    },
+    "R121": {
+      "position": [
+        197000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6f0c83f7-f75d-486d-84b1-261384973c60",
+      "locked": false
+    },
+    "U100": {
+      "position": [
+        161000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "6ffde1f5-0701-4e9e-9a70-4c89148161ce",
+      "locked": false
+    },
+    "H2": {
+      "position": [
+        83500000,
+        7000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "701bb4e8-0064-46c9-86f6-a5a20a057f69",
+      "locked": false
+    },
+    "U90": {
+      "position": [
+        137000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "71390b40-e0e8-4190-b398-b812696aefb4",
+      "locked": false
+    },
+    "U5": {
+      "position": [
+        30000000,
+        94000000
+      ],
+      "angle": 180.0,
+      "side": 0,
+      "uuid": "73452403-9075-47b5-8d22-657e2d1d3e72",
+      "locked": true
+    },
+    "R6": {
+      "position": [
+        16739999,
+        76850000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "738f4f3f-7177-42df-97b6-6665dfa39307",
+      "locked": false
+    },
+    "U47": {
+      "position": [
+        79000000,
+        104000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "751625bb-764e-4f0a-84c7-e66e6c76006d",
+      "locked": true
+    },
+    "R119": {
+      "position": [
+        173000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "779d3e14-e6df-42fe-b053-f985d23d9882",
+      "locked": false
+    },
+    "L1": {
+      "position": [
+        36000000,
+        94000000
+      ],
+      "angle": -90.0,
+      "side": 0,
+      "uuid": "79713735-a334-4c7f-ae84-5b81042d8ee1",
+      "locked": false
+    },
+    "C37": {
+      "position": [
+        46000000,
+        60000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "79799afc-bf8c-4e70-88a3-66c733ca333f",
+      "locked": true
+    },
+    "R116": {
+      "position": [
+        137000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "79d63b35-2cbb-4df9-b427-0fb2ecd62b56",
+      "locked": false
+    },
+    "R104": {
+      "position": [
+        15000000,
+        92000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "7b879fb4-ecd3-4f31-be5b-7206b07c5d1e",
+      "locked": false
+    },
+    "R32": {
+      "position": [
+        17000000,
+        29000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "7bb0fc6f-ab8d-400f-a787-65b76de66a7f",
+      "locked": false
+    },
+    "R23": {
+      "position": [
+        49000000,
+        53000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "80a47869-d7d7-4211-a1d1-3158db0f5eb5",
+      "locked": true
+    },
+    "D3": {
+      "position": [
+        6990000,
+        80940000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "80d7dcb1-4937-42fc-87e6-691cf09e5915",
+      "locked": false
+    },
+    "R50": {
+      "position": [
+        81240000,
+        73570000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "80f7b6df-d843-4874-8f51-43fd6a261d99",
+      "locked": false
+    },
+    "C4": {
+      "position": [
+        2500000,
+        75300000
+      ],
+      "angle": 180.0,
+      "side": 0,
+      "uuid": "81ef5fa0-42f6-43d9-b30b-626b8ff76938",
+      "locked": false
+    },
+    "C94": {
+      "position": [
+        53100000,
+        15050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "82123877-73ca-410e-a887-083d1b803373",
+      "locked": false
+    },
+    "C29": {
+      "position": [
+        53000000,
+        68000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "86b5bfe4-280c-44f5-8d60-b83df5ad90e0",
+      "locked": true
+    },
+    "C2": {
+      "position": [
+        34582400,
+        73068100
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "86c616b9-8f77-4644-bdad-122167dfd2fa",
+      "locked": false
+    },
+    "R51": {
+      "position": [
+        81240000,
+        85570000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "8988bf0c-4a34-4f47-8d7c-0c45ccddf73e",
+      "locked": false
+    },
+    "U78": {
+      "position": [
+        31000000,
+        52000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "89c86e67-5c8a-4ec0-96c9-82b22258bab5",
+      "locked": false
+    },
+    "U82": {
+      "position": [
+        66000000,
+        85000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "8ac48e5c-b7db-4f3a-9bb2-925fe972bf05",
+      "locked": false
+    },
+    "R64": {
+      "position": [
+        44100000,
+        18200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "8b3d9c12-486d-46fe-9960-067d1da9afc9",
+      "locked": false
+    },
+    "R21": {
+      "position": [
+        61000000,
+        70000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "8bf3a439-ade3-4943-bb92-3b4e5dbe819f",
+      "locked": true
+    },
+    "C81": {
+      "position": [
+        53100000,
+        33049999
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "8d9eb8e0-3be9-492e-8843-365f3b4cea8c",
+      "locked": false
+    },
+    "Q3": {
+      "position": [
+        24740000,
+        80690000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "8e978193-40c9-4324-9729-670a647a6707",
+      "locked": false
+    },
+    "C34": {
+      "position": [
+        56000000,
+        47000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "903c3932-bc74-4c7b-8bee-b5f1de253da4",
+      "locked": true
+    },
+    "U98": {
+      "position": [
+        137000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "90f42476-ac72-4736-85dc-ae2dd5ebcff8",
+      "locked": false
+    },
+    "C73": {
+      "position": [
+        62100000,
+        15050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "91b7a69f-9f0e-4d39-9c21-064857d6fb00",
+      "locked": false
+    },
+    "H4": {
+      "position": [
+        -2500000,
+        117000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "91db94fc-7ea2-4cfb-9ea6-d9a52dba88a3",
+      "locked": false
+    },
+    "J40": {
+      "position": [
+        105000000,
+        62000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "9260dc51-1b8d-4be3-b7a2-dfac2c932712",
+      "locked": true
+    },
+    "C126": {
+      "position": [
+        197000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "92c3610f-80c0-4600-9422-9fa7acaa3bbb",
+      "locked": false
+    },
+    "C120": {
+      "position": [
+        149000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "95a6695f-76d7-4465-aa17-ea727e23c198",
+      "locked": false
+    },
+    "R65": {
+      "position": [
+        35100000,
+        36200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "993928df-db6d-4ebd-877a-ce4a733cf897",
+      "locked": false
+    },
+    "R60": {
+      "position": [
+        61100000,
+        96200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "9ac53add-2f0c-41d6-a547-74235b33bcd5",
+      "locked": false
+    },
+    "C101": {
+      "position": [
+        11150000,
+        86890000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "9c7592df-bbb3-4830-9548-54d459ba6639",
+      "locked": false
+    },
+    "U6": {
+      "position": [
+        6750000,
+        76840000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "a0a326fb-3adf-4106-90eb-dec151e1702e",
+      "locked": false
+    },
+    "R5": {
+      "position": [
+        11210000,
+        82520000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "a0fc66e1-3875-4f1c-a72f-53c2a24f7bb4",
+      "locked": false
+    },
+    "U97": {
+      "position": [
+        125000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "a13fdfc5-21da-4872-8060-eb3a40d6fa3b",
+      "locked": false
+    },
+    "Q2": {
+      "position": [
+        47800000,
+        85250000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "aa2d8745-801f-44ba-a8f6-6560e9cc9b79",
+      "locked": false
+    },
+    "C53": {
+      "position": [
+        84500000,
+        53100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "aa91eb86-6026-4274-8862-4ab109ab11f3",
+      "locked": true
+    },
+    "R7": {
+      "position": [
+        34250000,
+        89500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ac913293-f3a7-4dd7-8990-ddded06e157c",
+      "locked": false
+    },
+    "C25": {
+      "position": [
+        57000000,
+        53000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ad3c750a-4341-4248-81ed-5963ef3ad9b4",
+      "locked": true
+    },
+    "C50": {
+      "position": [
+        84500000,
+        17100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "ae470b1b-82e1-4981-8d24-330965146f4c",
+      "locked": true
+    },
+    "R13": {
+      "position": [
+        47000000,
+        38000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "b077babe-e948-473a-8551-3fb49e00d655",
+      "locked": false
+    },
+    "C30": {
+      "position": [
+        62000000,
+        64000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "b1312853-130d-4797-a753-bf28814b64cb",
+      "locked": true
+    },
+    "C32": {
+      "position": [
+        62000000,
+        56000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "b517cbf0-d005-4432-aae3-2f937a1abb93",
+      "locked": true
+    },
+    "J2": {
+      "position": [
+        6000000,
+        110000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "b83cc199-34aa-4261-b7b2-8e5b692660cf",
+      "locked": true
+    },
+    "C23": {
+      "position": [
+        59200000,
+        53500000
+      ],
+      "angle": -90.0,
+      "side": 0,
+      "uuid": "b8bd40a5-6ef0-49c7-974a-ca5c6646b21f",
+      "locked": true
+    },
+    "R3": {
+      "position": [
+        27500000,
+        20500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ba020ba4-752c-4a4f-864c-e8ac6a52a511",
+      "locked": false
+    },
+    "C121": {
+      "position": [
+        161000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bab392a0-71bc-4391-b872-4f568984e011",
+      "locked": false
+    },
+    "C38": {
+      "position": [
+        57000000,
+        68000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bafb94fd-ccc9-4cc1-8594-f08f1c1e27b8",
+      "locked": true
+    },
+    "H1": {
+      "position": [
+        18000000,
+        7000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bb058c8b-8af8-44bc-bda7-594ae0bea381",
+      "locked": false
+    },
+    "U60": {
+      "position": [
+        125000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bb6499cc-c065-4c74-aa37-e39bf0273114",
+      "locked": false
+    },
+    "C70": {
+      "position": [
+        26100000,
+        15050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bb7569aa-d67c-4741-b940-71709931ec2e",
+      "locked": false
+    },
+    "R22": {
+      "position": [
+        49000000,
+        50500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "bc2226c7-38d7-4493-be45-ed352e1f7b96",
+      "locked": true
+    },
+    "C7": {
+      "position": [
+        26000000,
+        93500000
+      ],
+      "angle": -90.0,
+      "side": 0,
+      "uuid": "bd0ab1e9-c535-4f1c-a0a3-f1f48e2bbf18",
+      "locked": false
+    },
+    "U44": {
+      "position": [
+        79000000,
+        68000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c1c4a44e-69ea-486e-9337-6c84f1130fc7",
+      "locked": true
+    },
+    "C39": {
+      "position": [
+        64500000,
+        61500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c2332255-913a-4f81-ab6a-5d14d1f79be1",
+      "locked": true
+    },
+    "C36": {
+      "position": [
+        45000000,
+        55000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c3905979-0170-4850-aed3-06dcc9b4baf7",
+      "locked": true
+    },
+    "C86": {
+      "position": [
+        26100000,
+        51050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c45a9f39-df4a-4896-aeeb-04d8cefbd873",
+      "locked": false
+    },
+    "U43": {
+      "position": [
+        79000000,
+        56000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c4dd2931-8b8b-4988-8f8d-9beea0ec3c53",
+      "locked": true
+    },
+    "SW2": {
+      "position": [
+        51500000,
+        113000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c6cdf65b-8c50-4eb0-93e5-625b6cdc390f",
+      "locked": true
+    },
+    "R102": {
+      "position": [
+        1020000,
+        91490000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c80af728-1341-4dd2-a27d-e4abbe6a99ba",
+      "locked": false
+    },
+    "C1": {
+      "position": [
+        27997800,
+        74223500
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c9083c93-af6e-4ae5-ad5a-3f161eb5969c",
+      "locked": false
+    },
+    "R2": {
+      "position": [
+        26439999,
+        72380000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c90b7c82-ffa3-4c65-ac18-55223fa7269b",
+      "locked": false
+    },
+    "U2": {
+      "position": [
+        33000000,
+        76000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "c96fc6c7-0bd6-41c6-9a66-a444ea7ab874",
+      "locked": true
+    },
+    "SW4": {
+      "position": [
+        71500000,
+        113000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ca240144-a28f-4e00-ae80-8f957cce2b79",
+      "locked": true
+    },
+    "C33": {
+      "position": [
+        66000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "cb24077e-86a3-4d80-89c6-be4faf815747",
+      "locked": true
+    },
+    "U86": {
+      "position": [
+        31000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "cd27dc1c-5047-47e5-8cf5-9f31f1335996",
+      "locked": false
+    },
+    "R115": {
+      "position": [
+        125000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ced35000-f87c-4ef5-97e6-72223f6cb508",
+      "locked": false
+    },
+    "R118": {
+      "position": [
+        161000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d0413e6b-b49b-4ac5-b9af-c168e56396b9",
+      "locked": false
+    },
+    "R41": {
+      "position": [
+        16500000,
+        67500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d0e2520f-9dab-425e-946d-47a4abe59322",
+      "locked": false
+    },
+    "C24": {
+      "position": [
+        57000000,
+        53940000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d155668b-d6ec-4065-84e7-dac8f8d2e424",
+      "locked": true
+    },
+    "R20": {
+      "position": [
+        44000000,
+        40000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "d316f519-921c-4c22-ac7e-bf2e37b93c5d",
+      "locked": true
+    },
+    "C75": {
+      "position": [
+        26100000,
+        24050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d337900d-a0b9-4b1a-a8a5-366150d5cd76",
+      "locked": false
+    },
+    "U20": {
+      "position": [
+        54000000,
+        60000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d36b4fc6-1dfe-4ff3-9424-f56a4adf68da",
+      "locked": true
+    },
+    "U92": {
+      "position": [
+        161000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d5ecc330-cc12-4372-b050-5006e058dabd",
+      "locked": false
+    },
+    "R111": {
+      "position": [
+        173000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d6807897-2df4-4a30-9b2f-078cabc264e1",
+      "locked": false
+    },
+    "C40": {
+      "position": [
+        -2990000,
+        42750000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d743eb52-fdce-4e75-8ac5-aee520b13d3e",
+      "locked": false
+    },
+    "C124": {
+      "position": [
+        185000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d86b1465-1364-4bb7-b469-8d3604b8e56d",
+      "locked": false
+    },
+    "C41": {
+      "position": [
+        -3507600,
+        40681900
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d880d539-fd5e-4213-b069-37d7be15835d",
+      "locked": false
+    },
+    "U8": {
+      "position": [
+        8000000,
+        92000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d8a11f85-eabb-4266-bc61-83d46057a340",
+      "locked": true
+    },
+    "U61": {
+      "position": [
+        125000000,
+        110000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "d8bc716c-71ad-46fa-b29d-01905406cc6a",
+      "locked": false
+    },
+    "R105": {
+      "position": [
+        15510000,
+        80040000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "da1ec83a-8c0b-409f-aebd-93e54e3d5bd9",
+      "locked": false
+    },
+    "U7": {
+      "position": [
+        14000000,
+        72000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "dc169643-ac50-4114-9a9c-79191a0a6110",
+      "locked": false
+    },
+    "R63": {
+      "position": [
+        35100000,
+        18200000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "dda5dbf0-9e9e-458b-80fa-48ca23e124fa",
+      "locked": false
+    },
+    "C93": {
+      "position": [
+        26100000,
+        33049999
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e1419e74-489e-4147-94b5-8057206afa53",
+      "locked": false
+    },
+    "R8": {
+      "position": [
+        30750000,
+        89500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e171f278-161d-4834-9d58-e64f4cfeb9df",
+      "locked": false
+    },
+    "C20": {
+      "position": [
+        50000000,
+        40000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e2be6a72-75c9-434b-8032-172eda93698e",
+      "locked": true
+    },
+    "R37": {
+      "position": [
+        125000000,
+        150000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e3f4df66-fd66-4efc-835d-6cd0812ca829",
+      "locked": false
+    },
+    "C125": {
+      "position": [
+        185000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e6145c52-4347-48f4-92a3-01ea6d86b0ef",
+      "locked": false
+    },
+    "U46": {
+      "position": [
+        79000000,
+        92000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e743651f-784b-45dc-bf0e-9aa1b30dff2e",
+      "locked": true
+    },
+    "C52": {
+      "position": [
+        84500000,
+        41100000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "e7b4cba1-33d8-4390-8b8d-7c91145a3a7e",
+      "locked": true
+    },
+    "R117": {
+      "position": [
+        149000000,
+        46000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e7c62916-6121-4bd3-ab55-7629a459b1a2",
+      "locked": false
+    },
+    "C35": {
+      "position": [
+        53000000,
+        49500000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "e851e8ed-8492-47d6-8dd3-86f6c862e72b",
+      "locked": true
+    },
+    "R112": {
+      "position": [
+        185000000,
+        34000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "e9786067-9350-45cf-80ba-6e48d767bc26",
+      "locked": false
+    },
+    "U1": {
+      "position": [
+        23000000,
+        76000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ebfa74f2-081d-46be-9142-a1149ecf27e2",
+      "locked": true
+    },
+    "C87": {
+      "position": [
+        35100000,
+        51050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ec3b5adb-30d5-4400-ae76-6db5b4a32ca9",
+      "locked": false
+    },
+    "U96": {
+      "position": [
+        209000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ed3a50ab-26df-4b24-b113-5d722cdbf7f1",
+      "locked": false
+    },
+    "U91": {
+      "position": [
+        149000000,
+        58000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "edf39ff8-48c9-439e-8360-99da2365cc9a",
+      "locked": false
+    },
+    "U99": {
+      "position": [
+        149000000,
+        70000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "ee6da64d-5c34-41b7-a815-0cdef2be48b9",
+      "locked": false
+    },
+    "C10": {
+      "position": [
+        500000,
+        44000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "f24ef931-8f71-4e1e-b12c-d5d252a843bb",
+      "locked": false
+    },
+    "U79": {
+      "position": [
+        67000000,
+        25000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "f3b0f19a-c117-4d73-8318-9db6afad8da9",
+      "locked": false
+    },
+    "R61": {
+      "position": [
+        61100000,
+        98500000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "f5252ff6-2bde-4ae0-9494-8870877a672a",
+      "locked": false
+    },
+    "J31": {
+      "position": [
+        26000000,
+        8000000
+      ],
+      "angle": 90.0,
+      "side": 0,
+      "uuid": "f5783fcd-891c-4c90-98d2-ecc084d80f1b",
+      "locked": true
+    },
+    "C82": {
+      "position": [
+        62100000,
+        33049999
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "f6ee65bd-0dee-4ebd-b83b-c794b148bca4",
+      "locked": false
+    },
+    "C118": {
+      "position": [
+        125000000,
+        22000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "f77a7997-ab0c-4dcd-b77c-96b0acfd26ae",
+      "locked": false
+    },
+    "C80": {
+      "position": [
+        44100000,
+        33049999
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "fb1ca3af-9362-4415-a26c-0a50bc3c4660",
+      "locked": false
+    },
+    "C91": {
+      "position": [
+        70100000,
+        84050000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "fb8e97c5-725e-4ae3-a23f-2bab5a0a2c18",
+      "locked": false
+    },
+    "C6": {
+      "position": [
+        20500000,
+        100000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "fc9f8444-d83e-441b-a145-79090adbfb81",
+      "locked": false
+    },
+    "U85": {
+      "position": [
+        49000000,
+        16000000
+      ],
+      "angle": 0.0,
+      "side": 0,
+      "uuid": "fd8b8080-2b70-47f8-9b43-25171e1e77ee",
+      "locked": false
+    },
+    "C43": {
+      "position": [
+        -3000000,
+        62800000
+      ],
+      "angle": 0.0,
+      "side": 2,
+      "uuid": "77d5eddc-3c31-4e53-bb4b-6b9a498bc06e",
+      "locked": false
+    },
+    "C42": {
+      "position": [
+        500000,
+        64500000
+      ],
+      "angle": 0.0,
+      "side": 2,
+      "uuid": "8cab1a2d-76f6-4e21-a2f4-45098e6bafb6",
+      "locked": false
+    }
+  },
+  "removed": [
+    "R67",
+    "R66",
+    "R64",
+    "R65"
+  ],
+  "add": [
+    {
+      "reference": "R64",
+      "value": "CAT16-1002F4LF",
+      "library": "Resistor_SMD",
+      "footprint_name": "R_Array_Concave_4x0603",
+      "x_mm": 125,
+      "y_mm": 170,
+      "rotation_deg": 0,
+      "check_keepouts": false
+    }
+  ],
+  "footprints": 203,
+  "native_net_repairs": [
+    [
+      "U45",
+      "1",
+      "/TX_HI_N"
+    ],
+    [
+      "U45",
+      "2",
+      "/Z_D8"
+    ],
+    [
+      "U45",
+      "3",
+      "/Z_D9"
+    ],
+    [
+      "U45",
+      "4",
+      "/Z_D10"
+    ],
+    [
+      "U45",
+      "5",
+      "/Z_D11"
+    ],
+    [
+      "U45",
+      "6",
+      "/Z_D12"
+    ],
+    [
+      "U45",
+      "7",
+      "/Z_D13"
+    ],
+    [
+      "U45",
+      "8",
+      "/Z_D14"
+    ],
+    [
+      "U45",
+      "9",
+      "/Z_D15"
+    ],
+    [
+      "U45",
+      "10",
+      "/GND"
+    ],
+    [
+      "U45",
+      "11",
+      "/AMIGA_D15"
+    ],
+    [
+      "U45",
+      "12",
+      "/AMIGA_D14"
+    ],
+    [
+      "U45",
+      "13",
+      "/AMIGA_D13"
+    ],
+    [
+      "U45",
+      "14",
+      "/AMIGA_D12"
+    ],
+    [
+      "U45",
+      "15",
+      "/AMIGA_D11"
+    ],
+    [
+      "U45",
+      "16",
+      "/AMIGA_D10"
+    ],
+    [
+      "U45",
+      "17",
+      "/AMIGA_D9"
+    ],
+    [
+      "U45",
+      "18",
+      "/AMIGA_D8"
+    ],
+    [
+      "U45",
+      "19",
+      "/BUS_DISABLE"
+    ],
+    [
+      "U45",
+      "20",
+      "/3V3_BUS"
+    ],
+    [
+      "U21",
+      "1",
+      "/RP_BOOT_N"
+    ],
+    [
+      "U21",
+      "2",
+      "/RP2350B and support/QSPI_SD1"
+    ],
+    [
+      "U21",
+      "3",
+      "/RP2350B and support/QSPI_SD2"
+    ],
+    [
+      "U21",
+      "4",
+      "/GND"
+    ],
+    [
+      "U21",
+      "5",
+      "/RP2350B and support/QSPI_SD0"
+    ],
+    [
+      "U21",
+      "6",
+      "/RP2350B and support/QSPI_SCLK"
+    ],
+    [
+      "U21",
+      "7",
+      "/RP2350B and support/QSPI_SD3"
+    ],
+    [
+      "U21",
+      "8",
+      "/3V3"
+    ],
+    [
+      "J1",
+      "A1",
+      "/GND"
+    ],
+    [
+      "J1",
+      "A4",
+      "/VBUS_C"
+    ],
+    [
+      "J1",
+      "A5",
+      "/CC1"
+    ],
+    [
+      "J1",
+      "A6",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "J1",
+      "A7",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "J1",
+      "A9",
+      "/VBUS_C"
+    ],
+    [
+      "J1",
+      "A12",
+      "/GND"
+    ],
+    [
+      "J1",
+      "B1",
+      "/GND"
+    ],
+    [
+      "J1",
+      "B4",
+      "/VBUS_C"
+    ],
+    [
+      "J1",
+      "B5",
+      "/CC2"
+    ],
+    [
+      "J1",
+      "B6",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "J1",
+      "B7",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "J1",
+      "B9",
+      "/VBUS_C"
+    ],
+    [
+      "J1",
+      "B12",
+      "/GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J1",
+      "SH",
+      "/GND"
+    ],
+    [
+      "C128",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C128",
+      "2",
+      "/GND"
+    ],
+    [
+      "R31",
+      "1",
+      "/ESP32-S3 module and microSD/ESP_USB_DM"
+    ],
+    [
+      "R31",
+      "2",
+      "/ESP_DM"
+    ],
+    [
+      "C31",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C31",
+      "2",
+      "/GND"
+    ],
+    [
+      "U30",
+      "1",
+      "/GND"
+    ],
+    [
+      "U30",
+      "2",
+      "/3V3"
+    ],
+    [
+      "U30",
+      "3",
+      "/ESP_EN"
+    ],
+    [
+      "U30",
+      "13",
+      "/ESP32-S3 module and microSD/ESP_USB_DM"
+    ],
+    [
+      "U30",
+      "14",
+      "/ESP32-S3 module and microSD/ESP_USB_DP"
+    ],
+    [
+      "U30",
+      "16",
+      "/ESP32-S3 module and microSD/ESP_STRAP46"
+    ],
+    [
+      "U30",
+      "17",
+      "/ESP32-S3 module and microSD/SD_MISO"
+    ],
+    [
+      "U30",
+      "18",
+      "/ESP32-S3 module and microSD/SD_CS"
+    ],
+    [
+      "U30",
+      "19",
+      "/ESP32-S3 module and microSD/SD_MOSI"
+    ],
+    [
+      "U30",
+      "20",
+      "/ESP32-S3 module and microSD/SD_CLK"
+    ],
+    [
+      "U30",
+      "23",
+      "/ESP32-S3 module and microSD/ESP_VBUS_VALID"
+    ],
+    [
+      "U30",
+      "26",
+      "/ESP32-S3 module and microSD/ESP_STRAP45"
+    ],
+    [
+      "U30",
+      "27",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "U30",
+      "36",
+      "/ESP32-S3 module and microSD/ESP_RXD0"
+    ],
+    [
+      "U30",
+      "37",
+      "/ESP32-S3 module and microSD/ESP_TXD0"
+    ],
+    [
+      "U30",
+      "40",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "U30",
+      "41",
+      "/GND"
+    ],
+    [
+      "C95",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C95",
+      "2",
+      "/GND"
+    ],
+    [
+      "R53",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R53",
+      "2",
+      "/RX_HI_N"
+    ],
+    [
+      "SW1",
+      "1",
+      "/RP_RUN"
+    ],
+    [
+      "SW1",
+      "1",
+      "/RP_RUN"
+    ],
+    [
+      "SW1",
+      "2",
+      "/GND"
+    ],
+    [
+      "SW1",
+      "2",
+      "/GND"
+    ],
+    [
+      "C3",
+      "1",
+      "/3V3_AON"
+    ],
+    [
+      "C3",
+      "2",
+      "/GND"
+    ],
+    [
+      "C123",
+      "1",
+      "/3V3_AON"
+    ],
+    [
+      "C123",
+      "2",
+      "/GND"
+    ],
+    [
+      "U40",
+      "1",
+      "/GND"
+    ],
+    [
+      "U40",
+      "2",
+      "/A500 socket and input buffers/AMIGA_A1"
+    ],
+    [
+      "U40",
+      "3",
+      "/A500 socket and input buffers/AMIGA_A2"
+    ],
+    [
+      "U40",
+      "4",
+      "/A500 socket and input buffers/AMIGA_A3"
+    ],
+    [
+      "U40",
+      "5",
+      "/A500 socket and input buffers/AMIGA_A4"
+    ],
+    [
+      "U40",
+      "6",
+      "/A500 socket and input buffers/AMIGA_A5"
+    ],
+    [
+      "U40",
+      "7",
+      "/A500 socket and input buffers/AMIGA_A6"
+    ],
+    [
+      "U40",
+      "8",
+      "/A500 socket and input buffers/AMIGA_A7"
+    ],
+    [
+      "U40",
+      "9",
+      "/A500 socket and input buffers/AMIGA_A8"
+    ],
+    [
+      "U40",
+      "10",
+      "/GND"
+    ],
+    [
+      "U40",
+      "11",
+      "/Z_A8"
+    ],
+    [
+      "U40",
+      "12",
+      "/Z_A7"
+    ],
+    [
+      "U40",
+      "13",
+      "/Z_A6"
+    ],
+    [
+      "U40",
+      "14",
+      "/Z_A5"
+    ],
+    [
+      "U40",
+      "15",
+      "/Z_A4"
+    ],
+    [
+      "U40",
+      "16",
+      "/Z_A3"
+    ],
+    [
+      "U40",
+      "17",
+      "/Z_A2"
+    ],
+    [
+      "U40",
+      "18",
+      "/Z_A1"
+    ],
+    [
+      "U40",
+      "19",
+      "/GND"
+    ],
+    [
+      "U40",
+      "20",
+      "/3V3"
+    ],
+    [
+      "R33",
+      "1",
+      "/ESP32-S3 module and microSD/ESP_STRAP46"
+    ],
+    [
+      "R33",
+      "2",
+      "/GND"
+    ],
+    [
+      "U3",
+      "1",
+      "/CC1"
+    ],
+    [
+      "U3",
+      "2",
+      "/CC2"
+    ],
+    [
+      "U3",
+      "3",
+      "/USB-C power and qualification/CC_PORT"
+    ],
+    [
+      "U3",
+      "4",
+      "/USB-C power and qualification/CC_VBUS_DET"
+    ],
+    [
+      "U3",
+      "7",
+      "/USB-C power and qualification/CC_LOW_CURRENT"
+    ],
+    [
+      "U3",
+      "10",
+      "/GND"
+    ],
+    [
+      "U3",
+      "11",
+      "/GND"
+    ],
+    [
+      "U3",
+      "12",
+      "/3V3_AON"
+    ],
+    [
+      "R35",
+      "1",
+      "/ESP32-S3 module and microSD/ESP_VBUS_VALID"
+    ],
+    [
+      "R35",
+      "2",
+      "/GND"
+    ],
+    [
+      "C54",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C54",
+      "2",
+      "/GND"
+    ],
+    [
+      "C113",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C113",
+      "2",
+      "/GND"
+    ],
+    [
+      "R113",
+      "1",
+      "/Host interface power guard/MAIN_SENSE"
+    ],
+    [
+      "R113",
+      "2",
+      "/GND"
+    ],
+    [
+      "C112",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C112",
+      "2",
+      "/GND"
+    ],
+    [
+      "R101",
+      "1",
+      "/Protected USB input/EFUSE_UVLO"
+    ],
+    [
+      "R101",
+      "2",
+      "/GND"
+    ],
+    [
+      "R12",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R12",
+      "2",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "L20",
+      "1",
+      "/RP2350B and support/RP_LX"
+    ],
+    [
+      "L20",
+      "2",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "C55",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C55",
+      "2",
+      "/GND"
+    ],
+    [
+      "R122",
+      "1",
+      "/BUS_PERMIT"
+    ],
+    [
+      "R122",
+      "2",
+      "/GND"
+    ],
+    [
+      "R52",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R52",
+      "2",
+      "/RX_LO_N"
+    ],
+    [
+      "R4",
+      "1",
+      "/USB-C power and qualification/CC_PORT"
+    ],
+    [
+      "R4",
+      "2",
+      "/GND"
+    ],
+    [
+      "U77",
+      "1",
+      "/Hardware bus interlocks/WRITE_RECEIVE"
+    ],
+    [
+      "U77",
+      "2",
+      "/GND"
+    ],
+    [
+      "U77",
+      "3",
+      "/Hardware bus interlocks/LO_ACTIVE"
+    ],
+    [
+      "U77",
+      "4",
+      "/RX_LO_N"
+    ],
+    [
+      "U77",
+      "5",
+      "/3V3"
+    ],
+    [
+      "U77",
+      "6",
+      "/3V3"
+    ],
+    [
+      "C8",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C8",
+      "2",
+      "/GND"
+    ],
+    [
+      "U84",
+      "1",
+      "/ACK_REQ_C"
+    ],
+    [
+      "U84",
+      "2",
+      "/Hardware bus interlocks/ANY_LANE"
+    ],
+    [
+      "U84",
+      "3",
+      "/Hardware bus interlocks/WAIT_PENDING"
+    ],
+    [
+      "U84",
+      "4",
+      "/GND"
+    ],
+    [
+      "U84",
+      "6",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U84",
+      "7",
+      "/3V3"
+    ],
+    [
+      "U84",
+      "8",
+      "/3V3"
+    ],
+    [
+      "R120",
+      "1",
+      "/BUS_DISABLE"
+    ],
+    [
+      "R120",
+      "2",
+      "/Host interface power guard/GUARD_RESET_BASE"
+    ],
+    [
+      "C27",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C27",
+      "2",
+      "/GND"
+    ],
+    [
+      "U66",
+      "1",
+      "/Z_A23"
+    ],
+    [
+      "U66",
+      "2",
+      "/Z_A22"
+    ],
+    [
+      "U66",
+      "3",
+      "/Hardware bus interlocks/IO_TOP"
+    ],
+    [
+      "U66",
+      "4",
+      "/Hardware bus interlocks/A20_LOW"
+    ],
+    [
+      "U66",
+      "5",
+      "/Z_A19"
+    ],
+    [
+      "U66",
+      "6",
+      "/Hardware bus interlocks/IO_WINDOW"
+    ],
+    [
+      "U66",
+      "7",
+      "/GND"
+    ],
+    [
+      "U66",
+      "8",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U66",
+      "9",
+      "/Hardware bus interlocks/SAFE"
+    ],
+    [
+      "U66",
+      "10",
+      "/Hardware bus interlocks/AS_ACTIVE"
+    ],
+    [
+      "U66",
+      "11",
+      "/Hardware bus interlocks/IO_WINDOW"
+    ],
+    [
+      "U66",
+      "12",
+      "/Hardware bus interlocks/IO_TOP"
+    ],
+    [
+      "U66",
+      "13",
+      "/Z_A21"
+    ],
+    [
+      "U66",
+      "14",
+      "/3V3"
+    ],
+    [
+      "D4",
+      "1",
+      "/Host interface power guard/HOST_LDO_IN"
+    ],
+    [
+      "D4",
+      "2",
+      "/Host interface power guard/HOST_5V_LIMITED"
+    ],
+    [
+      "U42",
+      "1",
+      "/GND"
+    ],
+    [
+      "U42",
+      "2",
+      "/A500 socket and input buffers/AMIGA_A17"
+    ],
+    [
+      "U42",
+      "3",
+      "/A500 socket and input buffers/AMIGA_A18"
+    ],
+    [
+      "U42",
+      "4",
+      "/A500 socket and input buffers/AMIGA_A19"
+    ],
+    [
+      "U42",
+      "5",
+      "/A500 socket and input buffers/AMIGA_A20"
+    ],
+    [
+      "U42",
+      "6",
+      "/A500 socket and input buffers/AMIGA_A21"
+    ],
+    [
+      "U42",
+      "7",
+      "/A500 socket and input buffers/AMIGA_A22"
+    ],
+    [
+      "U42",
+      "8",
+      "/A500 socket and input buffers/AMIGA_A23"
+    ],
+    [
+      "U42",
+      "9",
+      "/A500 socket and input buffers/AMIGA_AS_N"
+    ],
+    [
+      "U42",
+      "10",
+      "/GND"
+    ],
+    [
+      "U42",
+      "11",
+      "/Z_AS_N"
+    ],
+    [
+      "U42",
+      "12",
+      "/Z_A23"
+    ],
+    [
+      "U42",
+      "13",
+      "/Z_A22"
+    ],
+    [
+      "U42",
+      "14",
+      "/Z_A21"
+    ],
+    [
+      "U42",
+      "15",
+      "/Z_A20"
+    ],
+    [
+      "U42",
+      "16",
+      "/Z_A19"
+    ],
+    [
+      "U42",
+      "17",
+      "/Z_A18"
+    ],
+    [
+      "U42",
+      "18",
+      "/Z_A17"
+    ],
+    [
+      "U42",
+      "19",
+      "/GND"
+    ],
+    [
+      "U42",
+      "20",
+      "/3V3"
+    ],
+    [
+      "C57",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C57",
+      "2",
+      "/GND"
+    ],
+    [
+      "R110",
+      "1",
+      "/Host interface power guard/HOST_ILIM"
+    ],
+    [
+      "R110",
+      "2",
+      "/GND"
+    ],
+    [
+      "R14",
+      "1",
+      "/USB-C power and qualification/DISCHARGE"
+    ],
+    [
+      "R14",
+      "2",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "C110",
+      "1",
+      "/AMIGA_5V"
+    ],
+    [
+      "C110",
+      "2",
+      "/GND"
+    ],
+    [
+      "C26",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C26",
+      "2",
+      "/GND"
+    ],
+    [
+      "C21",
+      "1",
+      "/RP2350B and support/RP_XIN"
+    ],
+    [
+      "C21",
+      "2",
+      "/GND"
+    ],
+    [
+      "R103",
+      "1",
+      "/Protected USB input/EFUSE_OVLO"
+    ],
+    [
+      "R103",
+      "2",
+      "/GND"
+    ],
+    [
+      "U64",
+      "1",
+      "/Z_AS_N"
+    ],
+    [
+      "U64",
+      "2",
+      "/Hardware bus interlocks/AS_ACTIVE"
+    ],
+    [
+      "U64",
+      "3",
+      "/Z_A20"
+    ],
+    [
+      "U64",
+      "4",
+      "/Hardware bus interlocks/A20_LOW"
+    ],
+    [
+      "U64",
+      "5",
+      "/Z_LDS_N"
+    ],
+    [
+      "U64",
+      "6",
+      "/Hardware bus interlocks/LO_ACTIVE"
+    ],
+    [
+      "U64",
+      "7",
+      "/GND"
+    ],
+    [
+      "U64",
+      "8",
+      "/Hardware bus interlocks/HI_ACTIVE"
+    ],
+    [
+      "U64",
+      "9",
+      "/Z_UDS_N"
+    ],
+    [
+      "U64",
+      "10",
+      "/Hardware bus interlocks/WRITE_CYCLE"
+    ],
+    [
+      "U64",
+      "11",
+      "/Z_READ"
+    ],
+    [
+      "U64",
+      "12",
+      "/Hardware bus interlocks/DATA_RECEIVE"
+    ],
+    [
+      "U64",
+      "13",
+      "/Hardware bus interlocks/DATA_VALID"
+    ],
+    [
+      "U64",
+      "14",
+      "/3V3"
+    ],
+    [
+      "C56",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C56",
+      "2",
+      "/GND"
+    ],
+    [
+      "C116",
+      "1",
+      "/Host interface power guard/BUS_CT"
+    ],
+    [
+      "C116",
+      "2",
+      "/GND"
+    ],
+    [
+      "R36",
+      "1",
+      "/ESP32-S3 module and microSD/SD_CLK"
+    ],
+    [
+      "R36",
+      "2",
+      "/ESP32-S3 module and microSD/SD_CLK_CARD"
+    ],
+    [
+      "U71",
+      "1",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U71",
+      "2",
+      "/Z_READ"
+    ],
+    [
+      "U71",
+      "3",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U71",
+      "4",
+      "/Hardware bus interlocks/WRITE_CYCLE"
+    ],
+    [
+      "U71",
+      "5",
+      "/Hardware bus interlocks/DATA_RECEIVE"
+    ],
+    [
+      "U71",
+      "6",
+      "/Hardware bus interlocks/WRITE_RECEIVE"
+    ],
+    [
+      "U71",
+      "7",
+      "/GND"
+    ],
+    [
+      "U71",
+      "8",
+      "/WAIT_SINK"
+    ],
+    [
+      "U71",
+      "9",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U71",
+      "10",
+      "/Hardware bus interlocks/WAIT_PENDING"
+    ],
+    [
+      "U71",
+      "11",
+      "/3V3"
+    ],
+    [
+      "U71",
+      "12",
+      "/Hardware bus interlocks/READ_DRIVE"
+    ],
+    [
+      "U71",
+      "13",
+      "/Hardware bus interlocks/DATA_VALID"
+    ],
+    [
+      "U71",
+      "14",
+      "/3V3"
+    ],
+    [
+      "R100",
+      "1",
+      "/VBUS_C"
+    ],
+    [
+      "R100",
+      "2",
+      "/Protected USB input/EFUSE_UVLO"
+    ],
+    [
+      "J30",
+      "1",
+      "/ESP32-S3 module and microSD/SD_DAT2"
+    ],
+    [
+      "J30",
+      "2",
+      "/ESP32-S3 module and microSD/SD_CS"
+    ],
+    [
+      "J30",
+      "3",
+      "/ESP32-S3 module and microSD/SD_MOSI"
+    ],
+    [
+      "J30",
+      "4",
+      "/3V3"
+    ],
+    [
+      "J30",
+      "5",
+      "/ESP32-S3 module and microSD/SD_CLK_CARD"
+    ],
+    [
+      "J30",
+      "6",
+      "/GND"
+    ],
+    [
+      "J30",
+      "7",
+      "/ESP32-S3 module and microSD/SD_MISO"
+    ],
+    [
+      "J30",
+      "8",
+      "/ESP32-S3 module and microSD/SD_DAT1"
+    ],
+    [
+      "J30",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J30",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J30",
+      "SH",
+      "/GND"
+    ],
+    [
+      "J30",
+      "SH",
+      "/GND"
+    ],
+    [
+      "R11",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R11",
+      "2",
+      "/ESP_EN"
+    ],
+    [
+      "C119",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C119",
+      "2",
+      "/GND"
+    ],
+    [
+      "SW3",
+      "1",
+      "/ESP_EN"
+    ],
+    [
+      "SW3",
+      "1",
+      "/ESP_EN"
+    ],
+    [
+      "SW3",
+      "2",
+      "/GND"
+    ],
+    [
+      "SW3",
+      "2",
+      "/GND"
+    ],
+    [
+      "U93",
+      "1",
+      "/BUS_PERMIT"
+    ],
+    [
+      "U93",
+      "2",
+      "/WAIT_SINK"
+    ],
+    [
+      "U93",
+      "3",
+      "/Host interface power guard/IRQ_OE_N"
+    ],
+    [
+      "U93",
+      "4",
+      "/GND"
+    ],
+    [
+      "U93",
+      "5",
+      "/BUS_PERMIT"
+    ],
+    [
+      "U93",
+      "6",
+      "/IRQ_SINK"
+    ],
+    [
+      "U93",
+      "7",
+      "/Host interface power guard/WAIT_OE_N"
+    ],
+    [
+      "U93",
+      "8",
+      "/3V3_BUS"
+    ],
+    [
+      "J20",
+      "1",
+      "/3V3"
+    ],
+    [
+      "J20",
+      "2",
+      "/RP2350B and support/RP_SWDIO"
+    ],
+    [
+      "J20",
+      "3",
+      "/GND"
+    ],
+    [
+      "J20",
+      "4",
+      "/RP2350B and support/RP_SWCLK"
+    ],
+    [
+      "J20",
+      "5",
+      "/RP_RUN"
+    ],
+    [
+      "C117",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C117",
+      "2",
+      "/GND"
+    ],
+    [
+      "U73",
+      "1",
+      "/Hardware bus interlocks/READ_DRIVE"
+    ],
+    [
+      "U73",
+      "2",
+      "/GND"
+    ],
+    [
+      "U73",
+      "3",
+      "/Hardware bus interlocks/HI_ACTIVE"
+    ],
+    [
+      "U73",
+      "4",
+      "/TX_HI_N"
+    ],
+    [
+      "U73",
+      "5",
+      "/3V3"
+    ],
+    [
+      "U73",
+      "6",
+      "/3V3"
+    ],
+    [
+      "U4",
+      "1",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "U4",
+      "2",
+      "/GND"
+    ],
+    [
+      "U4",
+      "3",
+      "/USB-C power and qualification/POWER_ALLOW"
+    ],
+    [
+      "U4",
+      "4",
+      "/USB-C power and qualification/SOFT_START"
+    ],
+    [
+      "U4",
+      "5",
+      "/USB-C power and qualification/DISCHARGE"
+    ],
+    [
+      "U4",
+      "6",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "Q1",
+      "1",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "Q1",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q1",
+      "3",
+      "/ESP_EN"
+    ],
+    [
+      "C100",
+      "1",
+      "/VBUS_C"
+    ],
+    [
+      "C100",
+      "2",
+      "/GND"
+    ],
+    [
+      "J60",
+      "1",
+      "/3V3"
+    ],
+    [
+      "J60",
+      "2",
+      "/BUS_ARM"
+    ],
+    [
+      "Q4",
+      "1",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "Q4",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q4",
+      "3",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "Q5",
+      "1",
+      "/Host interface power guard/GUARD_RESET_BASE"
+    ],
+    [
+      "Q5",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q5",
+      "3",
+      "/RP_RUN"
+    ],
+    [
+      "C51",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C51",
+      "2",
+      "/GND"
+    ],
+    [
+      "R30",
+      "1",
+      "/ESP32-S3 module and microSD/ESP_USB_DP"
+    ],
+    [
+      "R30",
+      "2",
+      "/ESP_DP"
+    ],
+    [
+      "C111",
+      "1",
+      "/Host interface power guard/HOST_LDO_IN"
+    ],
+    [
+      "C111",
+      "2",
+      "/GND"
+    ],
+    [
+      "C127",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C127",
+      "2",
+      "/GND"
+    ],
+    [
+      "D2",
+      "1",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "D2",
+      "2",
+      "/GND"
+    ],
+    [
+      "D2",
+      "3",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "D2",
+      "4",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "D2",
+      "5",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "D2",
+      "6",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "R10",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R10",
+      "2",
+      "/RP_RUN"
+    ],
+    [
+      "C88",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C88",
+      "2",
+      "/GND"
+    ],
+    [
+      "C122",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C122",
+      "2",
+      "/GND"
+    ],
+    [
+      "R114",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R114",
+      "2",
+      "/Host interface power guard/BUS_SENSE"
+    ],
+    [
+      "C22",
+      "1",
+      "/RP2350B and support/XTAL_OUT"
+    ],
+    [
+      "C22",
+      "2",
+      "/GND"
+    ],
+    [
+      "C115",
+      "1",
+      "/Host interface power guard/MAIN_CT"
+    ],
+    [
+      "C115",
+      "2",
+      "/GND"
+    ],
+    [
+      "U72",
+      "1",
+      "/Hardware bus interlocks/READ_DRIVE"
+    ],
+    [
+      "U72",
+      "2",
+      "/GND"
+    ],
+    [
+      "U72",
+      "3",
+      "/Hardware bus interlocks/LO_ACTIVE"
+    ],
+    [
+      "U72",
+      "4",
+      "/TX_LO_N"
+    ],
+    [
+      "U72",
+      "5",
+      "/3V3"
+    ],
+    [
+      "U72",
+      "6",
+      "/3V3"
+    ],
+    [
+      "U41",
+      "1",
+      "/GND"
+    ],
+    [
+      "U41",
+      "2",
+      "/A500 socket and input buffers/AMIGA_A9"
+    ],
+    [
+      "U41",
+      "3",
+      "/A500 socket and input buffers/AMIGA_A10"
+    ],
+    [
+      "U41",
+      "4",
+      "/A500 socket and input buffers/AMIGA_A11"
+    ],
+    [
+      "U41",
+      "5",
+      "/A500 socket and input buffers/AMIGA_A12"
+    ],
+    [
+      "U41",
+      "6",
+      "/A500 socket and input buffers/AMIGA_A13"
+    ],
+    [
+      "U41",
+      "7",
+      "/A500 socket and input buffers/AMIGA_A14"
+    ],
+    [
+      "U41",
+      "8",
+      "/A500 socket and input buffers/AMIGA_A15"
+    ],
+    [
+      "U41",
+      "9",
+      "/A500 socket and input buffers/AMIGA_A16"
+    ],
+    [
+      "U41",
+      "10",
+      "/GND"
+    ],
+    [
+      "U41",
+      "11",
+      "/Z_A16"
+    ],
+    [
+      "U41",
+      "12",
+      "/Z_A15"
+    ],
+    [
+      "U41",
+      "13",
+      "/Z_A14"
+    ],
+    [
+      "U41",
+      "14",
+      "/Z_A13"
+    ],
+    [
+      "U41",
+      "15",
+      "/Z_A12"
+    ],
+    [
+      "U41",
+      "16",
+      "/Z_A11"
+    ],
+    [
+      "U41",
+      "17",
+      "/Z_A10"
+    ],
+    [
+      "U41",
+      "18",
+      "/Z_A9"
+    ],
+    [
+      "U41",
+      "19",
+      "/GND"
+    ],
+    [
+      "U41",
+      "20",
+      "/3V3"
+    ],
+    [
+      "R34",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R34",
+      "2",
+      "/ESP32-S3 module and microSD/ESP_VBUS_VALID"
+    ],
+    [
+      "C28",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C28",
+      "2",
+      "/GND"
+    ],
+    [
+      "C102",
+      "1",
+      "/Protected USB input/VBUS_LIMITED"
+    ],
+    [
+      "C102",
+      "2",
+      "/GND"
+    ],
+    [
+      "C5",
+      "1",
+      "/3V3_AON"
+    ],
+    [
+      "C5",
+      "2",
+      "/GND"
+    ],
+    [
+      "C9",
+      "1",
+      "/USB-C power and qualification/BUCK_SS"
+    ],
+    [
+      "C9",
+      "2",
+      "/GND"
+    ],
+    [
+      "R1",
+      "1",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "R1",
+      "2",
+      "/GND"
+    ],
+    [
+      "R24",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R24",
+      "2",
+      "/RP2350B and support/RP_VREG_AVDD"
+    ],
+    [
+      "C60",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C60",
+      "2",
+      "/GND"
+    ],
+    [
+      "C114",
+      "1",
+      "/Host interface power guard/HOST_CT"
+    ],
+    [
+      "C114",
+      "2",
+      "/GND"
+    ],
+    [
+      "U95",
+      "1",
+      "/AMIGA_5V"
+    ],
+    [
+      "U95",
+      "2",
+      "/GND"
+    ],
+    [
+      "U95",
+      "3",
+      "/AMIGA_5V"
+    ],
+    [
+      "U95",
+      "5",
+      "/Host interface power guard/HOST_ILIM"
+    ],
+    [
+      "U95",
+      "6",
+      "/Host interface power guard/HOST_5V_LIMITED"
+    ],
+    [
+      "Y20",
+      "1",
+      "/RP2350B and support/RP_XIN"
+    ],
+    [
+      "Y20",
+      "2",
+      "/GND"
+    ],
+    [
+      "Y20",
+      "3",
+      "/RP2350B and support/XTAL_OUT"
+    ],
+    [
+      "Y20",
+      "4",
+      "/GND"
+    ],
+    [
+      "U94",
+      "1",
+      "/Host interface power guard/WAIT_OE_N"
+    ],
+    [
+      "U94",
+      "2",
+      "/GND"
+    ],
+    [
+      "U94",
+      "3",
+      "/AMIGA_INT2_N"
+    ],
+    [
+      "U94",
+      "4",
+      "/GND"
+    ],
+    [
+      "U94",
+      "5",
+      "/GND"
+    ],
+    [
+      "U94",
+      "6",
+      "/AMIGA_XRDY"
+    ],
+    [
+      "U94",
+      "7",
+      "/Host interface power guard/IRQ_OE_N"
+    ],
+    [
+      "U94",
+      "8",
+      "/3V3_BUS"
+    ],
+    [
+      "U9",
+      "1",
+      "/Protected USB input/VBUS_LIMITED"
+    ],
+    [
+      "U9",
+      "2",
+      "/GND"
+    ],
+    [
+      "U9",
+      "3",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "U9",
+      "5",
+      "/GND"
+    ],
+    [
+      "U9",
+      "6",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "R121",
+      "1",
+      "/Host interface power guard/GUARD_RESET_BASE"
+    ],
+    [
+      "R121",
+      "2",
+      "/GND"
+    ],
+    [
+      "U100",
+      "1",
+      "/AMIGA_RESET_N"
+    ],
+    [
+      "U100",
+      "2",
+      "/AMIGA_DTACK_N_C"
+    ],
+    [
+      "U100",
+      "3",
+      "/AMIGA_BERR_N"
+    ],
+    [
+      "U100",
+      "4",
+      "/GND"
+    ],
+    [
+      "U100",
+      "5",
+      "/AMIGA_BERR_N_C"
+    ],
+    [
+      "U100",
+      "6",
+      "/AMIGA_DTACK_N"
+    ],
+    [
+      "U100",
+      "7",
+      "/AMIGA_RESET_N_C"
+    ],
+    [
+      "U100",
+      "8",
+      "/3V3"
+    ],
+    [
+      "U90",
+      "1",
+      "/Host interface power guard/GUARD_OK_RAW"
+    ],
+    [
+      "U90",
+      "2",
+      "/GND"
+    ],
+    [
+      "U90",
+      "3",
+      "/3V3_BUS"
+    ],
+    [
+      "U90",
+      "4",
+      "/Host interface power guard/MAIN_CT"
+    ],
+    [
+      "U90",
+      "5",
+      "/Host interface power guard/MAIN_SENSE"
+    ],
+    [
+      "U90",
+      "6",
+      "/3V3_BUS"
+    ],
+    [
+      "U5",
+      "1",
+      "/USB-C power and qualification/BUCK_SW"
+    ],
+    [
+      "U5",
+      "2",
+      "/USB-C power and qualification/BUCK_SW"
+    ],
+    [
+      "U5",
+      "3",
+      "/USB-C power and qualification/BUCK_SW"
+    ],
+    [
+      "U5",
+      "5",
+      "/USB-C power and qualification/BUCK_FB"
+    ],
+    [
+      "U5",
+      "6",
+      "/GND"
+    ],
+    [
+      "U5",
+      "7",
+      "/GND"
+    ],
+    [
+      "U5",
+      "8",
+      "/GND"
+    ],
+    [
+      "U5",
+      "9",
+      "/USB-C power and qualification/BUCK_SS"
+    ],
+    [
+      "U5",
+      "10",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "U5",
+      "11",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "U5",
+      "12",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "U5",
+      "13",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "U5",
+      "14",
+      "/3V3"
+    ],
+    [
+      "U5",
+      "15",
+      "/GND"
+    ],
+    [
+      "U5",
+      "16",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "U5",
+      "17",
+      "/GND"
+    ],
+    [
+      "R6",
+      "1",
+      "/3V3_AON"
+    ],
+    [
+      "R6",
+      "2",
+      "/USB-C power and qualification/CC_LOW_CURRENT"
+    ],
+    [
+      "U47",
+      "1",
+      "/RX_HI_N"
+    ],
+    [
+      "U47",
+      "2",
+      "/AMIGA_D8"
+    ],
+    [
+      "U47",
+      "3",
+      "/AMIGA_D9"
+    ],
+    [
+      "U47",
+      "4",
+      "/AMIGA_D10"
+    ],
+    [
+      "U47",
+      "5",
+      "/AMIGA_D11"
+    ],
+    [
+      "U47",
+      "6",
+      "/AMIGA_D12"
+    ],
+    [
+      "U47",
+      "7",
+      "/AMIGA_D13"
+    ],
+    [
+      "U47",
+      "8",
+      "/AMIGA_D14"
+    ],
+    [
+      "U47",
+      "9",
+      "/AMIGA_D15"
+    ],
+    [
+      "U47",
+      "10",
+      "/GND"
+    ],
+    [
+      "U47",
+      "11",
+      "/Z_D15"
+    ],
+    [
+      "U47",
+      "12",
+      "/Z_D14"
+    ],
+    [
+      "U47",
+      "13",
+      "/Z_D13"
+    ],
+    [
+      "U47",
+      "14",
+      "/Z_D12"
+    ],
+    [
+      "U47",
+      "15",
+      "/Z_D11"
+    ],
+    [
+      "U47",
+      "16",
+      "/Z_D10"
+    ],
+    [
+      "U47",
+      "17",
+      "/Z_D9"
+    ],
+    [
+      "U47",
+      "18",
+      "/Z_D8"
+    ],
+    [
+      "U47",
+      "19",
+      "/BUS_DISABLE"
+    ],
+    [
+      "U47",
+      "20",
+      "/3V3"
+    ],
+    [
+      "R119",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R119",
+      "2",
+      "/Host interface power guard/IRQ_OE_N"
+    ],
+    [
+      "L1",
+      "1",
+      "/USB-C power and qualification/BUCK_SW"
+    ],
+    [
+      "L1",
+      "2",
+      "/3V3"
+    ],
+    [
+      "C37",
+      "1",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "C37",
+      "2",
+      "/GND"
+    ],
+    [
+      "R116",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R116",
+      "2",
+      "/Host interface power guard/GUARD_OK_RAW"
+    ],
+    [
+      "R104",
+      "1",
+      "/Protected USB input/EFUSE_ILM"
+    ],
+    [
+      "R104",
+      "2",
+      "/GND"
+    ],
+    [
+      "R32",
+      "1",
+      "/ESP32-S3 module and microSD/ESP_STRAP45"
+    ],
+    [
+      "R32",
+      "2",
+      "/GND"
+    ],
+    [
+      "R23",
+      "1",
+      "/RP2350B and support/RP_USB_DM"
+    ],
+    [
+      "R23",
+      "2",
+      "/RP_DM"
+    ],
+    [
+      "D3",
+      "1",
+      "/CC1"
+    ],
+    [
+      "D3",
+      "2",
+      "/CC2"
+    ],
+    [
+      "D3",
+      "3",
+      "/GND"
+    ],
+    [
+      "R50",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R50",
+      "2",
+      "/TX_LO_N"
+    ],
+    [
+      "C4",
+      "1",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "C4",
+      "2",
+      "/GND"
+    ],
+    [
+      "C94",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C94",
+      "2",
+      "/GND"
+    ],
+    [
+      "C29",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C29",
+      "2",
+      "/GND"
+    ],
+    [
+      "C2",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C2",
+      "2",
+      "/GND"
+    ],
+    [
+      "R51",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R51",
+      "2",
+      "/TX_HI_N"
+    ],
+    [
+      "U78",
+      "1",
+      "/Hardware bus interlocks/WRITE_RECEIVE"
+    ],
+    [
+      "U78",
+      "2",
+      "/GND"
+    ],
+    [
+      "U78",
+      "3",
+      "/Hardware bus interlocks/HI_ACTIVE"
+    ],
+    [
+      "U78",
+      "4",
+      "/RX_HI_N"
+    ],
+    [
+      "U78",
+      "5",
+      "/3V3"
+    ],
+    [
+      "U78",
+      "6",
+      "/3V3"
+    ],
+    [
+      "U82",
+      "1",
+      "/Hardware bus interlocks/SAFE"
+    ],
+    [
+      "U82",
+      "2",
+      "/IRQ_REQ_C"
+    ],
+    [
+      "U82",
+      "3",
+      "/GND"
+    ],
+    [
+      "U82",
+      "4",
+      "/IRQ_SINK"
+    ],
+    [
+      "U82",
+      "5",
+      "/3V3"
+    ],
+    [
+      "R21",
+      "1",
+      "/RP2350B and support/XTAL_OUT"
+    ],
+    [
+      "R21",
+      "2",
+      "/RP2350B and support/RP_XOUT"
+    ],
+    [
+      "C81",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C81",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q3",
+      "1",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "Q3",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q3",
+      "3",
+      "/USB routing and physical recovery/RP_BOOT_PULL"
+    ],
+    [
+      "C34",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C34",
+      "2",
+      "/GND"
+    ],
+    [
+      "U98",
+      "1",
+      "/BUS_READY"
+    ],
+    [
+      "U98",
+      "2",
+      "/ACK_REQ_C"
+    ],
+    [
+      "U98",
+      "3",
+      "/DATA_DRIVE"
+    ],
+    [
+      "U98",
+      "4",
+      "/GND"
+    ],
+    [
+      "U98",
+      "5",
+      "/DATA_DRIVE_C"
+    ],
+    [
+      "U98",
+      "6",
+      "/ACK_REQ"
+    ],
+    [
+      "U98",
+      "7",
+      "/BUS_READY_C"
+    ],
+    [
+      "U98",
+      "8",
+      "/3V3"
+    ],
+    [
+      "C73",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C73",
+      "2",
+      "/GND"
+    ],
+    [
+      "J40",
+      "1",
+      "/GND"
+    ],
+    [
+      "J40",
+      "2",
+      "/GND"
+    ],
+    [
+      "J40",
+      "3",
+      "/GND"
+    ],
+    [
+      "J40",
+      "4",
+      "/GND"
+    ],
+    [
+      "J40",
+      "5",
+      "/AMIGA_5V"
+    ],
+    [
+      "J40",
+      "6",
+      "/AMIGA_5V"
+    ],
+    [
+      "J40",
+      "12",
+      "/GND"
+    ],
+    [
+      "J40",
+      "13",
+      "/GND"
+    ],
+    [
+      "J40",
+      "18",
+      "/AMIGA_XRDY"
+    ],
+    [
+      "J40",
+      "19",
+      "/AMIGA_INT2_N"
+    ],
+    [
+      "J40",
+      "21",
+      "/A500 socket and input buffers/AMIGA_A5"
+    ],
+    [
+      "J40",
+      "23",
+      "/A500 socket and input buffers/AMIGA_A6"
+    ],
+    [
+      "J40",
+      "24",
+      "/A500 socket and input buffers/AMIGA_A4"
+    ],
+    [
+      "J40",
+      "25",
+      "/GND"
+    ],
+    [
+      "J40",
+      "26",
+      "/A500 socket and input buffers/AMIGA_A3"
+    ],
+    [
+      "J40",
+      "27",
+      "/A500 socket and input buffers/AMIGA_A2"
+    ],
+    [
+      "J40",
+      "28",
+      "/A500 socket and input buffers/AMIGA_A7"
+    ],
+    [
+      "J40",
+      "29",
+      "/A500 socket and input buffers/AMIGA_A1"
+    ],
+    [
+      "J40",
+      "30",
+      "/A500 socket and input buffers/AMIGA_A8"
+    ],
+    [
+      "J40",
+      "32",
+      "/A500 socket and input buffers/AMIGA_A9"
+    ],
+    [
+      "J40",
+      "34",
+      "/A500 socket and input buffers/AMIGA_A10"
+    ],
+    [
+      "J40",
+      "36",
+      "/A500 socket and input buffers/AMIGA_A11"
+    ],
+    [
+      "J40",
+      "37",
+      "/GND"
+    ],
+    [
+      "J40",
+      "38",
+      "/A500 socket and input buffers/AMIGA_A12"
+    ],
+    [
+      "J40",
+      "39",
+      "/A500 socket and input buffers/AMIGA_A13"
+    ],
+    [
+      "J40",
+      "41",
+      "/A500 socket and input buffers/AMIGA_A14"
+    ],
+    [
+      "J40",
+      "43",
+      "/A500 socket and input buffers/AMIGA_A15"
+    ],
+    [
+      "J40",
+      "45",
+      "/A500 socket and input buffers/AMIGA_A16"
+    ],
+    [
+      "J40",
+      "46",
+      "/AMIGA_BERR_N"
+    ],
+    [
+      "J40",
+      "47",
+      "/A500 socket and input buffers/AMIGA_A17"
+    ],
+    [
+      "J40",
+      "49",
+      "/GND"
+    ],
+    [
+      "J40",
+      "52",
+      "/A500 socket and input buffers/AMIGA_A18"
+    ],
+    [
+      "J40",
+      "53",
+      "/AMIGA_RESET_N"
+    ],
+    [
+      "J40",
+      "54",
+      "/A500 socket and input buffers/AMIGA_A19"
+    ],
+    [
+      "J40",
+      "56",
+      "/A500 socket and input buffers/AMIGA_A20"
+    ],
+    [
+      "J40",
+      "57",
+      "/A500 socket and input buffers/AMIGA_A22"
+    ],
+    [
+      "J40",
+      "58",
+      "/A500 socket and input buffers/AMIGA_A21"
+    ],
+    [
+      "J40",
+      "59",
+      "/A500 socket and input buffers/AMIGA_A23"
+    ],
+    [
+      "J40",
+      "61",
+      "/GND"
+    ],
+    [
+      "J40",
+      "63",
+      "/AMIGA_D15"
+    ],
+    [
+      "J40",
+      "65",
+      "/AMIGA_D14"
+    ],
+    [
+      "J40",
+      "66",
+      "/AMIGA_DTACK_N"
+    ],
+    [
+      "J40",
+      "67",
+      "/AMIGA_D13"
+    ],
+    [
+      "J40",
+      "68",
+      "/A500 socket and input buffers/AMIGA_READ"
+    ],
+    [
+      "J40",
+      "69",
+      "/AMIGA_D12"
+    ],
+    [
+      "J40",
+      "70",
+      "/A500 socket and input buffers/AMIGA_LDS_N"
+    ],
+    [
+      "J40",
+      "71",
+      "/AMIGA_D11"
+    ],
+    [
+      "J40",
+      "72",
+      "/A500 socket and input buffers/AMIGA_UDS_N"
+    ],
+    [
+      "J40",
+      "73",
+      "/GND"
+    ],
+    [
+      "J40",
+      "74",
+      "/A500 socket and input buffers/AMIGA_AS_N"
+    ],
+    [
+      "J40",
+      "75",
+      "/AMIGA_D0"
+    ],
+    [
+      "J40",
+      "76",
+      "/AMIGA_D10"
+    ],
+    [
+      "J40",
+      "77",
+      "/AMIGA_D1"
+    ],
+    [
+      "J40",
+      "78",
+      "/AMIGA_D9"
+    ],
+    [
+      "J40",
+      "79",
+      "/AMIGA_D2"
+    ],
+    [
+      "J40",
+      "80",
+      "/AMIGA_D8"
+    ],
+    [
+      "J40",
+      "81",
+      "/AMIGA_D3"
+    ],
+    [
+      "J40",
+      "82",
+      "/AMIGA_D7"
+    ],
+    [
+      "J40",
+      "83",
+      "/AMIGA_D4"
+    ],
+    [
+      "J40",
+      "84",
+      "/AMIGA_D6"
+    ],
+    [
+      "J40",
+      "85",
+      "/GND"
+    ],
+    [
+      "J40",
+      "86",
+      "/AMIGA_D5"
+    ],
+    [
+      "C126",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C126",
+      "2",
+      "/GND"
+    ],
+    [
+      "C120",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C120",
+      "2",
+      "/GND"
+    ],
+    [
+      "R60",
+      "1",
+      "/AMIGA_5V"
+    ],
+    [
+      "R60",
+      "2",
+      "/Host interface power guard/HOST_SENSE"
+    ],
+    [
+      "C101",
+      "1",
+      "/Protected USB input/EFUSE_DVDT"
+    ],
+    [
+      "C101",
+      "2",
+      "/GND"
+    ],
+    [
+      "U6",
+      "1",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "U6",
+      "2",
+      "/GND"
+    ],
+    [
+      "U6",
+      "3",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "U6",
+      "5",
+      "/3V3_AON"
+    ],
+    [
+      "R5",
+      "1",
+      "/VBUS_C"
+    ],
+    [
+      "R5",
+      "2",
+      "/USB-C power and qualification/CC_VBUS_DET"
+    ],
+    [
+      "U97",
+      "1",
+      "/RP_RUN"
+    ],
+    [
+      "U97",
+      "2",
+      "/BUS_ARM_C"
+    ],
+    [
+      "U97",
+      "3",
+      "/RUN_MODE"
+    ],
+    [
+      "U97",
+      "4",
+      "/GND"
+    ],
+    [
+      "U97",
+      "5",
+      "/RUN_MODE_C"
+    ],
+    [
+      "U97",
+      "6",
+      "/BUS_ARM"
+    ],
+    [
+      "U97",
+      "7",
+      "/RP_RUN_C"
+    ],
+    [
+      "U97",
+      "8",
+      "/3V3"
+    ],
+    [
+      "Q2",
+      "1",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "Q2",
+      "2",
+      "/GND"
+    ],
+    [
+      "Q2",
+      "3",
+      "/RP_RUN"
+    ],
+    [
+      "C53",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C53",
+      "2",
+      "/GND"
+    ],
+    [
+      "R7",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R7",
+      "2",
+      "/USB-C power and qualification/BUCK_FB"
+    ],
+    [
+      "C25",
+      "1",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "C25",
+      "2",
+      "/GND"
+    ],
+    [
+      "C50",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C50",
+      "2",
+      "/GND"
+    ],
+    [
+      "R13",
+      "1",
+      "/RP_BOOT_N"
+    ],
+    [
+      "R13",
+      "2",
+      "/USB routing and physical recovery/RP_BOOT_PULL"
+    ],
+    [
+      "C30",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C30",
+      "2",
+      "/GND"
+    ],
+    [
+      "C32",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C32",
+      "2",
+      "/GND"
+    ],
+    [
+      "J2",
+      "1",
+      "/3V3"
+    ],
+    [
+      "J2",
+      "2",
+      "/RUN_MODE"
+    ],
+    [
+      "J2",
+      "3",
+      "/3V3"
+    ],
+    [
+      "J2",
+      "4",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "J2",
+      "5",
+      "/3V3"
+    ],
+    [
+      "J2",
+      "6",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "C23",
+      "1",
+      "/RP2350B and support/RP_VREG_AVDD"
+    ],
+    [
+      "C23",
+      "2",
+      "/GND"
+    ],
+    [
+      "R3",
+      "1",
+      "/RUN_MODE"
+    ],
+    [
+      "R3",
+      "2",
+      "/GND"
+    ],
+    [
+      "C121",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C121",
+      "2",
+      "/GND"
+    ],
+    [
+      "C38",
+      "1",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "C38",
+      "2",
+      "/GND"
+    ],
+    [
+      "U60",
+      "1",
+      "/Host interface power guard/GUARD_OK_RAW"
+    ],
+    [
+      "U60",
+      "2",
+      "/GND"
+    ],
+    [
+      "U60",
+      "3",
+      "/3V3_BUS"
+    ],
+    [
+      "U60",
+      "4",
+      "/Host interface power guard/HOST_CT"
+    ],
+    [
+      "U60",
+      "5",
+      "/Host interface power guard/HOST_SENSE"
+    ],
+    [
+      "U60",
+      "6",
+      "/3V3_BUS"
+    ],
+    [
+      "C70",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C70",
+      "2",
+      "/GND"
+    ],
+    [
+      "R22",
+      "1",
+      "/RP2350B and support/RP_USB_DP"
+    ],
+    [
+      "R22",
+      "2",
+      "/RP_DP"
+    ],
+    [
+      "C7",
+      "1",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "C7",
+      "2",
+      "/GND"
+    ],
+    [
+      "U44",
+      "1",
+      "/TX_LO_N"
+    ],
+    [
+      "U44",
+      "2",
+      "/Z_D0"
+    ],
+    [
+      "U44",
+      "3",
+      "/Z_D1"
+    ],
+    [
+      "U44",
+      "4",
+      "/Z_D2"
+    ],
+    [
+      "U44",
+      "5",
+      "/Z_D3"
+    ],
+    [
+      "U44",
+      "6",
+      "/Z_D4"
+    ],
+    [
+      "U44",
+      "7",
+      "/Z_D5"
+    ],
+    [
+      "U44",
+      "8",
+      "/Z_D6"
+    ],
+    [
+      "U44",
+      "9",
+      "/Z_D7"
+    ],
+    [
+      "U44",
+      "10",
+      "/GND"
+    ],
+    [
+      "U44",
+      "11",
+      "/AMIGA_D7"
+    ],
+    [
+      "U44",
+      "12",
+      "/AMIGA_D6"
+    ],
+    [
+      "U44",
+      "13",
+      "/AMIGA_D5"
+    ],
+    [
+      "U44",
+      "14",
+      "/AMIGA_D4"
+    ],
+    [
+      "U44",
+      "15",
+      "/AMIGA_D3"
+    ],
+    [
+      "U44",
+      "16",
+      "/AMIGA_D2"
+    ],
+    [
+      "U44",
+      "17",
+      "/AMIGA_D1"
+    ],
+    [
+      "U44",
+      "18",
+      "/AMIGA_D0"
+    ],
+    [
+      "U44",
+      "19",
+      "/BUS_DISABLE"
+    ],
+    [
+      "U44",
+      "20",
+      "/3V3_BUS"
+    ],
+    [
+      "C39",
+      "1",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "C39",
+      "2",
+      "/GND"
+    ],
+    [
+      "C36",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C36",
+      "2",
+      "/GND"
+    ],
+    [
+      "C86",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C86",
+      "2",
+      "/GND"
+    ],
+    [
+      "U43",
+      "1",
+      "/GND"
+    ],
+    [
+      "U43",
+      "2",
+      "/A500 socket and input buffers/AMIGA_UDS_N"
+    ],
+    [
+      "U43",
+      "3",
+      "/A500 socket and input buffers/AMIGA_LDS_N"
+    ],
+    [
+      "U43",
+      "4",
+      "/A500 socket and input buffers/AMIGA_READ"
+    ],
+    [
+      "U43",
+      "5",
+      "/GND"
+    ],
+    [
+      "U43",
+      "6",
+      "/AMIGA_RESET_N_C"
+    ],
+    [
+      "U43",
+      "7",
+      "/AMIGA_DTACK_N_C"
+    ],
+    [
+      "U43",
+      "8",
+      "/AMIGA_BERR_N_C"
+    ],
+    [
+      "U43",
+      "9",
+      "/GND"
+    ],
+    [
+      "U43",
+      "10",
+      "/GND"
+    ],
+    [
+      "U43",
+      "12",
+      "/HOST_BERR_N"
+    ],
+    [
+      "U43",
+      "14",
+      "/HOST_RESET_N"
+    ],
+    [
+      "U43",
+      "15",
+      "/Z_CFGIN_N"
+    ],
+    [
+      "U43",
+      "16",
+      "/Z_READ"
+    ],
+    [
+      "U43",
+      "17",
+      "/Z_LDS_N"
+    ],
+    [
+      "U43",
+      "18",
+      "/Z_UDS_N"
+    ],
+    [
+      "U43",
+      "19",
+      "/GND"
+    ],
+    [
+      "U43",
+      "20",
+      "/3V3"
+    ],
+    [
+      "SW2",
+      "1",
+      "/USB routing and physical recovery/RP_BOOT_PULL"
+    ],
+    [
+      "SW2",
+      "1",
+      "/USB routing and physical recovery/RP_BOOT_PULL"
+    ],
+    [
+      "SW2",
+      "2",
+      "/GND"
+    ],
+    [
+      "SW2",
+      "2",
+      "/GND"
+    ],
+    [
+      "R102",
+      "1",
+      "/VBUS_C"
+    ],
+    [
+      "R102",
+      "2",
+      "/Protected USB input/EFUSE_OVLO"
+    ],
+    [
+      "C1",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C1",
+      "2",
+      "/GND"
+    ],
+    [
+      "R2",
+      "1",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "R2",
+      "2",
+      "/GND"
+    ],
+    [
+      "U2",
+      "1",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "U2",
+      "2",
+      "/USB routing and physical recovery/LINK_DP"
+    ],
+    [
+      "U2",
+      "3",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "U2",
+      "4",
+      "/ESP_DP"
+    ],
+    [
+      "U2",
+      "5",
+      "/GND"
+    ],
+    [
+      "U2",
+      "6",
+      "/ESP_DM"
+    ],
+    [
+      "U2",
+      "7",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "U2",
+      "8",
+      "/USB routing and physical recovery/LINK_DM"
+    ],
+    [
+      "U2",
+      "9",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "U2",
+      "10",
+      "/3V3"
+    ],
+    [
+      "SW4",
+      "1",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "SW4",
+      "1",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "SW4",
+      "2",
+      "/GND"
+    ],
+    [
+      "SW4",
+      "2",
+      "/GND"
+    ],
+    [
+      "C33",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C33",
+      "2",
+      "/GND"
+    ],
+    [
+      "U86",
+      "1",
+      "/DATA_DRIVE_C"
+    ],
+    [
+      "U86",
+      "2",
+      "/3V3"
+    ],
+    [
+      "U86",
+      "4",
+      "/GND"
+    ],
+    [
+      "U86",
+      "5",
+      "/Hardware bus interlocks/DATA_VALID"
+    ],
+    [
+      "U86",
+      "6",
+      "/Hardware bus interlocks/CYCLE_OK"
+    ],
+    [
+      "U86",
+      "7",
+      "/3V3"
+    ],
+    [
+      "U86",
+      "8",
+      "/3V3"
+    ],
+    [
+      "R115",
+      "1",
+      "/Host interface power guard/BUS_SENSE"
+    ],
+    [
+      "R115",
+      "2",
+      "/GND"
+    ],
+    [
+      "R118",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R118",
+      "2",
+      "/Host interface power guard/WAIT_OE_N"
+    ],
+    [
+      "R41",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R41",
+      "2",
+      "/ESP32-S3 module and microSD/SD_DAT1"
+    ],
+    [
+      "C24",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C24",
+      "2",
+      "/GND"
+    ],
+    [
+      "R64",
+      "1",
+      "/BUS_READY"
+    ],
+    [
+      "R64",
+      "2",
+      "/DATA_DRIVE"
+    ],
+    [
+      "R64",
+      "3",
+      "/ACK_REQ"
+    ],
+    [
+      "R64",
+      "4",
+      "/IRQ_REQ"
+    ],
+    [
+      "R64",
+      "5",
+      "/GND"
+    ],
+    [
+      "R64",
+      "6",
+      "/GND"
+    ],
+    [
+      "R64",
+      "7",
+      "/GND"
+    ],
+    [
+      "R64",
+      "8",
+      "/GND"
+    ],
+    [
+      "R20",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R20",
+      "2",
+      "/RP_BOOT_N"
+    ],
+    [
+      "C75",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C75",
+      "2",
+      "/GND"
+    ],
+    [
+      "U20",
+      "1",
+      "/Z_A4"
+    ],
+    [
+      "U20",
+      "2",
+      "/Z_A5"
+    ],
+    [
+      "U20",
+      "3",
+      "/Z_A6"
+    ],
+    [
+      "U20",
+      "4",
+      "/Z_A7"
+    ],
+    [
+      "U20",
+      "5",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "6",
+      "/Z_A8"
+    ],
+    [
+      "U20",
+      "7",
+      "/Z_A9"
+    ],
+    [
+      "U20",
+      "8",
+      "/Z_A10"
+    ],
+    [
+      "U20",
+      "9",
+      "/Z_A11"
+    ],
+    [
+      "U20",
+      "10",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "U20",
+      "11",
+      "/Z_A12"
+    ],
+    [
+      "U20",
+      "12",
+      "/Z_A13"
+    ],
+    [
+      "U20",
+      "13",
+      "/Z_A14"
+    ],
+    [
+      "U20",
+      "14",
+      "/Z_A15"
+    ],
+    [
+      "U20",
+      "15",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "16",
+      "/Z_A16"
+    ],
+    [
+      "U20",
+      "17",
+      "/Z_A17"
+    ],
+    [
+      "U20",
+      "18",
+      "/Z_A18"
+    ],
+    [
+      "U20",
+      "19",
+      "/Z_A19"
+    ],
+    [
+      "U20",
+      "20",
+      "/Z_A20"
+    ],
+    [
+      "U20",
+      "21",
+      "/Z_A21"
+    ],
+    [
+      "U20",
+      "22",
+      "/Z_A22"
+    ],
+    [
+      "U20",
+      "23",
+      "/Z_A23"
+    ],
+    [
+      "U20",
+      "24",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "25",
+      "/Z_D0"
+    ],
+    [
+      "U20",
+      "26",
+      "/Z_D1"
+    ],
+    [
+      "U20",
+      "27",
+      "/Z_D2"
+    ],
+    [
+      "U20",
+      "28",
+      "/Z_D3"
+    ],
+    [
+      "U20",
+      "29",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "30",
+      "/RP2350B and support/RP_XIN"
+    ],
+    [
+      "U20",
+      "31",
+      "/RP2350B and support/RP_XOUT"
+    ],
+    [
+      "U20",
+      "32",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "U20",
+      "33",
+      "/RP2350B and support/RP_SWCLK"
+    ],
+    [
+      "U20",
+      "34",
+      "/RP2350B and support/RP_SWDIO"
+    ],
+    [
+      "U20",
+      "35",
+      "/RP_RUN"
+    ],
+    [
+      "U20",
+      "36",
+      "/Z_D4"
+    ],
+    [
+      "U20",
+      "37",
+      "/Z_D5"
+    ],
+    [
+      "U20",
+      "38",
+      "/Z_D6"
+    ],
+    [
+      "U20",
+      "39",
+      "/Z_D7"
+    ],
+    [
+      "U20",
+      "40",
+      "/Z_D8"
+    ],
+    [
+      "U20",
+      "41",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "42",
+      "/Z_D9"
+    ],
+    [
+      "U20",
+      "43",
+      "/Z_D10"
+    ],
+    [
+      "U20",
+      "44",
+      "/Z_D11"
+    ],
+    [
+      "U20",
+      "45",
+      "/Z_D12"
+    ],
+    [
+      "U20",
+      "46",
+      "/Z_D13"
+    ],
+    [
+      "U20",
+      "47",
+      "/Z_D14"
+    ],
+    [
+      "U20",
+      "48",
+      "/Z_D15"
+    ],
+    [
+      "U20",
+      "49",
+      "/Z_UDS_N"
+    ],
+    [
+      "U20",
+      "50",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "51",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "U20",
+      "52",
+      "/Z_LDS_N"
+    ],
+    [
+      "U20",
+      "53",
+      "/Z_READ"
+    ],
+    [
+      "U20",
+      "54",
+      "/Z_CFGIN_N"
+    ],
+    [
+      "U20",
+      "55",
+      "/ACK_REQ"
+    ],
+    [
+      "U20",
+      "56",
+      "/IRQ_REQ"
+    ],
+    [
+      "U20",
+      "57",
+      "/BUS_READY"
+    ],
+    [
+      "U20",
+      "58",
+      "/DATA_DRIVE"
+    ],
+    [
+      "U20",
+      "59",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "60",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "61",
+      "/RP2350B and support/RP_VREG_AVDD"
+    ],
+    [
+      "U20",
+      "62",
+      "/GND"
+    ],
+    [
+      "U20",
+      "63",
+      "/RP2350B and support/RP_LX"
+    ],
+    [
+      "U20",
+      "64",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "65",
+      "/RP2350B and support/RP_DVDD"
+    ],
+    [
+      "U20",
+      "66",
+      "/RP2350B and support/RP_USB_DM"
+    ],
+    [
+      "U20",
+      "67",
+      "/RP2350B and support/RP_USB_DP"
+    ],
+    [
+      "U20",
+      "68",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "69",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "70",
+      "/RP2350B and support/QSPI_SD3"
+    ],
+    [
+      "U20",
+      "71",
+      "/RP2350B and support/QSPI_SCLK"
+    ],
+    [
+      "U20",
+      "72",
+      "/RP2350B and support/QSPI_SD0"
+    ],
+    [
+      "U20",
+      "73",
+      "/RP2350B and support/QSPI_SD2"
+    ],
+    [
+      "U20",
+      "74",
+      "/RP2350B and support/QSPI_SD1"
+    ],
+    [
+      "U20",
+      "75",
+      "/RP_BOOT_N"
+    ],
+    [
+      "U20",
+      "76",
+      "/3V3"
+    ],
+    [
+      "U20",
+      "77",
+      "/Z_AS_N"
+    ],
+    [
+      "U20",
+      "78",
+      "/Z_A1"
+    ],
+    [
+      "U20",
+      "79",
+      "/Z_A2"
+    ],
+    [
+      "U20",
+      "80",
+      "/Z_A3"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U20",
+      "81",
+      "/GND"
+    ],
+    [
+      "U92",
+      "1",
+      "/Host interface power guard/GUARD_OK_RAW"
+    ],
+    [
+      "U92",
+      "2",
+      "/GND"
+    ],
+    [
+      "U92",
+      "3",
+      "/BUS_DISABLE"
+    ],
+    [
+      "U92",
+      "4",
+      "/BUS_PERMIT"
+    ],
+    [
+      "U92",
+      "5",
+      "/3V3_BUS"
+    ],
+    [
+      "U92",
+      "6",
+      "/BUS_DISABLE"
+    ],
+    [
+      "R111",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R111",
+      "2",
+      "/GND"
+    ],
+    [
+      "C40",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C40",
+      "2",
+      "/GND"
+    ],
+    [
+      "C124",
+      "1",
+      "/USB-C power and qualification/5V_MAIN"
+    ],
+    [
+      "C124",
+      "2",
+      "/GND"
+    ],
+    [
+      "C41",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C41",
+      "2",
+      "/GND"
+    ],
+    [
+      "U8",
+      "1",
+      "/GND"
+    ],
+    [
+      "U8",
+      "2",
+      "/Protected USB input/EFUSE_DVDT"
+    ],
+    [
+      "U8",
+      "3",
+      "/Protected USB input/EFUSE_UVLO"
+    ],
+    [
+      "U8",
+      "4",
+      "/VBUS_C"
+    ],
+    [
+      "U8",
+      "5",
+      "/Protected USB input/VBUS_LIMITED"
+    ],
+    [
+      "U8",
+      "6",
+      "/Protected USB input/EFUSE_FAULT_N"
+    ],
+    [
+      "U8",
+      "7",
+      "/Protected USB input/EFUSE_ILM"
+    ],
+    [
+      "U8",
+      "8",
+      "/Protected USB input/EFUSE_OVLO"
+    ],
+    [
+      "U8",
+      "9",
+      "/GND"
+    ],
+    [
+      "U8",
+      "9",
+      "/GND"
+    ],
+    [
+      "U8",
+      "9",
+      "/GND"
+    ],
+    [
+      "U8",
+      "9",
+      "/GND"
+    ],
+    [
+      "U61",
+      "1",
+      "/BUS_PERMIT"
+    ],
+    [
+      "U61",
+      "2",
+      "/BUS_PERMIT"
+    ],
+    [
+      "U61",
+      "3",
+      "/RP_RUN_C"
+    ],
+    [
+      "U61",
+      "4",
+      "/RUN_MODE_C"
+    ],
+    [
+      "U61",
+      "5",
+      "/BUS_ARM_C"
+    ],
+    [
+      "U61",
+      "6",
+      "/Hardware bus interlocks/SAFE_MODE"
+    ],
+    [
+      "U61",
+      "7",
+      "/GND"
+    ],
+    [
+      "U61",
+      "8",
+      "/Hardware bus interlocks/SAFE_BASE"
+    ],
+    [
+      "U61",
+      "9",
+      "/Hardware bus interlocks/SAFE_POWER"
+    ],
+    [
+      "U61",
+      "10",
+      "/Hardware bus interlocks/SAFE_MODE"
+    ],
+    [
+      "U61",
+      "11",
+      "/BUS_READY_C"
+    ],
+    [
+      "U61",
+      "12",
+      "/Hardware bus interlocks/SAFE_POWER"
+    ],
+    [
+      "U61",
+      "13",
+      "/HOST_RESET_N"
+    ],
+    [
+      "U61",
+      "14",
+      "/3V3"
+    ],
+    [
+      "R105",
+      "1",
+      "/3V3_AON"
+    ],
+    [
+      "R105",
+      "2",
+      "/Protected USB input/EFUSE_FAULT_N"
+    ],
+    [
+      "U7",
+      "2",
+      "/USB-C power and qualification/CC_LOW_CURRENT"
+    ],
+    [
+      "U7",
+      "3",
+      "/GND"
+    ],
+    [
+      "U7",
+      "4",
+      "/USB-C power and qualification/POWER_ALLOW"
+    ],
+    [
+      "U7",
+      "5",
+      "/3V3_AON"
+    ],
+    [
+      "R63",
+      "1",
+      "/BUS_ARM"
+    ],
+    [
+      "R63",
+      "2",
+      "/GND"
+    ],
+    [
+      "C93",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C93",
+      "2",
+      "/GND"
+    ],
+    [
+      "R8",
+      "1",
+      "/USB-C power and qualification/BUCK_FB"
+    ],
+    [
+      "R8",
+      "2",
+      "/GND"
+    ],
+    [
+      "C20",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C20",
+      "2",
+      "/GND"
+    ],
+    [
+      "R37",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R37",
+      "2",
+      "/3V3"
+    ],
+    [
+      "R37",
+      "3",
+      "/3V3"
+    ],
+    [
+      "R37",
+      "4",
+      "/3V3"
+    ],
+    [
+      "R37",
+      "5",
+      "/ESP32-S3 module and microSD/SD_MISO"
+    ],
+    [
+      "R37",
+      "6",
+      "/ESP32-S3 module and microSD/SD_MOSI"
+    ],
+    [
+      "R37",
+      "7",
+      "/ESP32-S3 module and microSD/SD_CS"
+    ],
+    [
+      "R37",
+      "8",
+      "/ESP32-S3 module and microSD/SD_DAT2"
+    ],
+    [
+      "C125",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C125",
+      "2",
+      "/GND"
+    ],
+    [
+      "U46",
+      "1",
+      "/RX_LO_N"
+    ],
+    [
+      "U46",
+      "2",
+      "/AMIGA_D0"
+    ],
+    [
+      "U46",
+      "3",
+      "/AMIGA_D1"
+    ],
+    [
+      "U46",
+      "4",
+      "/AMIGA_D2"
+    ],
+    [
+      "U46",
+      "5",
+      "/AMIGA_D3"
+    ],
+    [
+      "U46",
+      "6",
+      "/AMIGA_D4"
+    ],
+    [
+      "U46",
+      "7",
+      "/AMIGA_D5"
+    ],
+    [
+      "U46",
+      "8",
+      "/AMIGA_D6"
+    ],
+    [
+      "U46",
+      "9",
+      "/AMIGA_D7"
+    ],
+    [
+      "U46",
+      "10",
+      "/GND"
+    ],
+    [
+      "U46",
+      "11",
+      "/Z_D7"
+    ],
+    [
+      "U46",
+      "12",
+      "/Z_D6"
+    ],
+    [
+      "U46",
+      "13",
+      "/Z_D5"
+    ],
+    [
+      "U46",
+      "14",
+      "/Z_D4"
+    ],
+    [
+      "U46",
+      "15",
+      "/Z_D3"
+    ],
+    [
+      "U46",
+      "16",
+      "/Z_D2"
+    ],
+    [
+      "U46",
+      "17",
+      "/Z_D1"
+    ],
+    [
+      "U46",
+      "18",
+      "/Z_D0"
+    ],
+    [
+      "U46",
+      "19",
+      "/BUS_DISABLE"
+    ],
+    [
+      "U46",
+      "20",
+      "/3V3"
+    ],
+    [
+      "C52",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C52",
+      "2",
+      "/GND"
+    ],
+    [
+      "R117",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "R117",
+      "2",
+      "/BUS_DISABLE"
+    ],
+    [
+      "C35",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C35",
+      "2",
+      "/GND"
+    ],
+    [
+      "R112",
+      "1",
+      "/3V3"
+    ],
+    [
+      "R112",
+      "2",
+      "/Host interface power guard/MAIN_SENSE"
+    ],
+    [
+      "U1",
+      "1",
+      "/USB routing and physical recovery/FLASH_RP"
+    ],
+    [
+      "U1",
+      "2",
+      "/USB routing and physical recovery/LINK_DP"
+    ],
+    [
+      "U1",
+      "3",
+      "/USB routing and physical recovery/PC_DP"
+    ],
+    [
+      "U1",
+      "4",
+      "/RP_DP"
+    ],
+    [
+      "U1",
+      "5",
+      "/GND"
+    ],
+    [
+      "U1",
+      "6",
+      "/RP_DM"
+    ],
+    [
+      "U1",
+      "7",
+      "/USB routing and physical recovery/PC_DM"
+    ],
+    [
+      "U1",
+      "8",
+      "/USB routing and physical recovery/LINK_DM"
+    ],
+    [
+      "U1",
+      "9",
+      "/USB routing and physical recovery/FLASH_ESP"
+    ],
+    [
+      "U1",
+      "10",
+      "/3V3"
+    ],
+    [
+      "C87",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C87",
+      "2",
+      "/GND"
+    ],
+    [
+      "U96",
+      "1",
+      "/Host interface power guard/HOST_LDO_IN"
+    ],
+    [
+      "U96",
+      "2",
+      "/GND"
+    ],
+    [
+      "U96",
+      "3",
+      "/Host interface power guard/HOST_LDO_IN"
+    ],
+    [
+      "U96",
+      "5",
+      "/3V3_BUS"
+    ],
+    [
+      "U91",
+      "1",
+      "/Host interface power guard/GUARD_OK_RAW"
+    ],
+    [
+      "U91",
+      "2",
+      "/GND"
+    ],
+    [
+      "U91",
+      "3",
+      "/3V3_BUS"
+    ],
+    [
+      "U91",
+      "4",
+      "/Host interface power guard/BUS_CT"
+    ],
+    [
+      "U91",
+      "5",
+      "/Host interface power guard/BUS_SENSE"
+    ],
+    [
+      "U91",
+      "6",
+      "/3V3_BUS"
+    ],
+    [
+      "U99",
+      "2",
+      "/IRQ_REQ"
+    ],
+    [
+      "U99",
+      "3",
+      "/GND"
+    ],
+    [
+      "U99",
+      "4",
+      "/IRQ_REQ_C"
+    ],
+    [
+      "U99",
+      "5",
+      "/3V3"
+    ],
+    [
+      "C10",
+      "1",
+      "/ESP_EN"
+    ],
+    [
+      "C10",
+      "2",
+      "/GND"
+    ],
+    [
+      "U79",
+      "1",
+      "/Hardware bus interlocks/LO_ACTIVE"
+    ],
+    [
+      "U79",
+      "2",
+      "/Hardware bus interlocks/HI_ACTIVE"
+    ],
+    [
+      "U79",
+      "3",
+      "/GND"
+    ],
+    [
+      "U79",
+      "4",
+      "/Hardware bus interlocks/ANY_LANE"
+    ],
+    [
+      "U79",
+      "5",
+      "/3V3"
+    ],
+    [
+      "R61",
+      "1",
+      "/Host interface power guard/HOST_SENSE"
+    ],
+    [
+      "R61",
+      "2",
+      "/GND"
+    ],
+    [
+      "J31",
+      "1",
+      "/GND"
+    ],
+    [
+      "J31",
+      "2",
+      "/ESP32-S3 module and microSD/ESP_TXD0"
+    ],
+    [
+      "J31",
+      "3",
+      "/ESP32-S3 module and microSD/ESP_RXD0"
+    ],
+    [
+      "J31",
+      "4",
+      "/ESP_EN"
+    ],
+    [
+      "J31",
+      "5",
+      "/ESP_BOOT_N"
+    ],
+    [
+      "C82",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C82",
+      "2",
+      "/GND"
+    ],
+    [
+      "C118",
+      "1",
+      "/3V3_BUS"
+    ],
+    [
+      "C118",
+      "2",
+      "/GND"
+    ],
+    [
+      "C80",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C80",
+      "2",
+      "/GND"
+    ],
+    [
+      "C91",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C91",
+      "2",
+      "/GND"
+    ],
+    [
+      "C6",
+      "1",
+      "/USB-C power and qualification/SOFT_START"
+    ],
+    [
+      "C6",
+      "2",
+      "/VBUS_PROTECTED"
+    ],
+    [
+      "U85",
+      "1",
+      "/Hardware bus interlocks/SAFE_BASE"
+    ],
+    [
+      "U85",
+      "2",
+      "/HOST_BERR_N"
+    ],
+    [
+      "U85",
+      "3",
+      "/GND"
+    ],
+    [
+      "U85",
+      "4",
+      "/Hardware bus interlocks/SAFE"
+    ],
+    [
+      "U85",
+      "5",
+      "/3V3"
+    ],
+    [
+      "C43",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C43",
+      "2",
+      "/GND"
+    ],
+    [
+      "C42",
+      "1",
+      "/3V3"
+    ],
+    [
+      "C42",
+      "2",
+      "/GND"
+    ]
+  ],
+  "parity": "PASS",
+  "unchanged_footprints_preserved": true,
+  "tracks": 0
+}
