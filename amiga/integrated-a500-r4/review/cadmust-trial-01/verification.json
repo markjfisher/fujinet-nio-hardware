@@ -1,0 +1,126 @@
+{
+  "seed": {
+    "unselected_full_footprint_changes": [],
+    "all_groups_locks_board_graphics_zones_unchanged": true,
+    "selected_courtyard_overlaps": [],
+    "selected_keepout_violations": [],
+    "selected_offboard": [],
+    "positions": {
+      "C70": [
+        27.6,
+        14.05,
+        0.0
+      ],
+      "C73": [
+        44.6,
+        14.05,
+        0.0
+      ],
+      "C75": [
+        27.6,
+        23.05,
+        0.0
+      ],
+      "C80": [
+        45.6,
+        23.05,
+        0.0
+      ],
+      "R3": [
+        21.0,
+        20.5,
+        0.0
+      ],
+      "R63": [
+        26.0,
+        20.5,
+        0.0
+      ],
+      "U61": [
+        22.0,
+        16.0,
+        0.0
+      ],
+      "U64": [
+        39.0,
+        16.0,
+        0.0
+      ],
+      "U66": [
+        22.0,
+        25.0,
+        0.0
+      ],
+      "U71": [
+        40.0,
+        25.0,
+        0.0
+      ]
+    },
+    "tracks": 0,
+    "comparable_total_hpwl_mm": 15148.977986,
+    "selected_incident_hpwl_mm": 3288.5425
+  },
+  "best": {
+    "unselected_full_footprint_changes": [],
+    "all_groups_locks_board_graphics_zones_unchanged": true,
+    "selected_courtyard_overlaps": [],
+    "selected_keepout_violations": [],
+    "selected_offboard": [],
+    "positions": {
+      "C70": [
+        65.194814,
+        71.700337,
+        180.0
+      ],
+      "C73": [
+        61.503823,
+        53.110984,
+        180.0
+      ],
+      "C75": [
+        61.515969,
+        47.096894,
+        180.0
+      ],
+      "C80": [
+        37.124875,
+        40.350805,
+        90.0
+      ],
+      "R3": [
+        71.794814,
+        65.250505,
+        180.0
+      ],
+      "R63": [
+        66.794942,
+        65.250421,
+        180.0
+      ],
+      "U61": [
+        70.794764,
+        69.750421,
+        180.0
+      ],
+      "U64": [
+        67.103823,
+        51.161174,
+        180.0
+      ],
+      "U66": [
+        67.115969,
+        45.147106,
+        180.0
+      ],
+      "U71": [
+        39.074597,
+        45.950805,
+        90.0
+      ]
+    },
+    "tracks": 0,
+    "comparable_total_hpwl_mm": 14084.137168,
+    "selected_incident_hpwl_mm": 2223.701682
+  }
+}

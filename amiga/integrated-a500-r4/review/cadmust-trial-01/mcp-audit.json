@@ -1,0 +1,675 @@
+{
+  "status": "ok",
+  "total_footprints": 203,
+  "total_issues": 91,
+  "footprint_overlaps": [
+    {
+      "ref_a": "U45",
+      "ref_b": "Q2",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "R31",
+      "ref_b": "U30",
+      "overlap": true,
+      "overlap_mm2": 2.99
+    },
+    {
+      "ref_a": "C31",
+      "ref_b": "C39",
+      "overlap": true,
+      "overlap_mm2": 0.01
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R35",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R12",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R11",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "Q1",
+      "overlap": true,
+      "overlap_mm2": 13.49
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "Q4",
+      "overlap": true,
+      "overlap_mm2": 13.49
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R30",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "R34",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "C40",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "C41",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U30",
+      "ref_b": "C10",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U3",
+      "ref_b": "C101",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "R35",
+      "ref_b": "R12",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "R101",
+      "ref_b": "R11",
+      "overlap": false,
+      "overlap_mm2": 0
+    },
+    {
+      "ref_a": "J30",
+      "ref_b": "C43",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "J30",
+      "ref_b": "C42",
+      "overlap": true,
+      "overlap_mm2": 4.55
+    },
+    {
+      "ref_a": "U82",
+      "ref_b": "R5",
+      "overlap": false,
+      "overlap_mm2": 0
+    }
+  ],
+  "keepout_violations": [
+    {
+      "reference": "J1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C128",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U30",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "U30",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C123",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C113",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R113",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C112",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R122",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R120",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "D4",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R110",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C110",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C116",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C119",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U93",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C117",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q5",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C111",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C127",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C122",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R114",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C115",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C114",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U95",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U94",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R121",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U100",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U90",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R119",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R116",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U98",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "H4",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "footprints"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C126",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C120",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U97",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C121",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U60",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R115",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R118",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R64",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U92",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R111",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C124",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R37",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C125",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R117",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R112",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U96",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U91",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U99",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C118",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C42",
+      "keepout_source": "J30",
+      "blocked": [
+        "tracks",
+        "vias",
+        "pads",
+        "footprints",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": true
+    }
+  ],
+  "silkscreen_overlaps": [
+    {
+      "silk_component": "C73",
+      "silk_type": "reference",
+      "pad_component": "C32"
+    },
+    {
+      "silk_component": "C73",
+      "silk_type": "reference",
+      "pad_component": "C32"
+    },
+    {
+      "silk_component": "C30",
+      "silk_type": "reference",
+      "pad_component": "R63"
+    },
+    {
+      "silk_component": "C23",
+      "silk_type": "reference",
+      "pad_component": "U64"
+    },
+    {
+      "silk_component": "C23",
+      "silk_type": "reference",
+      "pad_component": "U64"
+    },
+    {
+      "silk_component": "C23",
+      "silk_type": "reference",
+      "pad_component": "U64"
+    },
+    {
+      "silk_component": "C23",
+      "silk_type": "reference",
+      "pad_component": "C73"
+    },
+    {
+      "silk_component": "C24",
+      "silk_type": "reference",
+      "pad_component": "C73"
+    },
+    {
+      "silk_component": "C24",
+      "silk_type": "reference",
+      "pad_component": "C73"
+    },
+    {
+      "silk_component": "C43",
+      "silk_type": "reference",
+      "pad_component": "J30"
+    },
+    {
+      "silk_component": "C43",
+      "silk_type": "reference",
+      "pad_component": "J30"
+    }
+  ],
+  "silkscreen_text_overlaps": [
+    {
+      "text_a_component": "U64",
+      "text_a_type": "reference",
+      "text_b_component": "C32",
+      "text_b_type": "reference"
+    },
+    {
+      "text_a_component": "R24",
+      "text_a_type": "reference",
+      "text_b_component": "C75",
+      "text_b_type": "reference"
+    },
+    {
+      "text_a_component": "C73",
+      "text_a_type": "reference",
+      "text_b_component": "C24",
+      "text_b_type": "reference"
+    },
+    {
+      "text_a_component": "C30",
+      "text_a_type": "reference",
+      "text_b_component": "R63",
+      "text_b_type": "reference"
+    }
+  ],
+  "summary": "19 footprint overlap(s), 57 keepout/boundary issue(s), 11 silkscreen-over-pad overlap(s), 4 silkscreen text-to-text overlap(s)"
+}
