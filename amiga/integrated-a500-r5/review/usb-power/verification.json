@@ -1,0 +1,353 @@
+{
+  "baseline_sha256": "f3a64540105fbfcedbfcf86e6279b7a3b0671c77843220d3212d295b2fcce7b5",
+  "candidate_sha256": "cad88e807417e92663d43ab593bb7d534ad6b611c72cfb57c6bcc9cf59a28e7e",
+  "changed_references": [
+    "C100",
+    "C101",
+    "C102",
+    "C117",
+    "C123",
+    "C124",
+    "C3",
+    "C4",
+    "C5",
+    "C6",
+    "C7",
+    "C8",
+    "C9",
+    "D2",
+    "D3",
+    "J1",
+    "L1",
+    "R100",
+    "R101",
+    "R102",
+    "R103",
+    "R104",
+    "R105",
+    "R14",
+    "R4",
+    "R5",
+    "R6",
+    "R7",
+    "R8",
+    "U3",
+    "U4",
+    "U5",
+    "U6",
+    "U7",
+    "U8",
+    "U9"
+  ],
+  "unchanged_footprints": 167,
+  "identities_nets_locks_preserved": true,
+  "rp_geometry_and_proposed_vias_preserved": true,
+  "mechanical_datums_and_board_graphics_unchanged": true,
+  "schematics_and_project_rules_unchanged": true,
+  "tracks_and_vias": 0,
+  "groups": {
+    "R5: RP2350 support cell - approved milestone 1": 31,
+    "R5: USB eFuse and reverse blocking - review pending": 11,
+    "R5: Main switch and buck - review pending": 12,
+    "R5: USB connector and ESD - review pending": 3,
+    "R5: CC qualification and AON - review pending": 10
+  },
+  "critical_pad_distances": [
+    {
+      "from": "C7.1",
+      "to": "U5.12",
+      "net": "/USB-C power and qualification/5V_MAIN",
+      "straight_line_mm": 2.547455838675128
+    },
+    {
+      "from": "C124.1",
+      "to": "U5.10",
+      "net": "/USB-C power and qualification/5V_MAIN",
+      "straight_line_mm": 2.280659170064655
+    },
+    {
+      "from": "U5.1",
+      "to": "L1.1",
+      "net": "/USB-C power and qualification/BUCK_SW",
+      "straight_line_mm": 3.6589795367014557
+    },
+    {
+      "from": "L1.2",
+      "to": "C8.1",
+      "net": "/3V3",
+      "straight_line_mm": 3.2015386925664355
+    },
+    {
+      "from": "U5.14",
+      "to": "C8.1",
+      "net": "/3V3",
+      "straight_line_mm": 5.137074191599728
+    },
+    {
+      "from": "R7.2",
+      "to": "U5.5",
+      "net": "/USB-C power and qualification/BUCK_FB",
+      "straight_line_mm": 2.717104387026748
+    },
+    {
+      "from": "C9.1",
+      "to": "U5.9",
+      "net": "/USB-C power and qualification/BUCK_SS",
+      "straight_line_mm": 3.389528912695686
+    },
+    {
+      "from": "C100.1",
+      "to": "U8.4",
+      "net": "/VBUS_C",
+      "straight_line_mm": 2.1653637107885597
+    },
+    {
+      "from": "U8.5",
+      "to": "C102.1",
+      "net": "/Protected USB input/VBUS_LIMITED",
+      "straight_line_mm": 3.2226231551330975
+    },
+    {
+      "from": "C102.1",
+      "to": "U9.1",
+      "net": "/Protected USB input/VBUS_LIMITED",
+      "straight_line_mm": 2.16264450384246
+    },
+    {
+      "from": "C123.1",
+      "to": "U7.5",
+      "net": "/3V3_AON",
+      "straight_line_mm": 2.221380482942983
+    }
+  ],
+  "prospective_ground_vias": [
+    {
+      "reference": "C3",
+      "via_xy_mm": [
+        10.6,
+        78.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.1080127840328668,
+      "nearest_foreign_pad": "U3.9",
+      "distance_to_gnd_pad_centre_mm": 0.8249999999999993
+    },
+    {
+      "reference": "C4",
+      "via_xy_mm": [
+        13.8,
+        87.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0999999999999985,
+      "nearest_foreign_pad": "U6.3",
+      "distance_to_gnd_pad_centre_mm": 1.0249999999999915
+    },
+    {
+      "reference": "C5",
+      "via_xy_mm": [
+        20.2,
+        87.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0999999999999985,
+      "nearest_foreign_pad": "U6.4",
+      "distance_to_gnd_pad_centre_mm": 1.0249999999999915
+    },
+    {
+      "reference": "C123",
+      "via_xy_mm": [
+        25.2,
+        89.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.941470901793513,
+      "nearest_foreign_pad": "C123.1",
+      "distance_to_gnd_pad_centre_mm": 1.0003124511871275
+    },
+    {
+      "reference": "C100",
+      "via_xy_mm": [
+        7,
+        100.475
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.9188621743248855,
+      "nearest_foreign_pad": "C100.1",
+      "distance_to_gnd_pad_centre_mm": 1.0
+    },
+    {
+      "reference": "C101",
+      "via_xy_mm": [
+        0.0,
+        94.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.3930002953337013,
+      "nearest_foreign_pad": "R100.1",
+      "distance_to_gnd_pad_centre_mm": 0.75
+    },
+    {
+      "reference": "C102",
+      "via_xy_mm": [
+        14,
+        94.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.5403868156985883,
+      "nearest_foreign_pad": "R104.1",
+      "distance_to_gnd_pad_centre_mm": 1.0249999999999915
+    },
+    {
+      "reference": "C7",
+      "via_xy_mm": [
+        28.1,
+        96.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 2.40739727413618,
+      "nearest_foreign_pad": "C7.1",
+      "distance_to_gnd_pad_centre_mm": 1.1470069746954483
+    },
+    {
+      "reference": "C8",
+      "via_xy_mm": [
+        30.5,
+        98
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 2.827499000799201,
+      "nearest_foreign_pad": "U5.13",
+      "distance_to_gnd_pad_centre_mm": 1.0249999999999986
+    },
+    {
+      "reference": "C9",
+      "via_xy_mm": [
+        26.1,
+        89
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.1615915982243479,
+      "nearest_foreign_pad": "C123.1",
+      "distance_to_gnd_pad_centre_mm": 0.9249999999999972
+    },
+    {
+      "reference": "C124",
+      "via_xy_mm": [
+        26.5,
+        91.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.8500000000000056,
+      "nearest_foreign_pad": "C7.1",
+      "distance_to_gnd_pad_centre_mm": 0.8003905296791032
+    },
+    {
+      "reference": "C117",
+      "via_xy_mm": [
+        49.8,
+        96
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 6.0499999999999945,
+      "nearest_foreign_pad": "C117.1",
+      "distance_to_gnd_pad_centre_mm": 2.5
+    },
+    {
+      "reference": "D2",
+      "via_xy_mm": [
+        2,
+        82
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.3800735254367777,
+      "nearest_foreign_pad": "D2.1",
+      "distance_to_gnd_pad_centre_mm": 0.8624999999999998
+    },
+    {
+      "reference": "D3",
+      "via_xy_mm": [
+        5.8,
+        78
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.6751582215103686,
+      "nearest_foreign_pad": "C3.1",
+      "distance_to_gnd_pad_centre_mm": 0.9124999999999996
+    },
+    {
+      "reference": "U8",
+      "via_xy_mm": [
+        4.3,
+        92
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7317787773278839,
+      "nearest_foreign_pad": "C101.1",
+      "distance_to_gnd_pad_centre_mm": 1.4301835546530373
+    },
+    {
+      "reference": "U9",
+      "via_xy_mm": [
+        15.2,
+        97.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.35431261641511663,
+      "nearest_foreign_pad": "U9.3",
+      "distance_to_gnd_pad_centre_mm": 0.9625000000000021
+    },
+    {
+      "reference": "U6",
+      "via_xy_mm": [
+        14.9,
+        86.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4158910531638224,
+      "nearest_foreign_pad": "U6.1",
+      "distance_to_gnd_pad_centre_mm": 0.9625000000000004
+    },
+    {
+      "reference": "U7",
+      "via_xy_mm": [
+        18.8,
+        90.95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4632168761236915,
+      "nearest_foreign_pad": "U7.2",
+      "distance_to_gnd_pad_centre_mm": 1.0625
+    },
+    {
+      "reference": "U4",
+      "via_xy_mm": [
+        18.8,
+        95
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4632168761236915,
+      "nearest_foreign_pad": "U4.1",
+      "distance_to_gnd_pad_centre_mm": 1.0625
+    }
+  ]
+}

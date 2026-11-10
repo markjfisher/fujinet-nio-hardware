@@ -1,0 +1,1113 @@
+{
+  "status": "ok",
+  "total_footprints": 203,
+  "total_issues": 137,
+  "footprint_overlaps": [],
+  "keepout_violations": [
+    {
+      "reference": "U45",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C128",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R31",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U30",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C95",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R53",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "SW1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U40",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R33",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R35",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C54",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C113",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R113",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C112",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R12",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C55",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R122",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R52",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U77",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U84",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R120",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U66",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "D4",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U42",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C57",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R110",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C110",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U64",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C56",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C116",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R36",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U71",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J30",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R11",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C119",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "SW3",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U93",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J20",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U73",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J60",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q4",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q5",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C51",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R30",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C111",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C127",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C88",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C122",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R114",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C115",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U72",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U41",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R34",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C60",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C114",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U95",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U94",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R121",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U100",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U90",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U47",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R119",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R116",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R32",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R50",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C94",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R51",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U78",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U82",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C81",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q3",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U98",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C73",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "H4",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "tracks",
+        "vias",
+        "copper_pour"
+      ],
+      "is_footprint_keepout": false
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board",
+      "blocked": [
+        "footprints"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J40",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C126",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C120",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R60",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U97",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "Q2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C53",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C50",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R3",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C121",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U60",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C70",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U44",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C86",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U43",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "SW2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U2",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "SW4",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U86",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R115",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R118",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R41",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R64",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C75",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U92",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R111",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C40",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C41",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U61",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R63",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C93",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R37",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C125",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U46",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C52",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R117",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R112",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U1",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C87",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U96",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U91",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U99",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C10",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U79",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "R61",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "J31",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C82",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C118",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C80",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C91",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "U85",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C43",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    },
+    {
+      "reference": "C42",
+      "keepout_source": "board_outline",
+      "blocked": [
+        "outside_board"
+      ],
+      "is_footprint_keepout": true
+    }
+  ],
+  "silkscreen_overlaps": [],
+  "silkscreen_text_overlaps": [],
+  "summary": "137 keepout/boundary issue(s)"
+}
