@@ -1,0 +1,490 @@
+[
+  {
+    "name": "FN: Logic U82",
+    "uuid": "0440b33d-c330-4a8f-8718-02e3c115051e",
+    "locked": false,
+    "members": [
+      "C91",
+      "U82"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U41",
+    "uuid": "134b3e55-2e0d-4cb6-9d35-558b506106c6",
+    "locked": false,
+    "members": [
+      "C51",
+      "U41"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U46",
+    "uuid": "198c478a-7faa-48bb-aa6f-b1aa6325a4b8",
+    "locked": false,
+    "members": [
+      "C56",
+      "R52",
+      "U46"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U72",
+    "uuid": "249ee0a7-7485-4037-bc5d-121b3f068006",
+    "locked": false,
+    "members": [
+      "C81",
+      "U72"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: USB switch RP",
+    "uuid": "27cf816e-066d-4a7f-8d3e-64ae8f617106",
+    "locked": false,
+    "members": [
+      "C1",
+      "R1",
+      "U1"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Request bias array",
+    "uuid": "2d8f3d6f-247f-47d8-88d9-bc4ce2522501",
+    "locked": false,
+    "members": [
+      "R64"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: USB receptacle and ESD",
+    "uuid": "3322f0ec-2893-47c6-bb21-d24c14689fed",
+    "locked": false,
+    "members": [
+      "D2",
+      "D3",
+      "J1"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: USB current qualification inverter",
+    "uuid": "3c1b4d21-16f6-46ee-b08d-6fda3589acb7",
+    "locked": false,
+    "members": [
+      "C123",
+      "R6",
+      "U7"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: 3V3 buck regulator",
+    "uuid": "3ebf2c62-1cd7-42c7-b434-fcab8dff05a3",
+    "locked": false,
+    "members": [
+      "C124",
+      "C7",
+      "C8",
+      "C9",
+      "L1",
+      "R7",
+      "R8",
+      "U5"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: Logic U86",
+    "uuid": "464c3e3b-4f64-48ad-bd07-e381612d5cab",
+    "locked": false,
+    "members": [
+      "C95",
+      "U86"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U44",
+    "uuid": "469a68c7-80dc-4ad4-81e5-c0f41495487f",
+    "locked": false,
+    "members": [
+      "C54",
+      "R50",
+      "U44"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: USB CC detection",
+    "uuid": "47988f12-473c-4af6-89e2-61051b91684f",
+    "locked": false,
+    "members": [
+      "C3",
+      "R4",
+      "R5",
+      "U3"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Address and cycle decode",
+    "uuid": "491ad0c4-8559-4033-824f-ec7fe0e772de",
+    "locked": false,
+    "members": [
+      "C75",
+      "U66"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: Main power switch",
+    "uuid": "57002f5e-409d-4740-9d9e-5d4bc07db5d5",
+    "locked": false,
+    "members": [
+      "C6",
+      "R14",
+      "U4"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Recovery buttons",
+    "uuid": "5b6b354a-bd63-49c3-944a-ec3b6f0483ea",
+    "locked": false,
+    "members": [
+      "SW1",
+      "SW2",
+      "SW3",
+      "SW4"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: RP QSPI flash",
+    "uuid": "62d00577-4b6e-4b72-9909-304eb30a59a5",
+    "locked": false,
+    "members": [
+      "C20",
+      "R13",
+      "R20",
+      "U21"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: ESP recovery and USB",
+    "uuid": "636db4ff-bbfe-4d8e-9c79-2ee7cda14061",
+    "locked": false,
+    "members": [
+      "C10",
+      "Q1",
+      "Q4",
+      "R11",
+      "R12",
+      "R30",
+      "R31",
+      "R32",
+      "R33",
+      "R34",
+      "R35",
+      "R36"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U77",
+    "uuid": "67c3518f-360e-4a6d-98aa-26381feff701",
+    "locked": false,
+    "members": [
+      "C86",
+      "U77"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Main-domain inverters",
+    "uuid": "6e21d94f-075e-4250-8022-34e256b9b88c",
+    "locked": false,
+    "members": [
+      "C73",
+      "U64"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: RP physical recovery bias",
+    "uuid": "728fb58b-7cbe-4301-858e-572a9358fee2",
+    "locked": false,
+    "members": [
+      "Q2",
+      "Q3",
+      "R10"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Input eFuse",
+    "uuid": "7593cd4f-e67f-4e63-be66-d519fe611fea",
+    "locked": false,
+    "members": [
+      "C100",
+      "C101",
+      "C102",
+      "R100",
+      "R101",
+      "R102",
+      "R103",
+      "R104",
+      "R105",
+      "U8"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Read write and wait decode",
+    "uuid": "7ea8d3b9-7287-40fe-9358-18dda113b9e8",
+    "locked": false,
+    "members": [
+      "C80",
+      "U71"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: Logic U78",
+    "uuid": "80611e5d-91e5-4d15-a85f-dbb8f2503b22",
+    "locked": false,
+    "members": [
+      "C87",
+      "U78"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: ESP local supply",
+    "uuid": "8174a3e3-3c5d-43fa-a315-407e4315a034",
+    "locked": false,
+    "members": [
+      "C40",
+      "C41",
+      "U30"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U73",
+    "uuid": "84528cdd-9f44-4710-a6ae-d09ac80a94ec",
+    "locked": false,
+    "members": [
+      "C82",
+      "U73"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U47",
+    "uuid": "85f17e4a-fb32-4e0a-acdc-f988929f0a1c",
+    "locked": false,
+    "members": [
+      "C57",
+      "R53",
+      "U47"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U79",
+    "uuid": "8a9a6667-a37f-418f-8329-2a2ea8906834",
+    "locked": false,
+    "members": [
+      "C88",
+      "U79"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: USB switch ESP",
+    "uuid": "9d7f1798-ff3e-4b7c-809f-86ff51a8b19b",
+    "locked": false,
+    "members": [
+      "C2",
+      "R2",
+      "U2"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Host supply supervisor",
+    "uuid": "a7a4721b-1a69-4989-99bc-a363b13718a3",
+    "locked": false,
+    "members": [
+      "C114",
+      "C60",
+      "R60",
+      "R61",
+      "U60"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: SD pullups",
+    "uuid": "aaafb64e-4315-4ded-85a2-281d74b91efb",
+    "locked": false,
+    "members": [
+      "R37",
+      "R41"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: Bus buffer U43",
+    "uuid": "c5bf991d-ca3f-473a-b988-d75f2458ed91",
+    "locked": false,
+    "members": [
+      "C53",
+      "U43"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U40",
+    "uuid": "dc75a60a-18e4-420f-814d-8f3fc4e152b8",
+    "locked": false,
+    "members": [
+      "C50",
+      "U40"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U84",
+    "uuid": "dc777cc3-7e62-4784-acd6-98eb952ff933",
+    "locked": false,
+    "members": [
+      "C93",
+      "U84"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U42",
+    "uuid": "dc9f5ec9-070e-4fc9-a99c-3bb77eee10f0",
+    "locked": false,
+    "members": [
+      "C52",
+      "U42"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Bus buffer U45",
+    "uuid": "df6f1aef-4d50-40b5-b512-cfb15debbd47",
+    "locked": false,
+    "members": [
+      "C55",
+      "R51",
+      "U45"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Reverse blocking",
+    "uuid": "e0d4fddd-32b4-4219-87d9-45682e1e4ace",
+    "locked": false,
+    "members": [
+      "U9"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: RP regulator reference cell",
+    "uuid": "e651e91a-6a47-4011-9d98-465e5c809c31",
+    "locked": false,
+    "members": [
+      "C23",
+      "C24",
+      "C25",
+      "C26",
+      "C27",
+      "C28",
+      "C29",
+      "C30",
+      "C31",
+      "C32",
+      "C33",
+      "C34",
+      "C35",
+      "C36",
+      "C37",
+      "C38",
+      "C39",
+      "L20",
+      "R22",
+      "R23",
+      "R24",
+      "U20"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Logic U85",
+    "uuid": "ed465545-3890-4b65-98be-1660103d25de",
+    "locked": false,
+    "members": [
+      "C94",
+      "U85"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: RP crystal",
+    "uuid": "ee66cfc3-00b5-4572-a005-1b401f658193",
+    "locked": false,
+    "members": [
+      "C21",
+      "C22",
+      "R21",
+      "Y20"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Always-on regulator",
+    "uuid": "fc739e08-7d27-43b7-84ee-88aef205d927",
+    "locked": false,
+    "members": [
+      "C4",
+      "C5",
+      "U6"
+    ],
+    "spans_staging_and_board": false
+  },
+  {
+    "name": "FN: Power and firmware permission",
+    "uuid": "fdf8adaa-3168-42c7-aa9e-c24f06242c43",
+    "locked": false,
+    "members": [
+      "C70",
+      "R3",
+      "R63",
+      "U61"
+    ],
+    "spans_staging_and_board": true
+  },
+  {
+    "name": "FN: microSD local supply",
+    "uuid": "8a0d1c2d-fef6-43fb-aad3-e4fd0d3b3911",
+    "locked": false,
+    "members": [
+      "C42",
+      "C43",
+      "J30"
+    ],
+    "spans_staging_and_board": false
+  }
+]

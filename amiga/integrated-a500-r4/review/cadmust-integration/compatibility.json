@@ -1,0 +1,67 @@
+{
+  "source_commit": "bbed16824a806e6ba787b96d3915233462db9bd2",
+  "kicad_version": "10.0.7",
+  "pcb_sha256_unchanged": "4632c91d4552cb38e8cf1bc54f47ce48033f415afd91ec71236a538bf6231b90",
+  "footprints": 203,
+  "native_groups": 42,
+  "extracted_multimember_groups": 40,
+  "group_memberships_match": true,
+  "outline_bbox_mm": [
+    -6.05,
+    3.45,
+    105.05,
+    120.55
+  ],
+  "outline_vertices": 4,
+  "keepouts": 1,
+  "selection_tests": {
+    "none": {
+      "selected": [],
+      "movable_representatives": [],
+      "partial_groups": []
+    },
+    "single": {
+      "selected": [
+        "C113"
+      ],
+      "movable_representatives": [
+        "C113"
+      ],
+      "partial_groups": []
+    },
+    "partial_group": {
+      "selected": [
+        "U61"
+      ],
+      "movable_representatives": [],
+      "partial_groups": [
+        [
+          38,
+          "FN: Power and firmware permission",
+          [
+            "U61"
+          ],
+          [
+            "R3",
+            "R63",
+            "C70"
+          ]
+        ]
+      ]
+    },
+    "complete_group": {
+      "selected": [
+        "C70",
+        "R3",
+        "R63",
+        "U61"
+      ],
+      "movable_representatives": [
+        "R3"
+      ],
+      "partial_groups": []
+    }
+  },
+  "schema_parse": "PASS",
+  "no_optimizer_or_writeback_called": true
+}

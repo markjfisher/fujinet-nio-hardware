@@ -1,5 +1,7 @@
 # R4 placement readiness — 2026-11-10
 
+Follow-up: [approved footprint substitutions and group repairs are applied](../cadmust-integration/plan.md). This report records the pre-change readiness review; its pending-change and obsolete-group statements are historical.
+
 **Ready for constrained placement preparation.** All PCB positions, locks,
 groups, nets and geometry remain byte-for-byte unchanged. No routing or
 placement generator ran. Only Q5's schematic symbol was repaired.

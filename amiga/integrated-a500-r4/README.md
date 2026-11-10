@@ -1,3 +1,5 @@
+Current integration checkpoint: [CadMust-Neo plan and compatibility findings](review/cadmust-integration/plan.md). Approved capacitor footprints and obsolete groups are now repaired; no optimisation or placement movement has run.
+
 # A500 R4 — first physical placement candidate
 
 R4 turns the protected R3 circuit into a **111 × 117 mm horizontal sidecar

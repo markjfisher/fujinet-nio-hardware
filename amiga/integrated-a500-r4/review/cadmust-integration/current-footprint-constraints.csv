@@ -1,0 +1,204 @@
+ref,value,locked,x,y,fp,classification,reason,staged
+C1,100n,False,27.9978,74.2235,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C10,1u,False,0.5,44.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C100,1u 25V X7R,False,4.75,83.99,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C101,10n 25V C0G,False,11.15,86.89,C_0805_2012Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C102,1u 10V X7R,False,9.74,96.69,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C110,100n 10V X7R,False,125.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C111,1u 10V X7R,False,137.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C112,1u 10V X7R,False,149.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C113,100u 6.3V 6SVPC100M,False,161.0,10.0,CP_Elec_5x5.9,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C114,100p 25V C0G 5%,False,173.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C115,100p 25V C0G 5%,False,185.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C116,100p 25V C0G 5%,False,197.0,10.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C117,220u 6.3V 6SVPC220M,False,209.0,10.0,CP_Elec_6.3x5.9,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C118,1u 10V X7R,False,125.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C119,1u 10V X7R,False,137.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C120,100n 10V X7R,False,149.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C121,100n 10V X7R,False,161.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C122,100n 10V X7R,False,173.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C123,100n 10V X7R,False,173.0,70.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C124,100n 10V X7R,False,185.0,70.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C125,100n 10V X7R,False,185.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C126,100n 10V X7R,False,197.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C127,100n 10V X7R,False,209.0,22.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C128,100n 10V X7R,False,125.0,34.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+C2,100n,False,34.5824,73.0681,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C20,100n,True,50.0,40.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C21,15p C0G,True,49.4,72.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C22,15p C0G,True,58.6,72.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C23,4.7u,True,59.2,53.5,RP_Reference_C9,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C24,4.7u,True,57.0,53.94,RP_Reference_C6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C25,4.7u,True,57.0,53.0,RP_Reference_C7,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C26,100n,True,46.0,57.8,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C27,100n,True,46.0,62.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C28,100n,True,49.0,68.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C29,100n,True,53.0,68.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C3,100n,False,4.4,71.175,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C30,100n,True,62.0,64.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C31,100n,True,62.0,60.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C32,100n,True,62.0,56.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C33,100n,True,66.0,58.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C34,100n,True,56.0,47.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C35,100n,True,53.0,49.5,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C36,100n,True,45.0,55.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C37,100n,True,46.0,60.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C38,100n,True,57.0,68.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C39,4.7u,True,64.5,61.5,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C4,1u 10V,False,2.5,75.3,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C40,10u 10V,False,-2.99,42.75,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C41,100n,False,-3.5076,40.6819,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C42,10u 10V,False,0.5,64.5,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C43,100n,False,-3.0,62.8,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C5,1u 10V,False,10.9,75.89,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C50,100n,True,84.5,17.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C51,100n,True,84.5,29.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C52,100n,True,84.5,41.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C53,100n,True,84.5,53.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C54,100n,True,84.5,65.099999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C55,100n,True,84.5,77.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C56,100n,True,84.5,89.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C57,100n,True,84.5,101.1,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C6,1n 25V,False,20.5,100.0,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C60,1u 10V X7R,False,61.1,93.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C7,10u 10V X7R,False,26.0,93.5,C_1206_3216Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C70,100n,False,26.1,15.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C73,100n,False,62.1,15.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C75,100n,False,26.1,24.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C8,22u 10V X7R,False,33.0,98.2,C_1206_3216Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C80,100n,False,44.1,33.049999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C81,100n,False,53.1,33.049999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C82,100n,False,62.1,33.049999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C86,100n,False,26.1,51.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C87,100n,False,35.1,51.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C88,100n,False,71.1,24.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C9,3.3n,False,26.5,89.5,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C91,100n,False,70.1,84.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C93,100n,False,26.1,33.049999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C94,100n,False,53.1,15.05,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+C95,100n,False,35.1,33.049999,C_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+D2,USBLC6-2SC6,False,21.75,71.16,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+D3,TPD2E2U06DCKR,False,6.99,80.94,SOT-323_SC-70,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+D4,SS14-13-F,False,137.0,34.0,D_SMA,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+H1,MountingHole_3.2mm_M3,False,18.0,7.0,MountingHole_3.2mm_M3,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+H2,MountingHole_3.2mm_M3,False,83.5,7.0,MountingHole_3.2mm_M3,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+H3,MountingHole_3.2mm_M3,False,83.5,117.0,MountingHole_3.2mm_M3,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+H4,MountingHole_3.2mm_M3,False,-2.5,117.0,MountingHole_3.2mm_M3,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+J1,USB4105-GF-A,True,-3.0,82.0,USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+J2,MODE: 1-2 RUN; 3-4 RP; 5-6 ESP,True,6.0,110.0,PinHeader_2x03_P2.54mm_Vertical,provisionally locked,Service/recovery access; exact enclosure position not final,False
+J20,SWD: 3V3 reference only,True,48.0,8.0,PinHeader_1x05_P2.54mm_Vertical,provisionally locked,Service/recovery access; exact enclosure position not final,False
+J30,DM3AT-SF-PEJM5,True,3.32,62.32,microSD_HC_Hirose_DM3AT-SF-PEJM5,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+J31,UART service (3.3V signals),True,26.0,8.0,PinHeader_1x05_P2.54mm_Vertical,provisionally locked,Service/recovery access; exact enclosure position not final,False
+J40,A500 FEMALE mating socket,True,105.0,62.0,A500_ED86_EdgeSolder,mechanically fixed,"Board/case mating, insertion or mounting datum",False
+J60,BUS ARM (normally OPEN),True,22.0,115.0,PinHeader_1x02_P2.54mm_Vertical,provisionally locked,Service/recovery access; exact enclosure position not final,False
+L1,XAL4020-222MEC 2.2uH,False,36.0,94.0,L_Coilcraft_XAL4020-XXX,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+L20,AOTA-B201610S3R3-101-T,True,57.0,51.35,RP_Reference_L1,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+Q1,2N7002,False,4.98,45.5,SOT-23,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+Q2,2N7002,False,47.8,85.25,SOT-23,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+Q3,2N7002,False,24.74,80.69,SOT-23,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+Q4,2N7002,False,11.2,17.67,SOT-23,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+Q5,MMBT3904-7-F,False,149.0,34.0,SOT-23,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R1,10k,False,19.94,79.95,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R10,10k,False,61.15,83.96,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R100,24.9k 0.1%,False,1.46,94.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R101,10k 0.1%,False,6.75,87.16,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R102,37.4k 0.1%,False,1.02,91.49,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R103,10k 0.1%,False,5.3,97.36,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R104,681R 0.1%,False,15.0,92.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R105,100k,False,15.51,80.04,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R11,10k,False,3.74,41.68,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R110,133k 1%,False,161.0,34.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R111,4.7k 1%,False,173.0,34.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R112,67.5k 0.1%,False,185.0,34.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R113,10k 0.1%,False,197.0,34.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R114,67.5k 0.1%,False,209.0,34.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R115,10k 0.1%,False,125.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R116,10k 1%,False,137.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R117,100k 1%,False,149.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R118,100k 1%,False,161.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R119,100k 1%,False,173.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R12,10k,False,11.2,13.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R120,22k 1%,False,185.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R121,100k 1%,False,197.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R122,10k 1%,False,209.0,46.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R13,1k,False,47.0,38.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R14,1k,False,25.0,99.9,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R2,10k,False,26.439999,72.38,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R20,10k,True,44.0,40.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R21,1k,True,61.0,70.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R22,27,True,49.0,50.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R23,27,True,49.0,53.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R24,33,True,59.2,51.65,RP_Reference_R3,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R3,10k,False,27.5,20.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R30,22,False,10.5,42.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R31,22,False,14.0,42.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R32,10k,False,17.0,29.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R33,10k,False,17.0,33.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R34,10k,False,-2.23,18.44,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R35,100k,False,1.5,15.01,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R36,33,False,17.0,37.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R37,CAT16-4702F4LF,False,125.0,150.0,R_Array_Concave_4x0603,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R4,100k,False,-0.77,74.0,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R41,47k,False,16.5,67.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R5,887k 1%,False,11.21,82.52,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R50,10k,False,81.24,73.57,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R51,10k,False,81.24,85.57,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R52,10k,False,81.24,97.57,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R53,10k,False,81.24,109.36,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R6,10k,False,16.739999,76.85,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R60,102k 0.1%,False,61.1,96.2,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R61,10k 0.1%,False,61.1,98.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R63,10k,False,35.1,18.2,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R64,CAT16-1002F4LF,False,125.0,170.0,R_Array_Concave_4x0603,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+R7,312k 0.1%,False,34.25,89.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+R8,100k 0.1%,False,30.75,89.5,R_0603_1608Metric,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+SW1,RP RESET,True,41.5,113.0,SW_PUSH_6mm,provisionally locked,Service/recovery access; exact enclosure position not final,False
+SW2,RP BOOTSEL,True,51.5,113.0,SW_PUSH_6mm,provisionally locked,Service/recovery access; exact enclosure position not final,False
+SW3,ESP RESET,True,61.5,113.0,SW_PUSH_6mm,provisionally locked,Service/recovery access; exact enclosure position not final,False
+SW4,ESP BOOT,True,71.5,113.0,SW_PUSH_6mm,provisionally locked,Service/recovery access; exact enclosure position not final,False
+U1,TS3USB30EDGSR,True,23.0,76.0,MSOP-10_3x3mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U100,"74LVC3G17DC,125",False,161.0,70.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U2,TS3USB30EDGSR,True,33.0,76.0,MSOP-10_3x3mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U20,RP2350B,True,54.0,60.0,RP_Reference_U1,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U21,W25Q128JVSIQ,True,47.0,45.0,SOIC-8_5.3x5.3mm_P1.27mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U3,FUSB303BTMX,True,8.0,72.0,Texas_X2QFN-12_1.6x1.6mm_P0.4mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U30,ESP32-S3-WROOM-1-N16R8,True,1.0,30.0,ESP32-S3-WROOM-1,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U4,TPS22917DBVR,False,21.0,96.8,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U40,SN74LVC541APWR,True,79.0,20.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U41,SN74LVC541APWR,True,79.0,32.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U42,SN74LVC541APWR,True,79.0,44.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U43,SN74LVC541APWR,True,79.0,56.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U44,SN74LVC541APWR,True,79.0,68.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U45,SN74LVC541APWR,True,79.0,80.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U46,SN74LVC541APWR,True,79.0,92.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U47,SN74LVC541APWR,True,79.0,104.0,TSSOP-20_4.4x6.5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U5,TPS62130RGTR,True,30.0,94.0,VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U6,AP2112K-3.3TRG1,False,6.75,76.84,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U60,MIC2790H-04VD6-TR,False,125.0,58.0,TSOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U61,SN74LVC11APWR,False,125.0,110.0,TSSOP-14_4.4x5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U64,SN74LVC04APWR,False,125.0,130.0,TSSOP-14_4.4x5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U66,SN74LVC11APWR,False,137.0,110.0,TSSOP-14_4.4x5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U7,SN74LVC1G14DBVR,False,14.0,72.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U71,SN74LVC11APWR,False,149.0,110.0,TSSOP-14_4.4x5mm_P0.65mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U72,SN74LVC1G10DBVR,False,49.0,34.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U73,SN74LVC1G10DBVR,False,58.0,34.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U77,SN74LVC1G10DBVR,False,22.0,52.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U78,SN74LVC1G10DBVR,False,31.0,52.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U79,SN74LVC1G32DBVR,False,67.0,25.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U8,TPS259630DDAR,True,8.0,92.0,TI_SO-PowerPAD-8,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U82,SN74LVC1G08DBVR,False,66.0,85.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U84,SN74LVC1G74DCUR,False,22.0,34.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U85,SN74LVC1G08DBVR,False,49.0,16.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U86,SN74LVC1G74DCUR,False,31.0,34.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U9,LM66100DCKR,True,19.0,92.0,SOT-363_SC-70-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
+U90,MIC2790H-04VD6-TR,False,137.0,58.0,TSOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U91,MIC2790H-04VD6-TR,False,149.0,58.0,TSOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U92,SN74LVC2G14DBVR,False,161.0,58.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U93,SN74LVC2G132DCUR,False,173.0,58.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U94,SN74LVC2G125DCUR,False,185.0,58.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U95,TPS2553DBVR,False,197.0,58.0,SOT-23-6,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U96,AP2112K-3.3TRG1,False,209.0,58.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U97,"74LVC3G17DC,125",False,125.0,70.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U98,"74LVC3G17DC,125",False,137.0,70.0,VSSOP-8_2.3x2mm_P0.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+U99,SN74LVC1G17DBVR,False,149.0,70.0,SOT-23-5,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,True
+Y20,ABM8-272-T3 12MHz,True,54.0,74.0,Crystal_SMD_3225-4Pin_3.2x2.5mm,electrically constrained,May move only with local power/signal/return constraints; present coordinates retained,False
