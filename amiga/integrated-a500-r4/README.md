@@ -5,12 +5,17 @@ placement**, with the female A500 socket at the right edge and an 18 mm
 component-free band behind that edge (the socket solder lands are excepted). It is a new project;
 released passive hardware and R0–R3 remain unchanged.
 
-Open the [top preview](review/placement.png), [bottom preview](review/placement-bottom.png), [native project](integrated-a500-r4.kicad_pro)
-or [nine-page schematic](review/schematic.pdf). The PCB contains all 188 physical
-components and four mounting holes. **It has no routed copper yet.** Separate
-pads in the preview are component lands, not completed connections. Matching
-schematic labels are electrically connected: native checks verify 864 functional
-pin assignments on 195 complete nets, and schematic/PCB parity is zero.
+Current status: [Phase 1 implementation and checks](review/component-optimisation/phase1-status.md).
+Open the [native project](integrated-a500-r4.kicad_pro), [current schematic](review/schematic.pdf)
+or [board and staging preview](phase1/board-and-staging.png). There are **199 fitted
+components and four mounting holes**. New/repackaged components are staged outside
+the preserved outline, awaiting placement. **There is no routed copper.** Earlier
+placement pictures and review inventories are historical baseline artifacts.
+USB main power is mandatory; the [implemented protection](review/component-optimisation/bus-output-disable-proposal.md)
+uses a small current-limited host-interface supply and supervises all relevant rails.
+
+The following table records the original placement basis; Phase 1 supersedes its
+power/guard description and component counts.
 
 | Requirement | Implementation | Evidence/check | Remaining decision or check |
 | --- | --- | --- | --- |
@@ -34,7 +39,11 @@ See [mechanical/component evidence](implementation.md) and
 The circuit BOM is not yet an orderable manufacturing BOM. No fabrication
 files, vendor upload, order, push or workspace submodule-pin change is included.
 
-## Reproduction
+## Historical construction — do not rerun on the authoritative project
+
+The scripts below reconstruct the obsolete baseline and would discard incremental
+Phase 1 changes and manual placement. Native KiCad is now authoritative. The
+[Phase 1 tooling](phase1/README.md) is a one-time migration record, not a board generator.
 
 Source the workspace `scripts/env.sh`. Run `build.py`, `pcb_build.py`,
 `finish_mcp.py` and `apply_bypass.py` with the pinned

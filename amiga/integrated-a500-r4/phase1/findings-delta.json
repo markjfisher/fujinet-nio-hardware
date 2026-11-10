@@ -1,0 +1,37 @@
+{
+  "erc": {
+    "baseline": 33,
+    "final": 32,
+    "new": [
+      [
+        "lib_symbol_mismatch",
+        "Symbol 'MMBT3904' doesn't match copy in library 'Transistor_BJT'",
+        [
+          "b32fcdc0-0d67-4cde-968f-a50fa3519644"
+        ]
+      ]
+    ],
+    "removed": [
+      [
+        "pin_not_driven",
+        "Input pin not driven by any Output pins",
+        [
+          "5e227096-0538-4673-b7e7-92df516eb160"
+        ]
+      ],
+      [
+        "pin_not_driven",
+        "Input pin not driven by any Output pins",
+        [
+          "fc798b7a-3778-48a8-8d76-a80434b836f5"
+        ]
+      ]
+    ]
+  },
+  "drc": {
+    "baseline": 6,
+    "final": 6,
+    "new": [],
+    "removed": []
+  }
+}
