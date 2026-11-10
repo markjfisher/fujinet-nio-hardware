@@ -1,0 +1,104 @@
+[
+  {
+    "capacitor": "C26",
+    "u20_pin": 5,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 1.825
+  },
+  {
+    "capacitor": "C27",
+    "u20_pin": 15,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 1.825
+  },
+  {
+    "capacitor": "C28",
+    "u20_pin": 24,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.6097174176527234
+  },
+  {
+    "capacitor": "C29",
+    "u20_pin": 29,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.3367980229365135
+  },
+  {
+    "capacitor": "C30",
+    "u20_pin": 41,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.625
+  },
+  {
+    "capacitor": "C31",
+    "u20_pin": 50,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.775
+  },
+  {
+    "capacitor": "C32",
+    "u20_pin": 60,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.744198425770265
+  },
+  {
+    "capacitor": "C33",
+    "u20_pin": 59,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.716730571845504
+  },
+  {
+    "capacitor": "C34",
+    "u20_pin": 68,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 2.809025631780529
+  },
+  {
+    "capacitor": "C35",
+    "u20_pin": 69,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 3.6946752225330983
+  },
+  {
+    "capacitor": "C36",
+    "u20_pin": 76,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 3.182864276088442
+  },
+  {
+    "capacitor": "C37",
+    "u20_pin": 10,
+    "net": "/RP2350B and support/RP_DVDD",
+    "pad_centre_distance_mm": 1.825
+  },
+  {
+    "capacitor": "C38",
+    "u20_pin": 51,
+    "net": "/RP2350B and support/RP_DVDD",
+    "pad_centre_distance_mm": 2.6926984606524362
+  },
+  {
+    "capacitor": "C39",
+    "u20_pin": 32,
+    "net": "/RP2350B and support/RP_DVDD",
+    "pad_centre_distance_mm": 2.4709562926122346
+  },
+  {
+    "capacitor": "C23",
+    "u20_pin": 61,
+    "net": "/RP2350B and support/RP_VREG_AVDD",
+    "pad_centre_distance_mm": 2.503123049312598
+  },
+  {
+    "capacitor": "C24",
+    "u20_pin": 64,
+    "net": "/3V3",
+    "pad_centre_distance_mm": 1.1656864930160253
+  },
+  {
+    "capacitor": "C25",
+    "u20_pin": 65,
+    "net": "/RP2350B and support/RP_DVDD",
+    "pad_centre_distance_mm": 2.1192510469503136
+  }
+]

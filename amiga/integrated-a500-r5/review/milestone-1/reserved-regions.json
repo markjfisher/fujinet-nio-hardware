@@ -1,0 +1,44 @@
+[
+  [
+    "BUS BUFFERS / BYPASSES",
+    72,
+    12,
+    87,
+    110
+  ],
+  [
+    "ESP / ANTENNA ACCESS",
+    -6,
+    12,
+    20,
+    45
+  ],
+  [
+    "MICROSD ACCESS",
+    -6,
+    48,
+    20,
+    70
+  ],
+  [
+    "USB / INPUT POWER",
+    -6,
+    73,
+    20,
+    95
+  ],
+  [
+    "SERVICE HEADERS",
+    25,
+    4,
+    68,
+    13
+  ],
+  [
+    "BUTTON / SERVICE ACCESS",
+    4,
+    108,
+    70,
+    120
+  ]
+]

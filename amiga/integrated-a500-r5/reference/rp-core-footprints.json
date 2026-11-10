@@ -1,0 +1,72 @@
+{
+  "source": "https://pip.raspberrypi.com/documents/RP-010329-CA",
+  "source_board_sha256": "4f937c8a16cc62e7d69ba1a5b9f824aa83fb418d498ce65399447fdd99754170",
+  "records": [
+    {
+      "source_reference": "U1",
+      "reference": "U20",
+      "footprint": "candidate:RP_Reference_U1",
+      "fixed": [
+        60.0,
+        60.0
+      ],
+      "rotation": 0.0,
+      "pad_numbers_swapped": false
+    },
+    {
+      "source_reference": "L1",
+      "reference": "L20",
+      "footprint": "candidate:RP_Reference_L1",
+      "fixed": [
+        63.0,
+        51.349999999999994
+      ],
+      "rotation": 0.0,
+      "pad_numbers_swapped": true
+    },
+    {
+      "source_reference": "C6",
+      "reference": "C24",
+      "footprint": "candidate:RP_Reference_C6",
+      "fixed": [
+        63.0,
+        53.94
+      ],
+      "rotation": 0.0,
+      "pad_numbers_swapped": false
+    },
+    {
+      "source_reference": "C7",
+      "reference": "C25",
+      "footprint": "candidate:RP_Reference_C7",
+      "fixed": [
+        63.0,
+        53.0
+      ],
+      "rotation": 0.0,
+      "pad_numbers_swapped": false
+    },
+    {
+      "source_reference": "C9",
+      "reference": "C23",
+      "footprint": "candidate:RP_Reference_C9",
+      "fixed": [
+        65.2,
+        53.5
+      ],
+      "rotation": -90.0,
+      "pad_numbers_swapped": false
+    },
+    {
+      "source_reference": "R3",
+      "reference": "R24",
+      "footprint": "candidate:RP_Reference_R3",
+      "fixed": [
+        65.2,
+        51.650000000000006
+      ],
+      "rotation": -90.0,
+      "pad_numbers_swapped": false
+    }
+  ]
+}
