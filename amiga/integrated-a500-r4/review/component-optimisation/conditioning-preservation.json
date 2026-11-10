@@ -1,0 +1,22 @@
+{
+  "CAD_unchanged": true,
+  "files_sha256": {
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/integrated-a500-r4.kicad_pcb": "74d51195daeed7a640e818c504de52265aee35b29103a8506140aadead4ce59a",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/integrated-a500-r4.kicad_prl": "263417e1f7bb7e3663fb62e1832f9b53429bdd8687e5e88c98bde78aaac73674",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/address.kicad_sch": "34c51d49069bd2e879f2c591d9cc0baa09631d30ccae405af8dd25009607e102",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/control.kicad_sch": "a4bbecfa0da27f4d28485e6013bed7efd0aaa84a0594ae3db50c1d021e9d93dc",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/data.kicad_sch": "6418d90301a65a0454efa5dd7ba3ce27158e4c59124c803162abd4e246c808d1",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/esp.kicad_sch": "27bfb527cc0ffba06a9a1c3bac70117e9313626f3c3e0ba6099cd15afd6fbb52",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/input.kicad_sch": "6413e6d576f949ea080b20efd6e931261ca4e8dcc36c0ccb97dc8d603d137780",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/integrated-a500-r4.kicad_pro": "a06179da8d1da2c77f05465ce1616ea3b26bfd8e19e35d4ec2ca588502665d6d",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/integrated-a500-r4.kicad_sch": "878b2f11538a864680b4cef452eacaf0b623ac301d92e55fdd00c4a533a9e5f1",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/power.kicad_sch": "62e897925ce72b0084febcbeca0e6370db9a16ab438fedc863b1c3ce3e8ad80f",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/rp.kicad_sch": "c27bfbf5842141ccc2d3e090e8870796cbcf43c7500a53d25526e7bca81f0192",
+    "repos/fujinet-nio-hardware/amiga/integrated-a500-r4/usb.kicad_sch": "5c5f3400fcf1c38e04cf9eb1d9997c383e8e0540560d720fea6732b053696091"
+  },
+  "fresh_netlist_sha256": "1eea4be4a90a61523020b8d7d3f75e91332028cd511912239bc4e66a3cfc7834",
+  "physical_components": 188,
+  "resistors_audited": 49,
+  "physical_pin_map_mismatches": 0,
+  "notes": "Four virtual power flags omitted from native netlist. No ERC/DRC rerun: CAD unchanged; this is analytical verification, not a new circuit pass."
+}

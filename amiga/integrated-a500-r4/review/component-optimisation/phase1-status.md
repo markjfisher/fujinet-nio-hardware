@@ -1,5 +1,10 @@
 # Phase 1: stopped at pre-substitution electrical verification
 
+Follow-up: the approved wider audit is recorded in
+[conditioning-proposal.md](conditioning-proposal.md), with resistor inventory,
+RC calculations and CAD preservation evidence. No substitutions have yet been
+implemented; that proposal also identifies an unresolved power-state guard.
+
 Checkpoint: `3464c256` (baseline content `de42fbbd`). No schematic or PCB
 changes have been made. I1, I2, R-A, R-B and the bypass additions remain
 unimplemented. No placement generator, routing or PCB synchronisation was run.

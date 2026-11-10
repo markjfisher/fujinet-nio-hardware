@@ -1,0 +1,42 @@
+{
+  "status": "bounded engineering estimates, not extracted or guaranteed capacitance maxima",
+  "assumptions": {
+    "Vcc_min": 3,
+    "adverse_leakage_uA": 10,
+    "resistor_tolerance_plus_temperature_percent": 2
+  },
+  "cases": [
+    {
+      "R_ohm": 10000,
+      "R_max_ohm": 10200.0,
+      "C_budget_pF": 50.0,
+      "RC_ns": 510.0,
+      "rise_10_90_ns": 1120.584534441472,
+      "rise_08_20_ns": 432.7705575335617,
+      "fall_20_08_ns": 467.3082732558191,
+      "final_V": 2.898
+    },
+    {
+      "R_ohm": 10000,
+      "R_max_ohm": 10200.0,
+      "C_budget_pF": 200.0,
+      "RC_ns": 2040.0,
+      "rise_10_90_ns": 4482.338137765888,
+      "rise_08_20_ns": 1731.0822301342469,
+      "fall_20_08_ns": 1869.2330930232763,
+      "final_V": 2.898
+    },
+    {
+      "R_ohm": 1000,
+      "R_max_ohm": 1020.0,
+      "C_budget_pF": 50.0,
+      "RC_ns": 51.0,
+      "rise_10_90_ns": 112.0584534441472,
+      "rise_08_20_ns": 40.49719218799849,
+      "fall_20_08_ns": 46.73082732558191,
+      "final_V": 2.9898
+    }
+  ],
+  "request_min_pulse_ns": 13.9,
+  "capacitor_hold_up_example_us": 1.8333333333333335
+}

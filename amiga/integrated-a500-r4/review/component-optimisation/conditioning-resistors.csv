@@ -1,0 +1,50 @@
+reference,value,pin_1_net,pin_2_net,classification,disposition
+R1,10k,/USB routing and physical recovery/FLASH_RP,/GND,mode pull-down,Schmitt to USB switch controls; retain raw MOS-gate drives; power-off mode changes
+R2,10k,/USB routing and physical recovery/FLASH_ESP,/GND,mode pull-down,Schmitt to USB switch controls; retain raw MOS-gate drives; power-off mode changes
+R3,10k,/RUN_MODE,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R4,100k,/USB-C power and qualification/CC_PORT,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R5,887k 1%,/VBUS_C,/USB-C power and qualification/CC_VBUS_DET,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R6,10k,/3V3_AON,/USB-C power and qualification/CC_LOW_CURRENT,open-drain pull-up,Schmitt; retain 10k; separate buck PG and power-guard review
+R7,312k 0.1%,/3V3,/USB-C power and qualification/BUCK_FB,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R8,100k 0.1%,/USB-C power and qualification/BUCK_FB,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R9,10k,/3V3,/3V3_PG,open-drain pull-up,Schmitt; retain 10k; separate buck PG and power-guard review
+R10,10k,/3V3,/RP_RUN,wired reset pull-up,Buffer raw reset to both RP RUN and safety logic; keep sinks on raw side
+R11,10k,/3V3,/ESP_EN,RC reset,Retain ESP manufacturer-recommended 10k/1uF topology
+R12,10k,/3V3,/ESP_BOOT_N,boot strap pull-up,Retain; settle before ESP EN release
+R13,1k,/RP_BOOT_N,/USB routing and physical recovery/RP_BOOT_PULL,flash boot/chip-select,Retain bidirectional-use node; no one-way buffer; enforce power-up and no-clock release
+R14,1k,/USB-C power and qualification/DISCHARGE,/USB-C power and qualification/5V_MAIN,discharge,Power path; not digital edge conditioning
+R20,10k,/3V3,/RP_BOOT_N,flash boot/chip-select,Retain bidirectional-use node; no one-way buffer; enforce power-up and no-clock release
+R21,1k,/RP2350B and support/XTAL_OUT,/RP2350B and support/RP_XOUT,crystal damping,Oscillator; preserve circuit
+R22,27,/RP2350B and support/RP_USB_DP,/RP_DP,signal series termination,Active driver edge; retain individual routing/termination
+R23,27,/RP2350B and support/RP_USB_DM,/RP_DM,signal series termination,Active driver edge; retain individual routing/termination
+R24,33,/3V3,/RP2350B and support/RP_VREG_AVDD,regulator analog filter,Preserve reference regulator cell
+R30,22,/ESP32-S3 module and microSD/ESP_USB_DP,/ESP_DP,signal series termination,Active driver edge; retain individual routing/termination
+R31,22,/ESP32-S3 module and microSD/ESP_USB_DM,/ESP_DM,signal series termination,Active driver edge; retain individual routing/termination
+R32,10k,/ESP32-S3 module and microSD/ESP_STRAP45,/GND,ESP strap/static indication,Retain; VBUS_VALID derives from main 3V3
+R33,10k,/ESP32-S3 module and microSD/ESP_STRAP46,/GND,ESP strap/static indication,Retain; VBUS_VALID derives from main 3V3
+R34,10k,/3V3,/ESP32-S3 module and microSD/ESP_VBUS_VALID,ESP strap/static indication,Retain; VBUS_VALID derives from main 3V3
+R35,100k,/ESP32-S3 module and microSD/ESP_VBUS_VALID,/GND,ESP strap/static indication,Retain; VBUS_VALID derives from main 3V3
+R36,33,/ESP32-S3 module and microSD/SD_CLK,/ESP32-S3 module and microSD/SD_CLK_CARD,signal series termination,Active driver edge; retain individual routing/termination
+R37,47k,/3V3,/ESP32-S3 module and microSD/SD_DAT2,SD idle pull-up,Retain electrical values and individual nets; R-A isolated array as approved
+R38,47k,/3V3,/ESP32-S3 module and microSD/SD_CS,SD idle pull-up,Retain electrical values and individual nets; R-A isolated array as approved
+R39,47k,/3V3,/ESP32-S3 module and microSD/SD_MOSI,SD idle pull-up,Retain electrical values and individual nets; R-A isolated array as approved
+R40,47k,/3V3,/ESP32-S3 module and microSD/SD_MISO,SD idle pull-up,Retain electrical values and individual nets; R-A isolated array as approved
+R41,47k,/3V3,/ESP32-S3 module and microSD/SD_DAT1,SD idle pull-up,Retain electrical values and individual nets; R-A isolated array as approved
+R50,10k,/3V3,/TX_LO_N,OE bias,Fast driven during valid power; not a brownout safety guarantee
+R51,10k,/3V3,/TX_HI_N,OE bias,Fast driven during valid power; not a brownout safety guarantee
+R52,10k,/3V3,/RX_LO_N,OE bias,Fast driven during valid power; not a brownout safety guarantee
+R53,10k,/3V3,/RX_HI_N,OE bias,Fast driven during valid power; not a brownout safety guarantee
+R60,100k 0.1%,/AMIGA_5V,/Hardware bus interlocks/HOST_SENSE,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R61,10k 0.1%,/Hardware bus interlocks/HOST_SENSE,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R62,10k,/3V3,/Hardware bus interlocks/HOST_PG,open-drain pull-up,Schmitt; retain 10k; separate buck PG and power-guard review
+R63,10k,/Hardware bus interlocks/BUS_ARM,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R64,10k,/BUS_READY,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R65,10k,/DATA_DRIVE,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R66,10k,/ACK_REQ,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R67,10k,/IRQ_REQ,/GND,safety/request pull-down,Schmitt receiver; preserve raw-side bias and approved isolated array
+R100,24.9k 0.1%,/VBUS_C,/Protected USB input/EFUSE_UVLO,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R101,10k 0.1%,/Protected USB input/EFUSE_UVLO,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R102,37.4k 0.1%,/VBUS_C,/Protected USB input/EFUSE_OVLO,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R103,10k 0.1%,/Protected USB input/EFUSE_OVLO,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R104,681R 0.1%,/Protected USB input/EFUSE_ILM,/GND,analog/configuration,Not an ordinary CMOS edge input; retain ratings and analog function
+R105,100k,/3V3_AON,/Protected USB input/EFUSE_FAULT_N,unused open-drain status pull-up,No CMOS receiver connected; no conditioning
