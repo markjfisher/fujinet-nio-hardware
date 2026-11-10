@@ -9,3 +9,7 @@ in `review/pad-refinement/pad-checks.json`. Copper remains subject to routing
 validation. The next USB/power cluster is a separate candidate in
 `review/usb-power/candidate/`, pending visual approval. Do not transfer it or
 place another functional cluster before that review.
+
+For the later USB mux placement, preserve the planning corridors and paired
+mux allowance in `review/usb-power/corridor/assessment.md`. These are reviewed
+feasibility envelopes, not routed copper or final impedance geometry.

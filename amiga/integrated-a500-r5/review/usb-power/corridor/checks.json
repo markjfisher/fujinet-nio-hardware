@@ -1,0 +1,136 @@
+{
+  "pcb_sha256": "cad88e807417e92663d43ab593bb7d534ad6b611c72cfb57c6bcc9cf59a28e7e",
+  "cad_unchanged": true,
+  "corridor_envelopes": {
+    "D2 north escape": {
+      "xyxy_mm": [
+        6.2,
+        76,
+        7.2,
+        83.45
+      ],
+      "courtyard_collisions": []
+    },
+    "Across to mux bay": {
+      "xyxy_mm": [
+        6.2,
+        75.7,
+        18.5,
+        76.7
+      ],
+      "courtyard_collisions": []
+    },
+    "Future U1/U2 + C1/C2 bay": {
+      "xyxy_mm": [
+        18,
+        70,
+        34,
+        79
+      ],
+      "courtyard_collisions": []
+    },
+    "West RP corridor": {
+      "xyxy_mm": [
+        23,
+        37,
+        25,
+        70.5
+      ],
+      "courtyard_collisions": []
+    },
+    "North of flash": {
+      "xyxy_mm": [
+        23,
+        36.5,
+        43.4,
+        38.5
+      ],
+      "courtyard_collisions": []
+    },
+    "R22/R23 approach": {
+      "xyxy_mm": [
+        40.4,
+        37.5,
+        43.4,
+        46.4
+      ],
+      "courtyard_collisions": []
+    }
+  },
+  "net_sections": [
+    {
+      "net": "/USB routing and physical recovery/PC_DP",
+      "pads": [
+        "J1.A6",
+        "J1.B6",
+        "D2.1",
+        "D2.6",
+        "U1.3",
+        "U2.3"
+      ]
+    },
+    {
+      "net": "/USB routing and physical recovery/PC_DM",
+      "pads": [
+        "J1.A7",
+        "J1.B7",
+        "D2.3",
+        "D2.4",
+        "U1.7",
+        "U2.7"
+      ]
+    },
+    {
+      "net": "/RP_DP",
+      "pads": [
+        "U1.4",
+        "R22.2"
+      ]
+    },
+    {
+      "net": "/RP_DM",
+      "pads": [
+        "U1.6",
+        "R23.2"
+      ]
+    },
+    {
+      "net": "/RP2350B and support/RP_USB_DP",
+      "pads": [
+        "R22.1",
+        "U20.67"
+      ]
+    },
+    {
+      "net": "/RP2350B and support/RP_USB_DM",
+      "pads": [
+        "R23.1",
+        "U20.66"
+      ]
+    },
+    {
+      "net": "/USB routing and physical recovery/LINK_DP",
+      "pads": [
+        "U1.2",
+        "U2.2"
+      ]
+    },
+    {
+      "net": "/USB routing and physical recovery/LINK_DM",
+      "pads": [
+        "U1.8",
+        "U2.8"
+      ]
+    }
+  ],
+  "buck_sw_pad_envelope_mm": [
+    32.05,
+    92.325,
+    37.7,
+    93.875
+  ],
+  "minimum_corridor_to_sw_envelope_mm": 13.325000000000003,
+  "muxes_still_staged": true,
+  "new_tracks_or_vias": 0,
+  "limitations": "Envelopes, not routes. Mux bay is a future placement constraint; connector/mux fanouts and impedance remain routing validation."
+}

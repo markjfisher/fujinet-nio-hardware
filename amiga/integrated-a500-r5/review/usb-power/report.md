@@ -101,5 +101,9 @@ adequate main-rail copper from C8/C117 to the later processor/guard circuitry.
   candidate copies and proposed via access; [render.py](render.py) only
   annotates native plots. Neither constructs nor edits PCB placement.
 
+Focused follow-up: [USB routing-corridor assessment](corridor/assessment.md)
+finds a practical path without placement changes; preserve its planning
+corridors when placing the later mux cell.
+
 **Stop here for visual approval.** Transfer to the root R5 board and the next
 ESP/SD placement remain pending. Fabrication is outside this milestone.
