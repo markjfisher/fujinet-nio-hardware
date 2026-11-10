@@ -1,0 +1,796 @@
+{
+  "positions_locks_sides_uuids_paths_nets_unchanged": true,
+  "tracks_unchanged": true,
+  "groups_before": {
+    "FN: Logic U82": {
+      "uuid": "0440b33d-c330-4a8f-8718-02e3c115051e",
+      "locked": false,
+      "items": [
+        "8ac48e5c-b7db-4f3a-9bb2-925fe972bf05",
+        "fb8e97c5-725e-4ae3-a23f-2bab5a0a2c18"
+      ]
+    },
+    "FN: Bus buffer U41": {
+      "uuid": "134b3e55-2e0d-4cb6-9d35-558b506106c6",
+      "locked": false,
+      "items": [
+        "4ccc8019-b349-4166-9f84-24741dcc1ea1",
+        "5b080cb3-493a-4994-bcb1-dbe54b887d84"
+      ]
+    },
+    "FN: Bus buffer U46": {
+      "uuid": "198c478a-7faa-48bb-aa6f-b1aa6325a4b8",
+      "locked": false,
+      "items": [
+        "24be721c-69e6-40f1-affe-ea8e59a05a36",
+        "38207e20-50c5-484f-85d6-077617385531",
+        "e743651f-784b-45dc-bf0e-9aa1b30dff2e"
+      ]
+    },
+    "FN: Logic U72": {
+      "uuid": "249ee0a7-7485-4037-bc5d-121b3f068006",
+      "locked": false,
+      "items": [
+        "5815b359-5fab-48ab-93f1-6946df2825b2",
+        "8d9eb8e0-3be9-492e-8843-365f3b4cea8c"
+      ]
+    },
+    "FN: USB switch RP": {
+      "uuid": "27cf816e-066d-4a7f-8d3e-64ae8f617106",
+      "locked": false,
+      "items": [
+        "5f51fcfd-4d63-4f47-8583-fea88bc53d94",
+        "c9083c93-af6e-4ae5-ad5a-3f161eb5969c",
+        "ebfa74f2-081d-46be-9142-a1149ecf27e2"
+      ]
+    },
+    "FN: Logic U62": {
+      "uuid": "2d8f3d6f-247f-47d8-88d9-bc4ce2522501",
+      "locked": false,
+      "items": [
+        "ba020ba4-752c-4a4f-864c-e8ac6a52a511",
+        "dda5dbf0-9e9e-458b-80fa-48ca23e124fa"
+      ]
+    },
+    "FN: USB receptacle and ESD": {
+      "uuid": "3322f0ec-2893-47c6-bb21-d24c14689fed",
+      "locked": false,
+      "items": [
+        "00bfa9ab-82a7-4487-8d1e-d99cf6c7e580",
+        "530b8749-2cd6-4432-be77-fd208e87edf2",
+        "80d7dcb1-4937-42fc-87e6-691cf09e5915"
+      ]
+    },
+    "FN: USB current qualification inverter": {
+      "uuid": "3c1b4d21-16f6-46ee-b08d-6fda3589acb7",
+      "locked": false,
+      "items": [
+        "738f4f3f-7177-42df-97b6-6665dfa39307",
+        "dc169643-ac50-4114-9a9c-79191a0a6110"
+      ]
+    },
+    "FN: 3V3 buck regulator": {
+      "uuid": "3ebf2c62-1cd7-42c7-b434-fcab8dff05a3",
+      "locked": false,
+      "items": [
+        "2d59c624-9048-480e-9dd1-816ec90cd7b4",
+        "5ea1d7b4-12d7-4ad9-b6c3-0cbe5a744c4b",
+        "73452403-9075-47b5-8d22-657e2d1d3e72",
+        "79713735-a334-4c7f-ae84-5b81042d8ee1",
+        "ac913293-f3a7-4dd7-8990-ddded06e157c",
+        "bd0ab1e9-c535-4f1c-a0a3-f1f48e2bbf18",
+        "e171f278-161d-4834-9d58-e64f4cfeb9df"
+      ]
+    },
+    "FN: Logic U86": {
+      "uuid": "464c3e3b-4f64-48ad-bd07-e381612d5cab",
+      "locked": false,
+      "items": [
+        "05f23f97-a2ed-4258-bfbf-bd789f2cf5a6",
+        "cd27dc1c-5047-47e5-8cf5-9f31f1335996"
+      ]
+    },
+    "FN: Bus buffer U44": {
+      "uuid": "469a68c7-80dc-4ad4-81e5-c0f41495487f",
+      "locked": false,
+      "items": [
+        "172b228b-99e4-489f-886e-28cb38b450a9",
+        "80f7b6df-d843-4874-8f51-43fd6a261d99",
+        "c1c4a44e-69ea-486e-9337-6c84f1130fc7"
+      ]
+    },
+    "FN: USB CC detection": {
+      "uuid": "47988f12-473c-4af6-89e2-61051b91684f",
+      "locked": false,
+      "items": [
+        "09a23549-72ed-4582-8543-2d829f4dd78d",
+        "12df46ec-7ec2-432c-b457-aee035e20ac8",
+        "295d8743-4279-43ce-bfc6-b7769d1383d7",
+        "a0fc66e1-3875-4f1c-a72f-53c2a24f7bb4"
+      ]
+    },
+    "FN: Logic U66": {
+      "uuid": "491ad0c4-8559-4033-824f-ec7fe0e772de",
+      "locked": false,
+      "items": [
+        "d337900d-a0b9-4b1a-a8a5-366150d5cd76"
+      ]
+    },
+    "FN: Main power switch": {
+      "uuid": "57002f5e-409d-4740-9d9e-5d4bc07db5d5",
+      "locked": false,
+      "items": [
+        "34927428-e33f-4307-9595-47ff939cfe90",
+        "4561d6c2-6e3d-46d1-a1b1-7ce5325f8070",
+        "fc9f8444-d83e-441b-a145-79090adbfb81"
+      ]
+    },
+    "FN: Recovery buttons": {
+      "uuid": "5b6b354a-bd63-49c3-944a-ec3b6f0483ea",
+      "locked": false,
+      "items": [
+        "0865db8e-3955-4595-a87a-a1eb149dd161",
+        "4176723c-15ef-473f-9fa4-43b833910aba",
+        "c6cdf65b-8c50-4eb0-93e5-625b6cdc390f",
+        "ca240144-a28f-4e00-ae80-8f957cce2b79"
+      ]
+    },
+    "FN: RP QSPI flash": {
+      "uuid": "62d00577-4b6e-4b72-9909-304eb30a59a5",
+      "locked": false,
+      "items": [
+        "008b2312-7e32-4cc1-b3d8-8fe3d364f930",
+        "b077babe-e948-473a-8551-3fb49e00d655",
+        "d316f519-921c-4c22-ac7e-bf2e37b93c5d",
+        "e2be6a72-75c9-434b-8032-172eda93698e"
+      ]
+    },
+    "FN: ESP recovery and USB": {
+      "uuid": "636db4ff-bbfe-4d8e-9c79-2ee7cda14061",
+      "locked": false,
+      "items": [
+        "02d480ce-01b5-4114-9cbe-3aed9c7ea131",
+        "112b580f-f0af-40b9-8991-c185b260e431",
+        "16c9cfcd-3216-4d58-a678-465a9a5bb078",
+        "200f3b84-0273-4259-aed8-90ca2c96c798",
+        "38bc8481-81e0-4b13-b538-d0b26a66daa7",
+        "3f53ba80-2723-450b-aeb1-c364597236f7",
+        "45fbed2a-a90e-4cbc-b8a4-7973f235d709",
+        "4be5cd85-e0ac-4da9-80e6-245e9a16813c",
+        "4d05fc44-42b5-4e59-8e58-08bfdfba1412",
+        "5bb625ee-bf73-44b3-be63-e4431fea88fe",
+        "7bb0fc6f-ab8d-400f-a787-65b76de66a7f",
+        "f24ef931-8f71-4e1e-b12c-d5d252a843bb"
+      ]
+    },
+    "FN: Logic U77": {
+      "uuid": "67c3518f-360e-4a6d-98aa-26381feff701",
+      "locked": false,
+      "items": [
+        "29b5f7a7-b4d0-4b53-98ec-e234010cbd81",
+        "c45a9f39-df4a-4896-aeeb-04d8cefbd873"
+      ]
+    },
+    "FN: Logic U64": {
+      "uuid": "6e21d94f-075e-4250-8022-34e256b9b88c",
+      "locked": false,
+      "items": [
+        "91b7a69f-9f0e-4d39-9c21-064857d6fb00"
+      ]
+    },
+    "FN: RP physical recovery bias": {
+      "uuid": "728fb58b-7cbe-4301-858e-572a9358fee2",
+      "locked": false,
+      "items": [
+        "53d9f8f5-92f4-43fc-9534-5bdba82f9af1",
+        "8e978193-40c9-4324-9729-670a647a6707",
+        "aa2d8745-801f-44ba-a8f6-6560e9cc9b79"
+      ]
+    },
+    "FN: Input eFuse": {
+      "uuid": "7593cd4f-e67f-4e63-be66-d519fe611fea",
+      "locked": false,
+      "items": [
+        "1dd04221-75f9-492f-b04e-29213a4622cd",
+        "37145c75-cb6a-488b-8837-b99e40166444",
+        "3c0274d4-512b-4a0d-81ac-52fcf0332f40",
+        "48038ac0-aca5-400f-8c32-3110ab0cce43",
+        "5cf785f3-3d9e-4a96-a436-71c2ee157f5c",
+        "7b879fb4-ecd3-4f31-be5b-7206b07c5d1e",
+        "9c7592df-bbb3-4830-9548-54d459ba6639",
+        "c80af728-1341-4dd2-a27d-e4abbe6a99ba",
+        "d8a11f85-eabb-4266-bc61-83d46057a340",
+        "da1ec83a-8c0b-409f-aebd-93e54e3d5bd9"
+      ]
+    },
+    "FN: Logic U71": {
+      "uuid": "7ea8d3b9-7287-40fe-9358-18dda113b9e8",
+      "locked": false,
+      "items": [
+        "fb1ca3af-9362-4415-a26c-0a50bc3c4660"
+      ]
+    },
+    "FN: Logic U78": {
+      "uuid": "80611e5d-91e5-4d15-a85f-dbb8f2503b22",
+      "locked": false,
+      "items": [
+        "89c86e67-5c8a-4ec0-96c9-82b22258bab5",
+        "ec3b5adb-30d5-4400-ae76-6db5b4a32ca9"
+      ]
+    },
+    "FN: ESP local supply": {
+      "uuid": "8174a3e3-3c5d-43fa-a315-407e4315a034",
+      "locked": false,
+      "items": [
+        "05504d03-0bf2-4434-91e8-f2281b5a22e5",
+        "d743eb52-fdce-4e75-8ac5-aee520b13d3e",
+        "d880d539-fd5e-4213-b069-37d7be15835d"
+      ]
+    },
+    "FN: Logic U73": {
+      "uuid": "84528cdd-9f44-4710-a6ae-d09ac80a94ec",
+      "locked": false,
+      "items": [
+        "4413593b-93d8-4b34-9986-4e98889a029c",
+        "f6ee65bd-0dee-4ebd-b83b-c794b148bca4"
+      ]
+    },
+    "FN: Bus buffer U47": {
+      "uuid": "85f17e4a-fb32-4e0a-acdc-f988929f0a1c",
+      "locked": false,
+      "items": [
+        "07f20993-8200-4932-a6e8-0627c27fe748",
+        "3348a2dd-a5e3-4906-b1db-6ed4f0249016",
+        "751625bb-764e-4f0a-84c7-e66e6c76006d"
+      ]
+    },
+    "FN: Logic U79": {
+      "uuid": "8a9a6667-a37f-418f-8329-2a2ea8906834",
+      "locked": false,
+      "items": [
+        "53e5c586-9f35-4dde-9755-395a86d9284d",
+        "f3b0f19a-c117-4d73-8318-9db6afad8da9"
+      ]
+    },
+    "FN: USB switch ESP": {
+      "uuid": "9d7f1798-ff3e-4b7c-809f-86ff51a8b19b",
+      "locked": false,
+      "items": [
+        "86c616b9-8f77-4644-bdad-122167dfd2fa",
+        "c90b7c82-ffa3-4c65-ac18-55223fa7269b",
+        "c96fc6c7-0bd6-41c6-9a66-a444ea7ab874"
+      ]
+    },
+    "FN: Logic U60": {
+      "uuid": "a7a4721b-1a69-4989-99bc-a363b13718a3",
+      "locked": false,
+      "items": [
+        "6206cd9b-70d6-4659-bbc9-df720c5caf32",
+        "9ac53add-2f0c-41d6-a547-74235b33bcd5",
+        "f5252ff6-2bde-4ae0-9494-8870877a672a"
+      ]
+    },
+    "FN: SD pullups": {
+      "uuid": "aaafb64e-4315-4ded-85a2-281d74b91efb",
+      "locked": false,
+      "items": [
+        "d0e2520f-9dab-425e-946d-47a4abe59322"
+      ]
+    },
+    "FN: Bus buffer U43": {
+      "uuid": "c5bf991d-ca3f-473a-b988-d75f2458ed91",
+      "locked": false,
+      "items": [
+        "aa91eb86-6026-4274-8862-4ab109ab11f3",
+        "c4dd2931-8b8b-4988-8f8d-9beea0ec3c53"
+      ]
+    },
+    "FN: Bus buffer U40": {
+      "uuid": "dc75a60a-18e4-420f-814d-8f3fc4e152b8",
+      "locked": false,
+      "items": [
+        "10168a6d-7911-406e-a702-5d1f267033dd",
+        "ae470b1b-82e1-4981-8d24-330965146f4c"
+      ]
+    },
+    "FN: Logic U84": {
+      "uuid": "dc777cc3-7e62-4784-acd6-98eb952ff933",
+      "locked": false,
+      "items": [
+        "2d67aa31-09d7-4cdc-a01a-e57a96e7ab32",
+        "e1419e74-489e-4147-94b5-8057206afa53"
+      ]
+    },
+    "FN: Bus buffer U42": {
+      "uuid": "dc9f5ec9-070e-4fc9-a99c-3bb77eee10f0",
+      "locked": false,
+      "items": [
+        "332374b9-8bdc-42a6-8eab-08496e37494c",
+        "e7b4cba1-33d8-4390-8b8d-7c91145a3a7e"
+      ]
+    },
+    "FN: Bus buffer U45": {
+      "uuid": "df6f1aef-4d50-40b5-b512-cfb15debbd47",
+      "locked": false,
+      "items": [
+        "0011d12a-bb89-4749-8163-e5fcdb0a5c80",
+        "219fc164-5573-4daa-be36-d3c7946f621e",
+        "8988bf0c-4a34-4f47-8d7c-0c45ccddf73e"
+      ]
+    },
+    "FN: Reverse blocking": {
+      "uuid": "e0d4fddd-32b4-4219-87d9-45682e1e4ace",
+      "locked": false,
+      "items": [
+        "6e2f2dc5-cb7c-42d3-84d0-40a2ab1929d6"
+      ]
+    },
+    "FN: RP regulator reference cell": {
+      "uuid": "e651e91a-6a47-4011-9d98-465e5c809c31",
+      "locked": false,
+      "items": [
+        "03950b6d-e53d-4f24-bb84-b74e778f0235",
+        "20466d06-2463-4730-82ed-d228d29caa84",
+        "314efa1b-f2cb-4bbf-a3e6-7cd489722fe6",
+        "354766e0-6c72-40dc-8945-39a6558fbd97",
+        "5c3ecc43-0027-480c-88ec-8e7f2d9257c5",
+        "60c6f196-0661-4a9c-94ac-bac0fe21374f",
+        "79799afc-bf8c-4e70-88a3-66c733ca333f",
+        "80a47869-d7d7-4211-a1d1-3158db0f5eb5",
+        "86b5bfe4-280c-44f5-8d60-b83df5ad90e0",
+        "903c3932-bc74-4c7b-8bee-b5f1de253da4",
+        "ad3c750a-4341-4248-81ed-5963ef3ad9b4",
+        "b1312853-130d-4797-a753-bf28814b64cb",
+        "b517cbf0-d005-4432-aae3-2f937a1abb93",
+        "b8bd40a5-6ef0-49c7-974a-ca5c6646b21f",
+        "bafb94fd-ccc9-4cc1-8594-f08f1c1e27b8",
+        "bc2226c7-38d7-4493-be45-ed352e1f7b96",
+        "c2332255-913a-4f81-ab6a-5d14d1f79be1",
+        "c3905979-0170-4850-aed3-06dcc9b4baf7",
+        "cb24077e-86a3-4d80-89c6-be4faf815747",
+        "d155668b-d6ec-4065-84e7-dac8f8d2e424",
+        "d36b4fc6-1dfe-4ff3-9424-f56a4adf68da",
+        "e851e8ed-8492-47d6-8dd3-86f6c862e72b"
+      ]
+    },
+    "FN: Logic U85": {
+      "uuid": "ed465545-3890-4b65-98be-1660103d25de",
+      "locked": false,
+      "items": [
+        "82123877-73ca-410e-a887-083d1b803373",
+        "fd8b8080-2b70-47f8-9b43-25171e1e77ee"
+      ]
+    },
+    "FN: RP crystal": {
+      "uuid": "ee66cfc3-00b5-4572-a005-1b401f658193",
+      "locked": false,
+      "items": [
+        "36f295cb-d0a5-45e4-b16a-45f0d6870ada",
+        "55311849-577c-42fb-9d04-4cf0f5512a4b",
+        "6a539444-c0ef-4071-b5b6-71e99dfd7103",
+        "8bf3a439-ade3-4943-bb92-3b4e5dbe819f"
+      ]
+    },
+    "FN: Always-on regulator": {
+      "uuid": "fc739e08-7d27-43b7-84ee-88aef205d927",
+      "locked": false,
+      "items": [
+        "5e934d5b-ed44-465c-9b35-aae7bb8d748a",
+        "81ef5fa0-42f6-43d9-b30b-626b8ff76938",
+        "a0a326fb-3adf-4106-90eb-dec151e1702e"
+      ]
+    },
+    "FN: Logic U61": {
+      "uuid": "fdf8adaa-3168-42c7-aa9e-c24f06242c43",
+      "locked": false,
+      "items": [
+        "bb7569aa-d67c-4741-b940-71709931ec2e"
+      ]
+    },
+    "FN: microSD local supply": {
+      "uuid": "8a0d1c2d-fef6-43fb-aad3-e4fd0d3b3911",
+      "locked": false,
+      "items": [
+        "3eefd766-c3b7-4ff9-aecc-aebafbe4bf5d",
+        "77d5eddc-3c31-4e53-bb4b-6b9a498bc06e",
+        "8cab1a2d-76f6-4e21-a2f4-45098e6bafb6"
+      ]
+    }
+  },
+  "groups_after": {
+    "FN: Logic U82": {
+      "uuid": "0440b33d-c330-4a8f-8718-02e3c115051e",
+      "locked": false,
+      "items": [
+        "8ac48e5c-b7db-4f3a-9bb2-925fe972bf05",
+        "fb8e97c5-725e-4ae3-a23f-2bab5a0a2c18"
+      ]
+    },
+    "FN: Bus buffer U41": {
+      "uuid": "134b3e55-2e0d-4cb6-9d35-558b506106c6",
+      "locked": false,
+      "items": [
+        "4ccc8019-b349-4166-9f84-24741dcc1ea1",
+        "5b080cb3-493a-4994-bcb1-dbe54b887d84"
+      ]
+    },
+    "FN: Bus buffer U46": {
+      "uuid": "198c478a-7faa-48bb-aa6f-b1aa6325a4b8",
+      "locked": false,
+      "items": [
+        "24be721c-69e6-40f1-affe-ea8e59a05a36",
+        "38207e20-50c5-484f-85d6-077617385531",
+        "e743651f-784b-45dc-bf0e-9aa1b30dff2e"
+      ]
+    },
+    "FN: Logic U72": {
+      "uuid": "249ee0a7-7485-4037-bc5d-121b3f068006",
+      "locked": false,
+      "items": [
+        "5815b359-5fab-48ab-93f1-6946df2825b2",
+        "8d9eb8e0-3be9-492e-8843-365f3b4cea8c"
+      ]
+    },
+    "FN: USB switch RP": {
+      "uuid": "27cf816e-066d-4a7f-8d3e-64ae8f617106",
+      "locked": false,
+      "items": [
+        "5f51fcfd-4d63-4f47-8583-fea88bc53d94",
+        "c9083c93-af6e-4ae5-ad5a-3f161eb5969c",
+        "ebfa74f2-081d-46be-9142-a1149ecf27e2"
+      ]
+    },
+    "FN: Logic U62": {
+      "uuid": "2d8f3d6f-247f-47d8-88d9-bc4ce2522501",
+      "locked": false,
+      "items": [
+        "ba020ba4-752c-4a4f-864c-e8ac6a52a511",
+        "dda5dbf0-9e9e-458b-80fa-48ca23e124fa"
+      ]
+    },
+    "FN: USB receptacle and ESD": {
+      "uuid": "3322f0ec-2893-47c6-bb21-d24c14689fed",
+      "locked": false,
+      "items": [
+        "00bfa9ab-82a7-4487-8d1e-d99cf6c7e580",
+        "530b8749-2cd6-4432-be77-fd208e87edf2",
+        "80d7dcb1-4937-42fc-87e6-691cf09e5915"
+      ]
+    },
+    "FN: USB current qualification inverter": {
+      "uuid": "3c1b4d21-16f6-46ee-b08d-6fda3589acb7",
+      "locked": false,
+      "items": [
+        "738f4f3f-7177-42df-97b6-6665dfa39307",
+        "dc169643-ac50-4114-9a9c-79191a0a6110"
+      ]
+    },
+    "FN: 3V3 buck regulator": {
+      "uuid": "3ebf2c62-1cd7-42c7-b434-fcab8dff05a3",
+      "locked": false,
+      "items": [
+        "2d59c624-9048-480e-9dd1-816ec90cd7b4",
+        "5ea1d7b4-12d7-4ad9-b6c3-0cbe5a744c4b",
+        "73452403-9075-47b5-8d22-657e2d1d3e72",
+        "79713735-a334-4c7f-ae84-5b81042d8ee1",
+        "ac913293-f3a7-4dd7-8990-ddded06e157c",
+        "bd0ab1e9-c535-4f1c-a0a3-f1f48e2bbf18",
+        "e171f278-161d-4834-9d58-e64f4cfeb9df"
+      ]
+    },
+    "FN: Logic U86": {
+      "uuid": "464c3e3b-4f64-48ad-bd07-e381612d5cab",
+      "locked": false,
+      "items": [
+        "05f23f97-a2ed-4258-bfbf-bd789f2cf5a6",
+        "cd27dc1c-5047-47e5-8cf5-9f31f1335996"
+      ]
+    },
+    "FN: Bus buffer U44": {
+      "uuid": "469a68c7-80dc-4ad4-81e5-c0f41495487f",
+      "locked": false,
+      "items": [
+        "172b228b-99e4-489f-886e-28cb38b450a9",
+        "80f7b6df-d843-4874-8f51-43fd6a261d99",
+        "c1c4a44e-69ea-486e-9337-6c84f1130fc7"
+      ]
+    },
+    "FN: USB CC detection": {
+      "uuid": "47988f12-473c-4af6-89e2-61051b91684f",
+      "locked": false,
+      "items": [
+        "09a23549-72ed-4582-8543-2d829f4dd78d",
+        "12df46ec-7ec2-432c-b457-aee035e20ac8",
+        "295d8743-4279-43ce-bfc6-b7769d1383d7",
+        "a0fc66e1-3875-4f1c-a72f-53c2a24f7bb4"
+      ]
+    },
+    "FN: Logic U66": {
+      "uuid": "491ad0c4-8559-4033-824f-ec7fe0e772de",
+      "locked": false,
+      "items": [
+        "d337900d-a0b9-4b1a-a8a5-366150d5cd76"
+      ]
+    },
+    "FN: Main power switch": {
+      "uuid": "57002f5e-409d-4740-9d9e-5d4bc07db5d5",
+      "locked": false,
+      "items": [
+        "34927428-e33f-4307-9595-47ff939cfe90",
+        "4561d6c2-6e3d-46d1-a1b1-7ce5325f8070",
+        "fc9f8444-d83e-441b-a145-79090adbfb81"
+      ]
+    },
+    "FN: Recovery buttons": {
+      "uuid": "5b6b354a-bd63-49c3-944a-ec3b6f0483ea",
+      "locked": false,
+      "items": [
+        "0865db8e-3955-4595-a87a-a1eb149dd161",
+        "4176723c-15ef-473f-9fa4-43b833910aba",
+        "c6cdf65b-8c50-4eb0-93e5-625b6cdc390f",
+        "ca240144-a28f-4e00-ae80-8f957cce2b79"
+      ]
+    },
+    "FN: RP QSPI flash": {
+      "uuid": "62d00577-4b6e-4b72-9909-304eb30a59a5",
+      "locked": false,
+      "items": [
+        "008b2312-7e32-4cc1-b3d8-8fe3d364f930",
+        "b077babe-e948-473a-8551-3fb49e00d655",
+        "d316f519-921c-4c22-ac7e-bf2e37b93c5d",
+        "e2be6a72-75c9-434b-8032-172eda93698e"
+      ]
+    },
+    "FN: ESP recovery and USB": {
+      "uuid": "636db4ff-bbfe-4d8e-9c79-2ee7cda14061",
+      "locked": false,
+      "items": [
+        "02d480ce-01b5-4114-9cbe-3aed9c7ea131",
+        "112b580f-f0af-40b9-8991-c185b260e431",
+        "16c9cfcd-3216-4d58-a678-465a9a5bb078",
+        "200f3b84-0273-4259-aed8-90ca2c96c798",
+        "38bc8481-81e0-4b13-b538-d0b26a66daa7",
+        "3f53ba80-2723-450b-aeb1-c364597236f7",
+        "45fbed2a-a90e-4cbc-b8a4-7973f235d709",
+        "4be5cd85-e0ac-4da9-80e6-245e9a16813c",
+        "4d05fc44-42b5-4e59-8e58-08bfdfba1412",
+        "5bb625ee-bf73-44b3-be63-e4431fea88fe",
+        "7bb0fc6f-ab8d-400f-a787-65b76de66a7f",
+        "f24ef931-8f71-4e1e-b12c-d5d252a843bb"
+      ]
+    },
+    "FN: Logic U77": {
+      "uuid": "67c3518f-360e-4a6d-98aa-26381feff701",
+      "locked": false,
+      "items": [
+        "29b5f7a7-b4d0-4b53-98ec-e234010cbd81",
+        "c45a9f39-df4a-4896-aeeb-04d8cefbd873"
+      ]
+    },
+    "FN: Logic U64": {
+      "uuid": "6e21d94f-075e-4250-8022-34e256b9b88c",
+      "locked": false,
+      "items": [
+        "91b7a69f-9f0e-4d39-9c21-064857d6fb00"
+      ]
+    },
+    "FN: RP physical recovery bias": {
+      "uuid": "728fb58b-7cbe-4301-858e-572a9358fee2",
+      "locked": false,
+      "items": [
+        "53d9f8f5-92f4-43fc-9534-5bdba82f9af1",
+        "8e978193-40c9-4324-9729-670a647a6707",
+        "aa2d8745-801f-44ba-a8f6-6560e9cc9b79"
+      ]
+    },
+    "FN: Input eFuse": {
+      "uuid": "7593cd4f-e67f-4e63-be66-d519fe611fea",
+      "locked": false,
+      "items": [
+        "1dd04221-75f9-492f-b04e-29213a4622cd",
+        "37145c75-cb6a-488b-8837-b99e40166444",
+        "3c0274d4-512b-4a0d-81ac-52fcf0332f40",
+        "48038ac0-aca5-400f-8c32-3110ab0cce43",
+        "5cf785f3-3d9e-4a96-a436-71c2ee157f5c",
+        "7b879fb4-ecd3-4f31-be5b-7206b07c5d1e",
+        "9c7592df-bbb3-4830-9548-54d459ba6639",
+        "c80af728-1341-4dd2-a27d-e4abbe6a99ba",
+        "d8a11f85-eabb-4266-bc61-83d46057a340",
+        "da1ec83a-8c0b-409f-aebd-93e54e3d5bd9"
+      ]
+    },
+    "FN: Logic U71": {
+      "uuid": "7ea8d3b9-7287-40fe-9358-18dda113b9e8",
+      "locked": false,
+      "items": [
+        "fb1ca3af-9362-4415-a26c-0a50bc3c4660"
+      ]
+    },
+    "FN: Logic U78": {
+      "uuid": "80611e5d-91e5-4d15-a85f-dbb8f2503b22",
+      "locked": false,
+      "items": [
+        "89c86e67-5c8a-4ec0-96c9-82b22258bab5",
+        "ec3b5adb-30d5-4400-ae76-6db5b4a32ca9"
+      ]
+    },
+    "FN: ESP local supply": {
+      "uuid": "8174a3e3-3c5d-43fa-a315-407e4315a034",
+      "locked": false,
+      "items": [
+        "05504d03-0bf2-4434-91e8-f2281b5a22e5",
+        "d743eb52-fdce-4e75-8ac5-aee520b13d3e",
+        "d880d539-fd5e-4213-b069-37d7be15835d"
+      ]
+    },
+    "FN: Logic U73": {
+      "uuid": "84528cdd-9f44-4710-a6ae-d09ac80a94ec",
+      "locked": false,
+      "items": [
+        "4413593b-93d8-4b34-9986-4e98889a029c",
+        "f6ee65bd-0dee-4ebd-b83b-c794b148bca4"
+      ]
+    },
+    "FN: Bus buffer U47": {
+      "uuid": "85f17e4a-fb32-4e0a-acdc-f988929f0a1c",
+      "locked": false,
+      "items": [
+        "07f20993-8200-4932-a6e8-0627c27fe748",
+        "3348a2dd-a5e3-4906-b1db-6ed4f0249016",
+        "751625bb-764e-4f0a-84c7-e66e6c76006d"
+      ]
+    },
+    "FN: Logic U79": {
+      "uuid": "8a9a6667-a37f-418f-8329-2a2ea8906834",
+      "locked": false,
+      "items": [
+        "53e5c586-9f35-4dde-9755-395a86d9284d",
+        "f3b0f19a-c117-4d73-8318-9db6afad8da9"
+      ]
+    },
+    "FN: USB switch ESP": {
+      "uuid": "9d7f1798-ff3e-4b7c-809f-86ff51a8b19b",
+      "locked": false,
+      "items": [
+        "86c616b9-8f77-4644-bdad-122167dfd2fa",
+        "c90b7c82-ffa3-4c65-ac18-55223fa7269b",
+        "c96fc6c7-0bd6-41c6-9a66-a444ea7ab874"
+      ]
+    },
+    "FN: Logic U60": {
+      "uuid": "a7a4721b-1a69-4989-99bc-a363b13718a3",
+      "locked": false,
+      "items": [
+        "6206cd9b-70d6-4659-bbc9-df720c5caf32",
+        "9ac53add-2f0c-41d6-a547-74235b33bcd5",
+        "f5252ff6-2bde-4ae0-9494-8870877a672a"
+      ]
+    },
+    "FN: SD pullups": {
+      "uuid": "aaafb64e-4315-4ded-85a2-281d74b91efb",
+      "locked": false,
+      "items": [
+        "d0e2520f-9dab-425e-946d-47a4abe59322"
+      ]
+    },
+    "FN: Bus buffer U43": {
+      "uuid": "c5bf991d-ca3f-473a-b988-d75f2458ed91",
+      "locked": false,
+      "items": [
+        "aa91eb86-6026-4274-8862-4ab109ab11f3",
+        "c4dd2931-8b8b-4988-8f8d-9beea0ec3c53"
+      ]
+    },
+    "FN: Bus buffer U40": {
+      "uuid": "dc75a60a-18e4-420f-814d-8f3fc4e152b8",
+      "locked": false,
+      "items": [
+        "10168a6d-7911-406e-a702-5d1f267033dd",
+        "ae470b1b-82e1-4981-8d24-330965146f4c"
+      ]
+    },
+    "FN: Logic U84": {
+      "uuid": "dc777cc3-7e62-4784-acd6-98eb952ff933",
+      "locked": false,
+      "items": [
+        "2d67aa31-09d7-4cdc-a01a-e57a96e7ab32",
+        "e1419e74-489e-4147-94b5-8057206afa53"
+      ]
+    },
+    "FN: Bus buffer U42": {
+      "uuid": "dc9f5ec9-070e-4fc9-a99c-3bb77eee10f0",
+      "locked": false,
+      "items": [
+        "332374b9-8bdc-42a6-8eab-08496e37494c",
+        "e7b4cba1-33d8-4390-8b8d-7c91145a3a7e"
+      ]
+    },
+    "FN: Bus buffer U45": {
+      "uuid": "df6f1aef-4d50-40b5-b512-cfb15debbd47",
+      "locked": false,
+      "items": [
+        "0011d12a-bb89-4749-8163-e5fcdb0a5c80",
+        "219fc164-5573-4daa-be36-d3c7946f621e",
+        "8988bf0c-4a34-4f47-8d7c-0c45ccddf73e"
+      ]
+    },
+    "FN: Reverse blocking": {
+      "uuid": "e0d4fddd-32b4-4219-87d9-45682e1e4ace",
+      "locked": false,
+      "items": [
+        "6e2f2dc5-cb7c-42d3-84d0-40a2ab1929d6"
+      ]
+    },
+    "FN: RP regulator reference cell": {
+      "uuid": "e651e91a-6a47-4011-9d98-465e5c809c31",
+      "locked": false,
+      "items": [
+        "03950b6d-e53d-4f24-bb84-b74e778f0235",
+        "20466d06-2463-4730-82ed-d228d29caa84",
+        "314efa1b-f2cb-4bbf-a3e6-7cd489722fe6",
+        "354766e0-6c72-40dc-8945-39a6558fbd97",
+        "5c3ecc43-0027-480c-88ec-8e7f2d9257c5",
+        "60c6f196-0661-4a9c-94ac-bac0fe21374f",
+        "79799afc-bf8c-4e70-88a3-66c733ca333f",
+        "80a47869-d7d7-4211-a1d1-3158db0f5eb5",
+        "86b5bfe4-280c-44f5-8d60-b83df5ad90e0",
+        "903c3932-bc74-4c7b-8bee-b5f1de253da4",
+        "ad3c750a-4341-4248-81ed-5963ef3ad9b4",
+        "b1312853-130d-4797-a753-bf28814b64cb",
+        "b517cbf0-d005-4432-aae3-2f937a1abb93",
+        "b8bd40a5-6ef0-49c7-974a-ca5c6646b21f",
+        "bafb94fd-ccc9-4cc1-8594-f08f1c1e27b8",
+        "bc2226c7-38d7-4493-be45-ed352e1f7b96",
+        "c2332255-913a-4f81-ab6a-5d14d1f79be1",
+        "c3905979-0170-4850-aed3-06dcc9b4baf7",
+        "cb24077e-86a3-4d80-89c6-be4faf815747",
+        "d155668b-d6ec-4065-84e7-dac8f8d2e424",
+        "d36b4fc6-1dfe-4ff3-9424-f56a4adf68da",
+        "e851e8ed-8492-47d6-8dd3-86f6c862e72b"
+      ]
+    },
+    "FN: Logic U85": {
+      "uuid": "ed465545-3890-4b65-98be-1660103d25de",
+      "locked": false,
+      "items": [
+        "82123877-73ca-410e-a887-083d1b803373",
+        "fd8b8080-2b70-47f8-9b43-25171e1e77ee"
+      ]
+    },
+    "FN: RP crystal": {
+      "uuid": "ee66cfc3-00b5-4572-a005-1b401f658193",
+      "locked": false,
+      "items": [
+        "36f295cb-d0a5-45e4-b16a-45f0d6870ada",
+        "55311849-577c-42fb-9d04-4cf0f5512a4b",
+        "6a539444-c0ef-4071-b5b6-71e99dfd7103",
+        "8bf3a439-ade3-4943-bb92-3b4e5dbe819f"
+      ]
+    },
+    "FN: Always-on regulator": {
+      "uuid": "fc739e08-7d27-43b7-84ee-88aef205d927",
+      "locked": false,
+      "items": [
+        "5e934d5b-ed44-465c-9b35-aae7bb8d748a",
+        "81ef5fa0-42f6-43d9-b30b-626b8ff76938",
+        "a0a326fb-3adf-4106-90eb-dec151e1702e"
+      ]
+    },
+    "FN: Logic U61": {
+      "uuid": "fdf8adaa-3168-42c7-aa9e-c24f06242c43",
+      "locked": false,
+      "items": [
+        "bb7569aa-d67c-4741-b940-71709931ec2e"
+      ]
+    },
+    "FN: microSD local supply": {
+      "uuid": "8a0d1c2d-fef6-43fb-aad3-e4fd0d3b3911",
+      "locked": false,
+      "items": [
+        "3eefd766-c3b7-4ff9-aecc-aebafbe4bf5d",
+        "77d5eddc-3c31-4e53-bb4b-6b9a498bc06e",
+        "8cab1a2d-76f6-4e21-a2f4-45098e6bafb6"
+      ]
+    }
+  }
+}

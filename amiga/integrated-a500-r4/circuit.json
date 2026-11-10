@@ -2924,12 +2924,12 @@
     {
       "reference": "C113",
       "lib_id": "Device:C_Polarized",
-      "value": "100u 6.3V polymer 20% ESR<=50m",
+      "value": "100u 6.3V 6SVPC100M",
       "pins": {
         "1": "3V3_BUS",
         "2": "GND"
       },
-      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+      "footprint": "Capacitor_SMD:CP_Elec_5x5.9",
       "page": "guard",
       "position": [
         50,
@@ -3449,12 +3449,12 @@
     {
       "reference": "C117",
       "lib_id": "Device:C_Polarized",
-      "value": "220u 6.3V polymer 20% ESR<=50m",
+      "value": "220u 6.3V 6SVPC220M",
       "pins": {
         "1": "3V3",
         "2": "GND"
       },
-      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.9",
       "page": "guard",
       "position": [
         350,

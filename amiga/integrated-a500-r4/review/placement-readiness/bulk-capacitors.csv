@@ -1,3 +1,3 @@
 reference,manufacturer,mpn,capacitance_uF,voltage_V,tolerance_percent,ESR_max_mohm_100kHz_20C,case,selected_footprint,current_footprint,implementation_status
-C113,Panasonic,6SVPC100M,100,6.3,20,30,B6,Capacitor_SMD:CP_Elec_5x5.9,Capacitor_SMD:CP_Elec_6.3x5.8,Selected; footprint change pending
-C117,Panasonic,6SVPC220M,220,6.3,20,27,C6,Capacitor_SMD:CP_Elec_6.3x5.9,Capacitor_SMD:CP_Elec_6.3x5.8,Selected; footprint change pending
+C113,Panasonic,6SVPC100M,100,6.3,20,30,B6,Capacitor_SMD:CP_Elec_5x5.9,Capacitor_SMD:CP_Elec_5x5.9,Applied incrementally
+C117,Panasonic,6SVPC220M,220,6.3,20,27,C6,Capacitor_SMD:CP_Elec_6.3x5.9,Capacitor_SMD:CP_Elec_6.3x5.9,Applied incrementally
