@@ -11,15 +11,22 @@ as milestone 1 at `8c00c072`. Preserve that geometry and its proposed ground via
 regulator copper, crystal routing and USB pair escape still require validation.
 The [initial milestone report](review/milestone-1/report.md) is retained as historical evidence.
 
-The root PCB now contains the approved RP and USB/power cells; the power
+The root PCB now contains the approved RP, USB/power and USB mux cells; the power
 placement was transferred through MCP in `1e8f0634`. The accepted
 [USB corridor assessment](review/usb-power/corridor/assessment.md) remains a
 placement constraint.
 
-The **USB mux cell** is ready for visual review:
-[report](review/usb-mux/report.md),
-[open candidate project](review/usb-mux/candidate/integrated-a500-r5.kicad_pro),
-[pad-net close-up](review/usb-mux/pad-nets.png), and
-[context view](review/usb-mux/context.png).
-Only the separate candidate adds U1/U2, C1/C2 and R1/R2. Do not transfer it or
-place another cluster before approval. No routing or fabrication readiness is implied.
+The approved mux placement was transferred in `57eccde7`, preserving all other
+footprints and existing groups. Its shared PC/LINK nets, differential-pair fan-out
+and continuous ground reference remain routing requirements.
+
+The **ESP32/microSD cluster** is ready for visual review:
+[report](review/esp-sd/report.md),
+[open candidate project](review/esp-sd/candidate/integrated-a500-r5.kicad_pro),
+[front pad-net close-up](review/esp-sd/pad-nets.png),
+[backside capacitors](review/esp-sd/back-pad-nets.png), and
+[floorplan](review/esp-sd/context.png).
+Only the separate candidate contains these 20 placed components. Do not transfer
+it or place another cluster before approval. No routing or fabrication readiness
+is implied. The report documents the intentional U30 silk/library warning and
+the antenna exclusion checks required for later placement work.

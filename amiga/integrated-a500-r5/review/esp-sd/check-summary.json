@@ -1,0 +1,14 @@
+{
+  "erc_sheets_exactly_equal_mux_baseline": true,
+  "new_drc_types": [
+    "lib_footprint_mismatch"
+  ],
+  "removed_drc": 0,
+  "schematic_parity": 0,
+  "unconnected": 499,
+  "drc_counts": {
+    "hole_clearance": 4,
+    "text_height": 199,
+    "lib_footprint_mismatch": 1
+  }
+}

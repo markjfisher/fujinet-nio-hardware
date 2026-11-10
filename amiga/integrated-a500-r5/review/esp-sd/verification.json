@@ -1,0 +1,138 @@
+{
+  "transfer_all_203_footprints_equal_approved_mux_candidate": true,
+  "changed_references": [
+    "C10",
+    "C40",
+    "C41",
+    "C42",
+    "C43",
+    "J30",
+    "Q1",
+    "Q4",
+    "R11",
+    "R12",
+    "R30",
+    "R31",
+    "R32",
+    "R33",
+    "R34",
+    "R35",
+    "R36",
+    "R37",
+    "R41",
+    "U30"
+  ],
+  "unchanged_footprints": 183,
+  "all_corridors_clear": true,
+  "antenna_exclusion_independently_checked": true,
+  "card_eject_clearance_to_antenna_mm": 0.575,
+  "identities_nets_locks_preserved": true,
+  "existing_ground_via_sites_preserved": true,
+  "tracks_and_vias": 0,
+  "prospective_ground_vias": [
+    {
+      "reference": "C41",
+      "via_xy_mm": [
+        -3,
+        43.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.825
+    },
+    {
+      "reference": "C40",
+      "via_xy_mm": [
+        -0.5,
+        43.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.8050534435020873
+    },
+    {
+      "reference": "C10",
+      "via_xy_mm": [
+        4.5,
+        43.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.8050534435020873
+    },
+    {
+      "reference": "C42",
+      "via_xy_mm": [
+        14.7,
+        57.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7249999999999985
+    },
+    {
+      "reference": "C43",
+      "via_xy_mm": [
+        14.7,
+        60
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.2
+    },
+    {
+      "reference": "U30 pin1",
+      "via_xy_mm": [
+        -4.26,
+        40.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.5042698552103011
+    },
+    {
+      "reference": "U30 pin40",
+      "via_xy_mm": [
+        -4.26,
+        19.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.7160708636704436
+    },
+    {
+      "reference": "J30 shield",
+      "via_xy_mm": [
+        12.7,
+        65.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.8286732957408043
+    }
+  ],
+  "decoupler_pad_distances": [
+    {
+      "from": "C40.1",
+      "to": "U30.2",
+      "distance_mm": 3.178163778032844
+    },
+    {
+      "from": "C41.1",
+      "to": "U30.2",
+      "distance_mm": 1.9750253162934395
+    },
+    {
+      "from": "C42.1",
+      "to": "J30.4",
+      "distance_mm": 2.79564393297859
+    },
+    {
+      "from": "C43.1",
+      "to": "J30.4",
+      "distance_mm": 1.3002403623945844
+    }
+  ],
+  "authoritative_sha256": "57c81a17df1a7e81695e6912e5a3d54cab9ca7eef72b96600a10c40c36bb4067",
+  "candidate_sha256": "6fd8a4e44db1e95ee4cc867e673e8e8496550a32442e2f0269182317dcf28329"
+}
