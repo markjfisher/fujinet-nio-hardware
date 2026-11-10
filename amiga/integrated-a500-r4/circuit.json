@@ -2188,103 +2188,11 @@
     },
     {
       "page": "control",
-      "reference": "U61",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        48.26,
-        119.38
-      ],
-      "pins": {
-        "1": "BUS_PERMIT",
-        "3": "BUS_PERMIT",
-        "6": "HOST_RESET_N",
-        "4": "SAFE_POWER",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "C70",
       "lib_id": "Device:C",
       "value": "100n",
       "position": [
         71.12,
-        132.07999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U62",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        121.91999999999999,
-        119.38
-      ],
-      "pins": {
-        "1": "RP_RUN_C",
-        "3": "RUN_MODE_C",
-        "6": "BUS_ARM_C",
-        "4": "SAFE_MODE",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C71",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        144.77999999999997,
-        132.07999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U63",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        195.57999999999998,
-        119.38
-      ],
-      "pins": {
-        "1": "SAFE_POWER",
-        "3": "SAFE_MODE",
-        "6": "BUS_READY_C",
-        "4": "SAFE_BASE",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C72",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        218.44,
         132.07999999999998
       ],
       "pins": {
@@ -2364,103 +2272,11 @@
     },
     {
       "page": "control",
-      "reference": "U66",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        48.26,
-        157.48
-      ],
-      "pins": {
-        "1": "Z_A23",
-        "3": "Z_A22",
-        "6": "Z_A21",
-        "4": "IO_TOP",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "C75",
       "lib_id": "Device:C",
       "value": "100n",
       "position": [
         71.12,
-        170.17999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U67",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        121.91999999999999,
-        157.48
-      ],
-      "pins": {
-        "1": "IO_TOP",
-        "3": "A20_LOW",
-        "6": "Z_A19",
-        "4": "IO_WINDOW",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C76",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        144.77999999999997,
-        170.17999999999998
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U68",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        195.57999999999998,
-        157.48
-      ],
-      "pins": {
-        "1": "SAFE",
-        "3": "AS_ACTIVE",
-        "6": "IO_WINDOW",
-        "4": "CYCLE_OK",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C77",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        218.44,
         170.17999999999998
       ],
       "pins": {
@@ -2536,26 +2352,6 @@
         "2": "GND"
       },
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U71",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        48.26,
-        195.57999999999998
-      ],
-      "pins": {
-        "1": "CYCLE_OK",
-        "3": "Z_READ",
-        "6": "DATA_VALID",
-        "4": "READ_DRIVE",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
       "rotation": 0
     },
     {
@@ -2716,42 +2512,6 @@
     },
     {
       "page": "control",
-      "reference": "U76",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        48.26,
-        233.68
-      ],
-      "pins": {
-        "1": "CYCLE_OK",
-        "3": "WRITE_CYCLE",
-        "6": "DATA_RECEIVE",
-        "4": "WRITE_RECEIVE",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C85",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        71.12,
-        246.38
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "U77",
       "lib_id": "74xGxx:74LVC1G10",
       "value": "SN74LVC1G10DBVR",
@@ -2848,42 +2608,6 @@
       "value": "100n",
       "position": [
         292.1,
-        246.38
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U80",
-      "lib_id": "74xGxx:74LVC1G11",
-      "value": "SN74LVC1G11DBVR",
-      "position": [
-        342.9,
-        233.68
-      ],
-      "pins": {
-        "1": "CYCLE_OK",
-        "3": "WAIT_PENDING",
-        "6": "3V3",
-        "4": "WAIT_SINK",
-        "2": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C89",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        365.76,
         246.38
       ],
       "pins": {
@@ -4246,6 +3970,90 @@
       "position": [
         750,
         60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U61",
+      "lib_id": "Phase1:SN74LVC11A",
+      "value": "SN74LVC11APWR",
+      "pins": {
+        "14": "3V3",
+        "7": "GND",
+        "1": "BUS_PERMIT",
+        "2": "BUS_PERMIT",
+        "13": "HOST_RESET_N",
+        "12": "SAFE_POWER",
+        "3": "RP_RUN_C",
+        "4": "RUN_MODE_C",
+        "5": "BUS_ARM_C",
+        "6": "SAFE_MODE",
+        "9": "SAFE_POWER",
+        "10": "SAFE_MODE",
+        "11": "BUS_READY_C",
+        "8": "SAFE_BASE"
+      },
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "page": "control",
+      "position": [
+        550,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U66",
+      "lib_id": "Phase1:SN74LVC11A",
+      "value": "SN74LVC11APWR",
+      "pins": {
+        "14": "3V3",
+        "7": "GND",
+        "1": "Z_A23",
+        "2": "Z_A22",
+        "13": "Z_A21",
+        "12": "IO_TOP",
+        "3": "IO_TOP",
+        "4": "A20_LOW",
+        "5": "Z_A19",
+        "6": "IO_WINDOW",
+        "9": "SAFE",
+        "10": "AS_ACTIVE",
+        "11": "IO_WINDOW",
+        "8": "CYCLE_OK"
+      },
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "page": "control",
+      "position": [
+        680,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U71",
+      "lib_id": "Phase1:SN74LVC11A",
+      "value": "SN74LVC11APWR",
+      "pins": {
+        "14": "3V3",
+        "7": "GND",
+        "1": "CYCLE_OK",
+        "2": "Z_READ",
+        "13": "DATA_VALID",
+        "12": "READ_DRIVE",
+        "3": "CYCLE_OK",
+        "4": "WRITE_CYCLE",
+        "5": "DATA_RECEIVE",
+        "6": "WRITE_RECEIVE",
+        "9": "CYCLE_OK",
+        "10": "WAIT_PENDING",
+        "11": "3V3",
+        "8": "WAIT_SINK"
+      },
+      "footprint": "Package_SO:TSSOP-14_4.4x5mm_P0.65mm",
+      "page": "control",
+      "position": [
+        550,
+        260
       ],
       "rotation": 0
     }

@@ -1,0 +1,31 @@
+{
+  "stage": "I1",
+  "components": 215,
+  "functional_pins": 964,
+  "net_membership": "PASS",
+  "power_truth_cases": 64,
+  "equivalent_gate_outputs": [
+    "SAFE_POWER",
+    "SAFE_MODE",
+    "SAFE_BASE",
+    "IO_TOP",
+    "IO_WINDOW",
+    "CYCLE_OK",
+    "READ_DRIVE",
+    "WRITE_RECEIVE",
+    "WAIT_SINK"
+  ],
+  "threshold_3v3_min": 3.0626478531593415,
+  "threshold_3v3_max": 3.1374729719594594,
+  "guaranteed_overdrive_voltage": 2.909515460501374,
+  "main_shutdown_voltage": 2.8290609150468287,
+  "bus_shutdown_voltage": 2.883265460501374,
+  "normal_xrdy_budget_ns": 44.7,
+  "shutdown_floor_V": 2.7,
+  "assumptions": [
+    "3us detection/conditioning budget at specified overdrive, <=50pF GUARD_OK_RAW",
+    "effective bulk capacitance >=80% of nominal; ESR <=50mohm",
+    "main discharge <=1.2A; bus discharge <=300mA; hard short excluded",
+    "prototype confirmation of ramps, loads, shutdown and recovery remains required"
+  ]
+}

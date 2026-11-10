@@ -7468,7 +7468,7 @@
 	)
 	(sheet
 		(at 50.8 590.55)
-		(size 132.08 180)
+		(size 132.08 250)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -7492,7 +7492,7 @@
 			)
 		)
 		(property "Sheetfile" "guard.kicad_sch"
-			(at 50.8 771.1346 0)
+			(at 50.8 841.1346 0)
 			(effects
 				(font
 					(size 1.27 1.27)
