@@ -1,0 +1,73 @@
+{
+  "transfer_all_203_footprints_equal_approved_power_candidate": true,
+  "changed_references": [
+    "C1",
+    "C2",
+    "R1",
+    "R2",
+    "U1",
+    "U2"
+  ],
+  "unchanged_footprints": 197,
+  "all_corridors_clear": true,
+  "all_six_courtyards_inside_mux_bay": true,
+  "identities_nets_locks_preserved": true,
+  "existing_ground_via_sites_preserved": true,
+  "tracks_and_vias": 0,
+  "prospective_ground_vias": [
+    {
+      "reference": "C1",
+      "via_xy_mm": [
+        33.6,
+        72.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.6250000000000007
+    },
+    {
+      "reference": "C2",
+      "via_xy_mm": [
+        25.6,
+        72.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.6250000000000007
+    },
+    {
+      "reference": "U1",
+      "via_xy_mm": [
+        26.8,
+        76.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.17762432936357037
+    },
+    {
+      "reference": "U2",
+      "via_xy_mm": [
+        18.8,
+        76.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.17762432936357037
+    }
+  ],
+  "decoupler_pad_distances": [
+    {
+      "from": "C1.1",
+      "to": "U1.10",
+      "distance_mm": 2.3676201131093646
+    },
+    {
+      "from": "C2.1",
+      "to": "U2.10",
+      "distance_mm": 2.3676201131093646
+    }
+  ],
+  "authoritative_sha256": "e9cdcd46c44e14891879350b46496a2fdae4582b459c0c9c981df4464d3b764d",
+  "candidate_sha256": "e83e9c964192ac004c3abd18c6937a3e5a04b077ccd6da4bd71bc064e3c0fd25"
+}

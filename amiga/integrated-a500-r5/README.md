@@ -11,12 +11,15 @@ as milestone 1 at `8c00c072`. Preserve that geometry and its proposed ground via
 regulator copper, crystal routing and USB pair escape still require validation.
 The [initial milestone report](review/milestone-1/report.md) is retained as historical evidence.
 
-The root PCB remains that approved baseline, with 167 footprints staged.
+The root PCB now contains the approved RP and USB/power cells; the power
+placement was transferred through MCP in `1e8f0634`. The accepted
+[USB corridor assessment](review/usb-power/corridor/assessment.md) remains a
+placement constraint.
 
-The **USB input/protection and power-conversion placement candidate** is ready
-for visual review: [report](review/usb-power/report.md),
-[open candidate project](review/usb-power/candidate/integrated-a500-r5.kicad_pro),
-[overview](review/usb-power/overview.png), and
-[pad-net close-up](review/usb-power/pad-nets.png).
-Only this separate candidate has the next 36 components placed. Do not transfer
-it or proceed to ESP/SD or routing before approval. No fabrication readiness is implied.
+The **USB mux cell** is ready for visual review:
+[report](review/usb-mux/report.md),
+[open candidate project](review/usb-mux/candidate/integrated-a500-r5.kicad_pro),
+[pad-net close-up](review/usb-mux/pad-nets.png), and
+[context view](review/usb-mux/context.png).
+Only the separate candidate adds U1/U2, C1/C2 and R1/R2. Do not transfer it or
+place another cluster before approval. No routing or fabrication readiness is implied.
