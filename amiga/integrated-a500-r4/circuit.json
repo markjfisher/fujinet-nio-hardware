@@ -442,22 +442,6 @@
       "rotation": 0
     },
     {
-      "page": "power",
-      "reference": "R9",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        330.2,
-        167.64
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "3V3_PG"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
       "page": "usb",
       "reference": "R10",
       "lib_id": "Device:R",
@@ -704,7 +688,6 @@
         "1": "BUCK_SW",
         "2": "BUCK_SW",
         "3": "BUCK_SW",
-        "4": "3V3_PG",
         "5": "BUCK_FB",
         "6": "GND",
         "7": "GND",
@@ -743,8 +726,8 @@
     {
       "page": "power",
       "reference": "U7",
-      "lib_id": "74xGxx:74LVC1G04",
-      "value": "SN74LVC1G04DBVR",
+      "lib_id": "74xGxx:74LVC1G14",
+      "value": "SN74LVC1G14DBVR",
       "position": [
         317.5,
         81.28
@@ -1913,10 +1896,10 @@
         "16": "Z_READ",
         "5": "GND",
         "15": "Z_CFGIN_N",
-        "6": "AMIGA_RESET_N",
+        "6": "AMIGA_RESET_N_C",
         "14": "HOST_RESET_N",
-        "7": "AMIGA_DTACK_N",
-        "8": "AMIGA_BERR_N",
+        "7": "AMIGA_DTACK_N_C",
+        "8": "AMIGA_BERR_N_C",
         "9": "GND",
         "12": "HOST_BERR_N"
       },
@@ -1950,9 +1933,9 @@
       ],
       "pins": {
         "1": "TX_LO_N",
-        "19": "GND",
+        "19": "BUS_DISABLE",
         "10": "GND",
-        "20": "3V3",
+        "20": "3V3_BUS",
         "2": "Z_D0",
         "18": "AMIGA_D0",
         "3": "Z_D1",
@@ -1983,7 +1966,7 @@
         116.84
       ],
       "pins": {
-        "1": "3V3",
+        "1": "3V3_BUS",
         "2": "GND"
       },
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
@@ -2016,9 +1999,9 @@
       ],
       "pins": {
         "1": "TX_HI_N",
-        "19": "GND",
+        "19": "BUS_DISABLE",
         "10": "GND",
-        "20": "3V3",
+        "20": "3V3_BUS",
         "2": "Z_D8",
         "18": "AMIGA_D8",
         "3": "Z_D9",
@@ -2049,7 +2032,7 @@
         116.84
       ],
       "pins": {
-        "1": "3V3",
+        "1": "3V3_BUS",
         "2": "GND"
       },
       "footprint": "Capacitor_SMD:C_0603_1608Metric",
@@ -2082,7 +2065,7 @@
       ],
       "pins": {
         "1": "RX_LO_N",
-        "19": "GND",
+        "19": "BUS_DISABLE",
         "10": "GND",
         "20": "3V3",
         "2": "AMIGA_D0",
@@ -2148,7 +2131,7 @@
       ],
       "pins": {
         "1": "RX_HI_N",
-        "19": "GND",
+        "19": "BUS_DISABLE",
         "10": "GND",
         "20": "3V3",
         "2": "AMIGA_D8",
@@ -2213,8 +2196,8 @@
         119.38
       ],
       "pins": {
-        "1": "HOST_PG",
-        "3": "3V3_PG",
+        "1": "BUS_PERMIT",
+        "3": "BUS_PERMIT",
         "6": "HOST_RESET_N",
         "4": "SAFE_POWER",
         "2": "GND",
@@ -2249,9 +2232,9 @@
         119.38
       ],
       "pins": {
-        "1": "RP_RUN",
-        "3": "RUN_MODE",
-        "6": "BUS_ARM",
+        "1": "RP_RUN_C",
+        "3": "RUN_MODE_C",
+        "6": "BUS_ARM_C",
         "4": "SAFE_MODE",
         "2": "GND",
         "5": "3V3"
@@ -2287,7 +2270,7 @@
       "pins": {
         "1": "SAFE_POWER",
         "3": "SAFE_MODE",
-        "6": "BUS_READY",
+        "6": "BUS_READY_C",
         "4": "SAFE_BASE",
         "2": "GND",
         "5": "3V3"
@@ -2912,40 +2895,6 @@
     },
     {
       "page": "control",
-      "reference": "U81",
-      "lib_id": "74xGxx:74LVC1G06",
-      "value": "SN74LVC1G06DBVR",
-      "position": [
-        48.26,
-        271.78
-      ],
-      "pins": {
-        "2": "WAIT_SINK",
-        "4": "AMIGA_XRDY",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C90",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        71.12,
-        284.47999999999996
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
       "reference": "U82",
       "lib_id": "74xGxx:74LVC1G08",
       "value": "SN74LVC1G08DBVR",
@@ -2954,7 +2903,7 @@
         271.78
       ],
       "pins": {
-        "2": "IRQ_REQ",
+        "2": "IRQ_REQ_C",
         "4": "IRQ_SINK",
         "3": "GND",
         "5": "3V3",
@@ -2971,123 +2920,6 @@
       "position": [
         144.77999999999997,
         284.47999999999996
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U83",
-      "lib_id": "74xGxx:74LVC1G06",
-      "value": "SN74LVC1G06DBVR",
-      "position": [
-        195.57999999999998,
-        271.78
-      ],
-      "pins": {
-        "2": "IRQ_SINK",
-        "4": "AMIGA_INT2_N",
-        "3": "GND",
-        "5": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C92",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        218.44,
-        284.47999999999996
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "GND"
-      },
-      "footprint": "Capacitor_SMD:C_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "U60",
-      "lib_id": "Power_Supervisor:TPS3808DBV",
-      "value": "TPS3808G01DBVR",
-      "position": [
-        106.68,
-        53.34
-      ],
-      "pins": {
-        "1": "HOST_PG",
-        "2": "GND",
-        "3": "3V3",
-        "5": "HOST_SENSE",
-        "6": "3V3"
-      },
-      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R60",
-      "lib_id": "Device:R",
-      "value": "100k 0.1%",
-      "position": [
-        50.8,
-        38.1
-      ],
-      "pins": {
-        "1": "AMIGA_5V",
-        "2": "HOST_SENSE"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R61",
-      "lib_id": "Device:R",
-      "value": "10k 0.1%",
-      "position": [
-        50.8,
-        63.5
-      ],
-      "pins": {
-        "1": "HOST_SENSE",
-        "2": "GND"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "R62",
-      "lib_id": "Device:R",
-      "value": "10k",
-      "position": [
-        149.86,
-        40.64
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "HOST_PG"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "control",
-      "reference": "C60",
-      "lib_id": "Device:C",
-      "value": "100n",
-      "position": [
-        144.78,
-        76.2
       ],
       "pins": {
         "1": "3V3",
@@ -3262,7 +3094,7 @@
         271.78
       ],
       "pins": {
-        "1": "ACK_REQ",
+        "1": "ACK_REQ_C",
         "2": "ANY_LANE",
         "3": "WAIT_PENDING",
         "4": "GND",
@@ -3302,7 +3134,7 @@
         322.58
       ],
       "pins": {
-        "1": "DATA_DRIVE",
+        "1": "DATA_DRIVE_C",
         "2": "3V3",
         "4": "GND",
         "5": "DATA_VALID",
@@ -3563,6 +3395,859 @@
       },
       "footprint": "Package_TO_SOT_SMD:SOT-323_SC-70",
       "rotation": 0
+    },
+    {
+      "reference": "U95",
+      "lib_id": "Phase1:TPS2553",
+      "value": "TPS2553DBVR",
+      "pins": {
+        "1": "AMIGA_5V",
+        "2": "GND",
+        "3": "AMIGA_5V",
+        "5": "HOST_ILIM",
+        "6": "HOST_5V_LIMITED"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "page": "guard",
+      "position": [
+        50,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R110",
+      "lib_id": "Device:R",
+      "value": "133k 1%",
+      "pins": {
+        "1": "HOST_ILIM",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        150,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C110",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "AMIGA_5V",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "D4",
+      "lib_id": "Device:D_Schottky",
+      "value": "SS14-13-F",
+      "pins": {
+        "1": "HOST_LDO_IN",
+        "2": "HOST_5V_LIMITED"
+      },
+      "footprint": "Diode_SMD:D_SMA",
+      "page": "guard",
+      "position": [
+        350,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U96",
+      "lib_id": "Regulator_Linear:AP2112K-3.3",
+      "value": "AP2112K-3.3TRG1",
+      "pins": {
+        "1": "HOST_LDO_IN",
+        "2": "GND",
+        "3": "HOST_LDO_IN",
+        "5": "3V3_BUS"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "page": "guard",
+      "position": [
+        450,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C111",
+      "lib_id": "Device:C",
+      "value": "1u 10V X7R",
+      "pins": {
+        "1": "HOST_LDO_IN",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        550,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C112",
+      "lib_id": "Device:C",
+      "value": "1u 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        650,
+        60
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C113",
+      "lib_id": "Device:C_Polarized",
+      "value": "100u 6.3V polymer 20% ESR<=50m",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+      "page": "guard",
+      "position": [
+        50,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R111",
+      "lib_id": "Device:R",
+      "value": "4.7k 1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        150,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U60",
+      "lib_id": "Phase1:MIC2790H",
+      "value": "MIC2790H-04VD6-TR",
+      "pins": {
+        "1": "GUARD_OK_RAW",
+        "2": "GND",
+        "3": "3V3_BUS",
+        "4": "HOST_CT",
+        "5": "HOST_SENSE",
+        "6": "3V3_BUS"
+      },
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "page": "guard",
+      "position": [
+        250,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R60",
+      "lib_id": "Device:R",
+      "value": "102k 0.1%",
+      "pins": {
+        "1": "AMIGA_5V",
+        "2": "HOST_SENSE"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        350,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R61",
+      "lib_id": "Device:R",
+      "value": "10k 0.1%",
+      "pins": {
+        "1": "HOST_SENSE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        450,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C114",
+      "lib_id": "Device:C",
+      "value": "100p 25V C0G 5%",
+      "pins": {
+        "1": "HOST_CT",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        550,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C60",
+      "lib_id": "Device:C",
+      "value": "1u 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        650,
+        120
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U90",
+      "lib_id": "Phase1:MIC2790H",
+      "value": "MIC2790H-04VD6-TR",
+      "pins": {
+        "1": "GUARD_OK_RAW",
+        "2": "GND",
+        "3": "3V3_BUS",
+        "4": "MAIN_CT",
+        "5": "MAIN_SENSE",
+        "6": "3V3_BUS"
+      },
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "page": "guard",
+      "position": [
+        50,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R112",
+      "lib_id": "Device:R",
+      "value": "67.5k 0.1%",
+      "pins": {
+        "1": "3V3",
+        "2": "MAIN_SENSE"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        150,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R113",
+      "lib_id": "Device:R",
+      "value": "10k 0.1%",
+      "pins": {
+        "1": "MAIN_SENSE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C115",
+      "lib_id": "Device:C",
+      "value": "100p 25V C0G 5%",
+      "pins": {
+        "1": "MAIN_CT",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        350,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C118",
+      "lib_id": "Device:C",
+      "value": "1u 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        450,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U91",
+      "lib_id": "Phase1:MIC2790H",
+      "value": "MIC2790H-04VD6-TR",
+      "pins": {
+        "1": "GUARD_OK_RAW",
+        "2": "GND",
+        "3": "3V3_BUS",
+        "4": "BUS_CT",
+        "5": "BUS_SENSE",
+        "6": "3V3_BUS"
+      },
+      "footprint": "Package_TO_SOT_SMD:TSOT-23-6",
+      "page": "guard",
+      "position": [
+        550,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R114",
+      "lib_id": "Device:R",
+      "value": "67.5k 0.1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "BUS_SENSE"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        650,
+        180
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R115",
+      "lib_id": "Device:R",
+      "value": "10k 0.1%",
+      "pins": {
+        "1": "BUS_SENSE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        50,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C116",
+      "lib_id": "Device:C",
+      "value": "100p 25V C0G 5%",
+      "pins": {
+        "1": "BUS_CT",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        150,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C119",
+      "lib_id": "Device:C",
+      "value": "1u 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R116",
+      "lib_id": "Device:R",
+      "value": "10k 1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GUARD_OK_RAW"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        350,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U92",
+      "lib_id": "Phase1:SN74LVC2G14",
+      "value": "SN74LVC2G14DBVR",
+      "pins": {
+        "1": "GUARD_OK_RAW",
+        "6": "BUS_DISABLE",
+        "3": "BUS_DISABLE",
+        "4": "BUS_PERMIT",
+        "2": "GND",
+        "5": "3V3_BUS"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-6",
+      "page": "guard",
+      "position": [
+        450,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C120",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        550,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R117",
+      "lib_id": "Device:R",
+      "value": "100k 1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "BUS_DISABLE"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        650,
+        240
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R122",
+      "lib_id": "Device:R",
+      "value": "10k 1%",
+      "pins": {
+        "1": "BUS_PERMIT",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        50,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U93",
+      "lib_id": "Phase1:SN74LVC2G132",
+      "value": "SN74LVC2G132DCUR",
+      "pins": {
+        "1": "BUS_PERMIT",
+        "2": "WAIT_SINK",
+        "7": "WAIT_OE_N",
+        "5": "BUS_PERMIT",
+        "6": "IRQ_SINK",
+        "3": "IRQ_OE_N",
+        "4": "GND",
+        "8": "3V3_BUS"
+      },
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "page": "guard",
+      "position": [
+        150,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C121",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U94",
+      "lib_id": "Phase1:SN74LVC2G125",
+      "value": "SN74LVC2G125DCUR",
+      "pins": {
+        "1": "WAIT_OE_N",
+        "2": "GND",
+        "6": "AMIGA_XRDY",
+        "7": "IRQ_OE_N",
+        "5": "GND",
+        "3": "AMIGA_INT2_N",
+        "4": "GND",
+        "8": "3V3_BUS"
+      },
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "page": "guard",
+      "position": [
+        350,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C122",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        450,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R118",
+      "lib_id": "Device:R",
+      "value": "100k 1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "WAIT_OE_N"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        550,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R119",
+      "lib_id": "Device:R",
+      "value": "100k 1%",
+      "pins": {
+        "1": "3V3_BUS",
+        "2": "IRQ_OE_N"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        650,
+        300
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "Q5",
+      "lib_id": "Transistor_BJT:MMBT3904",
+      "value": "MMBT3904-7-F",
+      "pins": {
+        "1": "GUARD_RESET_BASE",
+        "2": "GND",
+        "3": "RP_RUN"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23",
+      "page": "guard",
+      "position": [
+        50,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R120",
+      "lib_id": "Device:R",
+      "value": "22k 1%",
+      "pins": {
+        "1": "BUS_DISABLE",
+        "2": "GUARD_RESET_BASE"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        150,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R121",
+      "lib_id": "Device:R",
+      "value": "100k 1%",
+      "pins": {
+        "1": "GUARD_RESET_BASE",
+        "2": "GND"
+      },
+      "footprint": "Resistor_SMD:R_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C117",
+      "lib_id": "Device:C_Polarized",
+      "value": "220u 6.3V polymer 20% ESR<=50m",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:CP_Elec_6.3x5.8",
+      "page": "guard",
+      "position": [
+        350,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U97",
+      "lib_id": "Phase1:74LVC3G17",
+      "value": "74LVC3G17DC,125",
+      "pins": {
+        "8": "3V3",
+        "4": "GND",
+        "1": "RP_RUN",
+        "7": "RP_RUN_C",
+        "3": "RUN_MODE",
+        "5": "RUN_MODE_C",
+        "6": "BUS_ARM",
+        "2": "BUS_ARM_C"
+      },
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "page": "guard",
+      "position": [
+        450,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C125",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        550,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U98",
+      "lib_id": "Phase1:74LVC3G17",
+      "value": "74LVC3G17DC,125",
+      "pins": {
+        "8": "3V3",
+        "4": "GND",
+        "1": "BUS_READY",
+        "7": "BUS_READY_C",
+        "3": "DATA_DRIVE",
+        "5": "DATA_DRIVE_C",
+        "6": "ACK_REQ",
+        "2": "ACK_REQ_C"
+      },
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "page": "guard",
+      "position": [
+        650,
+        360
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C126",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        50,
+        420
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U99",
+      "lib_id": "74xGxx:74LVC1G17",
+      "value": "SN74LVC1G17DBVR",
+      "pins": {
+        "2": "IRQ_REQ",
+        "4": "IRQ_REQ_C",
+        "3": "GND",
+        "5": "3V3"
+      },
+      "footprint": "Package_TO_SOT_SMD:SOT-23-5",
+      "page": "guard",
+      "position": [
+        150,
+        420
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C127",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        250,
+        420
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "U100",
+      "lib_id": "Phase1:74LVC3G17",
+      "value": "74LVC3G17DC,125",
+      "pins": {
+        "8": "3V3",
+        "4": "GND",
+        "1": "AMIGA_RESET_N",
+        "7": "AMIGA_RESET_N_C",
+        "3": "AMIGA_BERR_N",
+        "5": "AMIGA_BERR_N_C",
+        "6": "AMIGA_DTACK_N",
+        "2": "AMIGA_DTACK_N_C"
+      },
+      "footprint": "Package_SO:VSSOP-8_2.3x2mm_P0.5mm",
+      "page": "guard",
+      "position": [
+        350,
+        420
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C128",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "guard",
+      "position": [
+        450,
+        420
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C123",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "3V3_AON",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "power",
+      "position": [
+        350,
+        200
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "C124",
+      "lib_id": "Device:C",
+      "value": "100n 10V X7R",
+      "pins": {
+        "1": "5V_MAIN",
+        "2": "GND"
+      },
+      "footprint": "Capacitor_SMD:C_0603_1608Metric",
+      "page": "power",
+      "position": [
+        350,
+        250
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "#FLG10",
+      "lib_id": "power:PWR_FLAG",
+      "value": "PWR_FLAG",
+      "pins": {
+        "1": "HOST_LDO_IN"
+      },
+      "footprint": "",
+      "page": "guard",
+      "position": [
+        750,
+        60
+      ],
+      "rotation": 0
     }
   ],
   "notes": {
@@ -3716,220 +4401,6 @@
       }
     ]
   },
-  "gates": [
-    [
-      "U61",
-      "11",
-      [
-        "HOST_PG",
-        "3V3_PG",
-        "HOST_RESET_N"
-      ],
-      "SAFE_POWER"
-    ],
-    [
-      "U62",
-      "11",
-      [
-        "RP_RUN",
-        "RUN_MODE",
-        "BUS_ARM"
-      ],
-      "SAFE_MODE"
-    ],
-    [
-      "U63",
-      "11",
-      [
-        "SAFE_POWER",
-        "SAFE_MODE",
-        "BUS_READY"
-      ],
-      "SAFE"
-    ],
-    [
-      "U64",
-      "04",
-      [
-        "Z_AS_N"
-      ],
-      "AS_ACTIVE"
-    ],
-    [
-      "U65",
-      "04",
-      [
-        "Z_A20"
-      ],
-      "A20_LOW"
-    ],
-    [
-      "U66",
-      "11",
-      [
-        "Z_A23",
-        "Z_A22",
-        "Z_A21"
-      ],
-      "IO_TOP"
-    ],
-    [
-      "U67",
-      "11",
-      [
-        "IO_TOP",
-        "A20_LOW",
-        "Z_A19"
-      ],
-      "IO_WINDOW"
-    ],
-    [
-      "U68",
-      "11",
-      [
-        "SAFE",
-        "AS_ACTIVE",
-        "IO_WINDOW"
-      ],
-      "CYCLE_OK"
-    ],
-    [
-      "U69",
-      "04",
-      [
-        "Z_LDS_N"
-      ],
-      "LO_ACTIVE"
-    ],
-    [
-      "U70",
-      "04",
-      [
-        "Z_UDS_N"
-      ],
-      "HI_ACTIVE"
-    ],
-    [
-      "U71",
-      "11",
-      [
-        "CYCLE_OK",
-        "Z_READ",
-        "DATA_DRIVE"
-      ],
-      "READ_DRIVE"
-    ],
-    [
-      "U72",
-      "10",
-      [
-        "READ_DRIVE",
-        "LO_ACTIVE",
-        "3V3"
-      ],
-      "TX_LO_N"
-    ],
-    [
-      "U73",
-      "10",
-      [
-        "READ_DRIVE",
-        "HI_ACTIVE",
-        "3V3"
-      ],
-      "TX_HI_N"
-    ],
-    [
-      "U74",
-      "04",
-      [
-        "Z_READ"
-      ],
-      "WRITE_CYCLE"
-    ],
-    [
-      "U75",
-      "04",
-      [
-        "DATA_DRIVE"
-      ],
-      "DATA_RECEIVE"
-    ],
-    [
-      "U76",
-      "11",
-      [
-        "CYCLE_OK",
-        "WRITE_CYCLE",
-        "DATA_RECEIVE"
-      ],
-      "WRITE_RECEIVE"
-    ],
-    [
-      "U77",
-      "10",
-      [
-        "WRITE_RECEIVE",
-        "LO_ACTIVE",
-        "3V3"
-      ],
-      "RX_LO_N"
-    ],
-    [
-      "U78",
-      "10",
-      [
-        "WRITE_RECEIVE",
-        "HI_ACTIVE",
-        "3V3"
-      ],
-      "RX_HI_N"
-    ],
-    [
-      "U79",
-      "32",
-      [
-        "LO_ACTIVE",
-        "HI_ACTIVE"
-      ],
-      "ANY_LANE"
-    ],
-    [
-      "U80",
-      "11",
-      [
-        "CYCLE_OK",
-        "ACK_REQ",
-        "ANY_LANE"
-      ],
-      "ACK_SINK"
-    ],
-    [
-      "U81",
-      "06",
-      [
-        "ACK_SINK"
-      ],
-      "AMIGA_DTACK_N"
-    ],
-    [
-      "U82",
-      "08",
-      [
-        "SAFE",
-        "IRQ_REQ"
-      ],
-      "IRQ_SINK"
-    ],
-    [
-      "U83",
-      "06",
-      [
-        "IRQ_SINK"
-      ],
-      "AMIGA_INT2_N"
-    ]
-  ],
   "connections": [
     [
       "R7",
@@ -3985,5 +4456,6 @@
       "R103",
       "1"
     ]
-  ]
+  ],
+  "generator_status": "Historical whole-board generators are obsolete; do not run. Phase1 uses incremental edits."
 }
