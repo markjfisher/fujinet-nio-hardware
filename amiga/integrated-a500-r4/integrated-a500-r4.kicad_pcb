@@ -47913,9 +47913,9 @@
 			"ebfa74f2-081d-46be-9142-a1149ecf27e2"
 		)
 	)
-	(group "FN: Logic U62"
+	(group "FN: Request bias array"
 		(uuid "2d8f3d6f-247f-47d8-88d9-bc4ce2522501")
-		(members "ba020ba4-752c-4a4f-864c-e8ac6a52a511" "dda5dbf0-9e9e-458b-80fa-48ca23e124fa")
+		(members "d2bb0f2a-b316-4835-9b9d-4206d00469ad")
 	)
 	(group "FN: USB receptacle and ESD"
 		(uuid "3322f0ec-2893-47c6-bb21-d24c14689fed")
@@ -47925,14 +47925,16 @@
 	)
 	(group "FN: USB current qualification inverter"
 		(uuid "3c1b4d21-16f6-46ee-b08d-6fda3589acb7")
-		(members "738f4f3f-7177-42df-97b6-6665dfa39307" "dc169643-ac50-4114-9a9c-79191a0a6110")
+		(members "0cd1e882-dbe0-496e-9eb4-649686f46bc9" "738f4f3f-7177-42df-97b6-6665dfa39307"
+			"dc169643-ac50-4114-9a9c-79191a0a6110"
+		)
 	)
 	(group "FN: 3V3 buck regulator"
 		(uuid "3ebf2c62-1cd7-42c7-b434-fcab8dff05a3")
 		(members "2d59c624-9048-480e-9dd1-816ec90cd7b4" "5ea1d7b4-12d7-4ad9-b6c3-0cbe5a744c4b"
 			"73452403-9075-47b5-8d22-657e2d1d3e72" "79713735-a334-4c7f-ae84-5b81042d8ee1"
 			"ac913293-f3a7-4dd7-8990-ddded06e157c" "bd0ab1e9-c535-4f1c-a0a3-f1f48e2bbf18"
-			"e171f278-161d-4834-9d58-e64f4cfeb9df"
+			"d86b1465-1364-4bb7-b469-8d3604b8e56d" "e171f278-161d-4834-9d58-e64f4cfeb9df"
 		)
 	)
 	(group "FN: Logic U86"
@@ -47951,9 +47953,9 @@
 			"295d8743-4279-43ce-bfc6-b7769d1383d7" "a0fc66e1-3875-4f1c-a72f-53c2a24f7bb4"
 		)
 	)
-	(group "FN: Logic U66"
+	(group "FN: Address and cycle decode"
 		(uuid "491ad0c4-8559-4033-824f-ec7fe0e772de")
-		(members "d337900d-a0b9-4b1a-a8a5-366150d5cd76")
+		(members "315cadb4-edd8-47ec-a8dd-46cd421b7ce9" "d337900d-a0b9-4b1a-a8a5-366150d5cd76")
 	)
 	(group "FN: Main power switch"
 		(uuid "57002f5e-409d-4740-9d9e-5d4bc07db5d5")
@@ -47987,9 +47989,9 @@
 		(uuid "67c3518f-360e-4a6d-98aa-26381feff701")
 		(members "29b5f7a7-b4d0-4b53-98ec-e234010cbd81" "c45a9f39-df4a-4896-aeeb-04d8cefbd873")
 	)
-	(group "FN: Logic U64"
+	(group "FN: Main-domain inverters"
 		(uuid "6e21d94f-075e-4250-8022-34e256b9b88c")
-		(members "91b7a69f-9f0e-4d39-9c21-064857d6fb00")
+		(members "378eae67-f775-40eb-900e-ecfb1c8a2567" "91b7a69f-9f0e-4d39-9c21-064857d6fb00")
 	)
 	(group "FN: RP physical recovery bias"
 		(uuid "728fb58b-7cbe-4301-858e-572a9358fee2")
@@ -48006,9 +48008,9 @@
 			"d8a11f85-eabb-4266-bc61-83d46057a340" "da1ec83a-8c0b-409f-aebd-93e54e3d5bd9"
 		)
 	)
-	(group "FN: Logic U71"
+	(group "FN: Read write and wait decode"
 		(uuid "7ea8d3b9-7287-40fe-9358-18dda113b9e8")
-		(members "fb1ca3af-9362-4415-a26c-0a50bc3c4660")
+		(members "3b685172-1bce-4c98-9f18-039ec6fa931a" "fb1ca3af-9362-4415-a26c-0a50bc3c4660")
 	)
 	(group "FN: Logic U78"
 		(uuid "80611e5d-91e5-4d15-a85f-dbb8f2503b22")
@@ -48040,15 +48042,16 @@
 			"c96fc6c7-0bd6-41c6-9a66-a444ea7ab874"
 		)
 	)
-	(group "FN: Logic U60"
+	(group "FN: Host supply supervisor"
 		(uuid "a7a4721b-1a69-4989-99bc-a363b13718a3")
-		(members "6206cd9b-70d6-4659-bbc9-df720c5caf32" "9ac53add-2f0c-41d6-a547-74235b33bcd5"
+		(members "6206cd9b-70d6-4659-bbc9-df720c5caf32" "63c33d5f-9a87-49e0-95be-8dc67cb985e6"
+			"9ac53add-2f0c-41d6-a547-74235b33bcd5" "bb6499cc-c065-4c74-aa37-e39bf0273114"
 			"f5252ff6-2bde-4ae0-9494-8870877a672a"
 		)
 	)
 	(group "FN: SD pullups"
 		(uuid "aaafb64e-4315-4ded-85a2-281d74b91efb")
-		(members "d0e2520f-9dab-425e-946d-47a4abe59322")
+		(members "d0e2520f-9dab-425e-946d-47a4abe59322" "e3f4df66-fd66-4efc-835d-6cd0812ca829")
 	)
 	(group "FN: Bus buffer U43"
 		(uuid "c5bf991d-ca3f-473a-b988-d75f2458ed91")
@@ -48107,9 +48110,11 @@
 			"a0a326fb-3adf-4106-90eb-dec151e1702e"
 		)
 	)
-	(group "FN: Logic U61"
+	(group "FN: Power and firmware permission"
 		(uuid "fdf8adaa-3168-42c7-aa9e-c24f06242c43")
-		(members "bb7569aa-d67c-4741-b940-71709931ec2e")
+		(members "ba020ba4-752c-4a4f-864c-e8ac6a52a511" "bb7569aa-d67c-4741-b940-71709931ec2e"
+			"d8bc716c-71ad-46fa-b29d-01905406cc6a" "dda5dbf0-9e9e-458b-80fa-48ca23e124fa"
+		)
 	)
 	(group "FN: microSD local supply"
 		(uuid "8a0d1c2d-fef6-43fb-aad3-e4fd0d3b3911")
