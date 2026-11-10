@@ -1,0 +1,73 @@
+Reference,Value_or_MPN,Footprint,Subsystem,X_mm,Y_mm,Side,Saved_schematic_pin_nets
+C1,100n,Capacitor_SMD:C_0603_1608Metric,usb,27.9978,74.2235,F.Cu,1=/3V3; 2=/GND
+C2,100n,Capacitor_SMD:C_0603_1608Metric,usb,34.5824,73.0681,F.Cu,1=/3V3; 2=/GND
+C3,100n,Capacitor_SMD:C_0603_1608Metric,power,4.4,71.175,F.Cu,1=/3V3_AON; 2=/GND
+C4,1u 10V,Capacitor_SMD:C_0603_1608Metric,power,2.5,75.3,F.Cu,1=/VBUS_PROTECTED; 2=/GND
+C5,1u 10V,Capacitor_SMD:C_0603_1608Metric,power,10.9,75.89,F.Cu,1=/3V3_AON; 2=/GND
+C6,1n 25V,Capacitor_SMD:C_0603_1608Metric,power,20.5,100.0,F.Cu,1=/USB-C power and qualification/SOFT_START; 2=/VBUS_PROTECTED
+C7,10u 10V X7R,Capacitor_SMD:C_1206_3216Metric,power,26.0,93.5,F.Cu,1=/USB-C power and qualification/5V_MAIN; 2=/GND
+C8,22u 10V X7R,Capacitor_SMD:C_1206_3216Metric,power,33.0,98.2,F.Cu,1=/3V3; 2=/GND
+C9,3.3n,Capacitor_SMD:C_0603_1608Metric,power,26.5,89.5,F.Cu,1=/USB-C power and qualification/BUCK_SS; 2=/GND
+C10,1u,Capacitor_SMD:C_0603_1608Metric,usb,0.5,44.0,F.Cu,1=/ESP_EN; 2=/GND
+C20,100n,Capacitor_SMD:C_0603_1608Metric,rp,50.0,40.0,F.Cu,1=/3V3; 2=/GND
+C21,15p C0G,Capacitor_SMD:C_0603_1608Metric,rp,49.4,72.0,F.Cu,1=/RP2350B and support/RP_XIN; 2=/GND
+C22,15p C0G,Capacitor_SMD:C_0603_1608Metric,rp,58.6,72.0,F.Cu,1=/RP2350B and support/XTAL_OUT; 2=/GND
+C23,4.7u,candidate:RP_Reference_C9,rp,59.2,53.5,F.Cu,1=/RP2350B and support/RP_VREG_AVDD; 2=/GND
+C24,4.7u,candidate:RP_Reference_C6,rp,57.0,53.94,F.Cu,1=/3V3; 2=/GND
+C25,4.7u,candidate:RP_Reference_C7,rp,57.0,53.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C26,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,57.8,F.Cu,1=/3V3; 2=/GND
+C27,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,62.0,F.Cu,1=/3V3; 2=/GND
+C28,100n,Capacitor_SMD:C_0603_1608Metric,rp,49.0,68.0,F.Cu,1=/3V3; 2=/GND
+C29,100n,Capacitor_SMD:C_0603_1608Metric,rp,53.0,68.0,F.Cu,1=/3V3; 2=/GND
+C30,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,64.0,F.Cu,1=/3V3; 2=/GND
+C31,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,60.0,F.Cu,1=/3V3; 2=/GND
+C32,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,56.0,F.Cu,1=/3V3; 2=/GND
+C33,100n,Capacitor_SMD:C_0603_1608Metric,rp,66.0,58.0,F.Cu,1=/3V3; 2=/GND
+C34,100n,Capacitor_SMD:C_0603_1608Metric,rp,56.0,47.0,F.Cu,1=/3V3; 2=/GND
+C35,100n,Capacitor_SMD:C_0603_1608Metric,rp,53.0,49.5,F.Cu,1=/3V3; 2=/GND
+C36,100n,Capacitor_SMD:C_0603_1608Metric,rp,45.0,55.0,F.Cu,1=/3V3; 2=/GND
+C37,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,60.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C38,100n,Capacitor_SMD:C_0603_1608Metric,rp,57.0,68.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C39,4.7u,Capacitor_SMD:C_0603_1608Metric,rp,64.5,61.5,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C40,10u 10V,Capacitor_SMD:C_0603_1608Metric,esp,-2.99,42.75,F.Cu,1=/3V3; 2=/GND
+C41,100n,Capacitor_SMD:C_0603_1608Metric,esp,-3.5076,40.6819,F.Cu,1=/3V3; 2=/GND
+C42,10u 10V,Capacitor_SMD:C_0603_1608Metric,esp,0.5,64.5,B.Cu,1=/3V3; 2=/GND
+C43,100n,Capacitor_SMD:C_0603_1608Metric,esp,-3.0,62.8,B.Cu,1=/3V3; 2=/GND
+C50,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,17.1,F.Cu,1=/3V3; 2=/GND
+C51,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,29.1,F.Cu,1=/3V3; 2=/GND
+C52,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,41.1,F.Cu,1=/3V3; 2=/GND
+C53,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,53.1,F.Cu,1=/3V3; 2=/GND
+C54,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,65.1,F.Cu,1=/3V3; 2=/GND
+C55,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,77.1,F.Cu,1=/3V3; 2=/GND
+C56,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,89.1,F.Cu,1=/3V3; 2=/GND
+C57,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,101.1,F.Cu,1=/3V3; 2=/GND
+C60,100n,Capacitor_SMD:C_0603_1608Metric,control,61.1,93.05,F.Cu,1=/3V3; 2=/GND
+C70,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,15.05,F.Cu,1=/3V3; 2=/GND
+C71,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,15.05,F.Cu,1=/3V3; 2=/GND
+C72,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,15.05,F.Cu,1=/3V3; 2=/GND
+C73,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,15.05,F.Cu,1=/3V3; 2=/GND
+C74,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,15.05,F.Cu,1=/3V3; 2=/GND
+C75,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,24.05,F.Cu,1=/3V3; 2=/GND
+C76,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,24.05,F.Cu,1=/3V3; 2=/GND
+C77,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,24.05,F.Cu,1=/3V3; 2=/GND
+C78,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,24.05,F.Cu,1=/3V3; 2=/GND
+C79,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,24.05,F.Cu,1=/3V3; 2=/GND
+C80,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,33.05,F.Cu,1=/3V3; 2=/GND
+C81,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,33.05,F.Cu,1=/3V3; 2=/GND
+C82,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,33.05,F.Cu,1=/3V3; 2=/GND
+C83,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,33.05,F.Cu,1=/3V3; 2=/GND
+C84,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,42.05,F.Cu,1=/3V3; 2=/GND
+C85,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,42.05,F.Cu,1=/3V3; 2=/GND
+C86,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,51.05,F.Cu,1=/3V3; 2=/GND
+C87,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,51.05,F.Cu,1=/3V3; 2=/GND
+C88,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,24.05,F.Cu,1=/3V3; 2=/GND
+C89,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,60.05,F.Cu,1=/3V3; 2=/GND
+C90,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,69.05,F.Cu,1=/3V3; 2=/GND
+C91,100n,Capacitor_SMD:C_0603_1608Metric,control,70.1,84.05,F.Cu,1=/3V3; 2=/GND
+C92,100n,Capacitor_SMD:C_0603_1608Metric,control,52.1,93.05,F.Cu,1=/3V3; 2=/GND
+C93,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,33.05,F.Cu,1=/3V3; 2=/GND
+C94,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,15.05,F.Cu,1=/3V3; 2=/GND
+C95,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,33.05,F.Cu,1=/3V3; 2=/GND
+C100,1u 25V X7R,Capacitor_SMD:C_0603_1608Metric,input,4.75,83.99,F.Cu,1=/VBUS_C; 2=/GND
+C101,10n 25V C0G,Capacitor_SMD:C_0805_2012Metric,input,11.15,86.89,F.Cu,1=/Protected USB input/EFUSE_DVDT; 2=/GND
+C102,1u 10V X7R,Capacitor_SMD:C_0603_1608Metric,input,9.74,96.69,F.Cu,1=/Protected USB input/VBUS_LIMITED; 2=/GND

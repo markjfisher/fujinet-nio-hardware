@@ -1,0 +1,189 @@
+Reference,Value_or_MPN,Footprint,Subsystem,X_mm,Y_mm,Side,Saved_schematic_pin_nets
+C1,100n,Capacitor_SMD:C_0603_1608Metric,usb,27.9978,74.2235,F.Cu,1=/3V3; 2=/GND
+C2,100n,Capacitor_SMD:C_0603_1608Metric,usb,34.5824,73.0681,F.Cu,1=/3V3; 2=/GND
+C3,100n,Capacitor_SMD:C_0603_1608Metric,power,4.4,71.175,F.Cu,1=/3V3_AON; 2=/GND
+C4,1u 10V,Capacitor_SMD:C_0603_1608Metric,power,2.5,75.3,F.Cu,1=/VBUS_PROTECTED; 2=/GND
+C5,1u 10V,Capacitor_SMD:C_0603_1608Metric,power,10.9,75.89,F.Cu,1=/3V3_AON; 2=/GND
+C6,1n 25V,Capacitor_SMD:C_0603_1608Metric,power,20.5,100.0,F.Cu,1=/USB-C power and qualification/SOFT_START; 2=/VBUS_PROTECTED
+C7,10u 10V X7R,Capacitor_SMD:C_1206_3216Metric,power,26.0,93.5,F.Cu,1=/USB-C power and qualification/5V_MAIN; 2=/GND
+C8,22u 10V X7R,Capacitor_SMD:C_1206_3216Metric,power,33.0,98.2,F.Cu,1=/3V3; 2=/GND
+C9,3.3n,Capacitor_SMD:C_0603_1608Metric,power,26.5,89.5,F.Cu,1=/USB-C power and qualification/BUCK_SS; 2=/GND
+C10,1u,Capacitor_SMD:C_0603_1608Metric,usb,0.5,44.0,F.Cu,1=/ESP_EN; 2=/GND
+C20,100n,Capacitor_SMD:C_0603_1608Metric,rp,50.0,40.0,F.Cu,1=/3V3; 2=/GND
+C21,15p C0G,Capacitor_SMD:C_0603_1608Metric,rp,49.4,72.0,F.Cu,1=/RP2350B and support/RP_XIN; 2=/GND
+C22,15p C0G,Capacitor_SMD:C_0603_1608Metric,rp,58.6,72.0,F.Cu,1=/RP2350B and support/XTAL_OUT; 2=/GND
+C23,4.7u,candidate:RP_Reference_C9,rp,59.2,53.5,F.Cu,1=/RP2350B and support/RP_VREG_AVDD; 2=/GND
+C24,4.7u,candidate:RP_Reference_C6,rp,57.0,53.94,F.Cu,1=/3V3; 2=/GND
+C25,4.7u,candidate:RP_Reference_C7,rp,57.0,53.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C26,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,57.8,F.Cu,1=/3V3; 2=/GND
+C27,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,62.0,F.Cu,1=/3V3; 2=/GND
+C28,100n,Capacitor_SMD:C_0603_1608Metric,rp,49.0,68.0,F.Cu,1=/3V3; 2=/GND
+C29,100n,Capacitor_SMD:C_0603_1608Metric,rp,53.0,68.0,F.Cu,1=/3V3; 2=/GND
+C30,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,64.0,F.Cu,1=/3V3; 2=/GND
+C31,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,60.0,F.Cu,1=/3V3; 2=/GND
+C32,100n,Capacitor_SMD:C_0603_1608Metric,rp,62.0,56.0,F.Cu,1=/3V3; 2=/GND
+C33,100n,Capacitor_SMD:C_0603_1608Metric,rp,66.0,58.0,F.Cu,1=/3V3; 2=/GND
+C34,100n,Capacitor_SMD:C_0603_1608Metric,rp,56.0,47.0,F.Cu,1=/3V3; 2=/GND
+C35,100n,Capacitor_SMD:C_0603_1608Metric,rp,53.0,49.5,F.Cu,1=/3V3; 2=/GND
+C36,100n,Capacitor_SMD:C_0603_1608Metric,rp,45.0,55.0,F.Cu,1=/3V3; 2=/GND
+C37,100n,Capacitor_SMD:C_0603_1608Metric,rp,46.0,60.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C38,100n,Capacitor_SMD:C_0603_1608Metric,rp,57.0,68.0,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C39,4.7u,Capacitor_SMD:C_0603_1608Metric,rp,64.5,61.5,F.Cu,1=/RP2350B and support/RP_DVDD; 2=/GND
+C40,10u 10V,Capacitor_SMD:C_0603_1608Metric,esp,-2.99,42.75,F.Cu,1=/3V3; 2=/GND
+C41,100n,Capacitor_SMD:C_0603_1608Metric,esp,-3.5076,40.6819,F.Cu,1=/3V3; 2=/GND
+C42,10u 10V,Capacitor_SMD:C_0603_1608Metric,esp,0.5,64.5,B.Cu,1=/3V3; 2=/GND
+C43,100n,Capacitor_SMD:C_0603_1608Metric,esp,-3.0,62.8,B.Cu,1=/3V3; 2=/GND
+C50,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,17.1,F.Cu,1=/3V3; 2=/GND
+C51,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,29.1,F.Cu,1=/3V3; 2=/GND
+C52,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,41.1,F.Cu,1=/3V3; 2=/GND
+C53,100n,Capacitor_SMD:C_0603_1608Metric,address,84.5,53.1,F.Cu,1=/3V3; 2=/GND
+C54,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,65.1,F.Cu,1=/3V3; 2=/GND
+C55,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,77.1,F.Cu,1=/3V3; 2=/GND
+C56,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,89.1,F.Cu,1=/3V3; 2=/GND
+C57,100n,Capacitor_SMD:C_0603_1608Metric,data,84.5,101.1,F.Cu,1=/3V3; 2=/GND
+C60,100n,Capacitor_SMD:C_0603_1608Metric,control,61.1,93.05,F.Cu,1=/3V3; 2=/GND
+C70,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,15.05,F.Cu,1=/3V3; 2=/GND
+C71,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,15.05,F.Cu,1=/3V3; 2=/GND
+C72,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,15.05,F.Cu,1=/3V3; 2=/GND
+C73,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,15.05,F.Cu,1=/3V3; 2=/GND
+C74,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,15.05,F.Cu,1=/3V3; 2=/GND
+C75,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,24.05,F.Cu,1=/3V3; 2=/GND
+C76,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,24.05,F.Cu,1=/3V3; 2=/GND
+C77,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,24.05,F.Cu,1=/3V3; 2=/GND
+C78,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,24.05,F.Cu,1=/3V3; 2=/GND
+C79,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,24.05,F.Cu,1=/3V3; 2=/GND
+C80,100n,Capacitor_SMD:C_0603_1608Metric,control,44.1,33.05,F.Cu,1=/3V3; 2=/GND
+C81,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,33.05,F.Cu,1=/3V3; 2=/GND
+C82,100n,Capacitor_SMD:C_0603_1608Metric,control,62.1,33.05,F.Cu,1=/3V3; 2=/GND
+C83,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,33.05,F.Cu,1=/3V3; 2=/GND
+C84,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,42.05,F.Cu,1=/3V3; 2=/GND
+C85,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,42.05,F.Cu,1=/3V3; 2=/GND
+C86,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,51.05,F.Cu,1=/3V3; 2=/GND
+C87,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,51.05,F.Cu,1=/3V3; 2=/GND
+C88,100n,Capacitor_SMD:C_0603_1608Metric,control,71.1,24.05,F.Cu,1=/3V3; 2=/GND
+C89,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,60.05,F.Cu,1=/3V3; 2=/GND
+C90,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,69.05,F.Cu,1=/3V3; 2=/GND
+C91,100n,Capacitor_SMD:C_0603_1608Metric,control,70.1,84.05,F.Cu,1=/3V3; 2=/GND
+C92,100n,Capacitor_SMD:C_0603_1608Metric,control,52.1,93.05,F.Cu,1=/3V3; 2=/GND
+C93,100n,Capacitor_SMD:C_0603_1608Metric,control,26.1,33.05,F.Cu,1=/3V3; 2=/GND
+C94,100n,Capacitor_SMD:C_0603_1608Metric,control,53.1,15.05,F.Cu,1=/3V3; 2=/GND
+C95,100n,Capacitor_SMD:C_0603_1608Metric,control,35.1,33.05,F.Cu,1=/3V3; 2=/GND
+C100,1u 25V X7R,Capacitor_SMD:C_0603_1608Metric,input,4.75,83.99,F.Cu,1=/VBUS_C; 2=/GND
+C101,10n 25V C0G,Capacitor_SMD:C_0805_2012Metric,input,11.15,86.89,F.Cu,1=/Protected USB input/EFUSE_DVDT; 2=/GND
+C102,1u 10V X7R,Capacitor_SMD:C_0603_1608Metric,input,9.74,96.69,F.Cu,1=/Protected USB input/VBUS_LIMITED; 2=/GND
+D2,USBLC6-2SC6,Package_TO_SOT_SMD:SOT-23-6,usb,21.75,71.16,F.Cu,1=/USB routing and physical recovery/PC_DP; 2=/GND; 3=/USB routing and physical recovery/PC_DM; 4=/USB routing and physical recovery/PC_DM; 5=/VBUS_PROTECTED; 6=/USB routing and physical recovery/PC_DP
+D3,TPD2E2U06DCKR,Package_TO_SOT_SMD:SOT-323_SC-70,input,6.99,80.94,F.Cu,1=/CC1; 2=/CC2; 3=/GND
+J1,USB4105-GF-A,Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal,usb,-3.0,82.0,F.Cu,A5=/CC1; B5=/CC2; A1=/GND; A12=/GND; B1=/GND; B12=/GND; SH=/GND; A7=/USB routing and physical recovery/PC_DM; B7=/USB routing and physical recovery/PC_DM; A6=/USB routing and physical recovery/PC_DP; B6=/USB routing and physical recovery/PC_DP; A4=/VBUS_C; A9=/VBUS_C; B4=/VBUS_C; B9=/VBUS_C; A8=unconnected-(J1-SBU1-PadA8); B8=unconnected-(J1-SBU2-PadB8)
+J2,MODE: 1-2 RUN; 3-4 RP; 5-6 ESP,Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical,usb,6.0,110.0,F.Cu,1=/3V3; 2=/RUN_MODE; 3=/3V3; 4=/USB routing and physical recovery/FLASH_RP; 5=/3V3; 6=/USB routing and physical recovery/FLASH_ESP
+J20,SWD: 3V3 reference only,Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,rp,48.0,8.0,F.Cu,1=/3V3; 2=/RP2350B and support/RP_SWDIO; 3=/GND; 4=/RP2350B and support/RP_SWCLK; 5=/RP_RUN
+J30,DM3AT-SF-PEJM5,Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5,esp,3.32,62.32,F.Cu,1=/ESP32-S3 module and microSD/SD_DAT2; 2=/ESP32-S3 module and microSD/SD_CS; 3=/ESP32-S3 module and microSD/SD_MOSI; 4=/3V3; 5=/ESP32-S3 module and microSD/SD_CLK_CARD; 6=/GND; 7=/ESP32-S3 module and microSD/SD_MISO; 8=/ESP32-S3 module and microSD/SD_DAT1; 9=unconnected-(J30-DET_B-Pad9); 10=unconnected-(J30-DET_A-Pad10); SH=/GND
+J31,UART service (3.3V signals),Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical,esp,26.0,8.0,F.Cu,1=/GND; 2=/ESP32-S3 module and microSD/ESP_TXD0; 3=/ESP32-S3 module and microSD/ESP_RXD0; 4=/ESP_EN; 5=/ESP_BOOT_N
+J40,A500 FEMALE mating socket,candidate:A500_ED86_EdgeSolder,address,105.0,62.0,F.Cu,1=/GND; 2=/GND; 3=/GND; 4=/GND; 5=/AMIGA_5V; 6=/AMIGA_5V; 7=unconnected-(J40-7M(NC)-Pad7); 8=unconnected-(J40--12V-Pad8); 9=unconnected-(J40-NC-Pad9); 10=unconnected-(J40-+12V-Pad10); 11=unconnected-(J40-NC-Pad11); 12=/GND; 13=/GND; 14=unconnected-(J40-CCKQ-Pad14); 15=unconnected-(J40-CDAC-Pad15); 16=unconnected-(J40-CCK-Pad16); 17=unconnected-(J40-OVR-Pad17); 18=/AMIGA_XRDY; 19=/AMIGA_INT2_N; 20=unconnected-(J40-NC-Pad20); 21=/A500 socket and input buffers/AMIGA_A5; 22=unconnected-(J40-INT6-Pad22); 23=/A500 socket and input buffers/AMIGA_A6; 24=/A500 socket and input buffers/AMIGA_A4; 25=/GND; 26=/A500 socket and input buffers/AMIGA_A3; 27=/A500 socket and input buffers/AMIGA_A2; 28=/A500 socket and input buffers/AMIGA_A7; 29=/A500 socket and input buffers/AMIGA_A1; 30=/A500 socket and input buffers/AMIGA_A8; 31=unconnected-(J40-FC0-Pad31); 32=/A500 socket and input buffers/AMIGA_A9; 33=unconnected-(J40-FC1-Pad33); 34=/A500 socket and input buffers/AMIGA_A10; 35=unconnected-(J40-FC2-Pad35); 36=/A500 socket and input buffers/AMIGA_A11; 37=/GND; 38=/A500 socket and input buffers/AMIGA_A12; 39=/A500 socket and input buffers/AMIGA_A13; 40=unconnected-(J40-IPL0-Pad40); 41=/A500 socket and input buffers/AMIGA_A14; 42=unconnected-(J40-IPL1-Pad42); 43=/A500 socket and input buffers/AMIGA_A15; 44=unconnected-(J40-IPL2-Pad44); 45=/A500 socket and input buffers/AMIGA_A16; 46=/A500 socket and input buffers/AMIGA_BERR_N; 47=/A500 socket and input buffers/AMIGA_A17; 48=unconnected-(J40-VPA-Pad48); 49=/GND; 50=unconnected-(J40-E-Pad50); 51=unconnected-(J40-VMA-Pad51); 52=/A500 socket and input buffers/AMIGA_A18; 53=/A500 socket and input buffers/AMIGA_RESET_N; 54=/A500 socket and input buffers/AMIGA_A19; 55=unconnected-(J40-HLT-Pad55); 56=/A500 socket and input buffers/AMIGA_A20; 57=/A500 socket and input buffers/AMIGA_A22; 58=/A500 socket and input buffers/AMIGA_A21; 59=/A500 socket and input buffers/AMIGA_A23; 60=unconnected-(J40-BR-Pad60); 61=/GND; 62=unconnected-(J40-BGACK-Pad62); 63=/AMIGA_D15; 64=unconnected-(J40-BG-Pad64); 65=/AMIGA_D14; 66=/A500 socket and input buffers/AMIGA_DTACK_N; 67=/AMIGA_D13; 68=/A500 socket and input buffers/AMIGA_READ; 69=/AMIGA_D12; 70=/A500 socket and input buffers/AMIGA_LDS_N; 71=/AMIGA_D11; 72=/A500 socket and input buffers/AMIGA_UDS_N; 73=/GND; 74=/A500 socket and input buffers/AMIGA_AS_N; 75=/AMIGA_D0; 76=/AMIGA_D10; 77=/AMIGA_D1; 78=/AMIGA_D9; 79=/AMIGA_D2; 80=/AMIGA_D8; 81=/AMIGA_D3; 82=/AMIGA_D7; 83=/AMIGA_D4; 84=/AMIGA_D6; 85=/GND; 86=/AMIGA_D5
+J60,BUS ARM (normally OPEN),Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,control,22.0,115.0,F.Cu,1=/3V3; 2=/Hardware bus interlocks/BUS_ARM
+L1,XAL4020-222MEC 2.2uH,Inductor_SMD:L_Coilcraft_XAL4020-XXX,power,36.0,94.0,F.Cu,1=/USB-C power and qualification/BUCK_SW; 2=/3V3
+L20,AOTA-B201610S3R3-101-T,candidate:RP_Reference_L1,rp,57.0,51.35,F.Cu,1=/RP2350B and support/RP_LX; 2=/RP2350B and support/RP_DVDD
+Q1,2N7002,Package_TO_SOT_SMD:SOT-23,usb,4.98,45.5,F.Cu,1=/USB routing and physical recovery/FLASH_RP; 2=/GND; 3=/ESP_EN
+Q2,2N7002,Package_TO_SOT_SMD:SOT-23,usb,47.8,85.25,F.Cu,1=/USB routing and physical recovery/FLASH_ESP; 2=/GND; 3=/RP_RUN
+Q3,2N7002,Package_TO_SOT_SMD:SOT-23,usb,24.74,80.69,F.Cu,1=/USB routing and physical recovery/FLASH_RP; 2=/GND; 3=/USB routing and physical recovery/RP_BOOT_PULL
+Q4,2N7002,Package_TO_SOT_SMD:SOT-23,usb,11.2,17.67,F.Cu,1=/USB routing and physical recovery/FLASH_ESP; 2=/GND; 3=/ESP_BOOT_N
+R1,10k,Resistor_SMD:R_0603_1608Metric,usb,19.94,79.95,F.Cu,1=/USB routing and physical recovery/FLASH_RP; 2=/GND
+R2,10k,Resistor_SMD:R_0603_1608Metric,usb,26.44,72.38,F.Cu,1=/USB routing and physical recovery/FLASH_ESP; 2=/GND
+R3,10k,Resistor_SMD:R_0603_1608Metric,usb,27.5,20.5,F.Cu,1=/RUN_MODE; 2=/GND
+R4,100k,Resistor_SMD:R_0603_1608Metric,power,-0.77,74.0,F.Cu,1=/USB-C power and qualification/CC_PORT; 2=/GND
+R5,887k 1%,Resistor_SMD:R_0603_1608Metric,power,11.21,82.52,F.Cu,1=/VBUS_C; 2=/USB-C power and qualification/CC_VBUS_DET
+R6,10k,Resistor_SMD:R_0603_1608Metric,power,16.74,76.85,F.Cu,1=/3V3_AON; 2=/USB-C power and qualification/CC_LOW_CURRENT
+R7,312k 0.1%,Resistor_SMD:R_0603_1608Metric,power,34.25,89.5,F.Cu,1=/3V3; 2=/USB-C power and qualification/BUCK_FB
+R8,100k 0.1%,Resistor_SMD:R_0603_1608Metric,power,30.75,89.5,F.Cu,1=/USB-C power and qualification/BUCK_FB; 2=/GND
+R9,10k,Resistor_SMD:R_0603_1608Metric,power,28.0,87.0,F.Cu,1=/3V3; 2=/3V3_PG
+R10,10k,Resistor_SMD:R_0603_1608Metric,usb,61.15,83.96,F.Cu,1=/3V3; 2=/RP_RUN
+R11,10k,Resistor_SMD:R_0603_1608Metric,usb,3.74,41.68,F.Cu,1=/3V3; 2=/ESP_EN
+R12,10k,Resistor_SMD:R_0603_1608Metric,usb,11.2,13.5,F.Cu,1=/3V3; 2=/ESP_BOOT_N
+R13,1k,Resistor_SMD:R_0603_1608Metric,usb,47.0,38.0,F.Cu,1=/RP_BOOT_N; 2=/USB routing and physical recovery/RP_BOOT_PULL
+R14,1k,Resistor_SMD:R_0603_1608Metric,power,25.0,99.9,F.Cu,1=/USB-C power and qualification/DISCHARGE; 2=/USB-C power and qualification/5V_MAIN
+R20,10k,Resistor_SMD:R_0603_1608Metric,rp,44.0,40.0,F.Cu,1=/3V3; 2=/RP_BOOT_N
+R21,1k,Resistor_SMD:R_0603_1608Metric,rp,61.0,70.0,F.Cu,1=/RP2350B and support/XTAL_OUT; 2=/RP2350B and support/RP_XOUT
+R22,27,Resistor_SMD:R_0603_1608Metric,rp,49.0,50.5,F.Cu,1=/RP2350B and support/RP_USB_DP; 2=/RP_DP
+R23,27,Resistor_SMD:R_0603_1608Metric,rp,49.0,53.0,F.Cu,1=/RP2350B and support/RP_USB_DM; 2=/RP_DM
+R24,33,candidate:RP_Reference_R3,rp,59.2,51.65,F.Cu,1=/3V3; 2=/RP2350B and support/RP_VREG_AVDD
+R30,22,Resistor_SMD:R_0603_1608Metric,esp,10.5,42.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_USB_DP; 2=/ESP_DP
+R31,22,Resistor_SMD:R_0603_1608Metric,esp,14.0,42.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_USB_DM; 2=/ESP_DM
+R32,10k,Resistor_SMD:R_0603_1608Metric,esp,17.0,29.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_STRAP45; 2=/GND
+R33,10k,Resistor_SMD:R_0603_1608Metric,esp,17.0,33.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_STRAP46; 2=/GND
+R34,10k,Resistor_SMD:R_0603_1608Metric,esp,-2.23,18.44,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/ESP_VBUS_VALID
+R35,100k,Resistor_SMD:R_0603_1608Metric,esp,1.5,15.01,F.Cu,1=/ESP32-S3 module and microSD/ESP_VBUS_VALID; 2=/GND
+R36,33,Resistor_SMD:R_0603_1608Metric,esp,17.0,37.0,F.Cu,1=/ESP32-S3 module and microSD/SD_CLK; 2=/ESP32-S3 module and microSD/SD_CLK_CARD
+R37,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,55.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_DAT2
+R38,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,58.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_CS
+R39,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,61.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_MOSI
+R40,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,64.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_MISO
+R41,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,67.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_DAT1
+R50,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,73.57,F.Cu,1=/3V3; 2=/TX_LO_N
+R51,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,85.57,F.Cu,1=/3V3; 2=/TX_HI_N
+R52,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,97.57,F.Cu,1=/3V3; 2=/RX_LO_N
+R53,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,109.36,F.Cu,1=/3V3; 2=/RX_HI_N
+R60,100k 0.1%,Resistor_SMD:R_0603_1608Metric,control,61.1,96.2,F.Cu,1=/AMIGA_5V; 2=/Hardware bus interlocks/HOST_SENSE
+R61,10k 0.1%,Resistor_SMD:R_0603_1608Metric,control,61.1,98.5,F.Cu,1=/Hardware bus interlocks/HOST_SENSE; 2=/GND
+R62,10k,Resistor_SMD:R_0603_1608Metric,control,57.0,98.5,F.Cu,1=/3V3; 2=/Hardware bus interlocks/HOST_PG
+R63,10k,Resistor_SMD:R_0603_1608Metric,control,35.1,18.2,F.Cu,1=/Hardware bus interlocks/BUS_ARM; 2=/GND
+R64,10k,Resistor_SMD:R_0603_1608Metric,control,44.1,18.2,F.Cu,1=/BUS_READY; 2=/GND
+R65,10k,Resistor_SMD:R_0603_1608Metric,control,35.1,36.2,F.Cu,1=/DATA_DRIVE; 2=/GND
+R66,10k,Resistor_SMD:R_0603_1608Metric,control,26.1,36.2,F.Cu,1=/ACK_REQ; 2=/GND
+R67,10k,Resistor_SMD:R_0603_1608Metric,control,70.1,87.2,F.Cu,1=/IRQ_REQ; 2=/GND
+R100,24.9k 0.1%,Resistor_SMD:R_0603_1608Metric,input,1.46,94.5,F.Cu,1=/VBUS_C; 2=/Protected USB input/EFUSE_UVLO
+R101,10k 0.1%,Resistor_SMD:R_0603_1608Metric,input,6.75,87.16,F.Cu,1=/Protected USB input/EFUSE_UVLO; 2=/GND
+R102,37.4k 0.1%,Resistor_SMD:R_0603_1608Metric,input,1.02,91.49,F.Cu,1=/VBUS_C; 2=/Protected USB input/EFUSE_OVLO
+R103,10k 0.1%,Resistor_SMD:R_0603_1608Metric,input,5.3,97.36,F.Cu,1=/Protected USB input/EFUSE_OVLO; 2=/GND
+R104,681R 0.1%,Resistor_SMD:R_0603_1608Metric,input,15.0,92.0,F.Cu,1=/Protected USB input/EFUSE_ILM; 2=/GND
+R105,100k,Resistor_SMD:R_0603_1608Metric,input,15.51,80.04,F.Cu,1=/3V3_AON; 2=/Protected USB input/EFUSE_FAULT_N
+SW1,RP RESET,Button_Switch_THT:SW_PUSH_6mm,usb,41.5,113.0,F.Cu,1=/RP_RUN; 2=/GND
+SW2,RP BOOTSEL,Button_Switch_THT:SW_PUSH_6mm,usb,51.5,113.0,F.Cu,1=/USB routing and physical recovery/RP_BOOT_PULL; 2=/GND
+SW3,ESP RESET,Button_Switch_THT:SW_PUSH_6mm,usb,61.5,113.0,F.Cu,1=/ESP_EN; 2=/GND
+SW4,ESP BOOT,Button_Switch_THT:SW_PUSH_6mm,usb,71.5,113.0,F.Cu,1=/ESP_BOOT_N; 2=/GND
+U1,TS3USB30EDGSR,Package_SO:MSOP-10_3x3mm_P0.5mm,usb,23.0,76.0,F.Cu,1=/USB routing and physical recovery/FLASH_RP; 2=/USB routing and physical recovery/LINK_DP; 3=/USB routing and physical recovery/PC_DP; 4=/RP_DP; 5=/GND; 6=/RP_DM; 7=/USB routing and physical recovery/PC_DM; 8=/USB routing and physical recovery/LINK_DM; 9=/USB routing and physical recovery/FLASH_ESP; 10=/3V3
+U2,TS3USB30EDGSR,Package_SO:MSOP-10_3x3mm_P0.5mm,usb,33.0,76.0,F.Cu,1=/USB routing and physical recovery/FLASH_ESP; 2=/USB routing and physical recovery/LINK_DP; 3=/USB routing and physical recovery/PC_DP; 4=/ESP_DP; 5=/GND; 6=/ESP_DM; 7=/USB routing and physical recovery/PC_DM; 8=/USB routing and physical recovery/LINK_DM; 9=/USB routing and physical recovery/FLASH_RP; 10=/3V3
+U3,FUSB303BTMX,Package_DFN_QFN:Texas_X2QFN-12_1.6x1.6mm_P0.4mm,power,8.0,72.0,F.Cu,1=/CC1; 2=/CC2; 3=/USB-C power and qualification/CC_PORT; 4=/USB-C power and qualification/CC_VBUS_DET; 5=unconnected-(U3-ADDR/ORIENT-Pad5); 6=unconnected-(U3-INT_N/OUT3-Pad6); 7=/USB-C power and qualification/CC_LOW_CURRENT; 8=unconnected-(U3-SCL/OUT2-Pad8); 9=unconnected-(U3-ID-Pad9); 10=/GND; 11=/GND; 12=/3V3_AON
+U4,TPS22917DBVR,Package_TO_SOT_SMD:SOT-23-6,power,21.0,96.8,F.Cu,1=/VBUS_PROTECTED; 2=/GND; 3=/USB-C power and qualification/POWER_ALLOW; 4=/USB-C power and qualification/SOFT_START; 5=/USB-C power and qualification/DISCHARGE; 6=/USB-C power and qualification/5V_MAIN
+U5,TPS62130RGTR,Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.68x1.68mm_ThermalVias,power,30.0,94.0,F.Cu,1=/USB-C power and qualification/BUCK_SW; 2=/USB-C power and qualification/BUCK_SW; 3=/USB-C power and qualification/BUCK_SW; 4=/3V3_PG; 5=/USB-C power and qualification/BUCK_FB; 6=/GND; 7=/GND; 8=/GND; 9=/USB-C power and qualification/BUCK_SS; 10=/USB-C power and qualification/5V_MAIN; 11=/USB-C power and qualification/5V_MAIN; 12=/USB-C power and qualification/5V_MAIN; 13=/USB-C power and qualification/5V_MAIN; 14=/3V3; 15=/GND; 16=/GND; 17=/GND
+U6,AP2112K-3.3TRG1,Package_TO_SOT_SMD:SOT-23-5,power,6.75,76.84,F.Cu,1=/VBUS_PROTECTED; 2=/GND; 3=/VBUS_PROTECTED; 4=unconnected-(U6-NC-Pad4); 5=/3V3_AON
+U7,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,power,14.0,72.0,F.Cu,1=unconnected-(U7-NC-Pad1); 2=/USB-C power and qualification/CC_LOW_CURRENT; 3=/GND; 4=/USB-C power and qualification/POWER_ALLOW; 5=/3V3_AON
+U8,TPS259630DDAR,Package_SO:TI_SO-PowerPAD-8,input,8.0,92.0,F.Cu,1=/GND; 2=/Protected USB input/EFUSE_DVDT; 3=/Protected USB input/EFUSE_UVLO; 4=/VBUS_C; 5=/Protected USB input/VBUS_LIMITED; 6=/Protected USB input/EFUSE_FAULT_N; 7=/Protected USB input/EFUSE_ILM; 8=/Protected USB input/EFUSE_OVLO; 9=/GND
+U9,LM66100DCKR,Package_TO_SOT_SMD:SOT-363_SC-70-6,input,19.0,92.0,F.Cu,1=/Protected USB input/VBUS_LIMITED; 2=/GND; 3=/VBUS_PROTECTED; 4=unconnected-(U9-NC-Pad4); 5=/GND; 6=/VBUS_PROTECTED
+U20,RP2350B,candidate:RP_Reference_U1,rp,54.0,60.0,F.Cu,1=/Z_A4; 2=/Z_A5; 3=/Z_A6; 4=/Z_A7; 5=/3V3; 6=/Z_A8; 7=/Z_A9; 8=/Z_A10; 9=/Z_A11; 10=/RP2350B and support/RP_DVDD; 11=/Z_A12; 12=/Z_A13; 13=/Z_A14; 14=/Z_A15; 15=/3V3; 16=/Z_A16; 17=/Z_A17; 18=/Z_A18; 19=/Z_A19; 20=/Z_A20; 21=/Z_A21; 22=/Z_A22; 23=/Z_A23; 24=/3V3; 25=/Z_D0; 26=/Z_D1; 27=/Z_D2; 28=/Z_D3; 29=/3V3; 30=/RP2350B and support/RP_XIN; 31=/RP2350B and support/RP_XOUT; 32=/RP2350B and support/RP_DVDD; 33=/RP2350B and support/RP_SWCLK; 34=/RP2350B and support/RP_SWDIO; 35=/RP_RUN; 36=/Z_D4; 37=/Z_D5; 38=/Z_D6; 39=/Z_D7; 40=/Z_D8; 41=/3V3; 42=/Z_D9; 43=/Z_D10; 44=/Z_D11; 45=/Z_D12; 46=/Z_D13; 47=/Z_D14; 48=/Z_D15; 49=/Z_UDS_N; 50=/3V3; 51=/RP2350B and support/RP_DVDD; 52=/Z_LDS_N; 53=/Z_READ; 54=/Z_CFGIN_N; 55=/ACK_REQ; 56=/IRQ_REQ; 57=/BUS_READY; 58=/DATA_DRIVE; 59=/3V3; 60=/3V3; 61=/RP2350B and support/RP_VREG_AVDD; 62=/GND; 63=/RP2350B and support/RP_LX; 64=/3V3; 65=/RP2350B and support/RP_DVDD; 66=/RP2350B and support/RP_USB_DM; 67=/RP2350B and support/RP_USB_DP; 68=/3V3; 69=/3V3; 70=/RP2350B and support/QSPI_SD3; 71=/RP2350B and support/QSPI_SCLK; 72=/RP2350B and support/QSPI_SD0; 73=/RP2350B and support/QSPI_SD2; 74=/RP2350B and support/QSPI_SD1; 75=/RP_BOOT_N; 76=/3V3; 77=/Z_AS_N; 78=/Z_A1; 79=/Z_A2; 80=/Z_A3; 81=/GND
+U21,W25Q128JVSIQ,Package_SO:SOIC-8_5.3x5.3mm_P1.27mm,rp,47.0,45.0,F.Cu,1=/RP_BOOT_N; 2=/RP2350B and support/QSPI_SD1; 3=/RP2350B and support/QSPI_SD2; 4=/GND; 5=/RP2350B and support/QSPI_SD0; 6=/RP2350B and support/QSPI_SCLK; 7=/RP2350B and support/QSPI_SD3; 8=/3V3
+U30,ESP32-S3-WROOM-1-N16R8,RF_Module:ESP32-S3-WROOM-1,esp,1.0,30.0,F.Cu,1=/GND; 2=/3V3; 3=/ESP_EN; 4=unconnected-(U30-IO4-Pad4); 5=unconnected-(U30-IO5-Pad5); 6=unconnected-(U30-IO6-Pad6); 7=unconnected-(U30-IO7-Pad7); 8=unconnected-(U30-IO15-Pad8); 9=unconnected-(U30-IO16-Pad9); 10=unconnected-(U30-IO17-Pad10); 11=unconnected-(U30-IO18-Pad11); 12=unconnected-(U30-IO8-Pad12); 13=/ESP32-S3 module and microSD/ESP_USB_DM; 14=/ESP32-S3 module and microSD/ESP_USB_DP; 15=unconnected-(U30-IO3-Pad15); 16=/ESP32-S3 module and microSD/ESP_STRAP46; 17=/ESP32-S3 module and microSD/SD_MISO; 18=/ESP32-S3 module and microSD/SD_CS; 19=/ESP32-S3 module and microSD/SD_MOSI; 20=/ESP32-S3 module and microSD/SD_CLK; 21=unconnected-(U30-IO13-Pad21); 22=unconnected-(U30-IO14-Pad22); 23=/ESP32-S3 module and microSD/ESP_VBUS_VALID; 24=unconnected-(U30-IO47-Pad24); 25=unconnected-(U30-IO48-Pad25); 26=/ESP32-S3 module and microSD/ESP_STRAP45; 27=/ESP_BOOT_N; 28=unconnected-(U30-IO35-Pad28); 29=unconnected-(U30-IO36-Pad29); 30=unconnected-(U30-IO37-Pad30); 31=unconnected-(U30-IO38-Pad31); 32=unconnected-(U30-IO39-Pad32); 33=unconnected-(U30-IO40-Pad33); 34=unconnected-(U30-IO41-Pad34); 35=unconnected-(U30-IO42-Pad35); 36=/ESP32-S3 module and microSD/ESP_RXD0; 37=/ESP32-S3 module and microSD/ESP_TXD0; 38=unconnected-(U30-IO2-Pad38); 39=unconnected-(U30-IO1-Pad39); 40=/GND; 41=/GND
+U40,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,address,79.0,20.0,F.Cu,1=/GND; 2=/A500 socket and input buffers/AMIGA_A1; 3=/A500 socket and input buffers/AMIGA_A2; 4=/A500 socket and input buffers/AMIGA_A3; 5=/A500 socket and input buffers/AMIGA_A4; 6=/A500 socket and input buffers/AMIGA_A5; 7=/A500 socket and input buffers/AMIGA_A6; 8=/A500 socket and input buffers/AMIGA_A7; 9=/A500 socket and input buffers/AMIGA_A8; 10=/GND; 11=/Z_A8; 12=/Z_A7; 13=/Z_A6; 14=/Z_A5; 15=/Z_A4; 16=/Z_A3; 17=/Z_A2; 18=/Z_A1; 19=/GND; 20=/3V3
+U41,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,address,79.0,32.0,F.Cu,1=/GND; 2=/A500 socket and input buffers/AMIGA_A9; 3=/A500 socket and input buffers/AMIGA_A10; 4=/A500 socket and input buffers/AMIGA_A11; 5=/A500 socket and input buffers/AMIGA_A12; 6=/A500 socket and input buffers/AMIGA_A13; 7=/A500 socket and input buffers/AMIGA_A14; 8=/A500 socket and input buffers/AMIGA_A15; 9=/A500 socket and input buffers/AMIGA_A16; 10=/GND; 11=/Z_A16; 12=/Z_A15; 13=/Z_A14; 14=/Z_A13; 15=/Z_A12; 16=/Z_A11; 17=/Z_A10; 18=/Z_A9; 19=/GND; 20=/3V3
+U42,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,address,79.0,44.0,F.Cu,1=/GND; 2=/A500 socket and input buffers/AMIGA_A17; 3=/A500 socket and input buffers/AMIGA_A18; 4=/A500 socket and input buffers/AMIGA_A19; 5=/A500 socket and input buffers/AMIGA_A20; 6=/A500 socket and input buffers/AMIGA_A21; 7=/A500 socket and input buffers/AMIGA_A22; 8=/A500 socket and input buffers/AMIGA_A23; 9=/A500 socket and input buffers/AMIGA_AS_N; 10=/GND; 11=/Z_AS_N; 12=/Z_A23; 13=/Z_A22; 14=/Z_A21; 15=/Z_A20; 16=/Z_A19; 17=/Z_A18; 18=/Z_A17; 19=/GND; 20=/3V3
+U43,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,address,79.0,56.0,F.Cu,1=/GND; 2=/A500 socket and input buffers/AMIGA_UDS_N; 3=/A500 socket and input buffers/AMIGA_LDS_N; 4=/A500 socket and input buffers/AMIGA_READ; 5=/GND; 6=/A500 socket and input buffers/AMIGA_RESET_N; 7=/A500 socket and input buffers/AMIGA_DTACK_N; 8=/A500 socket and input buffers/AMIGA_BERR_N; 9=/GND; 10=/GND; 11=unconnected-(U43-Y7-Pad11); 12=/HOST_BERR_N; 13=unconnected-(U43-Y5-Pad13); 14=/HOST_RESET_N; 15=/Z_CFGIN_N; 16=/Z_READ; 17=/Z_LDS_N; 18=/Z_UDS_N; 19=/GND; 20=/3V3
+U44,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,data,79.0,68.0,F.Cu,1=/TX_LO_N; 2=/Z_D0; 3=/Z_D1; 4=/Z_D2; 5=/Z_D3; 6=/Z_D4; 7=/Z_D5; 8=/Z_D6; 9=/Z_D7; 10=/GND; 11=/AMIGA_D7; 12=/AMIGA_D6; 13=/AMIGA_D5; 14=/AMIGA_D4; 15=/AMIGA_D3; 16=/AMIGA_D2; 17=/AMIGA_D1; 18=/AMIGA_D0; 19=/GND; 20=/3V3
+U45,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,data,79.0,80.0,F.Cu,1=/TX_HI_N; 2=/Z_D8; 3=/Z_D9; 4=/Z_D10; 5=/Z_D11; 6=/Z_D12; 7=/Z_D13; 8=/Z_D14; 9=/Z_D15; 10=/GND; 11=/AMIGA_D15; 12=/AMIGA_D14; 13=/AMIGA_D13; 14=/AMIGA_D12; 15=/AMIGA_D11; 16=/AMIGA_D10; 17=/AMIGA_D9; 18=/AMIGA_D8; 19=/GND; 20=/3V3
+U46,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,data,79.0,92.0,F.Cu,1=/RX_LO_N; 2=/AMIGA_D0; 3=/AMIGA_D1; 4=/AMIGA_D2; 5=/AMIGA_D3; 6=/AMIGA_D4; 7=/AMIGA_D5; 8=/AMIGA_D6; 9=/AMIGA_D7; 10=/GND; 11=/Z_D7; 12=/Z_D6; 13=/Z_D5; 14=/Z_D4; 15=/Z_D3; 16=/Z_D2; 17=/Z_D1; 18=/Z_D0; 19=/GND; 20=/3V3
+U47,SN74LVC541APWR,Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm,data,79.0,104.0,F.Cu,1=/RX_HI_N; 2=/AMIGA_D8; 3=/AMIGA_D9; 4=/AMIGA_D10; 5=/AMIGA_D11; 6=/AMIGA_D12; 7=/AMIGA_D13; 8=/AMIGA_D14; 9=/AMIGA_D15; 10=/GND; 11=/Z_D15; 12=/Z_D14; 13=/Z_D13; 14=/Z_D12; 15=/Z_D11; 16=/Z_D10; 17=/Z_D9; 18=/Z_D8; 19=/GND; 20=/3V3
+U60,TPS3808G01DBVR,Package_TO_SOT_SMD:SOT-23-6,control,57.0,94.0,F.Cu,1=/Hardware bus interlocks/HOST_PG; 2=/GND; 3=/3V3; 4=unconnected-(U60-CT-Pad4); 5=/Hardware bus interlocks/HOST_SENSE; 6=/3V3
+U61,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,22.0,16.0,F.Cu,1=/Hardware bus interlocks/HOST_PG; 2=/GND; 3=/3V3_PG; 4=/Hardware bus interlocks/SAFE_POWER; 5=/3V3; 6=/HOST_RESET_N
+U62,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,31.0,16.0,F.Cu,1=/RP_RUN; 2=/GND; 3=/RUN_MODE; 4=/Hardware bus interlocks/SAFE_MODE; 5=/3V3; 6=/Hardware bus interlocks/BUS_ARM
+U63,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,40.0,16.0,F.Cu,1=/Hardware bus interlocks/SAFE_POWER; 2=/GND; 3=/Hardware bus interlocks/SAFE_MODE; 4=/Hardware bus interlocks/SAFE_BASE; 5=/3V3; 6=/BUS_READY
+U64,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,58.0,16.0,F.Cu,1=unconnected-(U64-NC-Pad1); 2=/Z_AS_N; 3=/GND; 4=/Hardware bus interlocks/AS_ACTIVE; 5=/3V3
+U65,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,67.0,16.0,F.Cu,1=unconnected-(U65-NC-Pad1); 2=/Z_A20; 3=/GND; 4=/Hardware bus interlocks/A20_LOW; 5=/3V3
+U66,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,22.0,25.0,F.Cu,1=/Z_A23; 2=/GND; 3=/Z_A22; 4=/Hardware bus interlocks/IO_TOP; 5=/3V3; 6=/Z_A21
+U67,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,31.0,25.0,F.Cu,1=/Hardware bus interlocks/IO_TOP; 2=/GND; 3=/Hardware bus interlocks/A20_LOW; 4=/Hardware bus interlocks/IO_WINDOW; 5=/3V3; 6=/Z_A19
+U68,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,40.0,25.0,F.Cu,1=/Hardware bus interlocks/SAFE; 2=/GND; 3=/Hardware bus interlocks/AS_ACTIVE; 4=/Hardware bus interlocks/CYCLE_OK; 5=/3V3; 6=/Hardware bus interlocks/IO_WINDOW
+U69,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,49.0,25.0,F.Cu,1=unconnected-(U69-NC-Pad1); 2=/Z_LDS_N; 3=/GND; 4=/Hardware bus interlocks/LO_ACTIVE; 5=/3V3
+U70,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,58.0,25.0,F.Cu,1=unconnected-(U70-NC-Pad1); 2=/Z_UDS_N; 3=/GND; 4=/Hardware bus interlocks/HI_ACTIVE; 5=/3V3
+U71,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,40.0,34.0,F.Cu,1=/Hardware bus interlocks/CYCLE_OK; 2=/GND; 3=/Z_READ; 4=/Hardware bus interlocks/READ_DRIVE; 5=/3V3; 6=/Hardware bus interlocks/DATA_VALID
+U72,SN74LVC1G10DBVR,Package_TO_SOT_SMD:SOT-23-6,control,49.0,34.0,F.Cu,1=/Hardware bus interlocks/READ_DRIVE; 2=/GND; 3=/Hardware bus interlocks/LO_ACTIVE; 4=/TX_LO_N; 5=/3V3; 6=/3V3
+U73,SN74LVC1G10DBVR,Package_TO_SOT_SMD:SOT-23-6,control,58.0,34.0,F.Cu,1=/Hardware bus interlocks/READ_DRIVE; 2=/GND; 3=/Hardware bus interlocks/HI_ACTIVE; 4=/TX_HI_N; 5=/3V3; 6=/3V3
+U74,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,67.0,34.0,F.Cu,1=unconnected-(U74-NC-Pad1); 2=/Z_READ; 3=/GND; 4=/Hardware bus interlocks/WRITE_CYCLE; 5=/3V3
+U75,SN74LVC1G04DBVR,Package_TO_SOT_SMD:SOT-23-5,control,22.0,43.0,F.Cu,1=unconnected-(U75-NC-Pad1); 2=/Hardware bus interlocks/DATA_VALID; 3=/GND; 4=/Hardware bus interlocks/DATA_RECEIVE; 5=/3V3
+U76,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,31.0,43.0,F.Cu,1=/Hardware bus interlocks/CYCLE_OK; 2=/GND; 3=/Hardware bus interlocks/WRITE_CYCLE; 4=/Hardware bus interlocks/WRITE_RECEIVE; 5=/3V3; 6=/Hardware bus interlocks/DATA_RECEIVE
+U77,SN74LVC1G10DBVR,Package_TO_SOT_SMD:SOT-23-6,control,22.0,52.0,F.Cu,1=/Hardware bus interlocks/WRITE_RECEIVE; 2=/GND; 3=/Hardware bus interlocks/LO_ACTIVE; 4=/RX_LO_N; 5=/3V3; 6=/3V3
+U78,SN74LVC1G10DBVR,Package_TO_SOT_SMD:SOT-23-6,control,31.0,52.0,F.Cu,1=/Hardware bus interlocks/WRITE_RECEIVE; 2=/GND; 3=/Hardware bus interlocks/HI_ACTIVE; 4=/RX_HI_N; 5=/3V3; 6=/3V3
+U79,SN74LVC1G32DBVR,Package_TO_SOT_SMD:SOT-23-5,control,67.0,25.0,F.Cu,1=/Hardware bus interlocks/LO_ACTIVE; 2=/Hardware bus interlocks/HI_ACTIVE; 3=/GND; 4=/Hardware bus interlocks/ANY_LANE; 5=/3V3
+U80,SN74LVC1G11DBVR,Package_TO_SOT_SMD:SOT-23-6,control,22.0,61.0,F.Cu,1=/Hardware bus interlocks/CYCLE_OK; 2=/GND; 3=/Hardware bus interlocks/WAIT_PENDING; 4=/Hardware bus interlocks/WAIT_SINK; 5=/3V3; 6=/3V3
+U81,SN74LVC1G06DBVR,Package_TO_SOT_SMD:SOT-23-5,control,31.0,70.0,F.Cu,2=/Hardware bus interlocks/WAIT_SINK; 3=/GND; 4=/AMIGA_XRDY; 5=/3V3
+U82,SN74LVC1G08DBVR,Package_TO_SOT_SMD:SOT-23-5,control,66.0,85.0,F.Cu,1=/Hardware bus interlocks/SAFE; 2=/IRQ_REQ; 3=/GND; 4=/Hardware bus interlocks/IRQ_SINK; 5=/3V3
+U83,SN74LVC1G06DBVR,Package_TO_SOT_SMD:SOT-23-5,control,48.0,94.0,F.Cu,2=/Hardware bus interlocks/IRQ_SINK; 3=/GND; 4=/AMIGA_INT2_N; 5=/3V3
+U84,SN74LVC1G74DCUR,Package_SO:VSSOP-8_2.3x2mm_P0.5mm,control,22.0,34.0,F.Cu,1=/ACK_REQ; 2=/Hardware bus interlocks/ANY_LANE; 3=/Hardware bus interlocks/WAIT_PENDING; 4=/GND; 5=unconnected-(U84-Q-Pad5); 6=/Hardware bus interlocks/CYCLE_OK; 7=/3V3; 8=/3V3
+U85,SN74LVC1G08DBVR,Package_TO_SOT_SMD:SOT-23-5,control,49.0,16.0,F.Cu,1=/Hardware bus interlocks/SAFE_BASE; 2=/HOST_BERR_N; 3=/GND; 4=/Hardware bus interlocks/SAFE; 5=/3V3
+U86,SN74LVC1G74DCUR,Package_SO:VSSOP-8_2.3x2mm_P0.5mm,control,31.0,34.0,F.Cu,1=/DATA_DRIVE; 2=/3V3; 3=unconnected-(U86-~{Q}-Pad3); 4=/GND; 5=/Hardware bus interlocks/DATA_VALID; 6=/Hardware bus interlocks/CYCLE_OK; 7=/3V3; 8=/3V3
+Y20,ABM8-272-T3 12MHz,Crystal:Crystal_SMD_3225-4Pin_3.2x2.5mm,rp,54.0,74.0,F.Cu,1=/RP2350B and support/RP_XIN; 2=/GND; 3=/RP2350B and support/XTAL_OUT; 4=/GND

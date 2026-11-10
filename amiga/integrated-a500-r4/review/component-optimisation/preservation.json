@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-10",
+  "cad_unchanged": true,
+  "files": {
+    "integrated-a500-r4.kicad_sch": {
+      "before": "30f92569d64fcb47294ade7d43f3cfb398ecc8f4b043ecf30ed46486f2f43331",
+      "after": "30f92569d64fcb47294ade7d43f3cfb398ecc8f4b043ecf30ed46486f2f43331"
+    },
+    "usb.kicad_sch": {
+      "before": "ac26df3ea050c291a120075f979cc8a851c2253dfed70cf1f5ebd29da123d498",
+      "after": "ac26df3ea050c291a120075f979cc8a851c2253dfed70cf1f5ebd29da123d498"
+    },
+    "rp.kicad_sch": {
+      "before": "cf30e07b304d45b952704ba013b42afd2ebec9a336d4b36df31dd4e4b03ba022",
+      "after": "cf30e07b304d45b952704ba013b42afd2ebec9a336d4b36df31dd4e4b03ba022"
+    },
+    "power.kicad_sch": {
+      "before": "dd514d826528192e36230282d16f579af8214b2692c7377c7446f8c4d630c3db",
+      "after": "dd514d826528192e36230282d16f579af8214b2692c7377c7446f8c4d630c3db"
+    },
+    "esp.kicad_sch": {
+      "before": "10081d94be0b2c52525e97758cc9e9ed0cf6a8df2611022df39bcfa0e80a667e",
+      "after": "10081d94be0b2c52525e97758cc9e9ed0cf6a8df2611022df39bcfa0e80a667e"
+    },
+    "input.kicad_sch": {
+      "before": "63c4cca9a41df3c317c00f17c58c249f881f411728543c74709caaa2d4978345",
+      "after": "63c4cca9a41df3c317c00f17c58c249f881f411728543c74709caaa2d4978345"
+    },
+    "address.kicad_sch": {
+      "before": "0433defa2154af831ea3d22cb3aa7a81bb057cdc0d209f9072c92454ece5336e",
+      "after": "0433defa2154af831ea3d22cb3aa7a81bb057cdc0d209f9072c92454ece5336e"
+    },
+    "control.kicad_sch": {
+      "before": "c115d4605ad387d7ea36d08a5b824767c269ec9befcb6fc278f1cea36ebafbf0",
+      "after": "c115d4605ad387d7ea36d08a5b824767c269ec9befcb6fc278f1cea36ebafbf0"
+    },
+    "data.kicad_sch": {
+      "before": "b2c32cce1c5c73c9fd055ef813a88fe4fccedb13f3e05e739c0ad2ab67948373",
+      "after": "b2c32cce1c5c73c9fd055ef813a88fe4fccedb13f3e05e739c0ad2ab67948373"
+    },
+    "integrated-a500-r4.kicad_pcb": {
+      "before": "74d51195daeed7a640e818c504de52265aee35b29103a8506140aadead4ce59a",
+      "after": "74d51195daeed7a640e818c504de52265aee35b29103a8506140aadead4ce59a"
+    },
+    "integrated-a500-r4.kicad_pro": {
+      "before": "3ba4b8b66cb308a0f3d26a2fc124b0ab75fce32640426a7639955f85b66df7d4",
+      "after": "3ba4b8b66cb308a0f3d26a2fc124b0ab75fce32640426a7639955f85b66df7d4"
+    }
+  },
+  "fresh_netlist_components": 188,
+  "functional_assignments_verified": 864,
+  "limits": "No proposed timing, power-ramp or sequential validation. Inventories and pin-net comparisons only; no CAD edits.",
+  "saved_pcb_functional_assignments_verified": 864,
+  "schematic_to_pcb_value_comparisons_verified": 188,
+  "pcb_footprints": 192,
+  "generator_value_alias": {
+    "J40": {
+      "plan": "WING TAT ED86BGFBK edge-solder",
+      "saved_schematic_and_pcb": "A500 FEMALE mating socket"
+    }
+  }
+}

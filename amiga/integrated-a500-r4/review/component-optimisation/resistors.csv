@@ -1,0 +1,50 @@
+Reference,Value_or_MPN,Footprint,Subsystem,X_mm,Y_mm,Side,Saved_schematic_pin_nets,Tolerance_in_saved_value,Power_rating_in_saved_schematic
+R1,10k,Resistor_SMD:R_0603_1608Metric,usb,19.94,79.95,F.Cu,1=/USB routing and physical recovery/FLASH_RP; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R2,10k,Resistor_SMD:R_0603_1608Metric,usb,26.44,72.38,F.Cu,1=/USB routing and physical recovery/FLASH_ESP; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R3,10k,Resistor_SMD:R_0603_1608Metric,usb,27.5,20.5,F.Cu,1=/RUN_MODE; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R4,100k,Resistor_SMD:R_0603_1608Metric,power,-0.77,74.0,F.Cu,1=/USB-C power and qualification/CC_PORT; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R5,887k 1%,Resistor_SMD:R_0603_1608Metric,power,11.21,82.52,F.Cu,1=/VBUS_C; 2=/USB-C power and qualification/CC_VBUS_DET,1%,Unspecified; footprint does not establish rating
+R6,10k,Resistor_SMD:R_0603_1608Metric,power,16.74,76.85,F.Cu,1=/3V3_AON; 2=/USB-C power and qualification/CC_LOW_CURRENT,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R7,312k 0.1%,Resistor_SMD:R_0603_1608Metric,power,34.25,89.5,F.Cu,1=/3V3; 2=/USB-C power and qualification/BUCK_FB,0.1%,Unspecified; footprint does not establish rating
+R8,100k 0.1%,Resistor_SMD:R_0603_1608Metric,power,30.75,89.5,F.Cu,1=/USB-C power and qualification/BUCK_FB; 2=/GND,0.1%,Unspecified; footprint does not establish rating
+R9,10k,Resistor_SMD:R_0603_1608Metric,power,28.0,87.0,F.Cu,1=/3V3; 2=/3V3_PG,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R10,10k,Resistor_SMD:R_0603_1608Metric,usb,61.15,83.96,F.Cu,1=/3V3; 2=/RP_RUN,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R11,10k,Resistor_SMD:R_0603_1608Metric,usb,3.74,41.68,F.Cu,1=/3V3; 2=/ESP_EN,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R12,10k,Resistor_SMD:R_0603_1608Metric,usb,11.2,13.5,F.Cu,1=/3V3; 2=/ESP_BOOT_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R13,1k,Resistor_SMD:R_0603_1608Metric,usb,47.0,38.0,F.Cu,1=/RP_BOOT_N; 2=/USB routing and physical recovery/RP_BOOT_PULL,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R14,1k,Resistor_SMD:R_0603_1608Metric,power,25.0,99.9,F.Cu,1=/USB-C power and qualification/DISCHARGE; 2=/USB-C power and qualification/5V_MAIN,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R20,10k,Resistor_SMD:R_0603_1608Metric,rp,44.0,40.0,F.Cu,1=/3V3; 2=/RP_BOOT_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R21,1k,Resistor_SMD:R_0603_1608Metric,rp,61.0,70.0,F.Cu,1=/RP2350B and support/XTAL_OUT; 2=/RP2350B and support/RP_XOUT,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R22,27,Resistor_SMD:R_0603_1608Metric,rp,49.0,50.5,F.Cu,1=/RP2350B and support/RP_USB_DP; 2=/RP_DP,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R23,27,Resistor_SMD:R_0603_1608Metric,rp,49.0,53.0,F.Cu,1=/RP2350B and support/RP_USB_DM; 2=/RP_DM,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R24,33,candidate:RP_Reference_R3,rp,59.2,51.65,F.Cu,1=/3V3; 2=/RP2350B and support/RP_VREG_AVDD,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R30,22,Resistor_SMD:R_0603_1608Metric,esp,10.5,42.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_USB_DP; 2=/ESP_DP,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R31,22,Resistor_SMD:R_0603_1608Metric,esp,14.0,42.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_USB_DM; 2=/ESP_DM,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R32,10k,Resistor_SMD:R_0603_1608Metric,esp,17.0,29.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_STRAP45; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R33,10k,Resistor_SMD:R_0603_1608Metric,esp,17.0,33.0,F.Cu,1=/ESP32-S3 module and microSD/ESP_STRAP46; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R34,10k,Resistor_SMD:R_0603_1608Metric,esp,-2.23,18.44,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/ESP_VBUS_VALID,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R35,100k,Resistor_SMD:R_0603_1608Metric,esp,1.5,15.01,F.Cu,1=/ESP32-S3 module and microSD/ESP_VBUS_VALID; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R36,33,Resistor_SMD:R_0603_1608Metric,esp,17.0,37.0,F.Cu,1=/ESP32-S3 module and microSD/SD_CLK; 2=/ESP32-S3 module and microSD/SD_CLK_CARD,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R37,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,55.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_DAT2,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R38,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,58.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_CS,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R39,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,61.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_MOSI,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R40,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,64.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_MISO,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R41,47k,Resistor_SMD:R_0603_1608Metric,esp,16.5,67.5,F.Cu,1=/3V3; 2=/ESP32-S3 module and microSD/SD_DAT1,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R50,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,73.57,F.Cu,1=/3V3; 2=/TX_LO_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R51,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,85.57,F.Cu,1=/3V3; 2=/TX_HI_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R52,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,97.57,F.Cu,1=/3V3; 2=/RX_LO_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R53,10k,Resistor_SMD:R_0603_1608Metric,data,81.24,109.36,F.Cu,1=/3V3; 2=/RX_HI_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R60,100k 0.1%,Resistor_SMD:R_0603_1608Metric,control,61.1,96.2,F.Cu,1=/AMIGA_5V; 2=/Hardware bus interlocks/HOST_SENSE,0.1%,Unspecified; footprint does not establish rating
+R61,10k 0.1%,Resistor_SMD:R_0603_1608Metric,control,61.1,98.5,F.Cu,1=/Hardware bus interlocks/HOST_SENSE; 2=/GND,0.1%,Unspecified; footprint does not establish rating
+R62,10k,Resistor_SMD:R_0603_1608Metric,control,57.0,98.5,F.Cu,1=/3V3; 2=/Hardware bus interlocks/HOST_PG,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R63,10k,Resistor_SMD:R_0603_1608Metric,control,35.1,18.2,F.Cu,1=/Hardware bus interlocks/BUS_ARM; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R64,10k,Resistor_SMD:R_0603_1608Metric,control,44.1,18.2,F.Cu,1=/BUS_READY; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R65,10k,Resistor_SMD:R_0603_1608Metric,control,35.1,36.2,F.Cu,1=/DATA_DRIVE; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R66,10k,Resistor_SMD:R_0603_1608Metric,control,26.1,36.2,F.Cu,1=/ACK_REQ; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R67,10k,Resistor_SMD:R_0603_1608Metric,control,70.1,87.2,F.Cu,1=/IRQ_REQ; 2=/GND,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
+R100,24.9k 0.1%,Resistor_SMD:R_0603_1608Metric,input,1.46,94.5,F.Cu,1=/VBUS_C; 2=/Protected USB input/EFUSE_UVLO,0.1%,Unspecified; footprint does not establish rating
+R101,10k 0.1%,Resistor_SMD:R_0603_1608Metric,input,6.75,87.16,F.Cu,1=/Protected USB input/EFUSE_UVLO; 2=/GND,0.1%,Unspecified; footprint does not establish rating
+R102,37.4k 0.1%,Resistor_SMD:R_0603_1608Metric,input,1.02,91.49,F.Cu,1=/VBUS_C; 2=/Protected USB input/EFUSE_OVLO,0.1%,Unspecified; footprint does not establish rating
+R103,10k 0.1%,Resistor_SMD:R_0603_1608Metric,input,5.3,97.36,F.Cu,1=/Protected USB input/EFUSE_OVLO; 2=/GND,0.1%,Unspecified; footprint does not establish rating
+R104,681R 0.1%,Resistor_SMD:R_0603_1608Metric,input,15.0,92.0,F.Cu,1=/Protected USB input/EFUSE_ILM; 2=/GND,0.1%,Unspecified; footprint does not establish rating
+R105,100k,Resistor_SMD:R_0603_1608Metric,input,15.51,80.04,F.Cu,1=/3V3_AON; 2=/Protected USB input/EFUSE_FAULT_N,Unspecified; select during BOM qualification,Unspecified; footprint does not establish rating
