@@ -1,0 +1,402 @@
+{
+  "modified_refs": [
+    "U21",
+    "C31",
+    "C27",
+    "C26",
+    "C28",
+    "R24",
+    "C37",
+    "R23",
+    "C29",
+    "R21",
+    "C34",
+    "C25",
+    "R13",
+    "C30",
+    "C32",
+    "C23",
+    "C38",
+    "R22",
+    "C39",
+    "C36",
+    "C33",
+    "R20",
+    "C20",
+    "C35"
+  ],
+  "unselected_objects_and_floorplan_unchanged": true,
+  "u20_and_regulator_positions_unchanged": true,
+  "ids_nets_locks_groups_preserved": true,
+  "tracks": 0,
+  "usb_before": {
+    "dp_mm": 1.1621639299169473,
+    "dm_mm": 6.149034477054102,
+    "difference_mm": 4.986870547137155
+  },
+  "usb_after": {
+    "dp_mm": 6.346307981811156,
+    "dm_mm": 5.959498720530108,
+    "difference_mm": 0.38680926128104787
+  },
+  "flash_before_pad_distances_mm": {
+    "1": 9.638136814239571,
+    "2": 9.015979217478268,
+    "3": 8.43776518101802,
+    "5": 14.406688767721748,
+    "6": 15.011824714204465,
+    "7": 15.771330991707707
+  },
+  "flash_after_pad_distances_mm": {
+    "1": 8.833384473122411,
+    "2": 8.042566832174913,
+    "3": 7.2698611575462735,
+    "5": 12.01739078377665,
+    "6": 12.867007470659212,
+    "7": 13.866502127429253
+  },
+  "south_row": [
+    {
+      "capacitor": "C28",
+      "pin": 24,
+      "courtyard_gap_to_u20_mm": 1.47,
+      "supply_pad_centre_distance_mm": 2.3249999999999886,
+      "north_copper_to_u20_south_pad_edges_mm": 1.475
+    },
+    {
+      "capacitor": "C29",
+      "pin": 29,
+      "courtyard_gap_to_u20_mm": 1.47,
+      "supply_pad_centre_distance_mm": 2.3249999999999886,
+      "north_copper_to_u20_south_pad_edges_mm": 1.475
+    },
+    {
+      "capacitor": "C39",
+      "pin": 32,
+      "courtyard_gap_to_u20_mm": 1.47,
+      "supply_pad_centre_distance_mm": 2.616414531376849,
+      "north_copper_to_u20_south_pad_edges_mm": 1.475
+    }
+  ],
+  "regulator_reference_source_sha256": "cde2b7e54bf25b443972b8b31214f7880428c40be70d9df9dbd3d0a41fc50b86",
+  "regulator_pad_mapping": [
+    {
+      "source": "L1.1",
+      "source_net": "+1V1",
+      "r5": "L20.2",
+      "r5_net": "/RP2350B and support/RP_DVDD",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "L1.2",
+      "source_net": "/VREG_LX",
+      "r5": "L20.1",
+      "r5_net": "/RP2350B and support/RP_LX",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C6.1",
+      "source_net": "+3V3",
+      "r5": "C24.1",
+      "r5_net": "/3V3",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C6.2",
+      "source_net": "GND",
+      "r5": "C24.2",
+      "r5_net": "/GND",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C7.1",
+      "source_net": "+1V1",
+      "r5": "C25.1",
+      "r5_net": "/RP2350B and support/RP_DVDD",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C7.2",
+      "source_net": "GND",
+      "r5": "C25.2",
+      "r5_net": "/GND",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C9.1",
+      "source_net": "/VREG_AVDD",
+      "r5": "C23.1",
+      "r5_net": "/RP2350B and support/RP_VREG_AVDD",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "C9.2",
+      "source_net": "GND",
+      "r5": "C23.2",
+      "r5_net": "/GND",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "R3.1",
+      "source_net": "+3V3",
+      "r5": "R24.1",
+      "r5_net": "/3V3",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    },
+    {
+      "source": "R3.2",
+      "source_net": "/VREG_AVDD",
+      "r5": "R24.2",
+      "r5_net": "/RP2350B and support/RP_VREG_AVDD",
+      "pad_translation_mm": [
+        -57,
+        -41.45
+      ]
+    }
+  ],
+  "prospective_ground_vias": [
+    {
+      "capacitor": "C20",
+      "via_xy_mm": [
+        31.5,
+        39.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7249999999999985,
+      "nearest_foreign_pad": "C20.1",
+      "distance_to_gnd_pad_centre_mm": 0.9249999999999972
+    },
+    {
+      "capacitor": "C23",
+      "via_xy_mm": [
+        47.7,
+        54.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.6762812094883348,
+      "nearest_foreign_pad": "C23.1",
+      "distance_to_gnd_pad_centre_mm": 0.5706356105256657
+    },
+    {
+      "capacitor": "C24",
+      "via_xy_mm": [
+        46.3,
+        54.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.41289901108081234,
+      "nearest_foreign_pad": "U20.61",
+      "distance_to_gnd_pad_centre_mm": 0.8011398130164271
+    },
+    {
+      "capacitor": "C25",
+      "via_xy_mm": [
+        46.3,
+        52.9
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.325,
+      "nearest_foreign_pad": "C23.1",
+      "distance_to_gnd_pad_centre_mm": 0.7913437938089835
+    },
+    {
+      "capacitor": "C26",
+      "via_xy_mm": [
+        32.8,
+        57.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C26.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C37",
+      "via_xy_mm": [
+        32.8,
+        59.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C37.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C27",
+      "via_xy_mm": [
+        32.8,
+        61.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C27.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C32",
+      "via_xy_mm": [
+        51.7,
+        55.4
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C32.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C33",
+      "via_xy_mm": [
+        51.7,
+        57.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C33.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C38",
+      "via_xy_mm": [
+        51.7,
+        59.6
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C38.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C31",
+      "via_xy_mm": [
+        51.7,
+        61.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C31.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C30",
+      "via_xy_mm": [
+        51.7,
+        63.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C30.1",
+      "distance_to_gnd_pad_centre_mm": 0.9250000000000043
+    },
+    {
+      "capacitor": "C28",
+      "via_xy_mm": [
+        39.4,
+        69.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.6249999999999971,
+      "nearest_foreign_pad": "C21.1",
+      "distance_to_gnd_pad_centre_mm": 0.9249999999999972
+    },
+    {
+      "capacitor": "C29",
+      "via_xy_mm": [
+        41.4,
+        69.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.40000000000000285,
+      "nearest_foreign_pad": "Y20.1",
+      "distance_to_gnd_pad_centre_mm": 0.9249999999999972
+    },
+    {
+      "capacitor": "C39",
+      "via_xy_mm": [
+        43.8,
+        69.7
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7250000000000056,
+      "nearest_foreign_pad": "C39.1",
+      "distance_to_gnd_pad_centre_mm": 0.9249999999999972
+    },
+    {
+      "capacitor": "C34",
+      "via_xy_mm": [
+        42,
+        50.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.8710038428630376,
+      "nearest_foreign_pad": "R23.1",
+      "distance_to_gnd_pad_centre_mm": 0.875
+    },
+    {
+      "capacitor": "C35",
+      "via_xy_mm": [
+        40,
+        50.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.941470901793513,
+      "nearest_foreign_pad": "R22.1",
+      "distance_to_gnd_pad_centre_mm": 0.875
+    },
+    {
+      "capacitor": "C36",
+      "via_xy_mm": [
+        38,
+        50.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.6750000000000014,
+      "nearest_foreign_pad": "C36.1",
+      "distance_to_gnd_pad_centre_mm": 0.875
+    }
+  ]
+}
