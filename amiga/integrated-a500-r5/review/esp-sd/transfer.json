@@ -1,0 +1,16 @@
+{
+  "changed_references": [
+    "C1",
+    "C2",
+    "R1",
+    "R2",
+    "U1",
+    "U2"
+  ],
+  "unchanged_footprints": 197,
+  "existing_groups_preserved": true,
+  "nonfootprint_objects_preserved": true,
+  "all_203_footprints_match_approved_candidate": true,
+  "drc_findings_exactly_match_approved_candidate": true,
+  "schematic_parity": 0
+}

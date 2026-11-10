@@ -19320,11 +19320,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "5f51fcfd-4d63-4f47-8583-fea88bc53d94")
-		(at 350 470)
+		(at 30 78.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R1"
-			(at 0 -1.955 0)
+			(at 0 1.3 0)
 			(layer "F.SilkS")
 			(uuid "428c2332-6885-4746-8bd0-4f6dee304eab")
 			(effects
@@ -25381,11 +25381,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "86c616b9-8f77-4644-bdad-122167dfd2fa")
-		(at 350 120)
+		(at 24 72.3)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C2"
-			(at 0 -1.955 0)
+			(at 0 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "6ebbca5c-67f5-40d2-b870-3dee702a9b73")
 			(effects
@@ -35409,11 +35409,11 @@
 	(footprint "Capacitor_SMD:C_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c9083c93-af6e-4ae5-ad5a-3f161eb5969c")
-		(at 150 20)
+		(at 32 72.3)
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "capacitor")
 		(property "Reference" "C1"
-			(at 0 -1.955 0)
+			(at 0 -1.2 0)
 			(layer "F.SilkS")
 			(uuid "db8e731f-dfd6-4fef-adaa-7fc32ad766e1")
 			(effects
@@ -35556,11 +35556,11 @@
 	(footprint "Resistor_SMD:R_0603_1608Metric"
 		(layer "F.Cu")
 		(uuid "c90b7c82-ffa3-4c65-ac18-55223fa7269b")
-		(at 600 570)
+		(at 22 78.2)
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
 		(tags "resistor")
 		(property "Reference" "R2"
-			(at 0 -1.955 0)
+			(at 0 1.3 0)
 			(layer "F.SilkS")
 			(uuid "eefd9d7c-5378-4091-936e-1304b5f4dec4")
 			(effects
@@ -35703,11 +35703,11 @@
 	(footprint "Package_SO:MSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "c96fc6c7-0bd6-41c6-9a66-a444ea7ab874")
-		(at 350 770)
+		(at 22 75.5)
 		(descr "MSOP, 10 Pin (JEDEC MO-187 variation BA, 0.85mm body thickness, https://www.jedec.org/system/files/docs/mo-187F.pdf)")
 		(tags "MSOP SO TSSOP-10_3x3mm_P0.5mm")
 		(property "Reference" "U2"
-			(at 0 -3.030001 0)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "6498c125-2458-4040-8b87-370db8973756")
 			(effects
@@ -43638,11 +43638,11 @@
 	(footprint "Package_SO:MSOP-10_3x3mm_P0.5mm"
 		(layer "F.Cu")
 		(uuid "ebfa74f2-081d-46be-9142-a1149ecf27e2")
-		(at 250 770)
+		(at 30 75.5)
 		(descr "MSOP, 10 Pin (JEDEC MO-187 variation BA, 0.85mm body thickness, https://www.jedec.org/system/files/docs/mo-187F.pdf)")
 		(tags "MSOP SO TSSOP-10_3x3mm_P0.5mm")
 		(property "Reference" "U1"
-			(at 0 -3.030001 0)
+			(at 0 -2.4 0)
 			(layer "F.SilkS")
 			(uuid "fd303943-e7da-40e7-932f-60ad2bf89f1d")
 			(effects
@@ -48063,6 +48063,13 @@
 			"79713735-a334-4c7f-ae84-5b81042d8ee1" "ac913293-f3a7-4dd7-8990-ddded06e157c"
 			"bd0ab1e9-c535-4f1c-a0a3-f1f48e2bbf18" "d86b1465-1364-4bb7-b469-8d3604b8e56d"
 			"e171f278-161d-4834-9d58-e64f4cfeb9df" "fc9f8444-d83e-441b-a145-79090adbfb81"
+		)
+	)
+	(group "R5: USB mux cell - approved"
+		(uuid "87786ec8-87e0-495e-93c8-fde4d8f604f6")
+		(members "5f51fcfd-4d63-4f47-8583-fea88bc53d94" "86c616b9-8f77-4644-bdad-122167dfd2fa"
+			"c9083c93-af6e-4ae5-ad5a-3f161eb5969c" "c90b7c82-ffa3-4c65-ac18-55223fa7269b"
+			"c96fc6c7-0bd6-41c6-9a66-a444ea7ab874" "ebfa74f2-081d-46be-9142-a1149ecf27e2"
 		)
 	)
 	(group "R5: CC qualification and AON - approved milestone 2"
