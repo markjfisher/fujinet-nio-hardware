@@ -1487,70 +1487,6 @@
     },
     {
       "page": "esp",
-      "reference": "R37",
-      "lib_id": "Device:R",
-      "value": "47k",
-      "position": [
-        223.52,
-        182.88
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "SD_DAT2"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "esp",
-      "reference": "R38",
-      "lib_id": "Device:R",
-      "value": "47k",
-      "position": [
-        251.46,
-        182.88
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "SD_CS"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "esp",
-      "reference": "R39",
-      "lib_id": "Device:R",
-      "value": "47k",
-      "position": [
-        279.40000000000003,
-        182.88
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "SD_MOSI"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "esp",
-      "reference": "R40",
-      "lib_id": "Device:R",
-      "value": "47k",
-      "position": [
-        307.34000000000003,
-        182.88
-      ],
-      "pins": {
-        "1": "3V3",
-        "2": "SD_MISO"
-      },
-      "footprint": "Resistor_SMD:R_0603_1608Metric",
-      "rotation": 0
-    },
-    {
-      "page": "esp",
       "reference": "R41",
       "lib_id": "Device:R",
       "value": "47k",
@@ -3894,6 +3830,28 @@
       "position": [
         680,
         260
+      ],
+      "rotation": 0
+    },
+    {
+      "reference": "R37",
+      "lib_id": "Device:R_Pack04",
+      "value": "CAT16-4702F4LF",
+      "pins": {
+        "1": "3V3",
+        "8": "SD_DAT2",
+        "2": "3V3",
+        "7": "SD_CS",
+        "3": "3V3",
+        "6": "SD_MOSI",
+        "4": "3V3",
+        "5": "SD_MISO"
+      },
+      "footprint": "Resistor_SMD:R_Array_Concave_4x0603",
+      "page": "esp",
+      "position": [
+        550,
+        120
       ],
       "rotation": 0
     }
