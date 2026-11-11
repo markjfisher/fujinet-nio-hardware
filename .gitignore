@@ -1,1 +1,5 @@
 /.local-tools/
+
+# temp files from kicad
+.history/
+~*.lck
