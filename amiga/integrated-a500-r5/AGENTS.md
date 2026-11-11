@@ -14,8 +14,9 @@ silkscreen/library exception. Follow `review/esp-sd/acceptance.md` for the J30
 enclosure opening, push-push travel and finger-access validation requirement.
 The bus-buffer cell is approved and transferred to the root PCB. Retain its
 explicit buffer-corridor ownership checks and proposed ground vias.
-The host-protection cell in `review/host-protection/candidate/` is pending visual
-approval. Do not transfer it or place another cluster before that review.
+The host-protection cell is approved and transferred to the root PCB. Preserve
+its internal geometry and ground-via sites; entire groups can be reconsidered
+later for routing. See `review/host-protection/acceptance.md`.
 The outline can be extended above/below only after an explicit proposal and
 approval; do not crowd later circuitry to fit. J40 remains mechanically fixed.
 
