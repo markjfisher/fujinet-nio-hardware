@@ -1,0 +1,12 @@
+{
+  "all_214_footprints_exactly_match_approved_candidate": true,
+  "all_other_board_objects_match": true,
+  "only_C42_C43_changed_from_prior_authoritative": true,
+  "schematic_files_unchanged": true,
+  "front_side_footprints": 214,
+  "back_side_footprints": 0,
+  "schematic_parity_issues": 0,
+  "DRC_findings_match_candidate": true,
+  "tracks_vias": 0,
+  "authoritative_sha256": "51f08ba681685ddbd199e7bb4e1fdf27f17a219cd9151cb8a131cade5c910895"
+}

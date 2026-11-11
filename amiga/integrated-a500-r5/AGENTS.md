@@ -33,3 +33,10 @@ transferred to the root PCB. Service positions remain provisional pending
 enclosure review. Preserve the LED placement, labels and groups; follow
 review/indicators/assembly.csv for onboard OR external LED population.
 See review/indicators/transfer/acceptance.md.
+
+The front-side C42/C43 placement is approved and transferred to authoritative R5.
+All 214 footprints are front-side, enabling single-sided component population.
+Through-hole components still require normal underside soldering. Preserve the
+new C42/C43 prospective ground-via sites in review/front-sd/verification.json;
+these supersede only their older sites in review/esp-sd/verification.json.
+See review/front-sd/acceptance.md.

@@ -1,6 +1,8 @@
 # R5 front-side microSD decoupling candidate
 
-**Pending visual approval. Not transferred to authoritative R5. No routing.**
+**Approved and transferred to authoritative R5. No routing.**
+
+See [acceptance.md](acceptance.md) for transfer verification.
 
 The approved LED/service candidate was transferred separately in `7f37d2f4`.
 Its 214 footprint records, labels and groups match the reviewed candidate;
@@ -72,4 +74,4 @@ Open `candidate/integrated-a500-r5.kicad_pro` for review.
 `closeup.png` is the native KiCad front-layer plot; `pad-closeup.png` adds pad-net
 annotations and cyan prospective ground-via markers, which are not PCB objects.
 
-**Approve this candidate before transferring C42/C43 to authoritative R5.**
+**C42/C43 transfer completed following user approval.**
