@@ -24,6 +24,6 @@ For subsequent placement, preserve the planning corridors and paired
 mux allowance in `review/usb-power/corridor/assessment.md`. These are reviewed
 feasibility envelopes, not routed copper or final impedance geometry.
 
-The remaining control-logic candidate in `review/control-logic/candidate/` is
-pending visual approval. See its report and pad-net close-ups. Do not transfer
-it or place service headers/buttons before that review.
+The control-logic placement is approved and transferred to the root PCB.
+Preserve its reviewed geometry, groups and prospective ground-via locations.
+See `review/control-logic/acceptance.md`.
