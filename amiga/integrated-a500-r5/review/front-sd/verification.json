@@ -1,0 +1,48 @@
+{
+  "footprints": 214,
+  "front_footprints": 214,
+  "back_footprints": 0,
+  "unchanged_footprints": 212,
+  "changed": [
+    "C42",
+    "C43"
+  ],
+  "all_nets_identities_locks_groups_preserved": true,
+  "all_schematics_byte_identical": true,
+  "schematic_parity": 0,
+  "new_non_text_height_DRC_findings": 0,
+  "reported_DRC_counts": {
+    "hole_clearance": 4,
+    "text_height": 199,
+    "lib_footprint_mismatch": 1
+  },
+  "unconnected_reported": 499,
+  "tracks_vias": 0,
+  "prospective_ground_vias": [
+    {
+      "reference": "C42",
+      "via_xy_mm": [
+        13.4,
+        53.8
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.606228448019589
+    },
+    {
+      "reference": "C43",
+      "via_xy_mm": [
+        13.4,
+        57.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4749999999999986
+    }
+  ],
+  "old_C42_C43_proposed_vias_superseded": true,
+  "other_proposed_vias_preserved": true,
+  "J30_courtyard_gap_mm": 0.56,
+  "C43_to_J30_supply_pad_center_distance_mm": 2.475,
+  "authoritative_sha256": "105afa8057aec5564733e01264896876ec88e0bc21e49fb6a8151843326d79bd"
+}
