@@ -1,0 +1,296 @@
+{
+  "authoritative_matches_entire_approved_host_protection_candidate": true,
+  "changed_references": [
+    "C126",
+    "C127",
+    "C70",
+    "C73",
+    "C75",
+    "C80",
+    "C81",
+    "C82",
+    "C86",
+    "C87",
+    "C88",
+    "C91",
+    "C93",
+    "C94",
+    "C95",
+    "Q2",
+    "Q3",
+    "R3",
+    "R63",
+    "R64",
+    "U61",
+    "U64",
+    "U66",
+    "U71",
+    "U72",
+    "U73",
+    "U77",
+    "U78",
+    "U79",
+    "U82",
+    "U84",
+    "U85",
+    "U86",
+    "U98",
+    "U99"
+  ],
+  "unchanged_footprints": 168,
+  "identities_nets_locks_and_existing_groups_preserved": true,
+  "antenna_and_card_access_preserved": true,
+  "connector_and_USB_corridors_clear": true,
+  "buffer_corridor_ownership_verified": true,
+  "previous_ground_via_sites_preserved": true,
+  "prospective_ground_vias": [
+    {
+      "reference": "C70",
+      "via_xy_mm": [
+        56.862500000000004,
+        43.425
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255416
+    },
+    {
+      "reference": "C75",
+      "via_xy_mm": [
+        59.337500000000006,
+        52.275
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255456
+    },
+    {
+      "reference": "C73",
+      "via_xy_mm": [
+        62.2,
+        52.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255416
+    },
+    {
+      "reference": "C80",
+      "via_xy_mm": [
+        44.0625,
+        77.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255476
+    },
+    {
+      "reference": "C94",
+      "via_xy_mm": [
+        72.0,
+        43.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255378
+    },
+    {
+      "reference": "C91",
+      "via_xy_mm": [
+        41.0,
+        16.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255387
+    },
+    {
+      "reference": "C88",
+      "via_xy_mm": [
+        35.7,
+        78.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255476
+    },
+    {
+      "reference": "C126",
+      "via_xy_mm": [
+        57.0,
+        76.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.7359174677550373
+    },
+    {
+      "reference": "C93",
+      "via_xy_mm": [
+        65.0,
+        74.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255436
+    },
+    {
+      "reference": "C95",
+      "via_xy_mm": [
+        57.0,
+        82.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255476
+    },
+    {
+      "reference": "C82",
+      "via_xy_mm": [
+        63.0,
+        92.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255476
+    },
+    {
+      "reference": "C87",
+      "via_xy_mm": [
+        63.0,
+        99.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255476
+    },
+    {
+      "reference": "C81",
+      "via_xy_mm": [
+        71.0,
+        92.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255436
+    },
+    {
+      "reference": "C86",
+      "via_xy_mm": [
+        71.0,
+        99.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255436
+    },
+    {
+      "reference": "C127",
+      "via_xy_mm": [
+        33.999999,
+        15.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.01743121262554
+    }
+  ],
+  "bypass_pin_mapping": [
+    {
+      "cap": "C70",
+      "ic_supply_pin": "U61.14",
+      "net": "/3V3",
+      "distance_mm": 1.575
+    },
+    {
+      "cap": "C75",
+      "ic_supply_pin": "U66.14",
+      "net": "/3V3",
+      "distance_mm": 1.775
+    },
+    {
+      "cap": "C73",
+      "ic_supply_pin": "U64.14",
+      "net": "/3V3",
+      "distance_mm": 2.2791514320027093
+    },
+    {
+      "cap": "C80",
+      "ic_supply_pin": "U71.14",
+      "net": "/3V3",
+      "distance_mm": 2.275
+    },
+    {
+      "cap": "C94",
+      "ic_supply_pin": "U85.5",
+      "net": "/3V3",
+      "distance_mm": 2.297178976483983
+    },
+    {
+      "cap": "C91",
+      "ic_supply_pin": "U82.5",
+      "net": "/3V3",
+      "distance_mm": 2.7730004056977706
+    },
+    {
+      "cap": "C88",
+      "ic_supply_pin": "U79.5",
+      "net": "/3V3",
+      "distance_mm": 2.237639660445801
+    },
+    {
+      "cap": "C126",
+      "ic_supply_pin": "U98.8",
+      "net": "/3V3",
+      "distance_mm": 2.5904874058755816
+    },
+    {
+      "cap": "C93",
+      "ic_supply_pin": "U84.8",
+      "net": "/3V3",
+      "distance_mm": 2.5904874058755816
+    },
+    {
+      "cap": "C95",
+      "ic_supply_pin": "U86.8",
+      "net": "/3V3",
+      "distance_mm": 2.5904874058755816
+    },
+    {
+      "cap": "C82",
+      "ic_supply_pin": "U73.5",
+      "net": "/3V3",
+      "distance_mm": 3.172464538808905
+    },
+    {
+      "cap": "C87",
+      "ic_supply_pin": "U78.5",
+      "net": "/3V3",
+      "distance_mm": 3.172464538808905
+    },
+    {
+      "cap": "C81",
+      "ic_supply_pin": "U72.5",
+      "net": "/3V3",
+      "distance_mm": 3.172464538808905
+    },
+    {
+      "cap": "C86",
+      "ic_supply_pin": "U77.5",
+      "net": "/3V3",
+      "distance_mm": 3.172464538808905
+    },
+    {
+      "cap": "C127",
+      "ic_supply_pin": "U99.5",
+      "net": "/3V3",
+      "distance_mm": 2.7729994455464646
+    }
+  ],
+  "new_native_drc_findings": 0,
+  "erc_unchanged": true,
+  "schematic_parity": 0,
+  "tracks_and_vias": 0,
+  "root_sha256": "3551418ab23ee6d36b1ba246cde6a1e33ba1f8e4f0d5033ddeaf4b5721b3120a",
+  "candidate_sha256": "005cb6e0c958c9f9db707b9919a8f4b96c87950598c06b3206f25ca0df7e2014"
+}

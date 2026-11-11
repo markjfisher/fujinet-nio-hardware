@@ -23,3 +23,7 @@ approval; do not crowd later circuitry to fit. J40 remains mechanically fixed.
 For subsequent placement, preserve the planning corridors and paired
 mux allowance in `review/usb-power/corridor/assessment.md`. These are reviewed
 feasibility envelopes, not routed copper or final impedance geometry.
+
+The remaining control-logic candidate in `review/control-logic/candidate/` is
+pending visual approval. See its report and pad-net close-ups. Do not transfer
+it or place service headers/buttons before that review.

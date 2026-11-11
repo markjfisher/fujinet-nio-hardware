@@ -1,0 +1,73 @@
+{
+  "U61 control cell": [
+    "U61",
+    "C70"
+  ],
+  "U66 control cell": [
+    "U66",
+    "C75"
+  ],
+  "U64 control cell": [
+    "U64",
+    "C73"
+  ],
+  "U71 control cell": [
+    "U71",
+    "C80"
+  ],
+  "U85 control cell": [
+    "U85",
+    "C94"
+  ],
+  "U82 control cell": [
+    "U82",
+    "C91"
+  ],
+  "U79 control cell": [
+    "U79",
+    "C88"
+  ],
+  "U98 control cell": [
+    "U98",
+    "C126",
+    "R64"
+  ],
+  "U84 control cell": [
+    "U84",
+    "C93"
+  ],
+  "U86 control cell": [
+    "U86",
+    "C95"
+  ],
+  "U73 control cell": [
+    "U73",
+    "C82"
+  ],
+  "U78 control cell": [
+    "U78",
+    "C87"
+  ],
+  "U72 control cell": [
+    "U72",
+    "C81"
+  ],
+  "U77 control cell": [
+    "U77",
+    "C86"
+  ],
+  "U99 control cell": [
+    "U99",
+    "C127"
+  ],
+  "boot mode pulls": [
+    "R3",
+    "R63"
+  ],
+  "RP run flash control": [
+    "Q2"
+  ],
+  "RP boot flash control": [
+    "Q3"
+  ]
+}
