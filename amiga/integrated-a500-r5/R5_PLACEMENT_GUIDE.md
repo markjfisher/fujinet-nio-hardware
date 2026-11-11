@@ -13,6 +13,11 @@ Priority order: (1) electrical and mechanical requirements, (2) local current lo
 
 - R5 is a separate KiCad project. **Do not modify R4.** Preserve schematic connectivity, component identities, footprints, net assignments, design rules, and valid UUID associations.
 - Retain the board outline, mounting-hole geometry, and **J40's exact position, orientation, and mating height**. Verify case and connector clearance.
+- The current outline is not an absolute size limit. The user confirms additional
+  space above and below the PCB. If remaining circuitry cannot fit with orderly
+  placement and adequate routing room, propose a modest extension for approval
+  instead of compressing it. Do not change the outline without approval; J40's
+  exact mechanical geometry and mating position remain fixed.
 - Treat all other R4 positions, locks, and groups as **untrusted placement**, not as constraints. Stage those footprints neatly outside the board in the R5 working copy, retaining their identity and connectivity. Do not automatically reuse obsolete groups.
 - Place **U20 (RP2350) approximately centrally within the usable component area**, with room on all sides for its pin-specific support parts and routing. Central does not mean the exact geometric centre if that compromises the layout.
 - Reserve an uninterrupted, adequately wide **bus-buffer corridor beside J40 on the right** for U40–U47 and their local bypasses. Do not allow the RP cluster or unrelated logic to consume this corridor.
