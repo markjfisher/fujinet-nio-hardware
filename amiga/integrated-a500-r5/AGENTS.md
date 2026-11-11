@@ -27,3 +27,7 @@ feasibility envelopes, not routed copper or final impedance geometry.
 The control-logic placement is approved and transferred to the root PCB.
 Preserve its reviewed geometry, groups and prospective ground-via locations.
 See `review/control-logic/acceptance.md`.
+
+The service-header/button candidate in `review/service/candidate/` is pending
+visual approval. Do not transfer it yet. All service positions are provisional
+pending enclosure review; retain its access-envelope planning requirements.

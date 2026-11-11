@@ -1,0 +1,22 @@
+{
+  "UART service provisional": [
+    "J31"
+  ],
+  "SWD service provisional": [
+    "J20"
+  ],
+  "mode selector provisional": [
+    "J2"
+  ],
+  "bus arm jumper provisional": [
+    "J60"
+  ],
+  "RP recovery buttons provisional": [
+    "SW1",
+    "SW2"
+  ],
+  "ESP recovery buttons provisional": [
+    "SW3",
+    "SW4"
+  ]
+}

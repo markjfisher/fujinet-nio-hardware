@@ -1,0 +1,82 @@
+[
+  {
+    "reference": "J31",
+    "x_mm": 28,
+    "y_mm": 9,
+    "rotation_deg": 90,
+    "label": [
+      33.08,
+      12
+    ]
+  },
+  {
+    "reference": "J20",
+    "x_mm": 49,
+    "y_mm": 9,
+    "rotation_deg": 90,
+    "label": [
+      54.08,
+      12
+    ]
+  },
+  {
+    "reference": "J2",
+    "x_mm": 6,
+    "y_mm": 110,
+    "rotation_deg": 0,
+    "label": [
+      7.27,
+      107.5
+    ]
+  },
+  {
+    "reference": "J60",
+    "x_mm": 19,
+    "y_mm": 113,
+    "rotation_deg": 90,
+    "label": [
+      20.27,
+      110.5
+    ]
+  },
+  {
+    "reference": "SW1",
+    "x_mm": 27,
+    "y_mm": 112,
+    "rotation_deg": 0,
+    "label": [
+      30.25,
+      110
+    ]
+  },
+  {
+    "reference": "SW2",
+    "x_mm": 38,
+    "y_mm": 112,
+    "rotation_deg": 0,
+    "label": [
+      41.25,
+      110
+    ]
+  },
+  {
+    "reference": "SW3",
+    "x_mm": 52,
+    "y_mm": 112,
+    "rotation_deg": 0,
+    "label": [
+      55.25,
+      110
+    ]
+  },
+  {
+    "reference": "SW4",
+    "x_mm": 63,
+    "y_mm": 112,
+    "rotation_deg": 0,
+    "label": [
+      66.25,
+      110
+    ]
+  }
+]

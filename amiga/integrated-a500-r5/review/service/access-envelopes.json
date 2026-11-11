@@ -1,0 +1,59 @@
+{
+  "status": "provisional; actual plug/shunt/actuator and enclosure dimensions unverified",
+  "header_access_rectangles_mm": {
+    "J31": [
+      25.5,
+      6.5,
+      40.66,
+      11.5
+    ],
+    "J20": [
+      46.5,
+      6.5,
+      61.66,
+      11.5
+    ],
+    "J2": [
+      3,
+      107,
+      15,
+      118
+    ],
+    "J60": [
+      16,
+      110,
+      24.54,
+      116
+    ]
+  },
+  "button_access": {
+    "SW1": {
+      "actuator_center_mm": [
+        30.25,
+        114.25
+      ],
+      "top_access_radius_mm": 5
+    },
+    "SW2": {
+      "actuator_center_mm": [
+        41.25,
+        114.25
+      ],
+      "top_access_radius_mm": 5
+    },
+    "SW3": {
+      "actuator_center_mm": [
+        55.25,
+        114.25
+      ],
+      "top_access_radius_mm": 5
+    },
+    "SW4": {
+      "actuator_center_mm": [
+        66.25,
+        114.25
+      ],
+      "top_access_radius_mm": 5
+    }
+  }
+}
