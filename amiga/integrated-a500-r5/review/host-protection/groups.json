@@ -1,0 +1,62 @@
+{
+  "Host supply": [
+    "U95",
+    "C110",
+    "R110",
+    "D4",
+    "U96",
+    "C111",
+    "C112"
+  ],
+  "Host supervisor": [
+    "U60",
+    "C60",
+    "C114",
+    "R60",
+    "R61"
+  ],
+  "Main supervisor": [
+    "U90",
+    "C118",
+    "C115",
+    "R112",
+    "R113"
+  ],
+  "Bus supervisor": [
+    "U91",
+    "C119",
+    "C116",
+    "R114",
+    "R115"
+  ],
+  "Hardware disable": [
+    "U92",
+    "C120",
+    "R116",
+    "R117",
+    "R122"
+  ],
+  "XRDY IRQ guard": [
+    "U93",
+    "U94",
+    "C121",
+    "C122",
+    "R118",
+    "R119"
+  ],
+  "Bus hold-up": [
+    "C113",
+    "R111"
+  ],
+  "RP reset conditioning": [
+    "Q5",
+    "R120",
+    "R121",
+    "U97",
+    "C125"
+  ],
+  "Host input conditioning": [
+    "U100",
+    "C128"
+  ]
+}

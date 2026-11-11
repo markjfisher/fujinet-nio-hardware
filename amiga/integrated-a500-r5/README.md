@@ -11,7 +11,7 @@ as milestone 1 at `8c00c072`. Preserve that geometry and its proposed ground via
 regulator copper, crystal routing and USB pair escape still require validation.
 The [initial milestone report](review/milestone-1/report.md) is retained as historical evidence.
 
-The root PCB now contains the approved RP, USB/power, USB mux and ESP32/microSD cells; the power
+The root PCB now contains the approved RP, USB/power, USB mux, ESP32/microSD and bus-buffer cells; the power
 placement was transferred through MCP in `1e8f0634`. The accepted
 [USB corridor assessment](review/usb-power/corridor/assessment.md) remains a
 placement constraint.
@@ -24,12 +24,19 @@ The ESP32/microSD placement was approved and transferred on 2026-11-11. Retain
 its [antenna and J30 enclosure/finger-access requirements](review/esp-sd/acceptance.md)
 and the intentional U30 silk/library warning.
 
-The **bus-buffer cluster** is ready for visual review:
-[report](review/bus-buffers/report.md),
-[open candidate project](review/bus-buffers/candidate/integrated-a500-r5.kicad_pro),
-[address/control pad nets](review/bus-buffers/address-pad-nets.png),
-[data pad nets](review/bus-buffers/data-pad-nets.png), and
-[floorplan](review/bus-buffers/context.png).
-Only the separate candidate contains these 20 placed components. Do not transfer
+The [bus-buffer placement is accepted and transferred](review/bus-buffers/acceptance.md).
+
+The **host-protection cluster** is ready for visual review:
+[report](review/host-protection/report.md),
+[open candidate project](review/host-protection/candidate/integrated-a500-r5.kicad_pro),
+[power/supervision pad nets](review/host-protection/supervision-pad-nets.png),
+[reset/host-input conditioning](review/host-protection/reset-pad-nets.png),
+[bus hold-up](review/host-protection/hold-up-pad-nets.png), and
+[floorplan](review/host-protection/context.png).
+Only the separate candidate contains these 42 placed components. Do not transfer
 it or place another cluster before approval. No routing or fabrication readiness
 is implied.
+
+The current outline is not an absolute limit. Propose a modest extension above
+or below if later circuitry needs room; user approval is required before editing
+the outline. Preserve J40's exact geometry and mating position.

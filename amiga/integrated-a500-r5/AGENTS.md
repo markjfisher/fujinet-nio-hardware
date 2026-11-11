@@ -12,9 +12,12 @@ cell was transferred in `57eccde7`. ESP32/microSD is approved and transferred to
 the root PCB; retain its explicit antenna exclusion check and intentional U30
 silkscreen/library exception. Follow `review/esp-sd/acceptance.md` for the J30
 enclosure opening, push-push travel and finger-access validation requirement.
-The bus-buffer cell in `review/bus-buffers/candidate/` is pending visual approval.
-Do not transfer it or place another cluster before that review. If accepted,
-retain its explicit buffer-corridor ownership checks and proposed ground vias.
+The bus-buffer cell is approved and transferred to the root PCB. Retain its
+explicit buffer-corridor ownership checks and proposed ground vias.
+The host-protection cell in `review/host-protection/candidate/` is pending visual
+approval. Do not transfer it or place another cluster before that review.
+The outline can be extended above/below only after an explicit proposal and
+approval; do not crowd later circuitry to fit. J40 remains mechanically fixed.
 
 For subsequent placement, preserve the planning corridors and paired
 mux allowance in `review/usb-power/corridor/assessment.md`. These are reviewed

@@ -1,0 +1,389 @@
+{
+  "authoritative_matches_entire_approved_buffer_candidate": true,
+  "changed_references": [
+    "C110",
+    "C111",
+    "C112",
+    "C113",
+    "C114",
+    "C115",
+    "C116",
+    "C118",
+    "C119",
+    "C120",
+    "C121",
+    "C122",
+    "C125",
+    "C128",
+    "C60",
+    "D4",
+    "Q5",
+    "R110",
+    "R111",
+    "R112",
+    "R113",
+    "R114",
+    "R115",
+    "R116",
+    "R117",
+    "R118",
+    "R119",
+    "R120",
+    "R121",
+    "R122",
+    "R60",
+    "R61",
+    "U100",
+    "U60",
+    "U90",
+    "U91",
+    "U92",
+    "U93",
+    "U94",
+    "U95",
+    "U96",
+    "U97"
+  ],
+  "unchanged_footprints": 161,
+  "identities_nets_locks_and_existing_groups_preserved": true,
+  "antenna_and_card_access_preserved": true,
+  "connector_and_USB_corridors_clear": true,
+  "buffer_corridor_ownership_verified": true,
+  "previous_ground_via_sites_preserved": true,
+  "prospective_ground_vias": [
+    {
+      "reference": "C110",
+      "via_xy_mm": [
+        68.775,
+        20.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 2.0000000000000115
+    },
+    {
+      "reference": "C111",
+      "via_xy_mm": [
+        53.2,
+        23.975
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255416
+    },
+    {
+      "reference": "C112",
+      "via_xy_mm": [
+        43.025,
+        20.0
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 2.0000000000000044
+    },
+    {
+      "reference": "C60",
+      "via_xy_mm": [
+        32.3375,
+        25.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255367
+    },
+    {
+      "reference": "C118",
+      "via_xy_mm": [
+        45.337500000000006,
+        25.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255425
+    },
+    {
+      "reference": "C119",
+      "via_xy_mm": [
+        58.337500000000006,
+        25.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255425
+    },
+    {
+      "reference": "C120",
+      "via_xy_mm": [
+        52.775,
+        39.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.9000000000000028
+    },
+    {
+      "reference": "C121",
+      "via_xy_mm": [
+        61.0,
+        35.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255416
+    },
+    {
+      "reference": "C122",
+      "via_xy_mm": [
+        70.0,
+        35.225
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255378
+    },
+    {
+      "reference": "C125",
+      "via_xy_mm": [
+        67.175,
+        69.25
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.9999999999999971
+    },
+    {
+      "reference": "C128",
+      "via_xy_mm": [
+        70.0,
+        52.725
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255378
+    },
+    {
+      "reference": "C113",
+      "via_xy_mm": [
+        60.5,
+        85
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 4.900000000000003
+    },
+    {
+      "reference": "C114",
+      "via_xy_mm": [
+        32.3375,
+        34.775
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255396
+    },
+    {
+      "reference": "C115",
+      "via_xy_mm": [
+        45.337500000000006,
+        34.775
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255456
+    },
+    {
+      "reference": "C116",
+      "via_xy_mm": [
+        58.337500000000006,
+        34.775
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.0174312126255456
+    },
+    {
+      "reference": "U95 ground",
+      "via_xy_mm": [
+        65.5,
+        18.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4158910531638202
+    },
+    {
+      "reference": "U96 ground",
+      "via_xy_mm": [
+        51.5,
+        18.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.4158910531638202
+    },
+    {
+      "reference": "U60 ground",
+      "via_xy_mm": [
+        27.6,
+        28.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.5139410298049842
+    },
+    {
+      "reference": "U90 ground",
+      "via_xy_mm": [
+        40.6,
+        28.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.5139410298049869
+    },
+    {
+      "reference": "U91 ground",
+      "via_xy_mm": [
+        53.6,
+        28.2
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.5139410298049869
+    },
+    {
+      "reference": "U92 ground",
+      "via_xy_mm": [
+        44,
+        38.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.29266347955648303
+    },
+    {
+      "reference": "U93 ground",
+      "via_xy_mm": [
+        53.3,
+        40.1
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.6545941546018452
+    },
+    {
+      "reference": "U94 ground",
+      "via_xy_mm": [
+        65,
+        41.3
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.7288543565273502
+    },
+    {
+      "reference": "U97 ground",
+      "via_xy_mm": [
+        58.3,
+        70.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.44916620318858996
+    },
+    {
+      "reference": "U100 ground",
+      "via_xy_mm": [
+        62.3,
+        56.75
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 0.44916620318858996
+    },
+    {
+      "reference": "Q5 ground",
+      "via_xy_mm": [
+        54,
+        71.5
+      ],
+      "diameter_mm": 0.6,
+      "drill_mm": 0.3,
+      "minimum_foreign_pad_clearance_mm": 1.8744252114064597
+    }
+  ],
+  "bypass_pin_mapping": [
+    {
+      "cap": "C110",
+      "ic_supply_pin": "U95.1",
+      "net": "/AMIGA_5V",
+      "distance_mm": 1.8881621355169689
+    },
+    {
+      "cap": "C111",
+      "ic_supply_pin": "U96.1",
+      "net": "/Host interface power guard/HOST_LDO_IN",
+      "distance_mm": 3.097504035509881
+    },
+    {
+      "cap": "C112",
+      "ic_supply_pin": "U96.5",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.08809871653617
+    },
+    {
+      "cap": "C60",
+      "ic_supply_pin": "U60.6",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.275
+    },
+    {
+      "cap": "C118",
+      "ic_supply_pin": "U90.6",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.275
+    },
+    {
+      "cap": "C119",
+      "ic_supply_pin": "U91.6",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.275
+    },
+    {
+      "cap": "C120",
+      "ic_supply_pin": "U92.5",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.0875
+    },
+    {
+      "cap": "C121",
+      "ic_supply_pin": "U93.8",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.8170241390517052
+    },
+    {
+      "cap": "C122",
+      "ic_supply_pin": "U94.8",
+      "net": "/3V3_BUS",
+      "distance_mm": 2.8170241390517052
+    },
+    {
+      "cap": "C125",
+      "ic_supply_pin": "U97.8",
+      "net": "/3V3",
+      "distance_mm": 2.025
+    },
+    {
+      "cap": "C128",
+      "ic_supply_pin": "U100.8",
+      "net": "/3V3",
+      "distance_mm": 2.5904874058755816
+    }
+  ],
+  "new_native_drc_findings": 0,
+  "erc_unchanged": true,
+  "schematic_parity": 0,
+  "tracks_and_vias": 0,
+  "root_sha256": "cb99c2bfc71320bad63c646be57dfd45b99eadfb8fbffde5d173628d8832a985",
+  "candidate_sha256": "3551418ab23ee6d36b1ba246cde6a1e33ba1f8e4f0d5033ddeaf4b5721b3120a"
+}

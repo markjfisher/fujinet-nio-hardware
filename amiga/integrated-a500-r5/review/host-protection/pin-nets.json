@@ -1,0 +1,1190 @@
+[
+  {
+    "ref": "U96",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_LDO_IN",
+    "xy_mm": [
+      50.1375,
+      19.95
+    ]
+  },
+  {
+    "ref": "U96",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      50.1375,
+      19.0
+    ]
+  },
+  {
+    "ref": "U96",
+    "pin": "3",
+    "net": "/Host interface power guard/HOST_LDO_IN",
+    "xy_mm": [
+      50.1375,
+      18.05
+    ]
+  },
+  {
+    "ref": "U96",
+    "pin": "4",
+    "net": "unconnected-(U96-NC-Pad4)",
+    "xy_mm": [
+      47.8625,
+      18.05
+    ]
+  },
+  {
+    "ref": "U96",
+    "pin": "5",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      47.8625,
+      19.95
+    ]
+  },
+  {
+    "ref": "Q5",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_RESET_BASE",
+    "xy_mm": [
+      55.0625,
+      69.05
+    ]
+  },
+  {
+    "ref": "Q5",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      55.0625,
+      70.95
+    ]
+  },
+  {
+    "ref": "Q5",
+    "pin": "3",
+    "net": "/RP_RUN",
+    "xy_mm": [
+      56.9375,
+      70.0
+    ]
+  },
+  {
+    "ref": "R111",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      65.175,
+      91.0
+    ]
+  },
+  {
+    "ref": "R111",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      66.825,
+      91.0
+    ]
+  },
+  {
+    "ref": "R122",
+    "pin": "1",
+    "net": "/BUS_PERMIT",
+    "xy_mm": [
+      51.175,
+      42.0
+    ]
+  },
+  {
+    "ref": "R122",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      52.825,
+      42.0
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_OK_RAW",
+    "xy_mm": [
+      46.8625,
+      37.05
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      46.8625,
+      38.0
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "3",
+    "net": "/BUS_DISABLE",
+    "xy_mm": [
+      46.8625,
+      38.95
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "4",
+    "net": "/BUS_PERMIT",
+    "xy_mm": [
+      49.1375,
+      38.95
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "5",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      49.1375,
+      38.0
+    ]
+  },
+  {
+    "ref": "U92",
+    "pin": "6",
+    "net": "/BUS_DISABLE",
+    "xy_mm": [
+      49.1375,
+      37.05
+    ]
+  },
+  {
+    "ref": "R116",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      45.0,
+      40.825
+    ]
+  },
+  {
+    "ref": "R116",
+    "pin": "2",
+    "net": "/Host interface power guard/GUARD_OK_RAW",
+    "xy_mm": [
+      45.0,
+      39.175
+    ]
+  },
+  {
+    "ref": "C113",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      67.2,
+      85.0
+    ]
+  },
+  {
+    "ref": "C113",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      62.8,
+      85.0
+    ]
+  },
+  {
+    "ref": "C112",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      45.775,
+      20.0
+    ]
+  },
+  {
+    "ref": "C112",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      44.225,
+      20.0
+    ]
+  },
+  {
+    "ref": "C110",
+    "pin": "1",
+    "net": "/AMIGA_5V",
+    "xy_mm": [
+      66.025,
+      20.0
+    ]
+  },
+  {
+    "ref": "C110",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      67.575,
+      20.0
+    ]
+  },
+  {
+    "ref": "C60",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      31.1375,
+      26.775
+    ]
+  },
+  {
+    "ref": "C60",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      31.1375,
+      25.225
+    ]
+  },
+  {
+    "ref": "R61",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_SENSE",
+    "xy_mm": [
+      35.5,
+      30.975
+    ]
+  },
+  {
+    "ref": "R61",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      35.5,
+      32.625
+    ]
+  },
+  {
+    "ref": "C128",
+    "pin": "1",
+    "net": "/3V3",
+    "xy_mm": [
+      68.8,
+      54.275
+    ]
+  },
+  {
+    "ref": "C128",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      68.8,
+      52.725
+    ]
+  },
+  {
+    "ref": "C116",
+    "pin": "1",
+    "net": "/Host interface power guard/BUS_CT",
+    "xy_mm": [
+      57.1375,
+      33.225
+    ]
+  },
+  {
+    "ref": "C116",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      57.1375,
+      34.775
+    ]
+  },
+  {
+    "ref": "R117",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      48.0,
+      42.825
+    ]
+  },
+  {
+    "ref": "R117",
+    "pin": "2",
+    "net": "/BUS_DISABLE",
+    "xy_mm": [
+      48.0,
+      41.175
+    ]
+  },
+  {
+    "ref": "R113",
+    "pin": "1",
+    "net": "/Host interface power guard/MAIN_SENSE",
+    "xy_mm": [
+      48.5,
+      30.975
+    ]
+  },
+  {
+    "ref": "R113",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      48.5,
+      32.625
+    ]
+  },
+  {
+    "ref": "R112",
+    "pin": "1",
+    "net": "/3V3",
+    "xy_mm": [
+      48.5,
+      27.175
+    ]
+  },
+  {
+    "ref": "R112",
+    "pin": "2",
+    "net": "/Host interface power guard/MAIN_SENSE",
+    "xy_mm": [
+      48.5,
+      28.825
+    ]
+  },
+  {
+    "ref": "R121",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_RESET_BASE",
+    "xy_mm": [
+      54.0,
+      66.825
+    ]
+  },
+  {
+    "ref": "R121",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      54.0,
+      65.175
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_OK_RAW",
+    "xy_mm": [
+      41.8625,
+      29.05
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      41.8625,
+      30.0
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "3",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      41.8625,
+      30.95
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "4",
+    "net": "/Host interface power guard/MAIN_CT",
+    "xy_mm": [
+      44.1375,
+      30.95
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "5",
+    "net": "/Host interface power guard/MAIN_SENSE",
+    "xy_mm": [
+      44.1375,
+      30.0
+    ]
+  },
+  {
+    "ref": "U90",
+    "pin": "6",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      44.1375,
+      29.05
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "1",
+    "net": "/AMIGA_RESET_N",
+    "xy_mm": [
+      63.6,
+      55.25
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "2",
+    "net": "/AMIGA_DTACK_N_C",
+    "xy_mm": [
+      63.6,
+      55.75
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "3",
+    "net": "/AMIGA_BERR_N",
+    "xy_mm": [
+      63.6,
+      56.25
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "4",
+    "net": "/GND",
+    "xy_mm": [
+      63.6,
+      56.75
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "5",
+    "net": "/AMIGA_BERR_N_C",
+    "xy_mm": [
+      66.4,
+      56.75
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "6",
+    "net": "/AMIGA_DTACK_N",
+    "xy_mm": [
+      66.4,
+      56.25
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "7",
+    "net": "/AMIGA_RESET_N_C",
+    "xy_mm": [
+      66.4,
+      55.75
+    ]
+  },
+  {
+    "ref": "U100",
+    "pin": "8",
+    "net": "/3V3",
+    "xy_mm": [
+      66.4,
+      55.25
+    ]
+  },
+  {
+    "ref": "C111",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_LDO_IN",
+    "xy_mm": [
+      52.0,
+      22.425
+    ]
+  },
+  {
+    "ref": "C111",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      52.0,
+      23.975
+    ]
+  },
+  {
+    "ref": "D4",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_LDO_IN",
+    "xy_mm": [
+      54.5,
+      19.95
+    ]
+  },
+  {
+    "ref": "D4",
+    "pin": "2",
+    "net": "/Host interface power guard/HOST_5V_LIMITED",
+    "xy_mm": [
+      58.5,
+      19.95
+    ]
+  },
+  {
+    "ref": "R119",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      68.8,
+      40.825
+    ]
+  },
+  {
+    "ref": "R119",
+    "pin": "2",
+    "net": "/Host interface power guard/IRQ_OE_N",
+    "xy_mm": [
+      68.8,
+      39.175
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_OK_RAW",
+    "xy_mm": [
+      28.8625,
+      29.05
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      28.8625,
+      30.0
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "3",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      28.8625,
+      30.95
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "4",
+    "net": "/Host interface power guard/HOST_CT",
+    "xy_mm": [
+      31.1375,
+      30.95
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "5",
+    "net": "/Host interface power guard/HOST_SENSE",
+    "xy_mm": [
+      31.1375,
+      30.0
+    ]
+  },
+  {
+    "ref": "U60",
+    "pin": "6",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      31.1375,
+      29.05
+    ]
+  },
+  {
+    "ref": "C115",
+    "pin": "1",
+    "net": "/Host interface power guard/MAIN_CT",
+    "xy_mm": [
+      44.1375,
+      33.225
+    ]
+  },
+  {
+    "ref": "C115",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      44.1375,
+      34.775
+    ]
+  },
+  {
+    "ref": "R114",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      61.5,
+      27.175
+    ]
+  },
+  {
+    "ref": "R114",
+    "pin": "2",
+    "net": "/Host interface power guard/BUS_SENSE",
+    "xy_mm": [
+      61.5,
+      28.825
+    ]
+  },
+  {
+    "ref": "R115",
+    "pin": "1",
+    "net": "/Host interface power guard/BUS_SENSE",
+    "xy_mm": [
+      61.5,
+      30.975
+    ]
+  },
+  {
+    "ref": "R115",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      61.5,
+      32.625
+    ]
+  },
+  {
+    "ref": "R110",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_ILIM",
+    "xy_mm": [
+      60.0,
+      15.825
+    ]
+  },
+  {
+    "ref": "R110",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      60.0,
+      14.175
+    ]
+  },
+  {
+    "ref": "R118",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      61.3,
+      40.825
+    ]
+  },
+  {
+    "ref": "R118",
+    "pin": "2",
+    "net": "/Host interface power guard/WAIT_OE_N",
+    "xy_mm": [
+      61.3,
+      39.175
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "1",
+    "net": "/Host interface power guard/WAIT_OE_N",
+    "xy_mm": [
+      63.6,
+      38.25
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      63.6,
+      38.75
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "3",
+    "net": "/AMIGA_INT2_N",
+    "xy_mm": [
+      63.6,
+      39.25
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "4",
+    "net": "/GND",
+    "xy_mm": [
+      63.6,
+      39.75
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "5",
+    "net": "/GND",
+    "xy_mm": [
+      66.4,
+      39.75
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "6",
+    "net": "/AMIGA_XRDY",
+    "xy_mm": [
+      66.4,
+      39.25
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "7",
+    "net": "/Host interface power guard/IRQ_OE_N",
+    "xy_mm": [
+      66.4,
+      38.75
+    ]
+  },
+  {
+    "ref": "U94",
+    "pin": "8",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      66.4,
+      38.25
+    ]
+  },
+  {
+    "ref": "C122",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      68.8,
+      36.775
+    ]
+  },
+  {
+    "ref": "C122",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      68.8,
+      35.225
+    ]
+  },
+  {
+    "ref": "C125",
+    "pin": "1",
+    "net": "/3V3",
+    "xy_mm": [
+      64.425,
+      69.25
+    ]
+  },
+  {
+    "ref": "C125",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      65.975,
+      69.25
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "1",
+    "net": "/AMIGA_5V",
+    "xy_mm": [
+      64.1375,
+      19.95
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      64.1375,
+      19.0
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "3",
+    "net": "/AMIGA_5V",
+    "xy_mm": [
+      64.1375,
+      18.05
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "4",
+    "net": "unconnected-(U95-~{FAULT}-Pad4)",
+    "xy_mm": [
+      61.8625,
+      18.05
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "5",
+    "net": "/Host interface power guard/HOST_ILIM",
+    "xy_mm": [
+      61.8625,
+      19.0
+    ]
+  },
+  {
+    "ref": "U95",
+    "pin": "6",
+    "net": "/Host interface power guard/HOST_5V_LIMITED",
+    "xy_mm": [
+      61.8625,
+      19.95
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "1",
+    "net": "/BUS_PERMIT",
+    "xy_mm": [
+      54.6,
+      38.25
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "2",
+    "net": "/WAIT_SINK",
+    "xy_mm": [
+      54.6,
+      38.75
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "3",
+    "net": "/Host interface power guard/IRQ_OE_N",
+    "xy_mm": [
+      54.6,
+      39.25
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "4",
+    "net": "/GND",
+    "xy_mm": [
+      54.6,
+      39.75
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "5",
+    "net": "/BUS_PERMIT",
+    "xy_mm": [
+      57.4,
+      39.75
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "6",
+    "net": "/IRQ_SINK",
+    "xy_mm": [
+      57.4,
+      39.25
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "7",
+    "net": "/Host interface power guard/WAIT_OE_N",
+    "xy_mm": [
+      57.4,
+      38.75
+    ]
+  },
+  {
+    "ref": "U93",
+    "pin": "8",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      57.4,
+      38.25
+    ]
+  },
+  {
+    "ref": "C114",
+    "pin": "1",
+    "net": "/Host interface power guard/HOST_CT",
+    "xy_mm": [
+      31.1375,
+      33.225
+    ]
+  },
+  {
+    "ref": "C114",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      31.1375,
+      34.775
+    ]
+  },
+  {
+    "ref": "C121",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      59.8,
+      36.775
+    ]
+  },
+  {
+    "ref": "C121",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      59.8,
+      35.225
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "1",
+    "net": "/RP_RUN",
+    "xy_mm": [
+      59.6,
+      69.25
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "2",
+    "net": "/BUS_ARM_C",
+    "xy_mm": [
+      59.6,
+      69.75
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "3",
+    "net": "/RUN_MODE",
+    "xy_mm": [
+      59.6,
+      70.25
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "4",
+    "net": "/GND",
+    "xy_mm": [
+      59.6,
+      70.75
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "5",
+    "net": "/RUN_MODE_C",
+    "xy_mm": [
+      62.4,
+      70.75
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "6",
+    "net": "/BUS_ARM",
+    "xy_mm": [
+      62.4,
+      70.25
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "7",
+    "net": "/RP_RUN_C",
+    "xy_mm": [
+      62.4,
+      69.75
+    ]
+  },
+  {
+    "ref": "U97",
+    "pin": "8",
+    "net": "/3V3",
+    "xy_mm": [
+      62.4,
+      69.25
+    ]
+  },
+  {
+    "ref": "C119",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      57.1375,
+      26.775
+    ]
+  },
+  {
+    "ref": "C119",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      57.1375,
+      25.225
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "1",
+    "net": "/Host interface power guard/GUARD_OK_RAW",
+    "xy_mm": [
+      54.8625,
+      29.05
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      54.8625,
+      30.0
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "3",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      54.8625,
+      30.95
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "4",
+    "net": "/Host interface power guard/BUS_CT",
+    "xy_mm": [
+      57.1375,
+      30.95
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "5",
+    "net": "/Host interface power guard/BUS_SENSE",
+    "xy_mm": [
+      57.1375,
+      30.0
+    ]
+  },
+  {
+    "ref": "U91",
+    "pin": "6",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      57.1375,
+      29.05
+    ]
+  },
+  {
+    "ref": "C120",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      51.225,
+      38.0
+    ]
+  },
+  {
+    "ref": "C120",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      52.775,
+      38.0
+    ]
+  },
+  {
+    "ref": "C118",
+    "pin": "1",
+    "net": "/3V3_BUS",
+    "xy_mm": [
+      44.1375,
+      26.775
+    ]
+  },
+  {
+    "ref": "C118",
+    "pin": "2",
+    "net": "/GND",
+    "xy_mm": [
+      44.1375,
+      25.225
+    ]
+  },
+  {
+    "ref": "R120",
+    "pin": "1",
+    "net": "/BUS_DISABLE",
+    "xy_mm": [
+      58.0,
+      65.175
+    ]
+  },
+  {
+    "ref": "R120",
+    "pin": "2",
+    "net": "/Host interface power guard/GUARD_RESET_BASE",
+    "xy_mm": [
+      58.0,
+      66.825
+    ]
+  },
+  {
+    "ref": "R60",
+    "pin": "1",
+    "net": "/AMIGA_5V",
+    "xy_mm": [
+      35.5,
+      27.175
+    ]
+  },
+  {
+    "ref": "R60",
+    "pin": "2",
+    "net": "/Host interface power guard/HOST_SENSE",
+    "xy_mm": [
+      35.5,
+      28.825
+    ]
+  }
+]

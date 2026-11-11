@@ -1,0 +1,11 @@
+{
+  "status": "ok",
+  "method": "cli",
+  "violation_categories": {
+    "hole_clearance": 4,
+    "text_height": 199,
+    "lib_footprint_mismatch": 1,
+    "unconnected": 499
+  },
+  "parity_count": 0
+}
