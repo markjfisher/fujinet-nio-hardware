@@ -1,0 +1,17 @@
+{
+  "PWR indicator provisional": [
+    "R130",
+    "D130",
+    "J130"
+  ],
+  "NET indicator provisional": [
+    "R131",
+    "D131",
+    "J131"
+  ],
+  "DISK indicator provisional": [
+    "R132",
+    "D132",
+    "J132"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "footprints": 214,
+  "new_footprints": [
+    "D130",
+    "D131",
+    "D132",
+    "J130",
+    "J131",
+    "J132",
+    "R130",
+    "R131",
+    "R132",
+    "R133",
+    "R134"
+  ],
+  "unchanged_existing_footprints": 202,
+  "existing_U30_changes_only_GPIO4_GPIO5_nets": true,
+  "all_existing_placement_groups_locks_preserved": true,
+  "prior_via_sites_and_corridors_preserved": true,
+  "provisional_header_access_clear": true,
+  "all_netlist_pad_memberships_verified": true,
+  "ERC_unchanged": true,
+  "new_non_text_height_DRC_findings": 0,
+  "new_06mm_reference_height_warnings": 11,
+  "schematic_parity": 0,
+  "tracks_vias": 0,
+  "authoritative_sha256": "005cb6e0c958c9f9db707b9919a8f4b96c87950598c06b3206f25ca0df7e2014",
+  "candidate_sha256": "105afa8057aec5564733e01264896876ec88e0bc21e49fb6a8151843326d79bd"
+}

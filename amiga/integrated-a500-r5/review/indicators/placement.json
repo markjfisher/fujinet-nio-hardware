@@ -1,0 +1,145 @@
+[
+  {
+    "reference": "J130",
+    "library": "Connector_PinHeader_2.54mm",
+    "footprint_name": "PinHeader_1x02_P2.54mm_Vertical",
+    "value": "61300211121 (ALT)",
+    "x_mm": -2,
+    "y_mm": 7.8,
+    "rotation_deg": 0,
+    "label": [
+      -2,
+      5.6
+    ]
+  },
+  {
+    "reference": "D130",
+    "library": "LED_SMD",
+    "footprint_name": "LED_0603_1608Metric",
+    "value": "APT1608SGC PWR",
+    "x_mm": -2,
+    "y_mm": 13.8,
+    "rotation_deg": 180,
+    "label": [
+      -2,
+      12.3
+    ]
+  },
+  {
+    "reference": "R130",
+    "library": "Resistor_SMD",
+    "footprint_name": "R_0603_1608Metric",
+    "value": "1k",
+    "x_mm": -2,
+    "y_mm": 16.5,
+    "rotation_deg": 180,
+    "label": [
+      -2,
+      18.2
+    ]
+  },
+  {
+    "reference": "J131",
+    "library": "Connector_PinHeader_2.54mm",
+    "footprint_name": "PinHeader_1x02_P2.54mm_Vertical",
+    "value": "61300211121 (ALT)",
+    "x_mm": 3.5,
+    "y_mm": 7.8,
+    "rotation_deg": 0,
+    "label": [
+      3.5,
+      5.6
+    ]
+  },
+  {
+    "reference": "D131",
+    "library": "LED_SMD",
+    "footprint_name": "LED_0603_1608Metric",
+    "value": "APT1608SGC NET",
+    "x_mm": 3.5,
+    "y_mm": 13.8,
+    "rotation_deg": 180,
+    "label": [
+      3.5,
+      12.3
+    ]
+  },
+  {
+    "reference": "R131",
+    "library": "Resistor_SMD",
+    "footprint_name": "R_0603_1608Metric",
+    "value": "1k",
+    "x_mm": 3.5,
+    "y_mm": 16.5,
+    "rotation_deg": 180,
+    "label": [
+      3.5,
+      17.8
+    ]
+  },
+  {
+    "reference": "J132",
+    "library": "Connector_PinHeader_2.54mm",
+    "footprint_name": "PinHeader_1x02_P2.54mm_Vertical",
+    "value": "61300211121 (ALT)",
+    "x_mm": 9,
+    "y_mm": 7.8,
+    "rotation_deg": 0,
+    "label": [
+      9,
+      5.6
+    ]
+  },
+  {
+    "reference": "D132",
+    "library": "LED_SMD",
+    "footprint_name": "LED_0603_1608Metric",
+    "value": "APT1608SYCK DISK",
+    "x_mm": 9,
+    "y_mm": 13.8,
+    "rotation_deg": 180,
+    "label": [
+      9,
+      12.3
+    ]
+  },
+  {
+    "reference": "R132",
+    "library": "Resistor_SMD",
+    "footprint_name": "R_0603_1608Metric",
+    "value": "1k",
+    "x_mm": 9,
+    "y_mm": 16.5,
+    "rotation_deg": 180,
+    "label": [
+      9,
+      18.2
+    ]
+  },
+  {
+    "reference": "R133",
+    "library": "Resistor_SMD",
+    "footprint_name": "R_0603_1608Metric",
+    "value": "100k",
+    "x_mm": 21,
+    "y_mm": 15,
+    "rotation_deg": 90,
+    "label": [
+      23.5,
+      15
+    ]
+  },
+  {
+    "reference": "R134",
+    "library": "Resistor_SMD",
+    "footprint_name": "R_0603_1608Metric",
+    "value": "100k",
+    "x_mm": 21,
+    "y_mm": 19,
+    "rotation_deg": 90,
+    "label": [
+      23.5,
+      19
+    ]
+  }
+]

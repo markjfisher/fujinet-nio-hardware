@@ -1,0 +1,12 @@
+Reference,Manufacturer,Part number,Value/role,Footprint,PCB LED option,Case LED option
+D130,Kingbright,APT1608SGC,PWR green,LED_SMD:LED_0603_1608Metric,FIT,DNP
+D131,Kingbright,APT1608SGC,NET green,LED_SMD:LED_0603_1608Metric,FIT,DNP
+D132,Kingbright,APT1608SYCK,DISK yellow,LED_SMD:LED_0603_1608Metric,FIT,DNP
+J130,Wurth Elektronik,61300211121,PWR external LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,DNP,FIT
+J131,Wurth Elektronik,61300211121,NET external LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,DNP,FIT
+J132,Wurth Elektronik,61300211121,DISK external LED,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,DNP,FIT
+R130,YAGEO,RC0603FR-071KL,1k 1% 0.1W,Resistor_SMD:R_0603_1608Metric,FIT,FIT
+R131,YAGEO,RC0603FR-071KL,1k 1% 0.1W,Resistor_SMD:R_0603_1608Metric,FIT,FIT
+R132,YAGEO,RC0603FR-071KL,1k 1% 0.1W,Resistor_SMD:R_0603_1608Metric,FIT,FIT
+R133,YAGEO,RC0603FR-07100KL,100k 1% 0.1W GPIO4 pulldown,Resistor_SMD:R_0603_1608Metric,FIT,FIT
+R134,YAGEO,RC0603FR-07100KL,100k 1% 0.1W GPIO5 pulldown,Resistor_SMD:R_0603_1608Metric,FIT,FIT
