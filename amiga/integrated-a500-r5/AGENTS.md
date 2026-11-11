@@ -8,10 +8,13 @@ milestone 1. Preserve their internal geometry and the proposed ground-via sites
 in `review/pad-refinement/pad-checks.json`. Copper remains subject to routing
 validation. USB/power and its corridor assessment are approved and the power
 placement was transferred to the root PCB in `1e8f0634`. The approved USB mux
-cell was transferred in `57eccde7`. ESP32/microSD is now a separate candidate in
-`review/esp-sd/candidate/`, pending visual approval. Do not transfer it or place
-another cluster before that review. Retain its explicit antenna exclusion check
-and documented local U30 silkscreen exception if accepted.
+cell was transferred in `57eccde7`. ESP32/microSD is approved and transferred to
+the root PCB; retain its explicit antenna exclusion check and intentional U30
+silkscreen/library exception. Follow `review/esp-sd/acceptance.md` for the J30
+enclosure opening, push-push travel and finger-access validation requirement.
+The bus-buffer cell in `review/bus-buffers/candidate/` is pending visual approval.
+Do not transfer it or place another cluster before that review. If accepted,
+retain its explicit buffer-corridor ownership checks and proposed ground vias.
 
 For subsequent placement, preserve the planning corridors and paired
 mux allowance in `review/usb-power/corridor/assessment.md`. These are reviewed

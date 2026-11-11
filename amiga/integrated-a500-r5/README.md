@@ -11,7 +11,7 @@ as milestone 1 at `8c00c072`. Preserve that geometry and its proposed ground via
 regulator copper, crystal routing and USB pair escape still require validation.
 The [initial milestone report](review/milestone-1/report.md) is retained as historical evidence.
 
-The root PCB now contains the approved RP, USB/power and USB mux cells; the power
+The root PCB now contains the approved RP, USB/power, USB mux and ESP32/microSD cells; the power
 placement was transferred through MCP in `1e8f0634`. The accepted
 [USB corridor assessment](review/usb-power/corridor/assessment.md) remains a
 placement constraint.
@@ -20,13 +20,16 @@ The approved mux placement was transferred in `57eccde7`, preserving all other
 footprints and existing groups. Its shared PC/LINK nets, differential-pair fan-out
 and continuous ground reference remain routing requirements.
 
-The **ESP32/microSD cluster** is ready for visual review:
-[report](review/esp-sd/report.md),
-[open candidate project](review/esp-sd/candidate/integrated-a500-r5.kicad_pro),
-[front pad-net close-up](review/esp-sd/pad-nets.png),
-[backside capacitors](review/esp-sd/back-pad-nets.png), and
-[floorplan](review/esp-sd/context.png).
+The ESP32/microSD placement was approved and transferred on 2026-11-11. Retain
+its [antenna and J30 enclosure/finger-access requirements](review/esp-sd/acceptance.md)
+and the intentional U30 silk/library warning.
+
+The **bus-buffer cluster** is ready for visual review:
+[report](review/bus-buffers/report.md),
+[open candidate project](review/bus-buffers/candidate/integrated-a500-r5.kicad_pro),
+[address/control pad nets](review/bus-buffers/address-pad-nets.png),
+[data pad nets](review/bus-buffers/data-pad-nets.png), and
+[floorplan](review/bus-buffers/context.png).
 Only the separate candidate contains these 20 placed components. Do not transfer
 it or place another cluster before approval. No routing or fabrication readiness
-is implied. The report documents the intentional U30 silk/library warning and
-the antenna exclusion checks required for later placement work.
+is implied.
