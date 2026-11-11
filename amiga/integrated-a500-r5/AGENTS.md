@@ -28,11 +28,8 @@ The control-logic placement is approved and transferred to the root PCB.
 Preserve its reviewed geometry, groups and prospective ground-via locations.
 See `review/control-logic/acceptance.md`.
 
-The service-header/button candidate in `review/service/candidate/` is pending
-visual approval. Do not transfer it yet. All service positions are provisional
-pending enclosure review; retain its access-envelope planning requirements.
-
-The indicator candidate in `review/indicators/candidate/` adds PWR/NET/DISK
-(GPIO4/5 on ESP32) on top of the still-pending service candidate. Neither has
-been transferred. Review `review/indicators/report.md` and its FIT/DNP assembly
-matrix before accepting; each channel uses onboard OR wired LED, not both.
+The service-header/button and indicator placements are approved as-is and
+transferred to the root PCB. Service positions remain provisional pending
+enclosure review. Preserve the LED placement, labels and groups; follow
+review/indicators/assembly.csv for onboard OR external LED population.
+See review/indicators/transfer/acceptance.md.
