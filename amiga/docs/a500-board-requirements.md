@@ -97,10 +97,8 @@ holes and alternative LED/header positions. Some positions are intentionally DNP
 
 ## Limits and evidence status
 
-R5 is a peripheral, not a CPU accelerator, Fast RAM board, RTG adapter, bus master
-or expansion passthrough. The optional accelerator discussion in the older
-overview is future architecture, not a claim that R5 implements its header or
-capabilities. A future A2000 Zorro-II version needs its own connector/control
+R5 is a peripheral, not a Fast RAM board, RTG adapter, bus master or expansion
+passthrough. A future A2000 Zorro-II version needs its own connector/control
 review; it is not merely the same 86-pin mapping on a larger card.
 
 The current coarse address window and no-passthrough assumption restrict

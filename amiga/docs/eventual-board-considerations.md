@@ -2,7 +2,7 @@
 
 For the current R5 requirements, functional blocks and implementation rationale,
 start with [A500 board requirements](a500-board-requirements.md). This older
-overview also contains historical alternatives and future accelerator ideas;
+overview also contains historical alternatives and future ideas;
 those are not all implemented R5 capabilities.
 
 For the integrated board, programming and recovery access must be designed in deliberately. The first candidate uses a bare RP2350B and a surface-mount ESP32-S3-WROOM-1-N16R8 module, both on the final PCB rather than development-board carriers. The ESP module retains its RF, crystal, flash and PSRAM circuitry.
