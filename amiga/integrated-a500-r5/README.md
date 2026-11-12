@@ -1,5 +1,8 @@
 # FujiNet A500 R5 — placement review candidate
 
+Start with [board requirements and functional-block rationale](../docs/a500-board-requirements.md)
+for a shareable explanation of what this board does and why its circuitry exists.
+
 Open [integrated-a500-r5.kicad_pro](integrated-a500-r5.kicad_pro).
 Electrical baseline: authoritative R4 at hardware commit `46e0bb7a`, **not** the
 CadMust trial. R4 was copied without regenerating the board or schematic.
@@ -26,16 +29,17 @@ and the intentional U30 silk/library warning.
 
 The [bus-buffer placement is accepted and transferred](review/bus-buffers/acceptance.md).
 
-The **host-protection cluster** is ready for visual review:
-[report](review/host-protection/report.md),
-[open candidate project](review/host-protection/candidate/integrated-a500-r5.kicad_pro),
-[power/supervision pad nets](review/host-protection/supervision-pad-nets.png),
-[reset/host-input conditioning](review/host-protection/reset-pad-nets.png),
-[bus hold-up](review/host-protection/hold-up-pad-nets.png), and
-[floorplan](review/host-protection/context.png).
-Only the separate candidate contains these 42 placed components. Do not transfer
-it or place another cluster before approval. No routing or fabrication readiness
-is implied.
+The host-protection, control-logic, service and indicator placements are now
+approved and transferred to authoritative R5. All 214 footprints are front-side
+following the accepted C42/C43 transfer. See the
+[host-protection acceptance](review/host-protection/acceptance.md),
+[control-logic acceptance](review/control-logic/acceptance.md),
+[service/indicator transfer](review/indicators/transfer/acceptance.md) and
+[single-sided population acceptance](review/front-sd/acceptance.md).
+Earlier candidate reports are retained as historical review evidence.
+
+No routing or fabrication readiness is implied. Service/header positions and
+enclosure access still need mechanical validation.
 
 The current outline is not an absolute limit. Propose a modest extension above
 or below if later circuitry needs room; user approval is required before editing

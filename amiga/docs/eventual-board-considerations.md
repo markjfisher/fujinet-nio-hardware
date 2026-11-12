@@ -1,5 +1,10 @@
 # Eventual Board Considerations
 
+For the current R5 requirements, functional blocks and implementation rationale,
+start with [A500 board requirements](a500-board-requirements.md). This older
+overview also contains historical alternatives and future accelerator ideas;
+those are not all implemented R5 capabilities.
+
 For the integrated board, programming and recovery access must be designed in deliberately. The first candidate uses a bare RP2350B and a surface-mount ESP32-S3-WROOM-1-N16R8 module, both on the final PCB rather than development-board carriers. The ESP module retains its RF, crystal, flash and PSRAM circuitry.
 
 The primary product plugs directly into the A500 86-contact expansion edge through a female mating socket. The manufactured passive Zorro-II breakout and purchased A500 adapter are bench infrastructure, not required final-product parts. A future A2000 version uses a separate 100-contact Zorro-II card and its appropriate control signals. The existing A500 library footprint represents male edge fingers; it is not a female mating-socket footprint.
